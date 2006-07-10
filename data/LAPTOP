@@ -1,0 +1,14 @@
++Prc:
+atmel-firmware
+ipw-firmware
+ipw3945d
+irda
+madwifi
+pcmciautils
+suspend
+#if defined(__i386__)
+tpctl
+#endif
+wpa_supplicant
+xkvbd
+-Prc:
