@@ -89,7 +89,7 @@ pwdutils
 reiserfs
 rpm
 sed
-suse-release
+openSUSE-release
 suse-build-key
 sysconfig
 sysfsutils
