@@ -1,5 +1,5 @@
 +Prq:
-gnome-panel-nld
+gnome-panel
 gnome-main-menu
 -Prq:
 
@@ -38,7 +38,7 @@ gedit
 gle
 glib-sharp2
 gmime
-gnome2-NLD
+gnome2-SuSE
 gnome2-SLES
 gnome2-SuSE
 gnome2-user-docs

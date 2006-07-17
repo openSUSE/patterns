@@ -1,5 +1,4 @@
 +Prq:
-SPident
 aaa_base
 aaa_skel
 acl
@@ -60,8 +59,6 @@ liby2util
 libzypp
 limal
 limal-bootloader
-limal-ca-mgm
-limal-ca-mgm-perl
 limal-perl
 logrotate
 lvm2
@@ -76,7 +73,6 @@ mktemp
 module-init-tools
 multipath-tools
 mutt
-ncompress
 ncurses
 net-tools
 netcfg
@@ -93,7 +89,7 @@ pwdutils
 reiserfs
 rpm
 sed
-sles-release
+suse-release
 suse-build-key
 sysconfig
 sysfsutils
@@ -107,7 +103,6 @@ w3m
 wget
 yast2
 yast2-bootloader
-yast2-ca-management
 yast2-core
 yast2-country
 yast2-dhcp-server
@@ -118,7 +113,6 @@ yast2-installation
 yast2-instserver
 yast2-ldap
 yast2-ldap-client
-yast2-ldap-server
 yast2-mail-aliases
 yast2-mouse
 yast2-ncurses
@@ -145,7 +139,7 @@ yast2-storage-lib
 yast2-support
 yast2-sysconfig
 yast2-tftp-server
-yast2-theme-NLD
+yast2-theme-SuSELinux
 yast2-trans-stats
 yast2-transfer
 yast2-tune
