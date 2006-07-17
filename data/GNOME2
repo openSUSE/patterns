@@ -39,8 +39,6 @@ gle
 glib-sharp2
 gmime
 gnome2-SuSE
-gnome2-SLES
-gnome2-SuSE
 gnome2-user-docs
 gnome-applets
 gnome-audio
@@ -135,6 +133,8 @@ nautilus-cd-burner
 nautilus-open-terminal
 nautilus-share
 ncpfs
+NetworkManager
+NetworkManager-gnome
 notification-daemon
 openmotif-libs
 orbit2

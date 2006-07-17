@@ -85,6 +85,8 @@ libsndfile
 libvorbis
 mDNSResponder
 net-snmp
+NetworkManager
+NetworkManager-kde
 OpenEXR
 openmotif-libs
 orbit2
