@@ -1,5 +1,8 @@
 +Prc:
 aalib
+amarok
+amarok-xine
+amarok-libvisual
 aspell
 audiofile
 awesfx
@@ -36,6 +39,7 @@ info2html
 input-utils
 jack
 k3b
+kaffeine
 kdebase3
 kdebase3-kdm
 kdebase3-ksysguardd
@@ -47,6 +51,8 @@ kdebase3-SLES
 kdegraphics3-pdf
 kdelibs3
 kdelibs3-doc
+kdemultimedia3-mixer
+kdemultimedia3-CD
 kdenetwork3-vnc
 kdepim3
 kdepim3-networkstatus
@@ -82,12 +88,16 @@ librsvg
 libsamplerate
 libsmbclient
 libsndfile
+libvisual-plugins
 libvorbis
 mDNSResponder
 net-snmp
 NetworkManager
 NetworkManager-kde
 OpenEXR
+OpenOffice
+OpenOffice_org-kde
+OpenOffice_org-Quickstarter
 openmotif-libs
 orbit2
 pango

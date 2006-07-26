@@ -72,7 +72,6 @@ mkisofs
 mktemp
 module-init-tools
 multipath-tools
-mutt
 ncurses
 net-tools
 netcfg
@@ -224,7 +223,6 @@ ivman
 jfsutils
 joe
 ksh
-libaio
 libevent
 libgcrypt
 libgpg-error
@@ -257,7 +255,6 @@ mono-data
 mono-web
 mpt-status
 netcat
-netdate
 nfs-utils
 nfsidmap
 nscd
@@ -268,7 +265,6 @@ openldap2-client
 opensc
 openslp
 openslp-server
-opie
 patch
 pax
 pciutils
@@ -325,7 +321,6 @@ unzip
 usbutils
 utempter
 vlan
-vlock
 wireless-tools
 wol
 wvdial
