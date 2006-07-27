@@ -6,9 +6,9 @@ irda
 madwifi
 pcmciautils
 suspend
-#if defined(__i386__)
-tpctl
-#endif
 wpa_supplicant
 xkvbd
 -Prc:
++Prq:
+tpctl
+-Prq:

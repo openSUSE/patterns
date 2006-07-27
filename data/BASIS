@@ -27,6 +27,7 @@ device-mapper
 diffutils
 e2fsprogs
 ed
+eject
 ethtool
 evms
 file
@@ -43,6 +44,7 @@ insserv
 iproute2
 iptables
 iputils
+kbd
 klogd
 krb5
 ksymoops
@@ -146,30 +148,12 @@ yast2-update
 yast2-users
 yast2-xml
 zlib
-
-#if !defined(__s390__)
-kbd
-eject
-#endif
-#if defined(__s390__)
-yast2-s390
-#endif
-#ifdef __ia64__
-elilo
-efibootmgr
-ia32el
-#endif
-#if defined(__i386__) || defined (__x86_64__)
-microcode_ctl
-grub
-lilo
-#endif
-#ifdef __powerpc__
-lilo
-#endif
 -Prq:
 
 +Prc:
+microcode_ctl
+grub
+lilo
 qlogic-firmware
 OpenIPMI
 SuSEfirewall2
@@ -183,7 +167,7 @@ binutils
 blocxx
 bootcycle
 bootsplash
-bootsplash-theme-SuSE-SLES
+bootsplash-theme-SUSELinux-Prof
 compat
 compat-libstdc++
 compat-openssl097g
@@ -287,13 +271,11 @@ procmail
 providers
 readline
 recode
-release-notes-sles
+release-notes
 resmgr
 rsh
 rsync
 rug
-s390-32
-s390-tools
 salinfo
 sash
 scpm
