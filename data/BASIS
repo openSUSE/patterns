@@ -148,12 +148,23 @@ yast2-update
 yast2-users
 yast2-xml
 zlib
--Prq:
 
-+Prc:
+#ifdef __ia64__
+elilo
+efibootmgr
+ia32el
+#endif
+#if defined(__i386__) || defined (__x86_64__)
 microcode_ctl
 grub
 lilo
+#endif
+#ifdef __powerpc__
+lilo
+#endif
+-Prq:
+
++Prc:
 qlogic-firmware
 OpenIPMI
 SuSEfirewall2
@@ -283,7 +294,6 @@ screen
 scsi
 sharutils
 siga
-sitar
 smartmontools
 smpppd
 sqlite
@@ -336,5 +346,4 @@ zip
 zisofs-tools
 zmd
 zsh
-sles-admin_en
 -Prc:
