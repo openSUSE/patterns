@@ -6,6 +6,8 @@ amarok-libvisual
 aspell
 audiofile
 awesfx
+beagle-firefox
+beagle-index
 cdk
 cdparanoia
 cdrdao
@@ -57,7 +59,9 @@ kdepim3
 kdepim3-networkstatus
 kdepim3-sync
 kdeutils3
+kerry
 kinternet
+kio_beagle
 kio_slp
 kpowersave
 latex2html-pngicons
