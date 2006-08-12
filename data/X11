@@ -49,6 +49,7 @@ netpbm
 openmotif-libs
 openssh-askpass
 pango
+pkgconfig
 qt
 qt-sql
 qt-x11
@@ -73,6 +74,7 @@ xkeyboard-config
 xli
 xlockmore
 xorg-x11
+xorg-x11-Xvnc
 xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-fonts
@@ -94,6 +96,7 @@ xorg-x11-libfontenc
 xorg-x11-libs
 xorg-x11-libxkbfile
 xorg-x11-server
+xorg-x11-server-sdk
 xtermset
 yast2-control-center
 -Prc:
