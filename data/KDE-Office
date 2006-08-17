@@ -3,3 +3,16 @@ OpenOffice
 OpenOffice_org-kde
 OpenOffice_org-Quickstarter
 -Prq:
++Prc:
+koffice
+koffice-illustration
+koffice-presentation
+koffice-spreadsheet
+koffice-wordprocessing
+-Prc:
++Psg:
+koffice-database
+koffice-extra
+koffice-planning
+-Psg:
+
