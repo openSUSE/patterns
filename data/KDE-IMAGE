@@ -3,12 +3,12 @@ gwenview
 koffice-illustration
 dcraw
 digikam
-digikamimageplugins
 kdegraphics3-kamera
-kipi-plugins
-kooka
+kdegraphics3-scan
 -Prq:
 +Prc:
 AdobeICCProfiles
+digikamimageplugins
 gimp
+kipi-plugins
 -Prc:

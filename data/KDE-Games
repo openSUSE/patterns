@@ -1,3 +1,10 @@
 +Prq:
 kdegames3
+knights
 -Prq:
++Prc:
+kdegames3-arcade
+kdegames3-board
+kdegames3-card
+kdegames3-tactic
+-Prc:
