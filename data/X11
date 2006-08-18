@@ -80,6 +80,7 @@ xorg-x11-fonts
 xorg-x11-libICE
 xorg-x11-libSM
 xorg-x11-libX11
+xorg-x11-libX11-ccache
 xorg-x11-libXau
 xorg-x11-libXdmcp
 xorg-x11-libXext
