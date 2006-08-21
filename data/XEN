@@ -1,0 +1,12 @@
++Prq:
+xen
+xen-libs
+xen-tools
+xen-tools-ioemu
+bridge-utils
+-Prq:
++Prc:
+xen-doc-html
+xen-doc-pdf
+xterm
+-Prc:

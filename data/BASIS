@@ -347,3 +347,7 @@ zisofs-tools
 zmd
 zsh
 -Prc:
++Sug:
+exim
+sendmail
+-Sug:

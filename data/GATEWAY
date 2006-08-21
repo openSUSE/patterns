@@ -1,0 +1,11 @@
++Prc:
+squid
+squidGuard
+ipsec-tools
+quagga
+radvd
+rarpd
+fetchmail
+ddclient
+ethereal
+-Prc:

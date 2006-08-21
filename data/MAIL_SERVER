@@ -1,0 +1,13 @@
++Prc:
+avmailgate
+amavisd-new
+mailman
+cyrus-imapd
+clamav
+spamassassin
+inn
+vacation
+-Prc:
++Sug:
+dovecot
+-Sug:

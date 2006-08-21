@@ -1,10 +1,12 @@
-+Prc:
++Prq:
 bind
 bind-chrootenv
-bind-doc
 dhcp
 dhcp-relay
 dhcp-server
 dhcp-tools
+-Prq:
++Prc:
+bind-doc
 dhcp6
 -Prc:

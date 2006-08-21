@@ -1,0 +1,7 @@
++Prc:
+samba
+samba-client
+samba-pdb
+samba-winbind
+pure-ftpd
+-Prc:

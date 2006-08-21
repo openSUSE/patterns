@@ -1,0 +1,14 @@
++Prq:
+apache2
+-Prq:
+
++Prc:
+apache2-prefork
+apache2-example-pages
+apache2-doc
+libapr1
+libapr-util1
+mysql
+apache2-mod_python
+apache2-mod_php5
+-Prc:

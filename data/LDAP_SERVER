@@ -1,0 +1,9 @@
++Prq:
+nss_ldap
+openldap2
+pam_ldap
+-Prq:
+
++Prc:
+-Prc:
+
