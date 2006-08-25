@@ -80,6 +80,7 @@ netcfg
 openssh
 openssl
 pam
+pam-config
 pam-modules
 parted
 perl
