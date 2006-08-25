@@ -1,0 +1,6 @@
+Check 10.1 packages
+
+* Add sumf
+* LaTeX
+* SGML/XML
+* Hacker
