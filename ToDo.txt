@@ -4,3 +4,5 @@ Check 10.1 packages
 * LaTeX
 * SGML/XML
 * Hacker
+* I want a suggests apparmor but this does not work.
+
