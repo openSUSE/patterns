@@ -1,0 +1,17 @@
++Prc:
+emacs-nox
+antiword
+bsd-games
+findutils-locate
+mc
+w3m
+mc
+findutils-locate
+antiword
+vorbis-tools (for ogg123)
+lynx
+xpdf-tools (for pdftotext, can be used as pdf reader)
+sox (for /usr/bin/play)
+cdrecord
+bsd-games
+-Prc:
