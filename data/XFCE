@@ -1,0 +1,16 @@
++Prq:
+xfce-mcs-manager
+xfce4-desktop
+xfce4-panel
+xfce4-session
+xfwm
+-Prq:
++Prc:
+gtk-xfce-engine
+xfce4-appfinder
+xfce4-panel-plugins
+-Prc:
++Psg:
+xfce4-toys
+xfwm-themes
+-Psg:
