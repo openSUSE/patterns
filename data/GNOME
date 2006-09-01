@@ -23,17 +23,17 @@ desktop-file-utils
 dirmngr
 dosbootdisk
 dvd+rw-tools
-eel
 efont-unicode
 eog
 evince
 evolution
 evolution-data-server
+evolution-webcal
 fam
 fam-server
 file-roller
 gail
-gal2
+gaim
 gcalctool
 gconf2
 gconf-editor
@@ -53,6 +53,7 @@ gnome-doc-utils
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-manager
+gnome-mag
 gnome-media
 gnome-menus
 gnome-mime-data
@@ -68,6 +69,7 @@ gnome-themes
 gnome-utils
 gnome-vfs2
 gnome-volume-manager
+gnome-web-photo
 gnutls
 gpg2
 gpgme
@@ -141,8 +143,6 @@ ncpfs
 NetworkManager
 NetworkManager-gnome
 notification-daemon
-OpenOffice
-OpenOffice_org-gnome
 openmotif-libs
 orbit2
 pango

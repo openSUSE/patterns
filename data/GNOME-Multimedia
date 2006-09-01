@@ -1,0 +1,17 @@
++Prq:
+banshee
+banshee-engine-gst
+banshee-engine-helix
+banshee-plugins-default
+f-spot
+-Prq:
+
++Prc:
+dvd+rw-tools
+gphoto2
+kino
+ImageMagick
+inkscape
+mjpegtools
+RealPlayer
+-Prc:
