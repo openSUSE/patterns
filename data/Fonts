@@ -8,7 +8,7 @@ ghostscript-fonts-std
 ifnteuro
 intlfnts
 xorg-x11-fonts
-xorg-x11-libfontenc
+xorg-x11-fonts-core
 -Prq:
 +Prc:
 agfa-fonts

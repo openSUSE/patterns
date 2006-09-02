@@ -36,6 +36,7 @@ lsb
 mozilla-nspr
 mozilla-nss
 netpbm
+numlockx
 openmotif-libs
 openssh-askpass
 pango
@@ -83,6 +84,7 @@ xorg-x11-libXt
 xorg-x11-libXv
 xorg-x11-libs
 xorg-x11-libxkbfile
+xorg-x11-libfontenc
 xorg-x11-server
 xtermset
 yast2-control-center
