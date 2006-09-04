@@ -40,9 +40,9 @@ numlockx
 openmotif-libs
 openssh-askpass
 pango
-qt
-qt-sql
-qt-x11
+libqt4
+libqt4-sql
+libqt4-x11
 qt3
 sax2
 sax2-gui
