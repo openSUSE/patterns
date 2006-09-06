@@ -5,6 +5,7 @@ ipw3945d
 irda
 madwifi
 pcmciautils
+scpm
 suspend
 #if defined(__i386__)
 tpctl
