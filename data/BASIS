@@ -85,7 +85,6 @@ sysfsutils
 syslog-ng
 sysvinit
 tar
-tcpd
 util-linux
 vim
 w3m
@@ -108,6 +107,8 @@ lilo
 -Prq:
 
 +Prc:
+ulimit
+preload
 qlogic-firmware
 acpid
 at
@@ -131,7 +132,6 @@ dos2unix
 dosfstools
 expat
 fbset
-finger
 gawk
 gdb
 gdbm
@@ -198,12 +198,10 @@ scsi
 sharutils
 smartmontools
 smpppd
-sqlite
 strace
 sudo
 suseRegister
 suspend
-syslinux
 tcpdump
 tcsh
 telnet

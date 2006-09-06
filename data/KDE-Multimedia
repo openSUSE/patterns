@@ -1,8 +1,10 @@
-+Prq:
++Prc:
 amarok
+k3b
+-Prc:
++Prq:
 amarok-xine
 amarok-libvisual
-k3b
 kaffeine
 kdemultimedia3-mixer
 kdemultimedia3-CD
