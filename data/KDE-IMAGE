@@ -5,11 +5,11 @@ dcraw
 digikam
 kdegraphics3
 kdegraphics3-kamera
+kdegraphics3-postscript
 kdegraphics3-scan
 -Prq:
 +Prc:
 AdobeICCProfiles
 digikamimageplugins
 gimp
-kipi-plugins
 -Prc:

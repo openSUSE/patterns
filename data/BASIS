@@ -50,7 +50,6 @@ limal-perl
 logrotate
 lvm2
 mailx
-make
 mdadm
 mingetty
 mkinitrd

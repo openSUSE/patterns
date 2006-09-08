@@ -13,7 +13,6 @@ kdepim3
 kdepim3-networkstatus
 kdeutils3
 kerry
-kinternet
 kio_beagle
 kpowersave
 NetworkManager
@@ -24,5 +23,5 @@ zen-updater
 beagle-firefox
 beagle-index
 kdebase3-samba
+preload
 -Prc:
-

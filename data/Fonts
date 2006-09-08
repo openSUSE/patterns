@@ -1,5 +1,5 @@
 +Prq:
-bitstream-vera
+dejavu
 efont-unicode
 fontconfig
 fonts-config
@@ -12,8 +12,8 @@ xorg-x11-fonts-core
 -Prq:
 +Prc:
 agfa-fonts
-dejavu
 ghostscript-fonts-other
 -Prc:
 +Psg:
+bitstream-vera
 -Psg:
