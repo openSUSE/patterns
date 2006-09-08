@@ -1,9 +1,13 @@
 +Prq:
 kdeaddons3-kicker
+kdeartwork3-kscreensaver
 kdebluetooth
 kdepim3-sync
 kdepim3-kpilot
 -Prq:
++Prc:
+kdeartwork3-xscreensaver
+-Prc:
 +Psg:
 kdirstat
 -Psg:

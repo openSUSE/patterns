@@ -9,6 +9,7 @@ apache2-doc
 libapr1
 libapr-util1
 mysql
+apache2_mod_perl
 apache2-mod_python
 apache2-mod_php5
 -Prc:
