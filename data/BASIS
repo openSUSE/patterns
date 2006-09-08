@@ -10,7 +10,6 @@ bash
 bzip2
 coreutils
 cpio
-cpp
 cracklib
 cups-client
 curl
@@ -50,7 +49,6 @@ limal-bootloader
 limal-perl
 logrotate
 lvm2
-m4
 mailx
 make
 mdadm
@@ -99,7 +97,6 @@ ia32el
 #if defined(__i386__) || defined (__x86_64__)
 microcode_ctl
 grub
-lilo
 #endif
 #ifdef __powerpc__
 lilo
@@ -241,4 +238,7 @@ delayacct-utils
 exim
 sendmail
 rsh
+#if defined(__i386__) || defined (__x86_64__)
+lilo
+#endif
 -Sug:
