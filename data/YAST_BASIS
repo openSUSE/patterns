@@ -4,6 +4,7 @@ limal-bootloader
 limal-perl
 yast2
 yast2-backup
+yast2-bluetooth
 yast2-bootfloppy
 yast2-bootloader
 yast2-core
@@ -40,6 +41,7 @@ yast2-restore
 yast2-runlevel
 yast2-samba-client
 yast2-schema
+yast2-scanner
 yast2-security
 yast2-slp
 yast2-storage
@@ -49,6 +51,7 @@ yast2-sysconfig
 yast2-theme-SuSELinux
 yast2-transfer
 yast2-tune
+yast2-tv
 yast2-update
 yast2-users
 yast2-xml
