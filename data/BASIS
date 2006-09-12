@@ -120,6 +120,7 @@ compat-libstdc++
 compat-openssl097g
 cpufrequtils
 cron
+cups
 dbus-1-glib
 deltarpm
 dhcpcd
