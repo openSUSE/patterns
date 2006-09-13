@@ -20,6 +20,7 @@ NetworkManager-kde
 zen-updater
 -Prq:
 +Prc:
+kdebase3-beagle
 beagle-firefox
 beagle-index
 kdebase3-samba
