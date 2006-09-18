@@ -2,10 +2,12 @@
 arpwatch
 nagios
 nmap
-tcpdump
-wireshark
 quagga
+tcpdump
+whois
+wireshark
 -Prq:
 +Prc:
 knmap
+mtr
 -Prc:
