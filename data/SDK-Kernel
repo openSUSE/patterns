@@ -1,7 +1,8 @@
 +Prc:
 build
 kernel-source
+-Prc:
++Psg:
 kernel-debug
 kernel-um
-ndiswrapper
--Prc:
+-Psg:
