@@ -75,10 +75,11 @@ Development
 ===========
 basis-devel:		Basis Development
 devel_C_C++:		C/C++ Development
-devel-kernel:		SDK: Linux Kernel Development
+devel-kernel:		Linux Kernel Development
 devel_mono:		.NET Development
 devel_perl:		Perl Development
 devel_python:		Python Development
+devel_qt4:              Qt4 Development 
 devel_rails:		Rails Development
 devel_ruby:		Ruby on Rails Development
 devel_web:		Web Development
