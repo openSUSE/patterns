@@ -1,0 +1,9 @@
+C++ Development
++Prq:
+yast2-devtools
+yast2-testsuite
+-Prq:
++Psg:
+autoyast2-utils
+createrepo
+-Psg:

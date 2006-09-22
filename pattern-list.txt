@@ -76,3 +76,10 @@ Development
 basis-devel:		Basis Development
 SDK-C-C++:		C/C++ Development
 SDK-Kernel:		SDK: Linux Kernel Development
+devel_perl:		Perl Development
+devel_python:		Python Development
+devel_rails:		Rails Development
+devel_ruby:		Ruby on Rails Development
+devel_web:		Web Development
+devel_yast:		YaST Development
+
