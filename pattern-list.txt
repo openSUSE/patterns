@@ -13,7 +13,7 @@ Graphical Environments
 ======================
 gnome:			GNOME Desktop Environment
 kde:			KDE Desktop Environment
-xfce:			XFCE Desktop Environment
+xfce:			XFCE Desktop Environment [only ftp/DVD]
 x11:			X Window System
 fonts:			Fonts
 
@@ -68,8 +68,8 @@ xen_server:		Xen Virtual Machine Host Server
 
 Non-OSS Software
 ================
-non_oss:		Misc. Non Open Source Packages
-non_oss_java		Java Environment
+non_oss:		Misc. Non Open Source Packages  [only on NON-OSS Media]
+non_oss_java		Java Environment  [only on NON-OSS Media]
 
 Development
 ===========
