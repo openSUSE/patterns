@@ -36,7 +36,7 @@ kde_xgl:		KDE Desktop Effects
 
 GNOME Desktop
 =============
-gnome_admin:		GNOME Administration Tools
+gnome_admin:		GNOME Administration Tools [not on CDs]
 gnome_basis:		GNOME Base System
 gnome_development:	GNOME Development
 gnome_games:		GNOME Games
@@ -76,12 +76,12 @@ Development
 basis-devel:		Basis Development
 devel_C_C++:		C/C++ Development
 devel-kernel:		Linux Kernel Development
-devel_mono:		.NET Development
+devel_mono:		.NET Development [not on CDs]
 devel_perl:		Perl Development
 devel_python:		Python Development
 devel_qt4:              Qt4 Development 
-devel_rails:		Rails Development
-devel_ruby:		Ruby on Rails Development
+devel_rails:		Rails Development [not on CDs]
+devel_ruby:		Ruby on Rails Development [not on CDs]
 devel_web:		Web Development
 devel_yast:		YaST Development
 
