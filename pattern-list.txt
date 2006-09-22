@@ -1,0 +1,78 @@
+Base Technologies
+=================
+32bit:			32Bit Runtime Environment (only on ppc64, x86-64)
+64bit:			64Bit Runtime Environment (only on ppc)
+apparmor:		Novell AppArmor
+base:			openSUSE Base System
+console:		Console Tools
+laptop:			Laptop
+x86:			x86 Runtime Environment (only on ia64)
+yast2_basis:		YaST System Administration
+
+Graphical Environments
+======================
+gnome:			GNOME Desktop Environment
+kde:			KDE Desktop Environment
+xfce:			XFCE Desktop Environment
+x11:			X Window System
+fonts:			Fonts
+
+KDE Desktop
+===========
+kde_admin:		KDE Administration Tools
+kde_basis:		KDE Base System
+kde_development:	KDE Development
+kde_edutainment:	KDE Edutainment
+kde_games:		KDE Games
+kde_help:		KDE Help System
+kde_imaging:		KDE Graphics
+kde_internet:		KDE Internet
+kde_laptop:		KDE Laptop
+kde_multimedia:		KDE Multimedia
+kde_office:		KDE Office
+kde_system:		KDE System
+kde_utilities:		KDE Utilities
+kde_xgl:		KDE Desktop Effects
+
+GNOME Desktop
+=============
+gnome_admin:		GNOME Administration Tools
+gnome_basis:		GNOME Base System
+gnome_development:	GNOME Development
+gnome_games:		GNOME Games
+gnome_imaging:		GNOME Graphics
+gnome_laptop:		GNOME Laptop
+gnome_multimedia:	GNOME Multimedia
+gnome_office:		GNOME Office
+gnome_utilities:	GNOME Utilities
+gnome_xgl:		GNOME Desktop Effects
+
+Desktop Functions
+=================
+games:			Games
+imaging:		Graphics
+xml:			XML and LaTeX Editing Tools
+
+Server Functions
+================
+dhcp_dns_server:	DHCP and DNS Server
+directory_server:	Directory Server (LDAP)
+file_server:		File Server
+gateway_server:		Internet Gateway
+lamp_server:		Web and LAMP Server
+mail_server:		Mail and News Server
+misc_server:		Misc. Server
+network_admin:		Network Administration
+print_server:		Print Server
+xen_server:		Xen Virtual Machine Host Server
+
+Non-OSS Software
+================
+non_oss:		Misc. Non Open Source Packages
+non_oss_java		Java Environment
+
+Development
+===========
+basis-devel:		Basis Development
+SDK-C-C++:		C/C++ Development
+SDK-Kernel:		SDK: Linux Kernel Development

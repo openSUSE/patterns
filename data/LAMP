@@ -1,5 +1,6 @@
 +Prq:
 apache2
+yast2-http-server
 -Prq:
 
 +Prc:

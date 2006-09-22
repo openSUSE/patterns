@@ -1,5 +1,8 @@
-+Prc:
++Prq:
 samba
+yast2-samba-server
+-Prq:
++Prc:
 samba-client
 samba-pdb
 samba-winbind
