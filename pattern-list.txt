@@ -74,8 +74,9 @@ non_oss_java		Java Environment  [only on NON-OSS Media]
 Development
 ===========
 basis-devel:		Basis Development
-SDK-C-C++:		C/C++ Development
-SDK-Kernel:		SDK: Linux Kernel Development
+devel_C_C++:		C/C++ Development
+devel-kernel:		SDK: Linux Kernel Development
+devel_mono:		.NET Development
 devel_perl:		Perl Development
 devel_python:		Python Development
 devel_rails:		Rails Development
