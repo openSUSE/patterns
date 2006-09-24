@@ -1,6 +1,6 @@
-+Prq:
-LAMP-Pattern
--Prq:
++Prc:
+apache2-devel
+-Prc:
 +Psg:
 html-dtd
 iso_ent
@@ -59,7 +59,6 @@ php5-zlib
 tidy
 xhtml-dtd
 xmlcharent
-apache2-devel
 apache2-worker
 apache2-mod_tidy 
 kdewebdev3

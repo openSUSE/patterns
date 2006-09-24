@@ -4,6 +4,7 @@ Check 10.1 packages
 * LaTeX
 * SGML/XML
 * Hacker
+* wodim instead of cdrecord etc.
 * I want a suggests apparmor but this does not work.
 * Remove Patterns on media that do not have these, e.g.
   - non-oss only on non-oss
