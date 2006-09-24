@@ -2,7 +2,6 @@
 perlref
 -Prc:
 +Psg:
-eperl
 kdebindings3-perl
 perl-Algorithm-Diff
 perl-AppConfig
@@ -48,7 +47,7 @@ perl-GD-Graph3d
 perl-GDGraph
 perl-GDTextUtil
 perl-Getopt-Mixed
-perl-Gtk-Perl
+perl-Gtk2
 perl-HTML-Clean
 perl-HTML-FillInForm
 perl-HTML-Format

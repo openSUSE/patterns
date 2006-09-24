@@ -2,6 +2,7 @@
 autoconf
 automake
 gcc
+make
 -Prq:
 
 +Prc:
@@ -22,11 +23,10 @@ glibc-info
 gmp
 gmp-devel
 gperf
-itrace
 libaio-devel
 libelf
-libgcj
-libobjc
+libgcj-devel
+libobjc41
 libstdc++-devel
 ncurses-devel
 pkgconfig
@@ -34,4 +34,7 @@ rcs
 texinfo
 subversion
 zlib-devel
+#ifdef __powerpc__
+itrace
+#endif
 -Prc:

@@ -170,8 +170,6 @@ pax
 pciutils
 pcre
 pcsc-lite
-pdisk
-pfmon
 pmtools
 popt
 portmap
@@ -224,9 +222,11 @@ zmd
 zsh
 
 #ifdef __ia64__
+pfmon
 salinfo
 #endif
 #ifdef __powerpc__
+pdisk
 powerpc32
 #endif
 #ifdef __x86_64__

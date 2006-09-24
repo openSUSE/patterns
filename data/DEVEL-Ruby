@@ -3,7 +3,6 @@ ruby
 rubygems
 -Prq:
 +Psg:
-ruby-FlexMock
 ruby-devel
 ruby-doc-html
 ruby-doc-ri
@@ -16,4 +15,5 @@ ruby-mysql
 ruby-racc
 ruby-test-suite
 ruby-tk
+rubygem-FlexMock
 -Psg:

@@ -11,5 +11,4 @@ suspend
 tpctl
 #endif
 wpa_supplicant
-xkvbd
 -Prc:

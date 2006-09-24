@@ -3,13 +3,13 @@ pychecker
 python
 -Prq:
 +Psg:
-PyQt
 eric
 libxml2-python
 libxslt-python
 python-gtk
 python-kde-extensions
 python-ldap
+python-qt
 python-wxGTK
 python-wxGTK-doc
 python-wxGTK-examples

@@ -1,14 +1,14 @@
 +Prq:
 banshee
 banshee-engine-gst
-banshee-engine-helix
 banshee-plugins-default
 f-spot
 -Prq:
 
 +Prc:
+banshee-engine-helix
 dvd+rw-tools
-gphoto2
+gphoto
 kino
 ImageMagick
 inkscape

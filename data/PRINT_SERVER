@@ -3,11 +3,10 @@ cups
 -Prq:
 
 +Prc:
+cups-drivers
 filters
 foomatic-filters
-cups-SUSE-ppds-dat
-cups-drivers
-cups-drivers-stp
+gutenprint
 manufacturer-PPDs
 samba
 -Prc:

@@ -1,9 +1,9 @@
 +Prq:
-cdrecord
 finger
 ivman
 mc
 w3m
+wodim
 -Prq:
 +Prc:
 emacs-nox
@@ -11,7 +11,6 @@ sox
 vorbis-tools
 -Prc:
 +Psg:
-antiword
 bsd-games
 findutils-locate
 -Psg:

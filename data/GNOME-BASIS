@@ -15,7 +15,6 @@ beagle-gui
 beagle-index
 cdparanoia
 cdrdao
-cdrecord
 control-center2
 cups-backends
 dbus-1-python
@@ -113,7 +112,6 @@ shared-mime-info
 sox
 startup-notification
 susehelp
-system-tools-backends
 tango-icon-theme
 thinkeramik-style
 vcdimager

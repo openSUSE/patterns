@@ -1,11 +1,11 @@
 +Prc:
-squid
-squidGuard
+ddclient
+fetchmail
 ipsec-tools
 quagga
 radvd
 rarpd
-fetchmail
-ddclient
-ethereal
+squid
+squidGuard
+wireshark
 -Prc:
