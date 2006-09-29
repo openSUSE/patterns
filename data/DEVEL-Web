@@ -2,6 +2,7 @@
 apache2-devel
 -Prc:
 +Psg:
+bluefish
 html-dtd
 iso_ent
 latex2html
