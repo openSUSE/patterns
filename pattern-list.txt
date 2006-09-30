@@ -37,7 +37,6 @@ kde_basis:		KDE Base System
 kde_ide:		KDE Development Environment
 kde_edutainment:	KDE Edutainment
 kde_games:		KDE Games
-kde_help:		KDE Help System
 kde_imaging:		KDE Graphics
 kde_internet:		KDE Internet
 kde_laptop:		KDE Laptop
@@ -51,8 +50,8 @@ Desktop Functions
 =================
 games:			Games
 imaging:		Graphics
-xml:			XML and LaTeX Editing Tools
 remote_desktop:		Remote Desktop
+xml:			XML and LaTeX Editing Tools
 
 Server Functions
 ================
