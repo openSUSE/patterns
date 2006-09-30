@@ -11,6 +11,7 @@ kdegraphics3-pdf
 kdelibs3
 kdepim3
 kdepim3-networkstatus
+kdepim3-notes
 kdeutils3
 kpowersave
 NetworkManager
@@ -23,6 +24,7 @@ kdebase3-beagle
 kdebase3-samba
 kerry
 kio_beagle
+kio_iso
 preload
 zen-updater
 -Prc:

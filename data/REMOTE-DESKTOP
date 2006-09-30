@@ -1,0 +1,9 @@
++Prc:
+rdesktop
+tsclient
+freeNX**
+vnc
+-Prc:
++Psg:
+kdenetwork3-vnc
+-Psg:
