@@ -3,10 +3,12 @@ OpenOffice_org
 OpenOffice_org-gnome
 -Prq:
 +Prc:
-abiword
 dia
-gnumeric
-goffice
 planner
 -Prc:
 
++Psg:
+abiword
+gnumeric
+goffice
+-Psg:

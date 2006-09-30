@@ -52,6 +52,7 @@ Desktop Functions
 games:			Games
 imaging:		Graphics
 xml:			XML and LaTeX Editing Tools
+remote_desktop:		Remote Desktop
 
 Server Functions
 ================
@@ -75,7 +76,8 @@ Development
 ===========
 basis-devel:		Basis Development
 devel_C_C++:		C/C++ Development
-devel-kernel:		Linux Kernel Development
+devel_kernel:		Linux Kernel Development
+devel_java:		Java Development
 devel_mono:		.NET Development [not on CDs]
 devel_perl:		Perl Development
 devel_python:		Python Development

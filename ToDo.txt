@@ -9,4 +9,3 @@ Check 10.1 packages
 * Remove Patterns on media that do not have these, e.g.
   - non-oss only on non-oss
 * IDEs: netbeans, eclipse, ...
-* 
