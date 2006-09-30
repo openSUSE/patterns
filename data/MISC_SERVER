@@ -1,7 +1,6 @@
 +Prc:
 openslp-server
 yast2-boot-server
-yast2-heartbeat
 yast2-instserver
 yast2-iscsi-server
 yast2-nfs-server

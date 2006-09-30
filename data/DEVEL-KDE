@@ -1,0 +1,16 @@
++Prq:
+kdebase3-devel
+-Prq:
++Psg:
+kdebindings3
+kdebindings3-java
+kdebindings3-javascript
+kdebindings3-perl
+kdebindings3-python
+kdegraphics3-devel
+kdemultimedia3-devel
+kdepim3-devel
+kdesdk3-devel
+kdeutils3-devel
+qt3-static
+-Psg:
