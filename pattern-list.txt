@@ -17,11 +17,24 @@ xfce:			XFCE Desktop Environment [only ftp/DVD]
 x11:			X Window System
 fonts:			Fonts
 
+GNOME Desktop
+=============
+gnome_admin:		GNOME Administration Tools [not on CDs]
+gnome_basis:		GNOME Base System
+gnome_ide:		GNOME Development Environment
+gnome_games:		GNOME Games
+gnome_imaging:		GNOME Graphics
+gnome_laptop:		GNOME Laptop
+gnome_multimedia:	GNOME Multimedia
+gnome_office:		GNOME Office
+gnome_utilities:	GNOME Utilities
+gnome_xgl:		GNOME Desktop Effects
+
 KDE Desktop
 ===========
 kde_admin:		KDE Administration Tools
 kde_basis:		KDE Base System
-kde_development:	KDE Development
+kde_ide:		KDE Development Environment
 kde_edutainment:	KDE Edutainment
 kde_games:		KDE Games
 kde_help:		KDE Help System
@@ -33,19 +46,6 @@ kde_office:		KDE Office
 kde_system:		KDE System
 kde_utilities:		KDE Utilities
 kde_xgl:		KDE Desktop Effects
-
-GNOME Desktop
-=============
-gnome_admin:		GNOME Administration Tools [not on CDs]
-gnome_basis:		GNOME Base System
-gnome_development:	GNOME Development
-gnome_games:		GNOME Games
-gnome_imaging:		GNOME Graphics
-gnome_laptop:		GNOME Laptop
-gnome_multimedia:	GNOME Multimedia
-gnome_office:		GNOME Office
-gnome_utilities:	GNOME Utilities
-gnome_xgl:		GNOME Desktop Effects
 
 Desktop Functions
 =================
@@ -76,8 +76,11 @@ Development
 ===========
 basis-devel:		Basis Development
 devel_C_C++:		C/C++ Development
-devel_kernel:		Linux Kernel Development
+devel_gnome:		GNOME Development
+devel_ide:		Integrated Development Environments
 devel_java:		Java Development
+devel_kernel:		Linux Kernel Development
+devel_kde:		KDE Development
 devel_mono:		.NET Development [not on CDs]
 devel_perl:		Perl Development
 devel_python:		Python Development

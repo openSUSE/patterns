@@ -6,6 +6,7 @@ irda
 madwifi
 pcmciautils
 scpm
+sumf
 suspend
 #if defined(__i386__)
 tpctl
