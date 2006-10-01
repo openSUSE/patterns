@@ -133,7 +133,6 @@ gdbm
 gettext
 glibc-i18ndata
 glibc-locale
-gnome-filesystem
 gpart
 gpg
 gpm

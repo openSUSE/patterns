@@ -26,7 +26,6 @@ db-devel
 gcc-c++
 gcc-info
 glibc-info
-gmp
 gmp-devel
 gperf
 libaio-devel
@@ -41,8 +40,8 @@ itrace
 -Prc:
 
 +Psg:
+build
 gcc-fortran
 gcc-objc
 libobjc41
 -Psg:
-
