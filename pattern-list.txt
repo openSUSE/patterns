@@ -73,7 +73,7 @@ non_oss_java:		Java Environment  [only on NON-OSS Media]
 
 Development
 ===========
-basis-devel:		Basis Development
+devel_basis:		Basis Development
 devel_C_C++:		C/C++ Development
 devel_gnome:		GNOME Development
 devel_ide:		Integrated Development Environments
@@ -85,6 +85,7 @@ devel_perl:		Perl Development
 devel_python:		Python Development
 devel_qt4:              Qt4 Development 
 devel_rails:		Rails Development [not on CDs]
+devel_rpm_build:	RPM Build Environment
 devel_ruby:		Ruby on Rails Development [not on CDs]
 devel_web:		Web Development
 devel_yast:		YaST Development
