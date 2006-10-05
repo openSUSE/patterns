@@ -1,11 +1,11 @@
 +Prq:
-banshee
-banshee-engine-gst
-banshee-plugins-default
 f-spot
 -Prq:
 
 +Prc:
+banshee
+banshee-engine-gst
+banshee-plugins-default
 banshee-engine-helix
 dvd+rw-tools
 gphoto
@@ -14,5 +14,6 @@ ImageMagick
 inkscape
 mjpegtools
 RealPlayer
+
 -Prc:
 
