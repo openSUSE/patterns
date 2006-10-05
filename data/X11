@@ -45,3 +45,7 @@ xorg-x11-server
 xtermset
 yast2-control-center
 -Prc:
+
++Psg:
+synergy
+-Psg:
