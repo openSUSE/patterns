@@ -98,6 +98,7 @@ ncpfs
 NetworkManager
 NetworkManager-gnome
 notification-daemon
+orca
 pinentry
 poppler
 poppler-glib
@@ -126,3 +127,6 @@ yelp
 zenity
 zen-updater
 -Prc:
++Psg:
+gnopernicus
+-Psg:
