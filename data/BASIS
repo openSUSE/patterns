@@ -139,6 +139,7 @@ gpm
 hal
 hdparm
 hfsutils
+hplip
 ifplugd
 info
 initviocons
