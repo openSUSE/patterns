@@ -1,6 +1,8 @@
 +Prq:
 agfa-fonts
+#if defined(__i386__) || defined (__x86_64__)
 flash-player
+#endif
 RealPlayer
 -Prq:
 +Psg:
