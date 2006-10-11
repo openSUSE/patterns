@@ -1,7 +1,8 @@
 +Prq:
-evolution
+gdm
 gnome-panel
 gnome-main-menu
+gtk2-themes
 -Prq:
 
 +Prc:
@@ -27,6 +28,7 @@ dvd+rw-tools
 efont-unicode
 eog
 evince
+evolution
 fam
 fam-server
 file-roller
@@ -36,7 +38,6 @@ gcalctool
 gconf2
 gconf-editor
 gdk-pixbuf
-gdm
 gedit
 gle
 glib-sharp2
@@ -73,7 +74,6 @@ gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
 gtk2-engines
-gtk2-themes
 gtk-engines
 gtkhtml2
 gtk-sharp2
@@ -127,6 +127,7 @@ yelp
 zenity
 zen-updater
 -Prc:
+
 +Psg:
 gnopernicus
 -Psg:

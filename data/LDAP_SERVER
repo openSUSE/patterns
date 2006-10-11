@@ -2,6 +2,7 @@
 nss_ldap
 openldap2
 pam_ldap
+yast2-ldap-server
 -Prq:
 
 +Prc:
