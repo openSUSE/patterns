@@ -41,6 +41,7 @@ xorg-x11
 xorg-x11-Xvnc
 xorg-x11-libX11
 xorg-x11-libX11-ccache
+xorg-x11-libXext
 xorg-x11-libXrender
 xorg-x11-server
 xtermset
