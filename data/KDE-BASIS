@@ -20,12 +20,14 @@ NetworkManager-kde
 +Prc:
 beagle-firefox
 beagle-index
+kcm_gtk
 kdebase3-beagle
 kdebase3-samba
 kerry
 kio_beagle
 kio_iso
 preload
+qtcurve-gtk2
 susehelp
 zen-updater
 -Prc:
