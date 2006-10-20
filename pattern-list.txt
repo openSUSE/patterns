@@ -8,6 +8,7 @@ console:		Console Tools
 laptop:			Laptop
 x86:			x86 Runtime Environment (only on ia64)
 yast2_basis:		YaST System Administration
+zmd			ZENworks Linux Management
 
 Graphical Environments
 ======================

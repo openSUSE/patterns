@@ -186,7 +186,6 @@ recode
 release-notes
 resmgr
 rsync
-rug
 sash
 screen
 scsi
@@ -219,7 +218,6 @@ yp-tools
 ypbind
 zip
 zisofs-tools
-zmd
 zsh
 
 #ifdef __ia64__
