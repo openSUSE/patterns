@@ -35,14 +35,13 @@ KDE Desktop
 kde_admin:		KDE Administration Tools
 kde_basis:		KDE Base System
 kde_ide:		KDE Development Environment
-kde_edutainment:	KDE Edutainment
+#kde_edutainment:	KDE Edutainment (not used, merged in kde_basis)
 kde_games:		KDE Games
 kde_imaging:		KDE Graphics
 kde_internet:		KDE Internet
 kde_laptop:		KDE Laptop
 kde_multimedia:		KDE Multimedia
 kde_office:		KDE Office
-kde_system:		KDE System
 kde_utilities:		KDE Utilities
 kde_xgl:		KDE Desktop Effects
 
