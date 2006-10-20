@@ -12,6 +12,7 @@ emacs-auctex
 emacs-info
 emacs-x11
 fop
+svg-dtd
 xslide
 -Prc:
 +Psg:
