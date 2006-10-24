@@ -45,4 +45,16 @@ koffice-wordprocessing
 kdirstat
 compiz
 xgl
+libopensync-plugin-file
+libopensync-plugin-gnokii
+libopensync-plugin-gpe 
+libopensync-plugin-irmc
+libopensync-plugin-kdepim 
+libopensync-plugin-opie 
+libopensync-plugin-palm 
+libopensync-plugin-sunbird 
+libopensync-plugin-synce 
+libopensync-plugin-syncml 
+libopensync 
+libopensync-tools
 -Psg:
