@@ -17,8 +17,6 @@ php5-ctype
 php5-dom
 php5-iconv
 php5-mysql
-php5-mysqli
-php5-pdo_mysql
 -Prc:
 
 +Psg:
