@@ -13,4 +13,9 @@ suspend
 tpctl
 #endif
 wpa_supplicant
+jarnal 
+xournal
+xstroke
+xvkbd
+x11-input-wacom-tools
 -Prc:

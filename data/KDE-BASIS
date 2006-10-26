@@ -13,7 +13,9 @@ kdepim3
 kdepim3-networkstatus
 kdepim3-notes
 kdeutils3
+#if 0
 kpowersave
+#endif
 NetworkManager
 NetworkManager-kde
 -Prq:
