@@ -1,6 +1,4 @@
 +Prq:
-arpwatch
-nagios
 nmap
 quagga
 tcpdump
@@ -8,5 +6,7 @@ whois
 wireshark
 -Prq:
 +Prc:
+arpwatch
+nagios
 mtr
 -Prc:
