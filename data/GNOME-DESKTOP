@@ -8,13 +8,17 @@ mjpegtools
 OpenOffice_org
 OpenOffice_org-gnome
 dia
+totem
 -Prq:
 
 +Prc:
 banshee
 banshee-engine-gst
 banshee-plugins-default
+banshee-plugins-extra
 banshee-engine-helix
+gstreamer010-plugins-base-oil
+gstreamer010-plugins-base-visual
 RealPlayer
 kino
 planner

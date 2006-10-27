@@ -137,6 +137,7 @@ gpart
 gpg
 gpm
 hal
+hal-resmgr
 hdparm
 hfsutils
 hplip
