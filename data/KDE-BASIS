@@ -4,7 +4,9 @@ efont-unicode
 kdeaddons3-konqueror
 kdebase3
 kdebase3-kdm
+#if !defined(__s390__)
 kdebase3-nsplugin
+#endif
 kdebase3-SuSE
 kdebase3-session
 kdegraphics3-pdf
@@ -13,9 +15,7 @@ kdepim3
 kdepim3-networkstatus
 kdepim3-notes
 kdeutils3
-#if 0
 kpowersave
-#endif
 NetworkManager
 NetworkManager-kde
 -Prq:

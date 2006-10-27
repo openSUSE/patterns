@@ -38,7 +38,9 @@ insserv
 iproute2
 iptables
 iputils
+#if !defined(__s390__)
 kbd
+#endif
 klogd
 krb5
 ksymoops

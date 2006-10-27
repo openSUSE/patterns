@@ -32,7 +32,9 @@ yast2-packager
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
+#if !defined(__s390__)
 yast2-power-management
+#endif
 yast2-powertweak
 yast2-printer
 yast2-profile-manager
@@ -51,7 +53,9 @@ yast2-sysconfig
 yast2-theme-openSUSE
 yast2-transfer
 yast2-tune
+#if !defined(__s390__)
 yast2-tv
+#endif
 yast2-update
 yast2-users
 yast2-xml

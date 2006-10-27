@@ -1,29 +1,34 @@
 +Prq:
-f-spot
-dvd+rw-tools
-gphoto
 ImageMagick
-inkscape
-mjpegtools
+#if !defined(__s390__) && !defined (__ia64__)
 OpenOffice_org
 OpenOffice_org-gnome
+#endif
 dia
+dvd+rw-tools
+f-spot
+gphoto
+inkscape
+mjpegtools
 totem
 -Prq:
 
 +Prc:
+#if !defined(__s390__)
+RealPlayer
+#endif
 banshee
 banshee-engine-gst
+banshee-engine-helix
 banshee-plugins-default
 banshee-plugins-extra
-banshee-engine-helix
+compiz
+compiz-gnome
+gnucash
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
-RealPlayer
 kino
-planner
-gnucash
-multisync-gui
+libopensync 
 libopensync-plugin-evolution2
 libopensync-plugin-file
 libopensync-plugin-gnokii
@@ -35,23 +40,22 @@ libopensync-plugin-palm
 libopensync-plugin-sunbird 
 libopensync-plugin-synce 
 libopensync-plugin-syncml 
-libopensync 
 libopensync-tools
-compiz
-compiz-gnome
+multisync-gui
+planner
 xgl
 -Prc:
 
 +Psg:
-alacarte
-pessulus
-sabayon
 abiword
-gnumeric
-goffice
+alacarte
 evolution-pilot
 gftp
 gnet
 gnome-bluetooth
+gnumeric
+goffice
+pessulus
+sabayon
 -Psg:
 

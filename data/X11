@@ -2,7 +2,9 @@
 xterm
 MozillaFirefox
 yast2-qt
+#if !defined(__s390__)
 yast2-x11
+#endif
 -Prq:
 
 +Prc:
