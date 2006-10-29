@@ -236,6 +236,10 @@ powerpc32
 #ifdef __x86_64__
 linux32
 #endif
+#ifdef __x86_64__
+glibc-32bit
+glibc-locale-32bit
+#endif
 -Prc:
 +Psg:
 delayacct-utils
