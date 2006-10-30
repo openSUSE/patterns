@@ -1,10 +1,15 @@
 +Prq:
+nfsidmap
+nfs-utils
 samba
+yast2-nfs-server
 yast2-samba-server
 -Prq:
 +Prc:
+pure-ftpd
 samba-client
 samba-pdb
 samba-winbind
-pure-ftpd
+tftp
+yast2-tftp-server
 -Prc:

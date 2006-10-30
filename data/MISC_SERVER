@@ -3,9 +3,7 @@ openslp-server
 yast2-boot-server
 yast2-instserver
 yast2-iscsi-server
-yast2-nfs-server
 yast2-nis-server
 yast2-slp-server
-yast2-tftp-server
 -Prc:
 
