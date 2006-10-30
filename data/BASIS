@@ -172,6 +172,7 @@ pciutils
 pcre
 pcsc-lite
 pmtools
+pm-utils
 popt
 portmap
 postfix
