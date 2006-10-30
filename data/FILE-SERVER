@@ -6,7 +6,7 @@ yast2-nfs-server
 yast2-samba-server
 -Prq:
 +Prc:
-pure-ftpd
+vsftpd
 samba-client
 samba-pdb
 samba-winbind
