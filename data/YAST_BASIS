@@ -63,7 +63,7 @@ yast2-xml
 +Prc:
 autoyast2
 autoyast2-installation
-autoyast2-utils
+inst-source-utils
 -Prc:
 +Psg:
 yast2-cd-creator
