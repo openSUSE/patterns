@@ -3,11 +3,12 @@ gtk2-devel
 gtk2-doc
 gtkdoc
 -Prq:
+
 +Prc:
 aalib-devel
 alsa-devel
-atk-devel
 at-spi-devel
+atk-devel
 audiofile-devel
 banshee-devel
 cairo-devel
@@ -30,9 +31,9 @@ gconf2-devel
 gconf2-doc
 ghex
 glade
+glib-devel
 glib2-devel
 glib2-doc
-glib-devel
 glitz-devel
 gnome-applets-devel
 gnome-bluetooth-devel
@@ -40,6 +41,7 @@ gnome-common
 gnome-cups-manager-devel
 gnome-desktop-devel
 gnome-doc-utils
+gnome-doc-utils-devel
 gnome-keyring-devel
 gnome-main-menu-devel
 gnome-media-devel
@@ -57,6 +59,7 @@ gtkhtml2-devel
 gtksourceview-devel
 gtksourceview-doc
 gucharmap-devel
+intltool
 libart_lgpl-devel
 libavc1394-devel
 libbeagle-devel
@@ -71,12 +74,12 @@ libgcrypt-devel
 libgda-devel
 libglade2-devel
 libglade2-doc
+libgnome-devel
+libgnome-doc
 libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecups-devel
 libgnomedb-devel
-libgnome-devel
-libgnome-doc
 libgnomeprint-devel
 libgnomeprint-doc
 libgnomeprintui-devel
@@ -106,5 +109,6 @@ pango-doc
 pkgconfig
 planner-devel
 startup-notification-devel
+vte-devel
 wvstreams-devel
 -Prc:
