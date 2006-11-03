@@ -12,6 +12,8 @@ coreutils
 cpio
 cracklib
 cups-client
+cups-drivers
+gutenprint
 curl
 cyrus-sasl
 cyrus-sasl-saslauthd
