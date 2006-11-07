@@ -1,6 +1,5 @@
 +Prq:
 bridge-utils
-kernel-xen
 xen
 xen-libs
 xen-tools
