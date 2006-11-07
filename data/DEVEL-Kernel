@@ -1,6 +1,12 @@
++Prq:
+kernel-source
+-Prq
 +Prc:
 build
-kernel-source
+diffstat
+git-core
+patch-utils
+quilt
 -Prc:
 +Psg:
 kernel-debug
