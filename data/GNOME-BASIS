@@ -101,6 +101,7 @@ NetworkManager-gnome
 notification-daemon
 orca
 pinentry
+pinentry-gtk2
 poppler
 poppler-glib
 python
