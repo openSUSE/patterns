@@ -3,8 +3,10 @@ kernel-source
 -Prq
 +Prc:
 build
+cscope
 diffstat
 git-core
+indent
 patch-utils
 quilt
 -Prc:
