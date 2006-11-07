@@ -1,6 +1,9 @@
 +Prq:
 xterm
 MozillaFirefox
+#if defined __x86_64__
+alsa-32bit
+#endif
 yast2-qt
 #if !defined(__s390__)
 yast2-x11
