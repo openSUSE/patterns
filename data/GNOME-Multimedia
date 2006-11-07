@@ -1,11 +1,12 @@
 +Prq:
+banshee-player
 f-spot
 totem
 totem-plugin
 -Prq:
 
 +Prc:
-banshee
+helix-banshee
 banshee-engine-gst
 banshee-plugins-default
 banshee-plugins-extra
