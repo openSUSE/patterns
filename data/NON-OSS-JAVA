@@ -1,5 +1,8 @@
 +Prq:
 java-1_5_0-sun
+#ifdef __i386__
+java-1_5_0-sun-plugin
+#endif
 -Prq:
 +Psg:
 ant-antlr
@@ -18,7 +21,6 @@ java-1_5_0-sun-alsa
 java-1_5_0-sun-demo
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
-java-1_5_0-sun-plugin
 java-1_5_0-sun-src
 javamail
 javamail-demo
