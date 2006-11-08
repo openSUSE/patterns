@@ -7,10 +7,6 @@ totem-plugin
 
 +Prc:
 helix-banshee
-banshee-engine-gst
-banshee-plugins-default
-banshee-plugins-extra
-banshee-engine-helix
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
 dvd+rw-tools

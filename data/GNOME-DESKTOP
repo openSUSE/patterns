@@ -21,10 +21,6 @@ totem-plugin
 RealPlayer
 #endif
 helix-banshee
-banshee-engine-gst
-banshee-engine-helix
-banshee-plugins-default
-banshee-plugins-extra
 compiz
 compiz-gnome
 gnucash
@@ -47,6 +43,12 @@ libopensync-tools
 multisync-gui
 planner
 xgl
+#ifdef __x86_64__
+gtk2-32bit
+gtk2-engines-32bit
+gtk-engines-32bit
+librsvg-32bit
+#endif
 -Prc:
 
 +Psg:

@@ -48,6 +48,15 @@ libopensync-plugin-syncml
 libopensync-tools
 xgl
 yast2-sound
+#if !defined(__s390__)
+RealPlayer
+#endif
+#ifdef __x86_64__
+gtk2-32bit
+gtk2-engines-32bit
+gtk-engines-32bit
+librsvg-32bit
+#endif
 -Prc:
 
 +Psg:
