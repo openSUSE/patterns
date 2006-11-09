@@ -54,6 +54,7 @@ limal-perl
 logrotate
 lvm2
 mailx
+manufacturer-PPDs
 mdadm
 mingetty
 mkinitrd
