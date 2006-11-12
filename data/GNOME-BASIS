@@ -2,6 +2,8 @@
 gdm
 gnome-panel
 gnome-main-menu
+gnome-mount
+gnome-vfs2
 gtk2-themes
 -Prq:
 
@@ -65,7 +67,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes
 gnome-utils
-gnome-vfs2
 gnome-volume-manager
 gnome-web-photo
 gpg2

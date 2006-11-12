@@ -3,5 +3,14 @@ gimp
 -Prq:
 +Prc:
 AdobeICCProfiles
+dcraw
 gimp-help
+ufraw
+ufraw-gimp
+exiftool
 -Prc:
++Psg:
+pfstools
+pfstmo
+pfscalibratio
+-Psg:
