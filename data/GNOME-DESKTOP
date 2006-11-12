@@ -1,19 +1,10 @@
 +Prq:
+alacarte
 banshee-player
-ImageMagick
 #if !defined(__s390__) && !defined (__ia64__)
 OpenOffice_org
 OpenOffice_org-gnome
 #endif
-alacarte
-dia
-dvd+rw-tools
-f-spot
-gphoto
-inkscape
-mjpegtools
-totem
-totem-plugin
 -Prq:
 
 +Prc:
@@ -23,6 +14,7 @@ RealPlayer
 helix-banshee
 compiz
 compiz-gnome
+dvd+rw-tools
 gnucash
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
@@ -39,8 +31,11 @@ libopensync-plugin-sunbird
 libopensync-plugin-synce 
 libopensync-plugin-syncml 
 libopensync-tools
+mjpegtools
 multisync-gui
 planner
+totem
+totem-plugin
 xgl
 #ifdef __x86_64__
 gtk2-32bit
