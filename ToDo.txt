@@ -3,6 +3,5 @@ Check 10.1 packages
 * LaTeX
 * Hacker
 * Run pattern-test.pl on all media to check pattern/package lists
-* I want a suggests apparmor but this does not work.
-* Remove Patterns on media that do not have these, e.g.
-  - non-oss only on non-oss
+* Add DEVEL-Tcl properly
+* Add GNOME/KDE subpatterns again
