@@ -1,4 +1,6 @@
 +Prq:
 zypper
 -Prq:
-
++Psg:
+pin
+-Psg:
