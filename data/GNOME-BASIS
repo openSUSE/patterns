@@ -2,12 +2,12 @@
 gdm
 gnome-panel
 gnome-main-menu
-gnome-mount
 gnome-vfs2
 gtk2-themes
 -Prq:
 
 +Prc:
+gnome-mount
 aspell
 at-spi
 awesfx

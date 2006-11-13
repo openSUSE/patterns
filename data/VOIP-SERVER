@@ -1,0 +1,13 @@
++Prq:
+asterisk
+-Prq:
++Prc:
+asterisk-alsa
+asterisk-capi
+asterisk-spandsp
+asterisk-zaptel
+-Prc:
++Psg:
+asterisk-odbc
+asterisk-pgsql
+-Psg:
