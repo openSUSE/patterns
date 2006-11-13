@@ -4,6 +4,7 @@ mono-devel
 monodevelop
 -Prq:
 +Prc:
+apache2-mod_mono
 boo
 bytefx-data-mysql
 dbus-1-mono
@@ -17,7 +18,6 @@ gtk-sharp2-gapi
 gtk-sharp-gapi
 gtksourceview-sharp2
 ikvm
-mod_mono
 mono-basic
 mono-data
 mono-data-firebird

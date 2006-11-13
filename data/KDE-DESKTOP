@@ -10,7 +10,6 @@ OpenOffice_org-Quickstarter
 amarok
 amarok-libvisual
 amarok-xine
-compiz
 k3b
 kaffeine
 kdeaddons3-kicker
@@ -45,7 +44,6 @@ libopensync-plugin-sunbird
 libopensync-plugin-synce 
 libopensync-plugin-syncml 
 libopensync-tools
-xgl
 yast2-sound
 #if !defined(__s390__)
 RealPlayer

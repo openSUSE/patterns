@@ -12,8 +12,6 @@ OpenOffice_org-gnome
 RealPlayer
 #endif
 helix-banshee
-compiz
-compiz-gnome
 dvd+rw-tools
 gnucash
 gstreamer010-plugins-base-oil
@@ -36,7 +34,6 @@ multisync-gui
 planner
 totem
 totem-plugin
-xgl
 #ifdef __x86_64__
 gtk2-32bit
 gtk2-engines-32bit
