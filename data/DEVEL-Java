@@ -8,15 +8,11 @@ ant-apache-oro
 ant-apache-regexp
 ant-apache-resolver
 ant-commons-logging
-ant-commons-logging
-ant-commons-net
-ant-commons-net
 ant-jai
 ant-javadoc
 ant-javamail
 ant-jdepend
 ant-jmf
-ant-jsch
 ant-junit
 ant-manual
 ant-nodeps
@@ -26,7 +22,7 @@ ant-trax
 java-1_4_2-cacao-devel
 java-1_4_2-gcj-compat-devel
 log4j
-tomcat
+tomcat5
 xalan-j2
 xerces-j2
 xml-commons-apis
