@@ -65,6 +65,7 @@ yast2-xml
 autoyast2
 autoyast2-installation
 inst-source-utils
+yast2-samba-server
 -Prc:
 +Psg:
 yast2-cd-creator
