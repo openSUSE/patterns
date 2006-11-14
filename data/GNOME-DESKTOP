@@ -29,6 +29,7 @@ libopensync-plugin-sunbird
 libopensync-plugin-synce 
 libopensync-plugin-syncml 
 libopensync-tools
+liferea
 mjpegtools
 multisync-gui
 planner
@@ -51,6 +52,7 @@ gnet
 gnome-bluetooth
 gnumeric
 goffice
+pan
 pessulus
 sabayon
 -Psg:
