@@ -4,11 +4,16 @@ amavisd-new
 mailman
 cyrus-imapd
 clamav
+fetchmail
+postfix
+procmail
 spamassassin
 inn
 vacation
 -Prc:
 +Sug:
 dovecot
+exim
+mlmmj
+sendmail
 -Sug:
-

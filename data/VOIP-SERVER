@@ -5,7 +5,9 @@ asterisk
 asterisk-alsa
 asterisk-capi
 asterisk-spandsp
+#if defined(__i386__) || defined (__x86_64__)
 asterisk-zaptel
+#endif
 -Prc:
 +Psg:
 asterisk-odbc
