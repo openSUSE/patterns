@@ -28,6 +28,7 @@ libqt4-x11
 lsb
 numlockx
 openssh-askpass
+pkgconfig
 sax2
 sax2-gui
 tcl
