@@ -11,11 +11,12 @@ OpenOffice_org-gnome
 #if !defined(__s390__)
 RealPlayer
 #endif
-helix-banshee
+deskbar-applet
 dvd+rw-tools
 gnucash
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
+helix-banshee
 kino
 libopensync 
 libopensync-plugin-evolution2
