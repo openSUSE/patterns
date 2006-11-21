@@ -13,6 +13,7 @@ RealPlayer
 #endif
 deskbar-applet
 dvd+rw-tools
+fast-user-switch-applet
 gnucash
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
