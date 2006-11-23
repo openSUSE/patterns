@@ -11,9 +11,9 @@ spamassassin
 inn
 vacation
 -Prc:
-+Sug:
++Psg:
 dovecot
 exim
 mlmmj
 sendmail
--Sug:
+-Psg:
