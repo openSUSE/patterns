@@ -10,6 +10,9 @@ OpenOffice_org-Quickstarter
 amarok
 amarok-libvisual
 amarok-xine
+#if defined __x86_64__
+java-1_4_2-gcj-compat-32bit
+#endif
 k3b
 kaffeine
 kdeaddons3-kicker

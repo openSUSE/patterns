@@ -1,8 +1,6 @@
-+Prq:
++Prc:
 kdbg
-kdelibs3-doc
-kdesdk3
+kdeaddons3-kate
 kdesdk3-translate
 kdevelop3
-qt3-devel-tools
--Prq:
+-Prc:

@@ -20,7 +20,6 @@ ant-scripts
 ant-swing
 ant-trax
 java-1_4_2-cacao-devel
-java-1_4_2-gcj-compat-devel
 log4j
 tomcat5
 xalan-j2
@@ -29,6 +28,9 @@ xml-commons-apis
 xml-commons-resolver
 xml-commons-which
 -Prq:
++Prc:
+java-1_4_2-gcj-compat-devel
+-Prc:
 +Psg:
 geronimo
 jakarta-commons-beanutils

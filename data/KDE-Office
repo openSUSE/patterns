@@ -6,6 +6,12 @@ OpenOffice_org-Quickstarter
 #endif
 -Prq:
 
++Prc:
+#if defined __x86_64__
+java-1_4_2-gcj-compat-32bit
+#endif
+-Prc:
+
 +Psg:
 koffice
 koffice-database

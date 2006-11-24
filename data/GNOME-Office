@@ -4,10 +4,14 @@ OpenOffice_org
 OpenOffice_org-gnome
 #endif
 -Prq:
+
 +Prc:
 dia
-planner
+#if defined __x86_64__
+java-1_4_2-gcj-compat-32bit
+#endif
 gnucash
+planner
 -Prc:
 
 +Psg:

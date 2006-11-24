@@ -32,6 +32,8 @@ libaio-devel
 libelf
 libgcj-devel
 libstdc++-devel
+openldap2-devel
+pam-devel
 pkgconfig
 subversion
 #ifdef __powerpc__

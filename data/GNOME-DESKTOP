@@ -18,6 +18,9 @@ gnucash
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
 helix-banshee
+#if defined __x86_64__
+java-1_4_2-gcj-compat-32bit
+#endif
 kino
 libopensync 
 libopensync-plugin-evolution2
