@@ -32,7 +32,7 @@ pinentry-qt
 preload
 qtcurve-gtk2
 #ifdef __x86_64__
-qtcurve-gt2-32bit
+qtcurve-gtk2-32bit
 #endif
 susehelp
 -Prc:
