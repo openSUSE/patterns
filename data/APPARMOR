@@ -8,5 +8,4 @@ yast2-apparmor
 -Prq:
 +Prc:
 audit
-apparmor-admin_en
 -Prc:

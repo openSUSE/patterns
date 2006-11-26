@@ -56,6 +56,8 @@ gtk2-engines-32bit
 gtk-engines-32bit
 librsvg-32bit
 #endif
+opensuse-quickstart_en
+opensuse-quickstart_en-pdf
 -Prc:
 
 +Psg:
