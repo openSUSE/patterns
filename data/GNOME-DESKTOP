@@ -47,6 +47,7 @@ librsvg-32bit
 #endif
 opensuse-gnomeuser_en
 opensuse-quickstart_en
+xsane
 -Prc:
 
 +Psg:
