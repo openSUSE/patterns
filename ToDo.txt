@@ -6,4 +6,6 @@ Check 10.1 packages
 * Add DEVEL-Tcl properly
 * Add GNOME/KDE subpatterns again
 * vorbis-tools should be part of multimedia selections
+* Check hardware dependencies - packages like ipw-firmware, qlogic-firmware
+  should not be in patterns.
 
