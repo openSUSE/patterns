@@ -3,7 +3,6 @@ SuSEfirewall2
 aaa_base
 aaa_skel
 acl
-ash
 attr
 audit-libs
 bash
@@ -245,7 +244,9 @@ glibc-32bit
 glibc-locale-32bit
 #endif
 -Prc:
+
 +Psg:
+ash
 delayacct-utils
 exim
 sendmail
