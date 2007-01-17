@@ -1,0 +1,10 @@
++Prq:
+update-test-trival
+-Prq:
++Prc:
+update-test-affects-package-manager
+update-test-security
+update-test-interactive
+update-test-optional
+update-test-reboot-needed
+-Prc:
