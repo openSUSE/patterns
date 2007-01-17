@@ -1,55 +1,4 @@
-+Prq:
-#if !defined(__s390__) && !defined (ia64)
-OpenOffice_org
-OpenOffice_org-kde
-OpenOffice_org-Quickstarter
-#endif
--Prq:
-
 +Prc:
-amarok
-amarok-libvisual
-amarok-xine
-#if defined __x86_64__
-java-1_4_2-gcj-compat-32bit
-#endif
-k3b
-kaffeine
-kdeaddons3-kicker
-kdeartwork3-kscreensaver
-kdeartwork3-xscreensaver
-kdebluetooth
-kdemultimedia3
-kdemultimedia3-CD
-kdemultimedia3-mixer
-kdenetwork3
-kdenetwork3-InstantMessenger
-kdenetwork3-news
-kdenetwork3-vnc
-kdepim3-kpilot
-kdetv
-kio_ipodslave
-kio_iso
-kio_slp
-kitchensync
-konversation
-krecord
-ktorrent
-libopensync 
-libopensync-plugin-file
-libopensync-plugin-gnokii
-libopensync-plugin-gpe 
-libopensync-plugin-irmc
-libopensync-plugin-kdepim 
-libopensync-plugin-opie 
-libopensync-plugin-palm 
-libopensync-plugin-sunbird 
-libopensync-plugin-syncml 
-libopensync-tools
-yast2-sound
-#if !defined(__s390__)
-RealPlayer
-#endif
 #ifdef __x86_64__
 gtk2-32bit
 gtk2-engines-32bit
@@ -61,16 +10,6 @@ opensuse-quickstart_en
 
 +Psg:
 kdeedu3
-kdetoys3
-kdirstat
 kiosktool
-koffice
-koffice-database
-koffice-extra
-koffice-illustration
-koffice-planning
-koffice-presentation
-koffice-spreadsheet
-koffice-wordprocessing
 -Psg:
 

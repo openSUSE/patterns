@@ -8,6 +8,7 @@ gnet
 gnome-bluetooth
 multisync-gui
 libopensync-plugin-file
+vino
 -Prq:
 +Psg:
 libopensync-plugin-evolution2

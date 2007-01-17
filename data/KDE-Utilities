@@ -2,8 +2,8 @@
 kdeaddons3-kicker
 kdeartwork3-kscreensaver
 kdebluetooth
-kitchensync
 kdepim3-kpilot
+kitchensync
 -Prq:
 +Prc:
 kdeartwork3-xscreensaver
@@ -11,6 +11,7 @@ kdeartwork3-xscreensaver
 +Psg:
 kdetoys3
 kdirstat
+libopensync 
 libopensync-plugin-file
 libopensync-plugin-gnokii
 libopensync-plugin-gpe 
@@ -20,6 +21,5 @@ libopensync-plugin-opie
 libopensync-plugin-palm 
 libopensync-plugin-sunbird 
 libopensync-plugin-syncml 
-libopensync 
 libopensync-tools
 -Psg:
