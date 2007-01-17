@@ -2,7 +2,6 @@
 kernel-source
 -Prq:
 +Prc:
-build
 cscope
 diffstat
 git-core

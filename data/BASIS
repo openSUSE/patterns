@@ -214,6 +214,7 @@ ulimit
 unzip
 usbutils
 utempter
+util-linux-crypto
 vlan
 wireless-tools
 wol
