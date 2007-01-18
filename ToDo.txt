@@ -13,11 +13,13 @@ Check 10.1 packages
 * Make Base system smaller:
 
   Definition Base System:
+  Purpose: Minimal booting system running on real hardware 
   Multiuser system with:
   * Local login (via /etc/passwd)
   * network setup via ethernet
   * default filesystems used (ext3) directly (without evms, lvm,
     mdraid etc)
   * no services running by default
+  * YaST modules for 2nd part of installation
 
   Add another pattern with extra packages from current base system.
