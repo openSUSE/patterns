@@ -112,3 +112,9 @@ startup-notification-devel
 vte-devel
 wvstreams-devel
 -Prc:
++Psg:
+python-cairo-devel
+python-gnome-devel
+python-gobject2-devel
+python-gtk-devel
+-Psg:

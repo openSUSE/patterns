@@ -9,3 +9,15 @@ Check 10.1 packages
 * Check hardware dependencies - packages like ipw-firmware, qlogic-firmware
   should not be in patterns.
 
+
+* Make Base system smaller:
+
+  Definition Base System:
+  Multiuser system with:
+  * Local login (via /etc/passwd)
+  * network setup via ethernet
+  * default filesystems used (ext3) directly (without evms, lvm,
+    mdraid etc)
+  * no services running by default
+
+  Add another pattern with extra packages from current base system.

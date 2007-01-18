@@ -6,7 +6,10 @@ python
 eric
 libxml2-python
 libxslt-python
-python-gtk
+python-cairo-devel
+python-gnome-devel
+python-gobject2-devel
+python-gtk-devel
 python-kde-extensions
 python-ldap
 python-qt
