@@ -22,4 +22,6 @@ Check 10.1 packages
   * no services running by default
   * YaST modules for 2nd part of installation
 
+  Philosophy: If I want or need it, i'll selected & install it.
+
   Add another pattern with extra packages from current base system.

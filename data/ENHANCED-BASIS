@@ -73,12 +73,10 @@ bootsplash-theme-SuSE
 compat
 compat-libstdc++
 compat-openssl097g
-cpufrequtils
 cron
 cups
 dbus-1-glib
 deltarpm
-dhcpcd
 dmraid
 dos2unix
 dosfstools
@@ -200,6 +198,7 @@ glibc-locale-32bit
 
 +Psg:
 ash
+cpufrequtils
 delayacct-utils
 exim
 sendmail

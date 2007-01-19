@@ -6,6 +6,7 @@ bzip2
 coreutils
 cpio
 dbus-1
+dhcpcd
 e2fsprogs
 filesystem
 fillup
