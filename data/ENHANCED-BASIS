@@ -14,6 +14,8 @@ db
 db-utils
 device-mapper
 diffutils
+ed
+ethtool
 e2fsprogs
 eject
 evms
@@ -38,7 +40,9 @@ mdadm
 mkisofs
 multipath-tools
 openssl
+pam-config
 parted
+perl
 psmisc
 pwdutils
 reiserfs

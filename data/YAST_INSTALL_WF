@@ -1,11 +1,8 @@
-+Prq:
-limal
++Prc:
 limal-bootloader
-limal-perl
 yast2
 yast2-bootloader
 yast2-core
-yast2-country
 yast2-hardware-detection
 yast2-installation
 yast2-ncurses
@@ -21,7 +18,7 @@ yast2-transfer
 yast2-users
 yast2-xml
 autoyast2-installation
--Prq:
+-Prc:
 +Psg:
 yast2-bluetooth
 yast2-firewall

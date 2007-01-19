@@ -7,12 +7,9 @@ coreutils
 cpio
 dbus-1
 e2fsprogs
-ed
-ethtool
 filesystem
 fillup
 glibc
-grep
 gzip
 hwinfo
 insserv
@@ -21,21 +18,15 @@ kbd
 #endif
 klogd
 ksymoops
-less
 logrotate
 mingetty
 mkinitrd
-mktemp
 module-init-tools
-ncurses
 net-tools
 netcfg
 openssh
 pam
-pam-config
 pam-modules
-perl
-permissions
 procps
 pwdutils
 rpm
@@ -47,8 +38,6 @@ syslog-ng
 sysvinit
 tar
 util-linux
-vim
-
 
 #ifdef __ia64__
 elilo

@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 agfa-fonts
 #if defined(__i386__) || defined (__x86_64__)
 flash-player
@@ -6,7 +6,7 @@ flash-player
 #if !defined(__s390__)
 RealPlayer
 #endif
--Prq:
+-Prc:
 +Psg:
 AdobeICCProfiles
 IPAGothic
