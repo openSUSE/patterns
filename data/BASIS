@@ -1,44 +1,23 @@
 +Prq:
 aaa_base
 aaa_skel
-bash
-bzip2
-coreutils
-cpio
-dbus-1
 dhcpcd
-e2fsprogs
-filesystem
-fillup
-glibc
-gzip
 hwinfo
 insserv
 #if !defined(__s390__)
 kbd
 #endif
-klogd
-ksymoops
-logrotate
-mingetty
 mkinitrd
 module-init-tools
-net-tools
 netcfg
 openssh
-pam
-pam-modules
 procps
 pwdutils
 rpm
-sed
 openSUSE-release
 suse-build-key
 sysconfig
 syslog-ng
-sysvinit
-tar
-util-linux
 
 #ifdef __ia64__
 elilo

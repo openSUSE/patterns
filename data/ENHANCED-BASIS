@@ -3,6 +3,7 @@ SuSEfirewall2
 acl
 attr
 audit-libs
+bzip2
 cracklib
 cups-client
 cups-drivers
@@ -49,6 +50,7 @@ reiserfs
 smtp_daemon
 suse-build-key
 sysfsutils
+tar
 vim
 w3m
 wget
