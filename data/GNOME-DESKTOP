@@ -1,44 +1,4 @@
-+Prq:
-alacarte
-banshee-player
-#if !defined(__s390__) && !defined (__ia64__)
-OpenOffice_org
-OpenOffice_org-gnome
-#endif
--Prq:
-
 +Prc:
-#if !defined(__s390__)
-RealPlayer
-#endif
-deskbar-applet
-dvd+rw-tools
-fast-user-switch-applet
-gnucash
-gstreamer010-plugins-base-oil
-gstreamer010-plugins-base-visual
-helix-banshee
-#if defined __x86_64__
-java-1_4_2-gcj-compat-32bit
-#endif
-kino
-libopensync 
-libopensync-plugin-evolution2
-libopensync-plugin-file
-libopensync-plugin-gnokii
-libopensync-plugin-gpe 
-libopensync-plugin-irmc
-libopensync-plugin-opie 
-libopensync-plugin-palm 
-libopensync-plugin-sunbird 
-libopensync-plugin-syncml 
-libopensync-tools
-liferea
-mjpegtools
-multisync-gui
-planner
-totem
-totem-plugin
 #ifdef __x86_64__
 gtk2-32bit
 gtk2-engines-32bit
@@ -47,21 +7,5 @@ librsvg-32bit
 #endif
 opensuse-gnomeuser_en
 opensuse-quickstart_en
-vino
 xsane
 -Prc:
-
-+Psg:
-abiword
-alacarte
-evolution-pilot
-gftp
-gnet
-gnome-bluetooth
-gnumeric
-goffice
-pan
-pessulus
-sabayon
--Psg:
-

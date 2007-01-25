@@ -6,7 +6,6 @@ OpenOffice_org-gnome
 -Prq:
 
 +Prc:
-dia
 #if defined __x86_64__
 java-1_4_2-gcj-compat-32bit
 #endif
