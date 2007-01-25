@@ -3,19 +3,13 @@ banshee-player
 f-spot
 totem
 totem-plugin
-vorbis-tools
 -Prq:
 
 +Prc:
 helix-banshee
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
-dvd+rw-tools
 gphoto
-kino
-ImageMagick
 inkscape
-mjpegtools
-RealPlayer
 -Prc:
 

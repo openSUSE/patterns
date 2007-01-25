@@ -4,8 +4,6 @@ k3b
 kdemultimedia3
 kdemultimedia3-mixer
 kdemultimedia3-CD
-vorbis-tools
-yast2-sound
 -Prq:
 
 +Prc:
@@ -16,7 +14,4 @@ kdetv
 kio_ipodslave
 kio_iso
 krecord
-#if !defined(__s390__)
-RealPlayer
-#endif
 -Prc:

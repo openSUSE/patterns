@@ -1,0 +1,12 @@
++Prc:
+dvd+rw-tools
+kino
+ImageMagick
+mjpegtools
+#if !defined(__s390__)
+RealPlayer
+#endif
+vorbis-tools
+yast2-sound
+-Prc:
+
