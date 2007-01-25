@@ -38,7 +38,7 @@ lvm2
 mailx
 manufacturer-PPDs
 mdadm
-mkisofs
+genisoimage
 multipath-tools
 openssl
 pam-config

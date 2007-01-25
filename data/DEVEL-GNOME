@@ -1,7 +1,6 @@
 +Prq:
 gtk2-devel
-gtk2-doc
-gtkdoc
+gtk-doc
 -Prq:
 
 +Prc:
