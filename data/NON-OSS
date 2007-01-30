@@ -3,7 +3,7 @@ agfa-fonts
 #if defined(__i386__) || defined (__x86_64__)
 flash-player
 #endif
-#if !defined(__s390__)
+#if defined(__i386__) || defined (__x86_64__)
 RealPlayer
 #endif
 -Prc:

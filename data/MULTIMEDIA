@@ -3,7 +3,7 @@ dvd+rw-tools
 kino
 ImageMagick
 mjpegtools
-#if !defined(__s390__)
+#if defined(__i386__) || defined (__x86_64__)
 RealPlayer
 #endif
 vorbis-tools
