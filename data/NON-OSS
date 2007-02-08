@@ -6,6 +6,9 @@ flash-player
 #if defined(__i386__) || defined (__x86_64__)
 RealPlayer
 #endif
+#if defined __ia64__
+ia32el
+#endif
 -Prc:
 +Psg:
 AdobeICCProfiles

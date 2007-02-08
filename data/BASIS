@@ -22,7 +22,6 @@ syslog-ng
 #ifdef __ia64__
 elilo
 efibootmgr
-ia32el
 #endif
 #if defined(__i386__) || defined (__x86_64__)
 grub
@@ -31,3 +30,4 @@ grub
 lilo
 #endif
 -Prq:
+
