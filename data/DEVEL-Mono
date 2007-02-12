@@ -8,14 +8,11 @@ apache2-mod_mono
 boo
 bytefx-data-mysql
 dbus-1-mono
-gecko-sharp
 gecko-sharp2
 gsf-sharp
-gtk-sharp-complete
 gtk-sharp2-complete
 gtk-sharp2-doc
 gtk-sharp2-gapi
-gtk-sharp-gapi
 gtksourceview-sharp2
 ikvm
 mono-basic
