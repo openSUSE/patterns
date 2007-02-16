@@ -12,7 +12,6 @@ yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
 yast2-schema
-yast2-theme-openSUSE
 yast2-transfer
 yast2-users
 yast2-xml
