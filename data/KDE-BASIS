@@ -35,6 +35,7 @@ qtcurve-gtk2
 qtcurve-gtk2-32bit
 #endif
 susehelp
+yast2-control-center-qt
 -Prc:
 +Psg:
 -Psg:
