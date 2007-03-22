@@ -1,15 +1,3 @@
-Check 10.1 packages
-
-* LaTeX
-* Hacker
-* Run pattern-test.pl on all media to check pattern/package lists
-* Add DEVEL-Tcl properly
-* Add GNOME/KDE subpatterns again
-* vorbis-tools should be part of multimedia selections
-* Check hardware dependencies - packages like ipw-firmware, qlogic-firmware
-  should not be in patterns.
-
-
 * Make Base system smaller:
 
   Definition Base System:
@@ -25,3 +13,5 @@ Check 10.1 packages
   Philosophy: If I want or need it, i'll selected & install it.
 
   Add another pattern with extra packages from current base system.
+
+* Add opensuse-updater(-gnome) to the correct patterns.
