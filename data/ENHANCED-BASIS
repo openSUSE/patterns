@@ -83,6 +83,7 @@ dmraid
 dos2unix
 dosfstools
 expat
+filters
 fbset
 gawk
 gdb
