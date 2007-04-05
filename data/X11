@@ -3,6 +3,7 @@ xterm
 MozillaFirefox
 #if defined __x86_64__
 alsa-32bit
+nss-mdns-32bit
 #endif
 yast2-qt
 #if !defined(__s390__)
