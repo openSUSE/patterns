@@ -11,5 +11,6 @@ samba-client
 samba-pdb
 samba-winbind
 tftp
+yast2-ftp-server
 yast2-tftp-server
 -Prc:
