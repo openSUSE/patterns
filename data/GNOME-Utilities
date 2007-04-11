@@ -8,8 +8,12 @@ gnet
 gnome-bluetooth
 multisync-gui
 libopensync-plugin-file
+seahorse
 vino
 -Prq:
++Prc:
+dasher
+-Prc:
 +Psg:
 libopensync-plugin-evolution2
 libopensync-plugin-gnokii
