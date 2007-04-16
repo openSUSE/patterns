@@ -11,3 +11,6 @@ iftop
 nagios
 mtr
 -Prc:
++Psg:
+mrtg
+-Psg:
