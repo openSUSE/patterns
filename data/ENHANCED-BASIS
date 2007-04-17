@@ -84,6 +84,7 @@ dos2unix
 dosfstools
 expat
 filters
+finger
 fbset
 gawk
 gdb
