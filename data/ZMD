@@ -1,9 +1,0 @@
-+Prq:
-libzypp-zmd-backend
-rug
-zmd
--Prq:
-+Psg:
-pin
--Psg:
-
