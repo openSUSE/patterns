@@ -2,7 +2,7 @@
 xterm
 MozillaFirefox
 #if defined __x86_64__
-alsa-32bit
+libasound2-32bit
 nss-mdns-32bit
 #endif
 yast2-qt
