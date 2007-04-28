@@ -5,9 +5,6 @@ pcmciautils
 scpm
 sumf
 suspend
-#if defined(__i386__)
-tpctl
-#endif
 wpa_supplicant
 jarnal 
 xournal

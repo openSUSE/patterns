@@ -102,7 +102,9 @@ hfsutils
 hplip
 ifplugd
 info
+#ifdef __powerpc__
 initviocons
+#endif
 jfsutils
 joe
 ksh
