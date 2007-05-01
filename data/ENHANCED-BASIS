@@ -98,14 +98,13 @@ gpm
 hal
 hal-resmgr
 hdparm
-hfsutils
 hplip
 ifplugd
 info
 #ifdef __powerpc__
+hfsutils
 initviocons
 #endif
-jfsutils
 joe
 ksh
 lsof
@@ -176,7 +175,6 @@ wireless-tools
 wol
 wvdial
 wvstreams
-xfsprogs
 xinetd
 xntp
 yp-tools
@@ -207,8 +205,14 @@ ash
 cpufrequtils
 delayacct-utils
 exim
+#ifndef __powerpc__
+hfsutils
+#endif
+jfsutils
 sendmail
+ocfs2-tools
 rsh
+xfsprogs
 #if defined(__i386__) || defined (__x86_64__)
 lilo
 #endif
