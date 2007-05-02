@@ -34,7 +34,6 @@ yast2-pkg-bindings
 #if !defined(__s390__)
 yast2-power-management
 #endif
-yast2-powertweak
 yast2-printer
 yast2-profile-manager
 yast2-repair
