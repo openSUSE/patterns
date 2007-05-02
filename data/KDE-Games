@@ -1,9 +1,13 @@
 +Prq:
+kde4-kmahjongg
+kde4-kmines
+kde4-kpat
+kde4-kreversi
+-Prq:
++Psg:
 kdegames3
 knights
 ksudoku
--Prq:
-+Psg:
 kdegames3-arcade
 kdegames3-board
 kdegames3-card
