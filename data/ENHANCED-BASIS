@@ -75,6 +75,7 @@ bootsplash-theme-SuSE
 compat
 compat-libstdc++
 compat-openssl097g
+cracklib-dict-full
 cron
 cups
 dbus-1-glib
@@ -100,10 +101,10 @@ hal-resmgr
 hdparm
 hplip
 ifplugd
+initviocons
 info
 #ifdef __powerpc__
 hfsutils
-initviocons
 #endif
 joe
 ksh
