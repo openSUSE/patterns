@@ -3,7 +3,6 @@ dejavu
 efont-unicode
 fontconfig
 fonts-config
-freetype
 ghostscript-fonts-std
 ifnteuro
 intlfnts
@@ -12,6 +11,7 @@ xorg-x11-fonts-core
 -Prq:
 +Prc:
 agfa-fonts
+freetype
 ghostscript-fonts-other
 -Prc:
 +Psg:
