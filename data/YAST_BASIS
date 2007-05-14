@@ -18,7 +18,6 @@ yast2-kerberos-client
 yast2-ldap
 yast2-ldap-client
 yast2-mail
-yast2-mail-aliases
 yast2-mouse
 yast2-ncurses
 yast2-network
