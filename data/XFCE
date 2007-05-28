@@ -21,6 +21,7 @@ xfce4-appfinder
 xfce4-mixer
 xfce4-panel-plugins
 xfprint
+yast2-mcs-manager
 -Prc:
 +Psg:
 xfce4-dev-tools
