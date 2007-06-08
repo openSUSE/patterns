@@ -107,6 +107,7 @@ hfsutils
 #endif
 joe
 ksh
+linux-atm-lib
 lsof
 lukemftp
 man

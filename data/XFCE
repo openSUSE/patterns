@@ -20,6 +20,7 @@ xfce-mcs-plugins
 xfce4-appfinder
 xfce4-mixer
 xfce4-panel-plugins
+xfce4-volstatus
 xfprint
 yast2-mcs-manager
 -Prc:

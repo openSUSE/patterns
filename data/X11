@@ -1,6 +1,5 @@
 +Prq:
 xterm
-MozillaFirefox
 #if defined __x86_64__
 libasound2-32bit
 nss-mdns-32bit
@@ -15,7 +14,6 @@ yast2-x11
 3ddiag
 915resolution
 CheckHardware
-MozillaFirefox-translations
 cabextract
 desktop-data-SuSE
 desktop-translations
@@ -24,8 +22,9 @@ fvwm2
 ghostscript-x11
 lsb
 numlockx
+MozillaFirefox
+MozillaFirefox-translations
 openssh-askpass
-sane-frontends
 sax2
 sax2-gui
 tcl

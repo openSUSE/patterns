@@ -6,6 +6,7 @@ totem-plugin
 -Prq:
 
 +Prc:
+banshee-plugins-DAAP
 helix-banshee
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual

@@ -79,6 +79,7 @@ libgnomecanvas-devel
 libgnomecanvas-doc
 libgnomecups-devel
 libgnomedb-devel
+libgnomekbd-devel
 libgnomeprint-devel
 libgnomeprint-doc
 libgnomeprintui-devel
@@ -99,6 +100,7 @@ libwnck-devel
 libxklavier-devel
 libxml2-devel
 libxslt-devel
+metacity-devel
 nautilus-cd-burner-devel
 nautilus-devel
 neon-devel
