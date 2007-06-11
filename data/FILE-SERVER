@@ -1,6 +1,6 @@
 +Prq:
 nfsidmap
-nfs-utils
+nfs-kernel-server
 samba
 yast2-nfs-server
 yast2-samba-server
