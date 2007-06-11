@@ -116,7 +116,7 @@ master-boot-code
 mcelog
 mpt-status
 netcat
-nfs-utils
+nfs-client
 nfsidmap
 nscd
 ntfsprogs
