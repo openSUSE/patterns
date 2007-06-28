@@ -1,11 +1,13 @@
 +Prq:
 bridge-utils
+vm-install
 xen
 xen-libs
 xen-tools
 xen-tools-ioemu
 -Prq:
 +Prc:
+virt-manager
 xen-doc-html
 xen-doc-pdf
 xterm

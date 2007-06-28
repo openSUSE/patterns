@@ -1,4 +1,5 @@
 +Prq:
+xkeyboard-config
 xterm
 #if defined __x86_64__
 libasound2-32bit
@@ -37,7 +38,6 @@ xaw3d
 xdg-menu
 xdg-utils
 xdmbgrd
-xkeyboard-config
 xlockmore
 xorg-x11
 xorg-x11-Xvnc

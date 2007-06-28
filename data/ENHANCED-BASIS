@@ -23,6 +23,7 @@ file
 fillup
 findutils
 groff
+hal-resmgr
 insserv
 iproute2
 iptables
@@ -96,7 +97,6 @@ gpart
 gpg
 gpm
 hal
-hal-resmgr
 hdparm
 hplip
 ifplugd
@@ -153,6 +153,7 @@ rsync
 sash
 screen
 scsi
+setserial
 sharutils
 smartmontools
 smpppd
