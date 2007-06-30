@@ -1,0 +1,16 @@
++Prq:
+#if !defined(__s390__) && !defined (__ia64__)
+OpenOffice_org
+#endif
+-Prq:
+
++Prc:
+#if !defined(__s390__) && !defined (__ia64__)
+OpenOffice_org-calc
+OpenOffice_org-draw
+OpenOffice_org-impress
+OpenOffice_org-math
+OpenOffice_org-writer
+OpenOffice_org-filters
+#endif
+-Prc:
