@@ -1,16 +1,9 @@
 +Prq:
 #if !defined(__s390__) && !defined (ia64)
-OpenOffice_org
 OpenOffice_org-kde
 OpenOffice_org-Quickstarter
 #endif
 -Prq:
-
-+Prc:
-#if defined __x86_64__
-java-1_4_2-gcj-compat-32bit
-#endif
--Prc:
 
 +Psg:
 koffice
