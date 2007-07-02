@@ -1,6 +1,5 @@
 +Prq:
 gwenview
-koffice-illustration
 digikam
 kdegraphics3
 kdegraphics3-kamera
@@ -9,4 +8,5 @@ kdegraphics3-scan
 -Prq:
 +Prc:
 digikamimageplugins
+koffice-illustration
 -Prc:

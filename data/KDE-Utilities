@@ -2,10 +2,10 @@
 kdeaddons3-kicker
 kdeartwork3-kscreensaver
 kdebluetooth
-kdepim3-kpilot
 kitchensync
 -Prq:
 +Prc:
+kdepim3-kpilot
 kdeartwork3-xscreensaver
 -Prc:
 +Psg:
