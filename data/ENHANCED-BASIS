@@ -12,7 +12,6 @@ db
 db-utils
 device-mapper
 diffutils
-dos2unix
 ed
 ethtool
 e2fsprogs
@@ -68,6 +67,7 @@ cyrus-sasl
 dbus-1-glib
 deltarpm
 dmraid
+dos2unix
 dosfstools
 expat
 filters
@@ -204,7 +204,6 @@ glibc-locale-32bit
 ash
 cpufrequtils
 delayacct-utils
-dos2unix
 exim
 #ifndef __powerpc__
 hfsutils
