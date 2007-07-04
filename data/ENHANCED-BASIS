@@ -4,7 +4,6 @@ acl
 attr
 bzip2
 cracklib
-cracklib-dict-full
 cups-client
 curl
 cyrus-sasl-saslauthd
@@ -59,6 +58,7 @@ bootsplash-theme-SuSE
 compat
 compat-libstdc++
 compat-openssl097g
+cracklib-dict-full
 cron
 cups
 cups-drivers
