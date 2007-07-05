@@ -27,7 +27,6 @@ krb5
 less
 mailx
 genisoimage
-multipath-tools
 openssh
 openssl
 pam-config
@@ -65,7 +64,6 @@ cups-drivers
 cyrus-sasl
 dbus-1-glib
 deltarpm
-dmraid
 dos2unix
 dosfstools
 expat
