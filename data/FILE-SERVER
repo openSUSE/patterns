@@ -14,3 +14,6 @@ tftp
 yast2-ftp-server
 yast2-tftp-server
 -Prc:
++Psg:
+atftp
+-Psg:
