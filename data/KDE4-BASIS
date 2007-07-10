@@ -9,4 +9,7 @@ kde4-kwrite
 kde4-keditbookmarks
 kde4-konqueror
 kde4-konsole
+#if !defined(__s390__)
+kdebase4-nsplugin
+#endif
 -Prc:
