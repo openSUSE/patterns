@@ -21,7 +21,8 @@ acroread
 arcad_eval
 atmel-firmware
 ipw-firmware
-ipw3945d
+iwl3945-ucode
+iwl4965-ucode
 iscan
 iscan-firmware
 iscan-proprietary-drivers
