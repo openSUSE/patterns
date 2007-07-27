@@ -61,14 +61,16 @@ master-boot-code
 #if defined(__i386__) || defined (__x86_64__)
 microcode_ctl
 #endif
+#if defined (__x86_64__)
 mcelog
+numactl
+#endif
 mpt-status
 netcat
 nfs-client
 nfsidmap
 nscd
 ntfsprogs
-numactl
 openct
 openldap2-client
 opensc
@@ -121,7 +123,7 @@ ulimit
 unzip
 usbutils
 utempter
-util-linux-crypto
+cryptsetup
 vlan
 w3m
 wireless-tools
