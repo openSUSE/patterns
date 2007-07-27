@@ -12,32 +12,16 @@ yast2-x11
 
 +Prc:
 xterm
-3ddiag
 CheckHardware
-cabextract
 desktop-data-SuSE
-desktop-translations
-freeglut
 ghostscript-x11
-lsb
-numlockx
 MozillaFirefox
-MozillaFirefox-translations
 openssh-askpass
 sax2-gui
 tightvnc
-tk
-unclutter
 x11-input-synaptics
-x11-input-wacom
-x11-tools
-xaw3d
-xdmbgrd
-xlockmore
 xorg-x11-libX11-ccache
-xtermset
 yast2-control-center
-opensuse-manual_en
 #if defined __x86_64__
 nspluginwrapper
 #endif

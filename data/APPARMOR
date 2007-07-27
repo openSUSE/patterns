@@ -1,11 +1,7 @@
 +Prq:
 apparmor-parser
-apparmor-docs
 apparmor-profiles
 apparmor-utils
 libapparmor
 yast2-apparmor
 -Prq:
-+Prc:
-audit
--Prc:
