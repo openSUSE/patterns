@@ -1,9 +1,13 @@
 +Prq:
+// firewall by default
 SuSEfirewall2
+// getfacl and setfacl
 acl
+// getattr and setattr
 attr
+// compressor is interesting
 bzip2
-cracklib
+// printing considered cool
 cups-client
 curl
 cyrus-sasl-saslauthd
@@ -19,26 +23,27 @@ file
 fillup
 findutils
 insserv
+// /bin/ip considered useful
 iproute2
-iptables
+// ping is required for network tests
 iputils
+// required for writing kernel messages out
 klogd
 krb5
+// pager
 less
 mailx
 genisoimage
+// we want a ssh server to be available
 openssh
-openssl
-pam-config
 parted
 perl-base
 psmisc
-pwdutils
-smtp_daemon
+// we rely on cron for daily/hourly 
+cron
+// security
 suse-build-key
-sysfsutils
 tar
 wget
-zlib
 -Prq:
 
