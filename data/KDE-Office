@@ -1,18 +1,5 @@
 +Prq:
 #if !defined(__s390__) && !defined (ia64)
 OpenOffice_org-kde
-OpenOffice_org-Quickstarter
 #endif
 -Prq:
-
-+Psg:
-koffice
-koffice-database
-koffice-extra
-koffice-illustration
-koffice-planning
-koffice-presentation
-koffice-spreadsheet
-koffice-wordprocessing
--Psg:
-
