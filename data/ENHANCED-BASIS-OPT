@@ -14,7 +14,6 @@ compat
 compat-libstdc++
 compat-openssl097g
 cracklib-dict-full
-cron
 cups
 cups-drivers
 cyrus-sasl
