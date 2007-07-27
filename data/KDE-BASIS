@@ -17,13 +17,8 @@ NetworkManager
 NetworkManager-kde
 -Prq:
 +Prc:
-beagle-firefox
-beagle-index
 kcm_gtk
-kdebase3-beagle
 kdebase3-samba
-kerry
-kio_beagle
 kio_iso
 pinentry-qt
 preload
@@ -34,6 +29,4 @@ qtcurve-gtk2-32bit
 susehelp
 yast2-control-center-qt
 -Prc:
-+Psg:
--Psg:
 
