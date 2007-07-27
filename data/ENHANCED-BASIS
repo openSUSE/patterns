@@ -27,16 +27,13 @@ insserv
 iproute2
 // ping is required for network tests
 iputils
-// required for writing kernel messages out
-klogd
-krb5
 // pager
 less
+parted
 mailx
 genisoimage
 // we want a ssh server to be available
 openssh
-parted
 perl-base
 psmisc
 // we rely on cron for daily/hourly 
