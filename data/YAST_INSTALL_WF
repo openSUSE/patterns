@@ -1,6 +1,5 @@
 +Prc:
 yast2
-yast2-core
 yast2-hardware-detection
 yast2-installation
 yast2-ncurses
