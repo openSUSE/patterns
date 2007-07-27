@@ -1,6 +1,5 @@
 +Prq:
 xkeyboard-config
-xterm
 #if defined __x86_64__
 libasound2-32bit
 nss-mdns-32bit
@@ -12,22 +11,20 @@ yast2-x11
 -Prq:
 
 +Prc:
+xterm
 3ddiag
 CheckHardware
 cabextract
 desktop-data-SuSE
 desktop-translations
 freeglut
-fvwm2
 ghostscript-x11
 lsb
 numlockx
 MozillaFirefox
 MozillaFirefox-translations
 openssh-askpass
-sax2
 sax2-gui
-tcl
 tightvnc
 tk
 unclutter
@@ -35,23 +32,18 @@ x11-input-synaptics
 x11-input-wacom
 x11-tools
 xaw3d
-xdg-menu
-xdg-utils
 xdmbgrd
 xlockmore
-xorg-x11
-xorg-x11-Xvnc
-xorg-x11-libX11
 xorg-x11-libX11-ccache
-xorg-x11-libXext
-xorg-x11-libXrender
-xorg-x11-server
 xtermset
 yast2-control-center
 opensuse-manual_en
 #if defined __x86_64__
 nspluginwrapper
 #endif
+// provides e.g. xdm
+xorg-x11
+xorg-x11-Xvnc
 -Prc:
 
 +Psg:
@@ -59,4 +51,6 @@ black-box
 synergy
 WindowMaker
 WindowMaker-applets
+// required by others
+fvwm2
 -Psg:
