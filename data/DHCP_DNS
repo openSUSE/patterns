@@ -1,7 +1,5 @@
 +Prq:
 bind
-bind-chrootenv
-dhcp
 dhcp-relay
 dhcp-server
 dhcp-tools
