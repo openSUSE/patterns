@@ -2,14 +2,7 @@
 gimp
 -Prq:
 +Prc:
-AdobeICCProfiles
-gimp-help
 ufraw
 ufraw-gimp
 exiftool
 -Prc:
-+Psg:
-pfstools
-pfstmo
-pfscalibration
--Psg:
