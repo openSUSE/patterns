@@ -8,7 +8,6 @@ pam_ldap
 samba-client
 samba-winbind
 susehelp_en
-yast2-registration
 yast2-trans-en_US
 
 // filesystem(minix)
