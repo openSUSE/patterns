@@ -1,0 +1,29 @@
++Prq:
+aspell-en
+cifs-mount
+input-utils
+kwin-decor-suse2
+nss_ldap
+pam_krb5
+pam_ldap
+samba-client
+samba-winbind
+susehelp_en
+yast2-registration
+yast2-trans-en_US
+
+// filesystem(minix)
+util-linux
+// filesystem(ext2)
+e2fsprogs
+// filesystem(reiserfs)
+reiserfs
+// filesystem(jfs)
+jfsutils
+// filesystem(ntfs-3g)
+ntfs-3g
+// filesystem(xfs)
+xfsprogs
+// filesystem(vfat)
+dosfstools
+-Prq:

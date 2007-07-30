@@ -29,4 +29,7 @@ qtcurve-gtk2-32bit
 susehelp
 yast2-control-center-qt
 -Prc:
-
++Psc:
+NetworkManager-vpnc
+NetworkManager-vpnc-kde
+-Psc:
