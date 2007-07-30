@@ -15,6 +15,7 @@ kdeutils3
 kpowersave
 NetworkManager
 NetworkManager-kde
+kwin-decor-suse2
 -Prq:
 +Prc:
 kcm_gtk
