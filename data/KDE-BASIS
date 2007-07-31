@@ -29,6 +29,8 @@ qtcurve-gtk2-32bit
 #endif
 susehelp
 yast2-control-center-qt
+// we want useful bug reports
+gdb
 -Prc:
 +Psc:
 NetworkManager-vpnc

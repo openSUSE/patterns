@@ -9,6 +9,7 @@ samba-client
 samba-winbind
 susehelp_en
 yast2-trans-en_US
+krb5-client
 
 // filesystem(minix)
 util-linux
@@ -24,4 +25,8 @@ ntfs-3g
 xfsprogs
 // filesystem(vfat)
 dosfstools
+
+// suggests from other patterns
+NetworkManager-vpnc
+NetworkManager-vpnc-kde
 -Prq:

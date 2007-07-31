@@ -122,6 +122,8 @@ yast2-control-center-gnome
 yast2-sound
 yelp
 zenity
+// we want useful bug reports
+gdb
 -Prc:
 
 +Psg:
