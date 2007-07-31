@@ -3,14 +3,3 @@
 OpenOffice_org-gnome
 #endif
 -Prq:
-
-+Prc:
-gnucash
-planner
--Prc:
-
-+Psg:
-abiword
-gnumeric
-goffice
--Psg:

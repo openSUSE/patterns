@@ -9,7 +9,6 @@ totem-plugin
 gstreamer010-plugins-base-oil
 gstreamer010-plugins-base-visual
 gphoto
-inkscape
 -Prc:
 
 +Psg:
