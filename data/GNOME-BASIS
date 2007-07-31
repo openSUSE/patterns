@@ -37,8 +37,6 @@ gail
 pidgin
 gcalctool
 gconf2
-gconf-editor
-gdk-pixbuf
 gedit
 gle
 glib-sharp2
@@ -70,7 +68,6 @@ gstreamer010
 gstreamer010-plugins-base
 gstreamer010-plugins-good
 gtk2-engines
-gtk-engines
 gtkhtml2
 gtk-sharp2
 gtksourceview
@@ -80,7 +77,6 @@ guile
 htdig
 input-utils
 jack
-kdelibs3
 latex2html-pngicons
 lzo
 metacity
@@ -125,7 +121,3 @@ zenity
 // we want useful bug reports
 gdb
 -Prc:
-
-+Psg:
-gnopernicus
--Psg:

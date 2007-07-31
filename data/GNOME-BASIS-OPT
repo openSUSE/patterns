@@ -1,0 +1,9 @@
++Prc:
+gconf-editor
+gtk-engines
+gdk-pixbuf
+-Prc:
+
++Psg:
+gnopernicus
+-Psg:
