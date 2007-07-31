@@ -8,7 +8,6 @@ ant-apache-oro
 ant-apache-regexp
 ant-apache-resolver
 ant-commons-logging
-ant-jai
 ant-javadoc
 ant-javamail
 ant-jdepend
