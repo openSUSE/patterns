@@ -25,8 +25,4 @@ ntfs-3g
 xfsprogs
 // filesystem(vfat)
 dosfstools
-
-// suggests from other patterns
-NetworkManager-vpnc
-NetworkManager-vpnc-kde
 -Prq:
