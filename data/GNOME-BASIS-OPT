@@ -2,6 +2,7 @@
 gconf-editor
 gtk-engines
 gdk-pixbuf
+beagle-index
 -Prc:
 
 +Psg:

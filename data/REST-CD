@@ -5,8 +5,6 @@ input-utils
 nss_ldap
 pam_krb5
 pam_ldap
-samba-client
-samba-winbind
 susehelp_en
 yast2-trans-en_US
 krb5-client
