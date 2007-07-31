@@ -31,10 +31,6 @@ xorg-x11-Xvnc
 -Prc:
 
 +Psg:
-black-box
-synergy
-WindowMaker
-WindowMaker-applets
 // required by others
 fvwm2
 -Psg:
