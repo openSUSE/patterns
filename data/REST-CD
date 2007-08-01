@@ -23,4 +23,6 @@ ntfs-3g
 xfsprogs
 // filesystem(vfat)
 dosfstools
+// crypto partitions
+cryptsetup
 -Prq:
