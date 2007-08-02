@@ -7,7 +7,7 @@ qt3-devel-tools
 
 +Prc:
 aspell-devel
-curl-devel
+libcurl-devel
 cyrus-sasl-devel
 doxygen
 giflib-devel
