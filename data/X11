@@ -28,6 +28,7 @@ nspluginwrapper
 // provides e.g. xdm
 xorg-x11
 xorg-x11-Xvnc
+numlockx
 -Prc:
 
 +Psg:
