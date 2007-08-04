@@ -3,7 +3,6 @@ gconf-editor
 gtk-engines
 gdk-pixbuf
 beagle-index
-nautilus-open-terminal
 -Prc:
 
 +Psg:

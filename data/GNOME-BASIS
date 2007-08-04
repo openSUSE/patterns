@@ -35,6 +35,8 @@ gcalctool
 gconf2
 gedit
 gle
+// open terminal from RMB on desktop
+nautilus-open-terminal 
 gnome2-SuSE
 gnome2-user-docs
 gnome-audio
