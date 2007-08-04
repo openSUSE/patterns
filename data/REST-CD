@@ -37,4 +37,8 @@ x11-input-fujitsu
 
 // network
 ndiswrapper
+
+// from non-oss - exception
+iwl3945-ucode
+iwl4965-ucode
 -Prq:
