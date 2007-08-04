@@ -32,4 +32,6 @@ ndiswrapper-kmp-default
 rt2x00-kmp-default
 wlan-ng-kmp-default
 
+// #296387 - tablet PC
+x11-input-fujitsu
 -Prq:
