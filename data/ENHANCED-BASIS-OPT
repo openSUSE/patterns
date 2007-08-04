@@ -82,4 +82,5 @@ rsh
 xfsprogs
 #if defined(__i386__) || defined (__x86_64__)
 #endif
+smpppd
 -Psg:
