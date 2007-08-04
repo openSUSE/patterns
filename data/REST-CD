@@ -25,4 +25,11 @@ xfsprogs
 dosfstools
 // crypto partitions
 cryptsetup
+
+// kernel modules
+iwlwifi-kmp-default
+ndiswrapper-kmp-default
+rt2x00-kmp-default
+wlan-ng-kmp-default
+
 -Prq:
