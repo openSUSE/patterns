@@ -10,6 +10,7 @@ cups
 cups-drivers
 deltarpm
 dos2unix
+ed
 filters
 finger
 fbset

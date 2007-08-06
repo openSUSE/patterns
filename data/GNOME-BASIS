@@ -71,7 +71,6 @@ gtkspell
 gucharmap
 guile
 input-utils
-latex2html-pngicons
 metacity
 nautilus
 nautilus-cd-burner
@@ -89,7 +88,6 @@ python-gtk
 python-numeric
 python-orbit
 samba
-sensors
 shared-mime-info
 sox
 startup-notification

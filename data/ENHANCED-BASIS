@@ -15,7 +15,6 @@ db
 db-utils
 device-mapper
 diffutils
-ed
 ethtool
 e2fsprogs
 eject
