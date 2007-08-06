@@ -6,7 +6,9 @@ kio_slp
 ktorrent
 -Prq:
 +Prc:
-kdenetwork3-vnc
+// 297684 for these 2
+kde4-krfb
+kde4-krdc
 konversation
 -Prc:
 
