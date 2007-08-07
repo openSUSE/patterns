@@ -19,9 +19,6 @@ yast2-packager
 yast2-pam
 yast2-perl-bindings
 yast2-pkg-bindings
-#if !defined(__s390__)
-yast2-power-management
-#endif
 yast2-repair
 yast2-runlevel
 yast2-schema
