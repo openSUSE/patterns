@@ -31,8 +31,6 @@ alsa-tools-gui
 ant
 ant-commons-logging
 anthy-devel
-antivir
-antivir-avguard
 ant-javamail
 apache2-mod_fcgid
 apache2-worker
@@ -44,13 +42,6 @@ arcad_eval
 armagetron
 aseqview
 asm
-asterisk
-asterisk-alsa
-asterisk-capi
-asterisk-odbc
-asterisk-pgsql
-asterisk-spandsp
-asterisk-zaptel
 at76_usb-kmp-bigsmp
 at76_usb-kmp-default
 at76_usb-kmp-xen
@@ -149,7 +140,6 @@ contact-lookup-applet
 convert
 convmv
 cpufrequtils
-cracklib-dict-small
 cryptconfig
 Crystalcursors
 csmash
@@ -170,8 +160,6 @@ dazuko-kmp-bigsmp
 dazuko-kmp-default
 dazuko-kmp-xen
 db1
-db41
-db41-devel
 db43
 dbench
 dbus-1-mono
@@ -239,7 +227,6 @@ flim
 flim-xemacs
 fltk
 fluidsynth
-fnfx
 fontforge
 fonttools
 fortune
@@ -372,7 +359,6 @@ icu-data
 idutils
 ikvm
 ilbc
-imap
 imap-lib
 img2eps
 imgSeek
@@ -393,7 +379,6 @@ irssi
 isapnp
 iscan
 iscan-firmware
-iscan-free
 iscan-proprietary-drivers
 isns
 iso-codes-devel
@@ -630,7 +615,6 @@ libiptcdata
 libiso9660-5
 libiterm-devel
 libjasper-devel
-libkdcraw0
 libkdcraw-devel
 libkde4-devel
 libkdecore4-devel
@@ -658,21 +642,18 @@ libopensync-devel
 libopensync-plugin-evolution2
 libopensync-plugin-gnokii
 libopensync-plugin-google-calendar
-libopensync-plugin-gpe
 libopensync-plugin-irmc
 libopensync-plugin-kdepim
 libopensync-plugin-moto
 libopensync-plugin-opie
 libopensync-plugin-palm
 libopensync-plugin-python-module
-libopensync-plugin-sunbird
 libopensync-plugin-syncml
 libopensync-tools
 libosip2
 libotf-devel
 libotr
 libpqxx
-libpri
 libPropList
 libqt4-sql-mysql
 libqt4-sql-postgresql
@@ -736,9 +717,7 @@ log4net
 loudmouth
 loudmouth-devel
 loudmouth-doc
-lpdfilter
 lphdisk
-lprng
 ltris
 ltxml
 lua
@@ -768,8 +747,6 @@ mined
 minicom
 mirror
 mjpegtools-devel
-mknbi
-mlmmj
 mmv
 Modules
 mono-basic
@@ -851,7 +828,6 @@ openobex-glib
 OpenOffice_org-mono
 opensc-devel
 opensp-devel
-opensuse-quickstart_de
 opensuse-quickstart_en
 openswan
 openvpn
@@ -1131,7 +1107,6 @@ SDL_ttf
 seccheck
 semi-xemacs
 sendfax
-sendmail
 seq24
 servletapi4
 sesam_srv
@@ -1244,7 +1219,6 @@ uvcvideo-kmp-default
 uvcvideo-kmp-xen
 uvcvideo-kmp-xenpae
 v4l-tools
-varmon
 vbetool
 vcdimager-devel
 vdr
@@ -1309,7 +1283,6 @@ xemacs
 xemacs-info
 xemacs-packages
 xemacs-packages-info
-xen-tools-domU
 Xerces-c
 xfig
 xfsdump
@@ -1352,7 +1325,6 @@ yast2-firstboot
 yast2-mail-plugins
 yast2-multipath
 yast2-phone-services
-yast2-power-management
 yast2-storage-evms
 ypserv
 yudit
@@ -1360,11 +1332,6 @@ yum
 yumex
 yum-metadata-parser
 yum-utils
-zaptel
-zaptel-kmp-bigsmp
-zaptel-kmp-default
-zaptel-kmp-xen
-zaptel-kmp-xenpae
 zd1211-firmware
 ziptool
 ZynAddSubFX
