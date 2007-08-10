@@ -9,6 +9,9 @@ susehelp_en
 yast2-trans-en_US
 krb5-client
 
+// free java
+
+java-1_4_2-gcj-compat
 // prefer the small version
 cracklib-dict-small
 
