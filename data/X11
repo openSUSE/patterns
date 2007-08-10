@@ -14,8 +14,6 @@ yast2-x11
 -Prq:
 
 +Prc:
-// autoconfig new printers
-cups-autoconfig
 xterm
 CheckHardware
 desktop-data-SuSE

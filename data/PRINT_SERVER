@@ -11,3 +11,7 @@ hplip
 manufacturer-PPDs
 samba
 -Prc:
+
++Psg:
+cups-autoconfig
+-Psg:
