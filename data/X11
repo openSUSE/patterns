@@ -32,8 +32,9 @@ nspluginwrapper
 xorg-x11
 xorg-x11-Xvnc
 numlockx
-// provider of libGL.so.1
-Mesa
+// supporting act for Firefox
+classpath-webplugin
+nspluginwrapper
 -Prc:
 
 +Psg:
