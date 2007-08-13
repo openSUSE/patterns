@@ -13,6 +13,7 @@ curl
 cyrus-sasl-saslauthd
 db
 db-utils
+// TODO: kick it before the next openSUSE
 device-mapper
 diffutils
 ethtool
@@ -39,11 +40,14 @@ psmisc
 cron
 // security
 suse-build-key
+// create log file tars
 tar
 wget
 -Prq:
 
 +Prc:
+// mount NTFS rw
+ntfs-3g
 acpid
 audit-libs
 autofs
