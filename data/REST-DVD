@@ -58,7 +58,10 @@ yast2-trans-zh_CN
 yast2-trans-zh_TW
 yast2-trans-zu
 
+// feature 301945
+yast2-product-creator
 // currently on DVD5
+
 a2ps-h
 abiword
 acct
