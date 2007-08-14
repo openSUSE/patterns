@@ -46,6 +46,8 @@ wget
 -Prq:
 
 +Prc:
+// make sure applications can't take down the system
+ulimit
 // mount NTFS rw
 ntfs-3g
 // cups server for remote printing queues

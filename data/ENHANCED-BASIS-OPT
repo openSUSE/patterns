@@ -54,7 +54,7 @@ tcpdump
 tcsh
 telnet
 terminfo
-ulimit
+// lsusb is good for debugging USB devices
 usbutils
 cryptsetup
 vlan
