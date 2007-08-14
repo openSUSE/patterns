@@ -7,7 +7,6 @@ jpeg
 kdegraphics3
 kdegraphics3-kamera
 kdegraphics3-postscript
-kdegraphics3-scan
 -Prq:
 +Prc:
 digikamimageplugins

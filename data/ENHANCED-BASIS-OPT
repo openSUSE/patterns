@@ -6,7 +6,6 @@ compat
 compat-libstdc++
 compat-openssl097g
 cracklib-dict-full
-cups
 // autoconfig new printers
 cups-autoconfig
 cups-drivers

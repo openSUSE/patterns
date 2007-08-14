@@ -48,6 +48,8 @@ wget
 +Prc:
 // mount NTFS rw
 ntfs-3g
+// cups server for remote printing queues
+cups
 acpid
 audit-libs
 autofs
