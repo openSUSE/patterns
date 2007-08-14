@@ -10,8 +10,8 @@ yast2-trans-en_US
 krb5-client
 
 // free java
-
 java-1_4_2-gcj-compat
+
 // prefer the small version
 cracklib-dict-small
 
@@ -47,4 +47,12 @@ ndiswrapper
 // from non-oss - exception
 iwl3945-ucode
 iwl4965-ucode
+
+// supplements by modaliases
+915resolution
+bcm43xx-fwcutter
+bluez-firmware
+dvb
+lomoco
+pcmciautils
 -Prq:

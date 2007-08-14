@@ -25,19 +25,17 @@ tightvnc
 x11-input-synaptics
 xorg-x11-libX11-ccache
 yast2-control-center
-#if defined __x86_64__
 nspluginwrapper
-#endif
 // provides e.g. xdm
 xorg-x11
 xorg-x11-Xvnc
 numlockx
 // supporting act for Firefox
 classpath-webplugin
-nspluginwrapper
 -Prc:
 
 +Psg:
 // required by others
 fvwm2
+915resolution
 -Psg:
