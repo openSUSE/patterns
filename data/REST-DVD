@@ -1265,4 +1265,13 @@ yum-utils
 zd1211-firmware
 ziptool
 ZynAddSubFX
+ikvm
+keyutils
+lash
+links
+openmotif
+pilot
+xjdic
+libavc1394
+libraw1394
 -Prq:
