@@ -60,8 +60,15 @@ yast2-trans-zu
 
 // feature 301945
 yast2-product-creator
-// currently on DVD5
 
+// bug 300108 - squashfs needed to mount initrd
+squashfs-kmp-bigsmp
+squashfs-kmp-default
+squashfs-kmp-xenpae
+squashfs-kmp-xen
+squashfs
+
+// currently on DVD5
 a2ps-h
 abiword
 acct
