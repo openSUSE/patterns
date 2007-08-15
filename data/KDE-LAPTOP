@@ -1,5 +1,6 @@
 +Prc:
-kdeutils3-laptop
 kscpm
 -Prc:
-
++Psg:
+kdeutils3-laptop
+-Psg:
