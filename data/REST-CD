@@ -55,4 +55,5 @@ bluez-firmware
 dvb
 lomoco
 pcmciautils
+pam_thinkfinger
 -Prq:
