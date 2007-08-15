@@ -5,7 +5,5 @@ gtk2-engines-32bit
 gtk-engines-32bit
 librsvg-32bit
 #endif
-opensuse-gnomeuser_en
-opensuse-quickstart_en
 xsane
 -Prc:
