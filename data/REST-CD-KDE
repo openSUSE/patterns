@@ -1,4 +1,6 @@
 +Prq:
 NetworkManager-vpnc-kde
 bundle-lang-kde-en
+// suggested in KDE-Internet
+kinternet
 -Prq:

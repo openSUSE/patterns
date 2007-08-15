@@ -20,7 +20,7 @@ ant-swing
 ant-trax
 java-1_4_2-cacao-devel
 log4j
-tomcat5
+tomcat55
 xalan-j2
 xerces-j2
 xml-commons-apis
