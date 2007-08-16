@@ -1,4 +1,9 @@
 +Prq:
+// kdump+tools
+kexec-tools
+kdump-helpers
+yast2-kdump 
+
 // #296387
 xournal
 // #297414
