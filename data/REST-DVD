@@ -1,4 +1,6 @@
 +Prq:
+// #301029
+yast2-python-bindings
 // kdump+tools
 kexec-tools
 kdump-helpers
