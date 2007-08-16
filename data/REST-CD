@@ -1,4 +1,8 @@
 +Prq:
+// filesystem(squashfs) (#300942)
+squashfs-kmp-default
+squashfs
+
 aspell-en
 cifs-mount
 input-utils
