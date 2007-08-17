@@ -67,6 +67,7 @@ yast2-trans-zu
 
 // feature 301945
 yast2-product-creator
+yast2-add-on-creator
 
 // bug 300108 - squashfs needed to mount initrd
 squashfs-kmp-bigsmp
