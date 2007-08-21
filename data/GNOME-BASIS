@@ -74,7 +74,7 @@ guile
 input-utils
 metacity
 nautilus
-nautilus-cd-burner
+gnomebaker
 nautilus-sendto
 nautilus-share
 ncpfs
