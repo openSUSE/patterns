@@ -46,8 +46,6 @@ wget
 -Prq:
 
 +Prc:
-//lvm2 support (#301382)
-lvm2
 // make sure applications can't take down the system
 ulimit
 // mount NTFS rw
