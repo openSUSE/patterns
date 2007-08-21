@@ -18,6 +18,11 @@ NetworkManager-kde
 kwin-decor-suse2
 -Prq:
 +Prc:
+// beagle and friends
+beagle-firefox
+kdebase3-beagle
+kerry
+kio_beagle
 kcm_gtk
 kdebase3-samba
 kio_iso
