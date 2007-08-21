@@ -107,4 +107,6 @@ yelp
 zenity
 // we want useful bug reports
 gdb
+// #301664
+gnome-commander
 -Prc:
