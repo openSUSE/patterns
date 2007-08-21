@@ -1,4 +1,5 @@
 +Prq:
+bundle-lang-common-en
 // filesystem(squashfs) (#300942)
 squashfs-kmp-default
 squashfs
