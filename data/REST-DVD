@@ -69,6 +69,12 @@ yast2-trans-zu
 yast2-product-creator
 yast2-add-on-creator
 
+// iwlwifi
+iwlwifi-kmp-bigsmp 
+iwlwifi-kmp-default
+iwlwifi-kmp-xenpae
+iwlwifi-kmp-xen
+
 // bug 300108 - squashfs needed to mount initrd
 squashfs-kmp-bigsmp
 squashfs-kmp-default
