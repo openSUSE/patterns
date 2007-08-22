@@ -46,6 +46,7 @@ wget
 -Prq:
 
 +Prc:
+strace
 // make sure applications can't take down the system
 ulimit
 // mount NTFS rw
