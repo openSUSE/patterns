@@ -2,9 +2,6 @@
 //lvm2 support (#301382)
 lvm2
 bundle-lang-common-en
-// filesystem(squashfs) (#300942)
-squashfs-kmp-default
-squashfs
 
 aspell-en
 cifs-mount

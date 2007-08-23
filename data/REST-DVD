@@ -1,4 +1,18 @@
 +Prq:
+// hylafax as requested by kkeil
+hylafax
+hylafax-client
+capi4hylafax
+// kiwi as requested by ms
+kiwi
+kiwi-desc-isoboot
+kiwi-desc-netboot
+kiwi-desc-oemboot
+kiwi-desc-usbboot
+kiwi-desc-vmxboot
+kiwi-desc-xenboot
+kiwi-desc-xennetboot
+kiwi-pxeboot
 // #301029
 yast2-python-bindings
 // kdump+tools
@@ -74,13 +88,6 @@ iwlwifi-kmp-bigsmp
 iwlwifi-kmp-default
 iwlwifi-kmp-xenpae
 iwlwifi-kmp-xen
-
-// bug 300108 - squashfs needed to mount initrd
-squashfs-kmp-bigsmp
-squashfs-kmp-default
-squashfs-kmp-xenpae
-squashfs-kmp-xen
-squashfs
 
 // currently on DVD5
 a2ps-h
