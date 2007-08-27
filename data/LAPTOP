@@ -1,5 +1,7 @@
 +Prq:
+#if defined(__i386__) || defined (__x86_64__)
 suspend
+#endif
 -Prq:
 +Prc:
 dockutils
