@@ -1,6 +1,18 @@
 +Prq:
 yast2-devtools
 yast2-testsuite
+// Bug 304645 gives the list below:
+yast2-pkg-bindings-devel-doc
+yast2-core-devel
+yast2-devel-doc
+yast2-installation-devel-doc
+yast2-network-devel-doc
+yast2-nis-server-devel-doc
+yast2-printer-devel-doc
+yast2-storage-devel
+yast2-perl-bindings
+yast2-python-bindings
+yast2-ruby-bindings
 -Prq:
 +Psg:
 autoyast2-utils
