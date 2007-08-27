@@ -1,4 +1,6 @@
 +Prq:
+// #302465
+lessons4lizards_en
 // hylafax as requested by kkeil
 hylafax
 hylafax-client
@@ -22,9 +24,14 @@ yast2-kdump
 
 // #296387
 xournal
-// #297414
+// #297414, #304221
 seamonkey
- 
+seamonkey-dom-inspector
+seamonkey-irc
+seamonkey-mail
+seamonkey-spellchecker
+seamonkey-venkman
+
 // yast translations for all languages
 yast2-trans-af
 yast2-trans-ar
@@ -721,7 +728,6 @@ makewhat
 mcpp
 meanwhile-devel
 meanwhile-doc
-memtest86+
 mergeant
 Mesa-devel-static
 MesaGLw-devel

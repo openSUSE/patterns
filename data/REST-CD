@@ -1,4 +1,12 @@
 +Prq:
+// #304219
+memtest86+
+// adaptec-firmware (#298726)
+adaptec-firmware
+qlogic-firmware
+mpt-firmware
+atmel-firmware
+
 //lvm2 support (#301382)
 lvm2
 bundle-lang-common-en
@@ -41,6 +49,7 @@ iwlwifi-kmp-default
 ndiswrapper-kmp-default
 rt2x00-kmp-default
 wlan-ng-kmp-default
+p54-kmp-default
 
 // #296387 - tablet PC
 x11-input-fujitsu

@@ -1,4 +1,13 @@
 +Prq:
+// #303857
+kpartx
+dmraid
+// man by default (#304687)
+man
+// fsuer (psmisc) by default (#304694)
+psmisc
+// resmgr by default (#304695)
+resmgr
 // firewall by default
 SuSEfirewall2
 // getfacl and setfacl
@@ -35,7 +44,6 @@ genisoimage
 // we want a ssh server to be available
 openssh
 perl-base
-psmisc
 // we rely on cron for daily/hourly 
 cron
 // security
@@ -46,6 +54,8 @@ wget
 -Prq:
 
 +Prc:
+// #302569
+alsa-plugins
 strace
 // make sure applications can't take down the system
 ulimit
@@ -112,7 +122,6 @@ readline
 recode
 reiserfs
 release-notes
-resmgr
 scsi
 sudo
 suseRegister

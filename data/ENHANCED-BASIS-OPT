@@ -28,7 +28,6 @@ ksh
 ksymoops
 lsof
 lukemftp
-man
 man-pages
 manufacturer-PPDs
 #if defined (__x86_64__)

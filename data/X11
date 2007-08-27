@@ -34,6 +34,8 @@ numlockx
 classpath-webplugin
 // improve glxinfo output (#301647)
 freeglut
+// #302566
+x11-tools
 -Prc:
 
 +Psg:

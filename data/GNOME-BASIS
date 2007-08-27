@@ -11,6 +11,8 @@ ggreeter
 -Prq:
 
 +Prc:
+// gconf-editor by default (#304663)
+gconf-editor
 gnome-mount
 at-spi
 awesfx
