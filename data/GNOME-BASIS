@@ -11,6 +11,8 @@ ggreeter
 -Prq:
 
 +Prc:
+// #302205
+libgail-gnome
 // gconf-editor by default (#304663)
 gconf-editor
 gnome-mount

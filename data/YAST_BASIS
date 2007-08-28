@@ -4,7 +4,6 @@ yast2-fingerprint-reader
 limal-perl
 yast2
 yast2-bluetooth
-yast2-bootloader
 yast2-country
 yast2-firewall
 yast2-hardware-detection
