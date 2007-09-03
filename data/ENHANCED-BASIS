@@ -143,6 +143,8 @@ lilo
 #ifdef __powerpc__
 pdisk
 powerpc32
+// #303737
+mouseemu
 #endif
 #ifdef __x86_64__
 linux32
