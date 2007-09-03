@@ -56,6 +56,7 @@ wget
 +Prc:
 // #302569
 alsa-plugins
+// useful for debugging
 strace
 // make sure applications can't take down the system
 ulimit
@@ -132,6 +133,7 @@ utempter
 wireless-tools
 wvdial
 wvstreams
+// Our editor of choice
 vim
 xinetd
 xntp
