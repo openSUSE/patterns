@@ -1,4 +1,6 @@
 +Prq:
+// #306749
+mdadm
 // #303857
 kpartx
 dmraid
@@ -6,8 +8,6 @@ dmraid
 man
 // fsuer (psmisc) by default (#304694)
 psmisc
-// resmgr by default (#304695)
-resmgr
 // firewall by default
 SuSEfirewall2
 // getfacl and setfacl
