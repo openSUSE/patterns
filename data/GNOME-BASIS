@@ -80,7 +80,8 @@ guile
 input-utils
 metacity
 nautilus
-gnomebaker
+// #302492
+brasero
 nautilus-sendto
 nautilus-share
 ncpfs
