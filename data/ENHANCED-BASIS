@@ -1,14 +1,14 @@
 +Prq:
-// #307925
+// having a ftp command line client is good for moving log files
 lukemftp
-// #306749
+// needed for detecting software raid - required by yast2-storage too
 mdadm
 // #303857
 kpartx
 dmraid
 // man by default (#304687)
 man
-// fsuer (psmisc) by default (#304694)
+// fuser (psmisc) by default (#304694)
 psmisc
 // firewall by default
 SuSEfirewall2
