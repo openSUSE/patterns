@@ -3,6 +3,10 @@
 virtualbox
 virtualbox-kmp
 
+// Internet Storage Name Service
+yast2-isns
+isns
+
 // #302465
 lessons4lizards_en
 // hylafax as requested by kkeil
