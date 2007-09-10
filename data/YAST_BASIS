@@ -61,5 +61,5 @@ yast2-tv
 #endif
 -Prc:
 +Psg:
-yast2-cd-creator
+yast2-product-creator
 -Psg:

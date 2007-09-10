@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 bsd-games
 findutils-locate
 grepmail
@@ -311,10 +311,8 @@ createrepo
 ash
 cpufrequtils
 delayacct-utils
-exim
 hfsutils
 jfsutils
-sendmail
 ocfs2-tools
 rsh
 xfsprogs
@@ -500,7 +498,7 @@ xfce4-panel-plugin-xfapplet
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xmms
 lyx
-yast2-cd-creator
+yast2-product-creator
 yast2-bluetooth
 yast2-firewall
 yast2-kerberos-client
@@ -515,4 +513,4 @@ yast2-slp
 yast2-tv
 yast2-update
 autoyast2
--Prq:
+-Prc:
