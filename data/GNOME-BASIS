@@ -11,6 +11,8 @@ ggreeter
 -Prq:
 
 +Prc:
+// #304676
+intlclock
 // #302205
 libgail-gnome
 // gconf-editor by default (#304663)
