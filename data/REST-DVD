@@ -1,5 +1,9 @@
 +Prq:
-# 306071
+// #300798
+p54-kmp-bigsmp
+ipw3945-kmp-bigsmp
+ 
+//# 306071
 virtualbox
 virtualbox-kmp-default
 virtualbox-kmp-bigsmp
@@ -100,7 +104,7 @@ yast2-add-on-creator
 yast2-product-creator
 
 // iwlwifi
-iwlwifi-kmp-bigsmp 
+iwlwifi-kmp-bigsmp
 iwlwifi-kmp-default
 iwlwifi-kmp-xenpae
 iwlwifi-kmp-xen
