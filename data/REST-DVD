@@ -1,7 +1,8 @@
 +Prq:
 # 306071
 virtualbox
-virtualbox-kmp
+virtualbox-kmp-default
+virtualbox-kmp-bigsmp
 
 // Internet Storage Name Service
 yast2-isns
