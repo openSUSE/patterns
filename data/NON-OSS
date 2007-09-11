@@ -1,5 +1,6 @@
 +Prc:
 agfa-fonts
+gst-fluendo-mp3
 #if defined(__i386__) || defined (__x86_64__)
 flash-player
 #endif
