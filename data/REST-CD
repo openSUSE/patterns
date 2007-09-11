@@ -45,6 +45,8 @@ dosfstools
 cryptsetup
 
 // kernel modules
+ipw3945-kmp-default
+ipw3945d
 iwlwifi-kmp-default
 ndiswrapper-kmp-default
 rt2x00-kmp-default
@@ -60,6 +62,7 @@ ndiswrapper
 // from non-oss - exception
 iwl3945-ucode
 iwl4965-ucode
+ipw-firmware
 
 // supplements by modaliases
 915resolution
