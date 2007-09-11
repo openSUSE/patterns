@@ -116,7 +116,6 @@ adm8211-kmp-bigsmp
 adm8211-kmp-default
 adm8211-kmp-xen
 adm8211-kmp-xenpae
-aelfred-javadoc
 aeolus
 aide
 alevt
@@ -156,7 +155,6 @@ bcm43xx-fwcutter
 bdfresize
 bibview
 bing
-bitchx
 BitTorrent
 blackbox
 blender
@@ -174,7 +172,6 @@ briquolo
 bsh2-bsf
 bsh2-classgen
 bsh2-demo
-bsh2-javadoc
 bsh2-manual
 busybox
 bytefx-data-mysql
@@ -193,7 +190,6 @@ cedilla
 cg-devel
 chasen-devel
 checkinstall
-checkmedia
 chkrootkit
 circuslinux
 ckermit
@@ -220,7 +216,6 @@ Crystalcursors
 csmash
 ctapi-cyberjack
 cvs2svn
-cvs-doc
 cvsps
 cyrus-sasl-gssapi
 cyrus-sasl-otp
@@ -279,8 +274,6 @@ evolution-exchange
 evolution-webcal
 fcwnn
 fcwnndev
-fillets-ng
-fillets-ng-data
 finger-server
 firmwarekit
 fkwnn
@@ -337,7 +330,6 @@ gnu-jaf
 gnuplot
 gnu-regexp
 gnu-regexp-demo
-gnu-regexp-javadoc
 gok
 gok-devel
 gpsdrive
@@ -372,7 +364,6 @@ gwenhywfar-devel
 gwget
 g-wrap
 gxmhtml
-hal-doc
 hanout
 hcode
 heap-buddy
@@ -383,7 +374,6 @@ hostapd
 hostap-utils
 htdig
 htdig-devel
-htdig-doc
 html2text
 hwinfo-devel
 hydrogen
@@ -396,7 +386,6 @@ ibm-data-db2
 icewm
 icewm-default
 icewm-gnome
-icewm-themes
 icon-naming-utils
 icu
 icu-data
@@ -429,7 +418,6 @@ jakarta-commons-httpclient3-manual
 jamin
 java-1_4_2-gcj-compat
 jedit
-jedit-javadoc
 jfbterm
 joy2key
 kadslwatch
@@ -457,7 +445,6 @@ kde4-ksame
 kde4-kshisen
 kde4-kspaceduel
 kde4-ksquares
-kde4-ktuberling
 kde4-kwin4
 kde4-lskat
 kdeaccessibility3
@@ -621,8 +608,6 @@ libxcrypt-devel
 libXiterm-devel
 libxml
 liby2util-devel
-libzypp-devel
-lilo-doc
 lilypond
 lilypond-documentation
 lincity
@@ -700,7 +685,6 @@ NetworkManager-openvpn-gnome
 NetworkManager-openvpn-kde
 NetworkManager-vpnc
 NetworkManager-vpnc-gnome
-neverball
 nfsidmap-devel
 nh2ps
 nicolatter
@@ -721,7 +705,6 @@ omnibook-kmp-bigsmp
 omnibook-kmp-default
 omnibook-kmp-xen
 omnibook-kmp-xenpae
-openclipart
 openct-devel
 openh323-devel
 open-iscsi
@@ -805,7 +788,6 @@ php5-xmlrpc
 php5-zip
 physfs
 pilot-link
-pingus
 pixmp
 plib
 plptools-kde
@@ -882,7 +864,6 @@ rubygems
 rxp
 sabayon-admin
 sablot
-samba-doc
 samba-vscan
 sane-frontends
 sbl
@@ -950,7 +931,6 @@ texlive-bin-dvilj
 texlive-bin-metapost
 texlive-bin-omega
 texlive-bin-xetex
-texlive-cjk
 texlive-context
 texlive-devel
 texlive-dvilj
@@ -969,7 +949,6 @@ tpb
 tpctl
 tpctl-kmp-bigsmp
 tpctl-kmp-default
-trackballs
 traffic-vis
 transfig
 transset
@@ -1005,11 +984,6 @@ wadokujt
 wavpack
 wbxml2
 wdfs
-wesnoth-campaign-server
-wesnoth-data-base
-wesnoth-editor
-wesnoth-server
-wesnoth-tools
 wiggle
 WindowMaker-themes
 wine
@@ -1025,7 +999,6 @@ wpa_supplicant-gui
 wsndpref
 wsndsrv
 wwwoffle
-wxGTK
 x2x
 x3270
 xabacus
@@ -1050,7 +1023,6 @@ xine-ui
 xjdic-data
 xjdic-indices
 xlogical
-xmahjong
 xmgrace
 xml-commons
 xml-commons-apis
@@ -1063,8 +1035,6 @@ xpdf
 xpp
 xrestop
 xsidplay
-xskat
-xsnow
 xsp
 xv
 xyaku
