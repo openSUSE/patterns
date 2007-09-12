@@ -31,7 +31,6 @@ man-pages
 manufacturer-PPDs
 #if defined (__x86_64__)
 mcelog
-numactl
 #endif
 mpt-status
 pax
