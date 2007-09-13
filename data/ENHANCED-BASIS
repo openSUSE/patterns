@@ -155,5 +155,6 @@ linux32
 glibc-32bit
 glibc-locale-32bit
 numactl
+irqbalance
 #endif
 -Prc:
