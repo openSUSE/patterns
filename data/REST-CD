@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 // #304219
 memtest86+
 // adaptec-firmware (#298726)
@@ -72,4 +72,4 @@ dvb
 lomoco
 pcmciautils
 pam_thinkfinger
--Prq:
+-Prc:
