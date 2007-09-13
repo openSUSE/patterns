@@ -1,4 +1,12 @@
 +Prc:
+
+// needed for kiwi creation
+aufs-kmp-bigsmp
+aufs-kmp-default
+aufs-kmp-xen
+aufs-kmp-xenpae
+yast2-live-installer
+
 // #300798
 p54-kmp-bigsmp
 ipw3945-kmp-bigsmp
