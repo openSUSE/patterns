@@ -12,6 +12,7 @@ ia32el
 #endif
 -Prc:
 +Psg:
+antivir-gui
 AdobeICCProfiles
 IPAGothic
 IPAMincho
