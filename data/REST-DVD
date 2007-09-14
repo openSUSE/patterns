@@ -1,6 +1,7 @@
 +Prc:
 
 // needed for kiwi creation
+aufs
 aufs-kmp-bigsmp
 aufs-kmp-default
 aufs-kmp-xen
