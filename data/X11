@@ -30,8 +30,6 @@ nspluginwrapper
 xorg-x11
 xorg-x11-Xvnc
 numlockx
-// supporting act for Firefox
-classpath-webplugin
 // improve glxinfo output (#301647)
 freeglut
 // #302566
