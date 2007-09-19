@@ -9,7 +9,6 @@ cracklib-dict-full
 // autoconfig new printers
 cups-autoconfig
 cups-drivers
-deltarpm
 dos2unix
 ed
 filters

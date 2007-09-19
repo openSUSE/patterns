@@ -66,6 +66,8 @@ ulimit
 ntfs-3g
 // cups server for remote printing queues
 cups
+// delta rpms are considered cool for updates
+deltarpm
 acpid
 audit-libs
 autofs
