@@ -3,6 +3,7 @@ cups
 -Prq:
 
 +Prc:
+cups-backends
 cups-drivers
 filters
 foomatic-filters
