@@ -39,6 +39,8 @@ subversion
 #ifdef __powerpc__
 itrace
 #endif
+// most of our packages use this tool
+fdupes
 -Prc:
 
 +Psg:

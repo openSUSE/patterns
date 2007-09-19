@@ -20,12 +20,16 @@ kdesdk3-translate
 krb5-devel
 libakode-devel
 libao-devel
-pilot-link-devel
+libpisock-devel
 poppler-devel
 qt3-devel-doc
 SDL-devel
 sqlite-devel
 wv2-devel
+libical-devel
+gnokii-devel
+libmal-devel
+libgpgme-devel
 -Prc:
 
 +Psg:

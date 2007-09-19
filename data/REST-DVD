@@ -1,5 +1,16 @@
 +Prc:
 
+// git hype (is a meta package dragging in everything else)
+git
+
+// maintained by coolo - must be good
+abcde
+
+// qemu rocks
+qemu
+kqemu-kmp-default
+kqemu-kmp-bigsmp
+
 // needed for kiwi creation
 squashfs
 aufs

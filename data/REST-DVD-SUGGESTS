@@ -390,4 +390,6 @@ autoyast2
 wesnoth
 wesnoth-data-full
 wesnoth-data-base
+gitk
+git-email
 -Prc:

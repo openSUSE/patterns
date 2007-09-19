@@ -8,6 +8,8 @@ git-core
 indent
 patch-utils
 quilt
+gitk
+git-email
 -Prc:
 +Psg:
 kernel-debug
