@@ -45,7 +45,6 @@ office
 print_server
 remote_desktop
 sw_management
-update_test
 voip
 x11
 xen_server
