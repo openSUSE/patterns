@@ -18,4 +18,5 @@ xvkbd
 -Prc:
 +Psg:
 x11-input-fujitsu
+libsmbios-bin
 -Psg:

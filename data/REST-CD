@@ -7,6 +7,9 @@ qlogic-firmware
 mpt-firmware
 atmel-firmware
 
+// DELL laptop support
+libsmbios-bin
+
 //lvm2 support (#301382)
 lvm2
 bundle-lang-common-en
