@@ -13,6 +13,7 @@ ia32el
 -Prc:
 +Psg:
 antivir-gui
+antivir
 AdobeICCProfiles
 IPAGothic
 IPAMincho
