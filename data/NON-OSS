@@ -21,7 +21,9 @@ IPAPGothic
 IPAPMincho
 IPAUIGothic
 acroread
+#if defined(__i386__)
 arcad_eval
+#endif
 atmel-firmware
 ipw-firmware
 iwl3945-ucode
