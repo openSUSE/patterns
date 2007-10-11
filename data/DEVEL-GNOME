@@ -111,6 +111,7 @@ planner-devel
 startup-notification-devel
 vte-devel
 wvstreams-devel
+imlib2-devel
 -Prc:
 +Psg:
 python-cairo-devel

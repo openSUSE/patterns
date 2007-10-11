@@ -17,6 +17,8 @@ intlclock
 libgail-gnome
 // gconf-editor by default (#304663)
 gconf-editor
+// #332596
+gnome-keyring-pam
 gnome-mount
 at-spi
 awesfx

@@ -2,9 +2,6 @@
 at
 bc
 bootcycle
-compat
-compat-libstdc++
-compat-openssl097g
 cracklib-dict-full
 // autoconfig new printers
 cups-autoconfig
@@ -78,7 +75,5 @@ sendmail
 ocfs2-tools
 rsh
 xfsprogs
-#if defined(__i386__) || defined (__x86_64__)
-#endif
 smpppd
 -Psg:

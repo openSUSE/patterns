@@ -1,7 +1,5 @@
 +Prq:
 zypper
-// we better tell zypp that we need this version
-libstdc++42
 -Prq:
 +Psg:
 pin

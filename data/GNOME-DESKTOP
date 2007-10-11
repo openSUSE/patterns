@@ -1,9 +1,3 @@
 +Prc:
-#ifdef __x86_64__
-gtk2-32bit
-gtk2-engines-32bit
-gtk-engines-32bit
-librsvg-32bit
-#endif
 xsane
 -Prc:

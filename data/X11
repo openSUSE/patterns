@@ -14,6 +14,8 @@ yast2-x11
 -Prq:
 
 +Prc:
+// needed e.g. for nvidia drivers
+3ddiag
 // needed for fetchmsfonts (#327524)
 cabextract
 xterm
