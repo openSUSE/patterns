@@ -1,23 +1,22 @@
 +Prq:
-kdeaddons3-konqueror
-kdebase3
 kdebase3-kdm
-#if !defined(__s390__)
-kdebase3-nsplugin
-#endif
 kdebase3-SuSE
 kdebase3-session
-kdegraphics3-pdf
 kdelibs3
-kdepim3
-kdepim3-notes
-kdeutils3
-kpowersave
-NetworkManager
-NetworkManager-kde
 kwin-decor-suse2
 -Prq:
 +Prc:
+#if !defined(__s390__)
+kdebase3-nsplugin
+#endif
+kpowersave
+NetworkManager
+NetworkManager-kde
+kdeaddons3-konqueror
+kdegraphics3-pdf
+kdepim3
+kdepim3-notes
+kdeutils3
 // beagle and friends
 beagle-firefox
 kdebase3-beagle
