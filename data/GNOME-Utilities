@@ -5,6 +5,7 @@ fast-user-switch-applet
 gftp
 gnet
 gnome-bluetooth
+bluez-gnome
 multisync-gui
 libopensync-plugin-file
 seahorse

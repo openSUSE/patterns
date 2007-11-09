@@ -13,6 +13,7 @@ yast2-storage-devel
 yast2-perl-bindings
 yast2-python-bindings
 yast2-ruby-bindings
+subversion
 -Prq:
 +Psg:
 autoyast2-utils
