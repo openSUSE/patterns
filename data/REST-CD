@@ -56,9 +56,7 @@ cryptsetup
 // kernel modules
 ipw3945-kmp-default
 ipw3945d
-iwlwifi-kmp-default
 ndiswrapper-kmp-default
-rt2x00-kmp-default
 wlan-ng-kmp-default
 p54-kmp-default
 

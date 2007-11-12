@@ -127,12 +127,6 @@ yast2-trans-zu
 yast2-add-on-creator
 yast2-product-creator
 
-// iwlwifi
-iwlwifi-kmp-bigsmp
-iwlwifi-kmp-default
-iwlwifi-kmp-xenpae
-iwlwifi-kmp-xen
-
 // currently on DVD5
 a2ps-h
 acct
@@ -328,8 +322,6 @@ garlic
 gau
 gbuffy
 gcal
-gcc42-gij
-gcc42-java
 gcc-gij
 gcc-java
 gdk-pixbuf-gnome
@@ -883,9 +875,6 @@ rpm-devel
 rpm-python
 rsh-server
 rsvg-sharp2
-rt2x00-kmp-bigsmp
-rt2x00-kmp-xen
-rt2x00-kmp-xenpae
 rubygems
 rxp
 sabayon-admin
