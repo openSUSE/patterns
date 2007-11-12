@@ -1,0 +1,40 @@
++Prc:
+docbook-dsssl-stylesheets
+docbook-xsl-stylesheets
+psutils
+xmlto
+emacs
+emacs-x11
+fop
+svg-dtd
+xslide
+// General XML Packages
+batik
+dia
+inkscape
+jai
+msv
+mxml
+nxml-mode
+sablot
+saxon
+xmlroff
+xmlformat
+xmlstarlet
+// Packages Specific to DocBook
+dbsplit-tools
+docbook2odf
+docbook_5
+docbook5-xsl-stylesheets
+docbook-xml-website
+doclifter
+susedoc
+texi2db
+wt2db
+// Text Encoding Initiative
+tei-xsl-stylesheets
+tei-roma
+-Prc:
++Psg:
+lyx
+-Psg:
