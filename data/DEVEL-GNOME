@@ -112,6 +112,7 @@ startup-notification-devel
 vte-devel
 wvstreams-devel
 imlib2-devel
+emacs-x11
 -Prc:
 +Psg:
 python-cairo-devel

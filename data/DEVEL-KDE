@@ -72,4 +72,8 @@ libvisual-devel
 meanwhile-devel
 net-snmp-devel
 qt3-static
+xemacs
+xemacs-info
+xemacs-packages
+xemacs-packages-info
 -Psg:

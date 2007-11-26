@@ -378,4 +378,8 @@ yast2-samba-client
 yast2-slp
 yast2-tv
 yast2-update
+xemacs
+xemacs-info
+xemacs-packages
+xemacs-packages-info
 -Prc:
