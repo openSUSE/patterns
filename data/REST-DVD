@@ -9,25 +9,25 @@ abcde
 // qemu rocks
 qemu
 kqemu-kmp-default
-kqemu-kmp-bigsmp
+kqemu-kmp-pae
 
 // needed for kiwi creation
 squashfs
 aufs
-aufs-kmp-bigsmp
+aufs-kmp-pae
 aufs-kmp-default
 aufs-kmp-xen
 aufs-kmp-xenpae
 yast2-live-installer
 
 // #300798
-p54-kmp-bigsmp
-ipw3945-kmp-bigsmp
+p54-kmp-pae
+ipw3945-kmp-pae
  
 //# 306071
 virtualbox
 virtualbox-kmp-default
-virtualbox-kmp-bigsmp
+virtualbox-kmp-pae
 
 // Internet Storage Name Service
 yast2-isns
@@ -130,11 +130,11 @@ yast2-product-creator
 // currently on DVD5
 a2ps-h
 acct
-acx-kmp-bigsmp
+acx-kmp-pae
 acx-kmp-default
 acx-kmp-xen
 acx-kmp-xenpae
-adm8211-kmp-bigsmp
+adm8211-kmp-pae
 adm8211-kmp-default
 adm8211-kmp-xen
 adm8211-kmp-xenpae
@@ -156,7 +156,7 @@ apparmor-dbus
 aqbanking-devel
 armagetron
 aseqview
-at76_usb-kmp-bigsmp
+at76_usb-kmp-pae
 at76_usb-kmp-default
 at76_usb-kmp-xen
 at76_usb-kmp-xenpae
@@ -218,7 +218,7 @@ ckermit
 clanbomber
 classpath
 cloop
-cloop-kmp-bigsmp
+cloop-kmp-pae
 cloop-kmp-default
 cloop-kmp-xen
 cloop-kmp-xenpae
@@ -247,7 +247,7 @@ dar
 darts
 datakiosk
 dazuko
-dazuko-kmp-bigsmp
+dazuko-kmp-pae
 dazuko-kmp-default
 dazuko-kmp-xen
 dbench
@@ -268,7 +268,7 @@ docbook-utils
 docbook-xml-website
 dosbootdisk
 dragonegg
-drbd-kmp-bigsmp
+drbd-kmp-pae
 drbd-kmp-default
 drbd-kmp-xen
 drgeo
@@ -359,7 +359,7 @@ GraphicsMagick
 graphviz-devel
 grip
 gscpm
-gspcav-kmp-bigsmp
+gspcav-kmp-pae
 gspcav-kmp-default
 gstreamer010-plugins-base-doc
 gstreamer010-plugins-good-doc
@@ -423,7 +423,7 @@ isapnp
 iso-codes-devel
 ivtv
 ivtv-firmware
-ivtv-kmp-bigsmp
+ivtv-kmp-pae
 ivtv-kmp-default
 ivtv-kmp-xen
 ivtv-kmp-xenpae
@@ -501,7 +501,7 @@ kdeutils3-extra
 kdiff3
 kdissert
 kdrill
-kernel-bigsmp
+kernel-pae
 kernel-docs
 kernel-syms
 kernel-xen
@@ -634,7 +634,7 @@ lineak_defaultplugin
 lineak_kde
 lineak_xosdplugin
 linphone-applet
-lirc-kmp-bigsmp
+lirc-kmp-pae
 lirc-kmp-default
 lirc-kmp-xen
 lirc-kmp-xenpae
@@ -691,7 +691,7 @@ myldapklient
 myspell-german-old
 namazu-cgi
 namazu-devel
-ndiswrapper-kmp-bigsmp
+ndiswrapper-kmp-pae
 ndiswrapper-kmp-xen
 netacct
 netatalk
@@ -707,7 +707,7 @@ nfsidmap-devel
 nh2ps
 nicolatter
 noteedit
-novfs-kmp-bigsmp
+novfs-kmp-pae
 novfs-kmp-default
 novfs-kmp-xen
 nspluginwrapper
@@ -719,7 +719,7 @@ nxtvepg
 obconf
 ocfs2console
 oggztools
-omnibook-kmp-bigsmp
+omnibook-kmp-pae
 omnibook-kmp-default
 omnibook-kmp-xen
 omnibook-kmp-xenpae
@@ -864,7 +864,7 @@ resapplet
 rfb
 rfbplaymacro
 rfbproxy
-rfswitch-kmp-bigsmp
+rfswitch-kmp-pae
 rfswitch-kmp-default
 rfswitch-kmp-xen
 rfswitch-kmp-xenpae
@@ -900,7 +900,7 @@ sitar
 slang-devel
 smart
 smart-gui
-smartlink-softmodem-kmp-bigsmp
+smartlink-softmodem-kmp-pae
 smartlink-softmodem-kmp-default
 smolt
 snd_sf2
@@ -962,7 +962,7 @@ tla
 toshutils
 tpb
 tpctl
-tpctl-kmp-bigsmp
+tpctl-kmp-pae
 tpctl-kmp-default
 traffic-vis
 transfig
@@ -978,7 +978,7 @@ units
 unix2dos
 upx
 usbview
-uvcvideo-kmp-bigsmp
+uvcvideo-kmp-pae
 uvcvideo-kmp-default
 uvcvideo-kmp-xen
 uvcvideo-kmp-xenpae
@@ -1003,7 +1003,7 @@ wiggle
 WindowMaker-themes
 wine
 wlan-ng
-wlan-ng-kmp-bigsmp
+wlan-ng-kmp-pae
 wlan-ng-kmp-xen
 wlan-ng-kmp-xenpae
 wl-xemacs
