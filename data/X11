@@ -19,6 +19,7 @@ yast2-x11
 // needed for fetchmsfonts (#327524)
 cabextract
 xterm
+// used by many desktop files
 CheckHardware
 desktop-data-SuSE
 ghostscript-x11
@@ -33,6 +34,7 @@ nspluginwrapper
 // provides e.g. xdm
 xorg-x11
 xorg-x11-Xvnc
+// people love having numlock configurable
 numlockx
 // improve glxinfo output (#301647)
 freeglut

@@ -24,8 +24,6 @@ curl
 cyrus-sasl-saslauthd
 db
 db-utils
-// TODO: kick it before the next openSUSE
-device-mapper
 diffutils
 ethtool
 e2fsprogs
@@ -69,17 +67,12 @@ cups
 // delta rpms are considered cool for updates
 deltarpm
 acpid
-audit-libs
 autofs
-bind-libs
 bind-utils
-blocxx
 bootsplash
 bootsplash-theme-SuSE
 cyrus-sasl
-dbus-1-glib
 dosfstools
-expat
 gawk
 gdbm
 gettext
@@ -123,7 +116,6 @@ powersave
 ppp
 pptp
 preload
-readline
 recode
 reiserfs
 release-notes
@@ -135,8 +127,6 @@ udev
 unzip
 utempter
 wireless-tools
-wvdial
-wvstreams
 // Our editor of choice
 vim
 xinetd
