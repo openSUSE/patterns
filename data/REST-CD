@@ -26,6 +26,11 @@ input-utils
 nss_ldap
 pam_krb5
 pam_ldap
+#ifdef __x86_64__
+pam_krb5-32bit
+pam_ldap-32bit
+nss_ldap-32bit
+#endif
 susehelp_en
 yast2-trans-en_US
 krb5-client
