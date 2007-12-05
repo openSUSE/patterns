@@ -17,11 +17,6 @@ kdegraphics3-pdf
 kdepim3
 kdepim3-notes
 kdeutils3
-// beagle and friends
-beagle-firefox
-kdebase3-beagle
-kerry
-kio_beagle
 kcm_gtk
 kdebase3-samba
 kio_iso
