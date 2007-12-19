@@ -8,7 +8,7 @@ cvs
 gcc
 flex
 gdbm-devel
-gettext-devel
+gettext-tools
 glibc-devel
 libtool
 m4

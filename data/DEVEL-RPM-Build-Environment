@@ -9,7 +9,7 @@ cracklib
 cvs
 gawk
 gcc
-gettext-devel
+gettext-tools
 glibc-devel
 glibc-locale
 less
