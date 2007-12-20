@@ -18,7 +18,6 @@ yast2-xml
 autoyast2-installation
 -Prc:
 +Psg:
-yast2-bluetooth
 yast2-firewall
 yast2-kerberos-client
 yast2-ldap
