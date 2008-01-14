@@ -106,4 +106,6 @@ pam_thinkfinger-x86
 pam_thinkfinger-64bit
 #endif
 
+// yast can configure quota - if present on medium (#348336)
+quota
 -Prc:
