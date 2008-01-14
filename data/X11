@@ -21,7 +21,7 @@ cabextract
 xterm
 // used by many desktop files
 CheckHardware
-desktop-data-SuSE
+desktop-data-openSUSE
 ghostscript-x11
 MozillaFirefox
 openssh-askpass
