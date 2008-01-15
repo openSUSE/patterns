@@ -5,7 +5,7 @@ ipsec-tools
 quagga
 radvd
 rarpd
-squid
+squid3
 squidGuard
 wireshark
 -Prc:
