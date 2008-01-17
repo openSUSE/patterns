@@ -2,7 +2,7 @@
 nfsidmap
 nfs-kernel-server
 samba
-//REENABLE later yast2-nfs-server
+yast2-nfs-server
 yast2-samba-server
 -Prq:
 +Prc:
