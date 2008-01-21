@@ -75,7 +75,6 @@ ipw3945-kmp-default
 ipw3945d
 ndiswrapper-kmp-default
 wlan-ng-kmp-default
-p54-kmp-default
 
 // #296387 - tablet PC
 x11-input-fujitsu
