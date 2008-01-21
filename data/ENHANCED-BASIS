@@ -130,7 +130,7 @@ wireless-tools
 // Our editor of choice
 vim
 xinetd
-xntp
+ntp
 yp-tools
 ypbind
 lilo
