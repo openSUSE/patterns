@@ -35,7 +35,7 @@ yast2-security
 yast2-storage
 yast2-storage-lib
 yast2-sysconfig
-yast2_theme
+yast2_theme-openSUSE
 yast2-transfer
 yast2-tune
 yast2-update
@@ -43,7 +43,6 @@ yast2-users
 yast2-xml
 -Prq:
 +Prc:
-yast2_theme-openSUSE
 yast2-backup
 yast2-inetd
 yast2-iscsi-client
