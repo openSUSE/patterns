@@ -20,10 +20,6 @@ libsmbios-bin
 lvm2
 bundle-lang-common-en
 
-// supplements thinkpad hardware
-tpctl
-tpctl-kmp-default
-
 aspell-en
 cifs-mount
 input-utils
