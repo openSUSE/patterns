@@ -1,5 +1,12 @@
 +Prc:
 
+// for yast2-scanner
+sane                      // mandatory
+hplip                     // optionally, this should be already installed by default
+hp-officeJet              // optionally
+iscan                     // optionally, proprietary binary-only i386-only software from Epson Kowa
+iscan-free                // optionally, open source, derived from iscan
+
 // git hype (is a meta package dragging in everything else)
 git
 
