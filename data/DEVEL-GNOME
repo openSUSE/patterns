@@ -9,7 +9,7 @@ alsa-devel
 at-spi-devel
 atk-devel
 audiofile-devel
-//REENABLEbanshee-devel
+banshee-devel
 cairo-devel
 cairo-doc
 control-center2-devel
