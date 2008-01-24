@@ -1,7 +1,7 @@
 +Prq:
-java-1_5_0-sun
+java-1_6_0-sun
 #ifdef __i386__
-java-1_5_0-sun-plugin
+java-plugin
 #endif
 -Prq:
 +Psg:
@@ -18,10 +18,15 @@ java-1_4_2-sun-devel
 java-1_4_2-sun-jdbc
 java-1_4_2-sun-plugin
 java-1_5_0-sun-alsa
-java-1_5_0-sun-demo
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
 java-1_5_0-sun-src
+java-1_5_0-sun
+java-1_6_0-sun-alsa
+java-1_6_0-sun-devel
+java-1_6_0-sun-jdbc
+java-1_6_0-sun-plugin
+java-1_6_0-sun
 javamail
 javamail-demo
 javamail-javadoc
