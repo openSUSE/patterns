@@ -2,6 +2,9 @@
 AdobeICCProfiles
 gimp-help
 exiftool
+gimp
+ufraw
+ufraw-gimp
 -Prc:
 +Psg:
 pfstools
