@@ -4,10 +4,6 @@ xkeyboard-config
 libasound2-32bit
 nss-mdns-32bit
 #endif
-// needed for second stage installation
-yast2-qt
-// yast2-qt's theme
-kdelibs3-default-style
 #if !defined(__s390__)
 yast2-x11
 #endif
@@ -29,7 +25,6 @@ sax2-gui
 tightvnc
 x11-input-synaptics
 xorg-x11-libX11-ccache
-yast2-control-center
 nspluginwrapper
 // provides e.g. xdm
 xorg-x11
