@@ -68,4 +68,6 @@ yast2-product-creator
 autoyast2
 autoyast2-installation
 inst-source-utils
+yast2-qt
+yast2-gtk
 -Psg:
