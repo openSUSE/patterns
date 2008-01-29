@@ -1,0 +1,13 @@
++Prq:
+gwenview
+digikam
+kipi-plugins
+// kipi-plugins needs /usr/bin/jpegtran
+jpeg
+kdegraphics3
+kdegraphics3-kamera
+kdegraphics3-postscript
+-Prq:
++Prc:
+digikamimageplugins
+-Prc:
