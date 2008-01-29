@@ -32,7 +32,7 @@ gnome_basis
 imaging
 kde
 kde4_basis
-kde_basis
+kde3_basis
 lamp_server
 laptop
 mail_server
