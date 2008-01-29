@@ -14,4 +14,3 @@
 
   Add another pattern with extra packages from current base system.
 
-* Add opensuse-updater(-gnome) to the correct patterns.
