@@ -19,7 +19,7 @@ devhelp-devel
 eel-devel
 epiphany-devel
 epiphany-doc
-esound-devel
+libesd-devel
 evolution-data-server-devel
 evolution-devel
 fam-devel
@@ -34,8 +34,8 @@ glib-devel
 glib2-devel
 glib2-doc
 glitz-devel
-gnome-applets-devel
-gnome-bluetooth-devel
+libgweather-devel
+libgnomebt-devel
 gnome-common
 gnome-cups-manager-devel
 gnome-desktop-devel
@@ -51,9 +51,9 @@ gnome-vfs2-devel
 gnome-vfs2-doc
 gnopernicus-devel
 gob2
-gstreamer010-devel
-gstreamer010-doc
-gstreamer010-plugins-base-devel
+gstreamer-0_10-devel
+gstreamer-0_10-doc
+gstreamer-0_10-plugins-base-devel
 gtkhtml2-devel
 gtksourceview-devel
 gtksourceview-doc
@@ -70,7 +70,7 @@ libbtctl-devel
 libcroco-devel
 libgail-gnome-devel
 libgcrypt-devel
-libgda-devel
+libgda-3_0-devel
 libglade2-devel
 libglade2-doc
 libgnome-devel
@@ -103,7 +103,7 @@ libxslt-devel
 metacity-devel
 nautilus-cd-burner-devel
 nautilus-devel
-neon-devel
+libneon-devel
 orbit2-devel
 pango-devel
 pango-doc

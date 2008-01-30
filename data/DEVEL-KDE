@@ -39,12 +39,12 @@ libxml2-devel
 libxslt-devel
 avahi-compat-mDNSResponder-devel
 NetworkManager-devel
-openssl-devel
+libopenssl-devel
 pcre-devel
-poppler-devel
+libpoppler-devel
 qt3-devel-doc
 SDL-devel
-sqlite-devel
+sqlite3-devel
 strigi-devel
 wv2-devel
 -Prc:
@@ -61,7 +61,7 @@ kdebindings3
 kdebindings3-java
 kdebindings3-javascript
 kdebindings3-perl
-kdebindings3-python
+python-kde3
 kdebindings3-ruby
 kdegraphics3-devel
 kdemultimedia3-devel

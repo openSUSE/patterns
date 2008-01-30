@@ -64,9 +64,9 @@ apache2-worker
 apache2-mod_tidy 
 kdewebdev3
 nvu
-tomcat5
-tomcat5-admin-webapps
-tomcat5-webapps
+tomcat6
+tomcat6-admin-webapps
+tomcat6-webapps
 selfhtml
 selfphp
 zope

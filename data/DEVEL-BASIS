@@ -22,14 +22,13 @@ zlib-devel
 
 +Prc:
 bin86
-db-devel
+libdb-4_5-devel
 gcc-c++
 gcc-info
 glibc-info
 gmp-devel
 gperf
 libaio-devel
-libelf
 libgcj-devel
 libstdc++-devel
 openldap2-devel

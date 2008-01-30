@@ -94,7 +94,6 @@ NetworkManager-gnome
 notification-daemon
 orca
 pinentry-gtk2
-poppler-glib
 python-gnome
 python-gtk
 python-numeric

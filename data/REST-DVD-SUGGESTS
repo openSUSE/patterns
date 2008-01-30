@@ -59,12 +59,10 @@ iwl3945-ucode
 iwl4965-ucode
 jaf
 jaf-manual
-jai
 jakarta-commons-beanutils
 jakarta-commons-codec
 jakarta-commons-collections
 jakarta-commons-daemon
-jakarta-commons-daemon-jsvc
 jakarta-commons-dbcp
 jakarta-commons-digester
 jakarta-commons-discovery
@@ -91,7 +89,7 @@ kdebase4-workspace-devel
 kdebindings3
 kdebindings3-javascript
 kdebindings3-perl
-kdebindings3-python
+python-kde3
 kdegames3-arcade
 kdegames3-board
 kdegames3-card
@@ -147,7 +145,6 @@ opera
 pan
 perl-Algorithm-Diff
 perl-AppConfig
-perl-Archive-Tar
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
@@ -179,7 +176,6 @@ perl-Devel-Symdump
 perl-Encode-HanExtra
 perl-Encode-JIS2K
 perl-ExtUtils-F77
-perl-ExtUtils-ParseXS
 perl-File-MMagic
 perl-File-Tail
 perl-Filter
@@ -200,7 +196,6 @@ perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
-perl-IO-Zlib
 perl-IPC-Run
 perl-Image-Size
 perl-Inline
@@ -315,9 +310,9 @@ smartlink-softmodem
 smpppd
 textmaker
 tidy
-tomcat5
-tomcat5-admin-webapps
-tomcat5-webapps
+tomcat6
+tomcat6-admin-webapps
+tomcat6-webapps
 treeline
 ttf-founder-simplified
 ttf-founder-traditional

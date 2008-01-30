@@ -5,7 +5,6 @@ perlref
 kdebindings3-perl
 perl-Algorithm-Diff
 perl-AppConfig
-perl-Archive-Tar
 perl-Authen-SASL
 perl-Authen-SASL-Cyrus
 perl-BIND-Conf_Parser
@@ -37,7 +36,6 @@ perl-Devel-Symdump
 perl-Encode-HanExtra
 perl-Encode-JIS2K
 perl-ExtUtils-F77
-perl-ExtUtils-ParseXS
 perl-File-MMagic
 perl-File-Tail
 perl-Filter
@@ -58,7 +56,6 @@ perl-HTML-Template-JIT
 perl-HTML-Tree
 perl-HTTP-DAV
 perl-HTTPS-Daemon
-perl-IO-Zlib
 perl-IPC-Run
 perl-Image-Size
 perl-Inline

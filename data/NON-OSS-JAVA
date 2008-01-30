@@ -11,12 +11,6 @@ jaf
 jaf-demo
 jaf-javadoc
 jaf-manual
-jai
-java-1_4_2-sun
-java-1_4_2-sun-alsa
-java-1_4_2-sun-devel
-java-1_4_2-sun-jdbc
-java-1_4_2-sun-plugin
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
@@ -30,7 +24,6 @@ java-1_6_0-sun
 javamail
 javamail-demo
 javamail-javadoc
-javamail-manual
 javamail-monolithic
 jms
 jms-javadoc

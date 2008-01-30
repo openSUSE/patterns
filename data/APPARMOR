@@ -2,7 +2,6 @@
 apparmor-parser
 apparmor-profiles
 apparmor-utils
-libapparmor
 yast2-apparmor
 audit
 -Prq:

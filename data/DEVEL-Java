@@ -19,7 +19,7 @@ ant-scripts
 ant-swing
 ant-trax
 log4j
-tomcat55
+tomcat6
 xalan-j2
 xerces-j2
 xml-commons-apis
@@ -35,7 +35,6 @@ jakarta-commons-beanutils
 jakarta-commons-codec
 jakarta-commons-collections
 jakarta-commons-daemon
-jakarta-commons-daemon-jsvc
 jakarta-commons-dbcp
 jakarta-commons-digester
 jakarta-commons-discovery
@@ -50,7 +49,6 @@ jakarta-commons-modeler
 jakarta-commons-pool
 jakarta-commons-validator
 javacc
-jboss
 jdepend
 jonas
 mysql-connector-java
