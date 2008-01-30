@@ -39,6 +39,6 @@ x11-tools
 
 +Psg:
 // required by others
-fvwm2
+icewm-lite
 915resolution
 -Psg:
