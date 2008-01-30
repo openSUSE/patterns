@@ -15,8 +15,6 @@ yast2-x11
 // needed for fetchmsfonts (#327524)
 cabextract
 xterm
-// used by many desktop files
-CheckHardware
 desktop-data-openSUSE
 ghostscript-x11
 MozillaFirefox

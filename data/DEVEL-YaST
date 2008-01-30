@@ -16,6 +16,6 @@ yast2-ruby-bindings
 subversion
 -Prq:
 +Psg:
-autoyast2-utils
+inst-source-utils
 createrepo
 -Psg:

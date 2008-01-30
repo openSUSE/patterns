@@ -6,12 +6,11 @@ cscope
 diffstat
 git-core
 indent
-patch-utils
+patchutils
 quilt
 gitk
 git-email
 -Prc:
 +Psg:
 kernel-debug
-kernel-um
 -Psg:

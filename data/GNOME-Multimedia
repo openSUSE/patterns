@@ -8,8 +8,8 @@ opensuse-codecs-installer
 -Prq:
 
 +Prc:
-gstreamer010-plugins-base-oil
-gstreamer010-plugins-base-visual
+gstreamer-0_10-plugins-base-oil
+gstreamer-0_10-plugins-base-visual
 -Prc:
 
 +Psg:

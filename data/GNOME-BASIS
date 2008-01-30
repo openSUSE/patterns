@@ -11,8 +11,6 @@ ggreeter
 -Prq:
 
 +Prc:
-// #304676
-intlclock
 // #302205
 libgail-gnome
 // gconf-editor by default (#304663)
@@ -72,9 +70,9 @@ gnome-volume-manager
 gnome-web-photo
 gpg2
 gpgme
-gstreamer010
-gstreamer010-plugins-base
-gstreamer010-plugins-good
+gstreamer-0_10
+gstreamer-0_10-plugins-base
+gstreamer-0_10-plugins-good
 gtk2-engines
 gtkhtml2
 gtksourceview

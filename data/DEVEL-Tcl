@@ -27,7 +27,7 @@ tls
 +Psg:
 PgTcl
 scotty
-sqlite-tcl
+sqlite3-tcl
 vtcl
 websh
 -Psg:

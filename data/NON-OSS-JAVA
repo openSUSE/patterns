@@ -7,10 +7,7 @@ java-plugin
 +Psg:
 ant-antlr
 ant-javamail
-jaf
-jaf-demo
-jaf-javadoc
-jaf-manual
+gnu-jaf
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc
@@ -26,9 +23,5 @@ javamail-demo
 javamail-javadoc
 javamail-monolithic
 jms
-jms-javadoc
-jmx
-jmx-javadoc
-jta
-jta-javadoc
+mx4j
 -Psg:

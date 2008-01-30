@@ -22,7 +22,6 @@ bzip2
 cups-client
 curl
 cyrus-sasl-saslauthd
-db
 db-utils
 diffutils
 ethtool
@@ -75,7 +74,7 @@ cyrus-sasl
 dosfstools
 gawk
 gdbm
-gettext
+gettext-runtime
 glibc-i18ndata
 glibc-locale
 gpart

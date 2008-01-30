@@ -66,7 +66,6 @@ perl-MIME-Lite
 perl-MLDBM
 perl-MLDBM-Sync
 perl-Mcrypt
-perl-Module-Build
 perl-Module-Info
 perl-Net-DNS
 perl-Net-Daemon
@@ -75,10 +74,6 @@ perl-Net-Jabber
 perl-Net-Netmask
 perl-Net-Server
 perl-Net-Telnet
-perl-OpenCA-CRL
-perl-OpenCA-OpenSSL
-perl-OpenCA-REQ
-perl-OpenCA-X509
 perl-PDL
 perl-Params-Validate
 perl-Parse-Yapp

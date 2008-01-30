@@ -8,5 +8,5 @@ yast2-dns-server
 -Prq:
 +Prc:
 bind-doc
-dhcp6
+dhcpv6
 -Prc:

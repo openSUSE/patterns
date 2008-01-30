@@ -193,9 +193,9 @@ grip
 gscpm
 gspcav-kmp-default
 gspcav-kmp-pae
-gstreamer010-plugins-base-doc
-gstreamer010-plugins-good-doc
-gstreamer010-plugins-good-extra
+gstreamer-0_10-plugins-base-doc
+gstreamer-0_10-plugins-good-doc
+gstreamer-0_10-plugins-good-extra
 gthumb
 gtk2-doc
 gtkam

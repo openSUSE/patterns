@@ -50,7 +50,6 @@ jakarta-commons-pool
 jakarta-commons-validator
 javacc
 jdepend
-jonas
 mysql-connector-java
 puretls
 -Psg:

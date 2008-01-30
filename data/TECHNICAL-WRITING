@@ -6,13 +6,12 @@ xmlto
 emacs
 emacs-x11
 fop
-svg-dtd
+svg-schema
 xslide
 // General XML Packages
 batik
 dia
 inkscape
-msv
 mxml
 nxml-mode
 sablot

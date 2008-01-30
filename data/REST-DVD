@@ -53,7 +53,6 @@ kiwi-desc-oemboot
 kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-desc-xenboot
-kiwi-desc-xennetboot
 kiwi-pxeboot
 // #301029
 yast2-python-bindings
