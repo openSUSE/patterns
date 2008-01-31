@@ -47,7 +47,6 @@ bsh2-classgen
 bsh2-demo
 bsh2-manual
 busybox
-bzflag
 bzip2-doc
 calamaris
 canna-yubin
@@ -208,7 +207,6 @@ idutils
 img2eps
 imgSeek
 indeview
-install-initrd
 intlfonts-ttf
 iptraf
 ipxrip
@@ -243,8 +241,6 @@ kdeaddons3-games
 kdeaddons3-kontact
 kdeaddons3-sound
 kdeadmin3
-kdeartwork3
-kdeartwork3-sound
 kdebase3-extra
 kdedesktopcheck
 kdeedu4
@@ -514,8 +510,6 @@ qt3-unixODBC
 QtDMM
 raptor
 rasmol
-rekall
-rekall-xbase
 rfb
 rfbplaymacro
 rfbproxy
@@ -612,7 +606,6 @@ wbxml2
 wdfs
 wiggle
 WindowMaker-themes
-wine
 wlan-ng
 wlan-ng-kmp-pae
 wlan-ng-kmp-xen

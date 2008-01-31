@@ -385,4 +385,5 @@ yast2-mail-plugins
 yast2-multipath
 yast2-phone-services
 yast2-storage-evms
+wine
 -Prc:

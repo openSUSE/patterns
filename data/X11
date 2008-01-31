@@ -39,4 +39,5 @@ x11-tools
 // required by others
 icewm-lite
 915resolution
+wine
 -Psg:
