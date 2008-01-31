@@ -33,6 +33,8 @@ numlockx
 freeglut
 // #302566
 x11-tools
+// #353229 - drag in empty replacements
+translation-update
 -Prc:
 
 +Psg:
