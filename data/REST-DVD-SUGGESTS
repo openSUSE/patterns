@@ -378,4 +378,11 @@ MozillaThunderbird
 MozillaThunderbird-translations
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc-gnome
+yast2-autofs
+yast2-drbd
+yast2-firstboot
+yast2-mail-plugins
+yast2-multipath
+yast2-phone-services
+yast2-storage-evms
 -Prc:

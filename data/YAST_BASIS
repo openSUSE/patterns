@@ -70,4 +70,11 @@ autoyast2-installation
 inst-source-utils
 yast2-qt
 yast2-gtk
+yast2-autofs
+yast2-drbd
+yast2-firstboot
+yast2-mail-plugins
+yast2-multipath
+yast2-phone-services
+yast2-storage-evms
 -Psg:
