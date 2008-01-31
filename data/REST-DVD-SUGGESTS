@@ -90,10 +90,6 @@ kdebindings3
 kdebindings3-javascript
 kdebindings3-perl
 python-kde3
-kdegames3-arcade
-kdegames3-board
-kdegames3-card
-kdegames3-tactic
 kdelibs3-devel-doc
 kdenetwork3-vnc
 kdetoys3
@@ -380,4 +376,6 @@ MozillaSunbird
 MozillaSunbird-translations
 MozillaThunderbird
 MozillaThunderbird-translations
+NetworkManager-openvpn-gnome
+NetworkManager-vpnc-gnome
 -Prc:

@@ -35,4 +35,15 @@ tei-roma
 -Prc:
 +Psg:
 lyx
+texlive-bin-cjk
+texlive-bin-dvilj
+texlive-bin-metapost
+texlive-bin-omega
+texlive-bin-xetex
+texlive-context
+texlive-dvilj
+texlive-metapost
+texlive-omega
+texlive-xetex
+TeXmacs
 -Psg:
