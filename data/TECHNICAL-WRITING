@@ -16,19 +16,19 @@ mxml
 nxml-mode
 sablot
 saxon
-xmlroff
+//LATER xmlroff
 xmlformat
 xmlstarlet
 // Packages Specific to DocBook
 dbsplit-tools
-docbook2odf
+//LATER docbook2odf
 docbook_5
 docbook5-xsl-stylesheets
 docbook-xml-website
-doclifter
+//LATER doclifter
 susedoc
-texi2db
-wt2db
+//LATER texi2db
+//LATER wt2db
 // Text Encoding Initiative
 tei-xsl-stylesheets
 tei-roma

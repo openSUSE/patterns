@@ -30,6 +30,7 @@ xml-commons-which
 java-1_5_0-gcj-compat-devel
 -Prc:
 +Psg:
+gnu-jaf
 geronimo
 jakarta-commons-beanutils
 jakarta-commons-codec

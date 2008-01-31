@@ -7,11 +7,6 @@ totem-plugin
 opensuse-codecs-installer 
 -Prq:
 
-+Prc:
-gstreamer-0_10-plugins-base-oil
-gstreamer-0_10-plugins-base-visual
--Prc:
-
 +Psg:
 banshee
 -Psg:

@@ -7,7 +7,6 @@ java-plugin
 +Psg:
 ant-antlr
 ant-javamail
-gnu-jaf
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
 java-1_5_0-sun-jdbc

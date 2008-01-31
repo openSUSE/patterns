@@ -8,7 +8,6 @@ yast2-samba-server
 +Prc:
 vsftpd
 samba-client
-samba-pdb
 samba-winbind
 tftp
 yast2-ftp-server

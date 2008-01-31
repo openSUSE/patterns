@@ -2,7 +2,6 @@
 apache2-devel
 -Prc:
 +Psg:
-bluefish
 html-dtd
 iso_ent
 latex2html
@@ -31,7 +30,6 @@ php5-devel
 php5-dom
 php5-exif
 php5-fastcgi
-php5-filepro
 php5-ftp
 php5-gd
 php5-gettext
@@ -69,7 +67,4 @@ tomcat6-admin-webapps
 tomcat6-webapps
 selfhtml
 selfphp
-zope
-zope3
-zope-mysql
 -Psg:
