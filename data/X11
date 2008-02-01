@@ -1,7 +1,6 @@
 +Prq:
 xkeyboard-config
 #if defined __x86_64__
-libasound2-32bit
 nss-mdns-32bit
 #endif
 #if !defined(__s390__)
@@ -23,7 +22,6 @@ sax2-gui
 tightvnc
 x11-input-synaptics
 xorg-x11-libX11-ccache
-nspluginwrapper
 // provides e.g. xdm
 xorg-x11
 xorg-x11-Xvnc

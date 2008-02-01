@@ -6,7 +6,7 @@ kdelibs3
 kwin-decor-suse2
 -Prq:
 +Prc:
-#if !defined(__s390__)
+#if defined(__i386__)
 kdebase3-nsplugin
 #endif
 kpowersave
@@ -23,9 +23,6 @@ kio_iso
 pinentry-qt
 preload
 qtcurve-gtk2
-#ifdef __x86_64__
-qtcurve-gtk2-32bit
-#endif
 susehelp
 yast2-control-center-qt
 // we want useful bug reports

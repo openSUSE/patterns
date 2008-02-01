@@ -5,6 +5,12 @@ beagle-firefox
 kdebase3-beagle
 kerry
 kio_beagle
+#if !defined(__i386__)
+kdebase3-nsplugin
+#endif
+#ifdef __x86_64__
+qtcurve-gtk2-32bit
+#endif
 -Prc:
 +Psg:
 -Psg:
