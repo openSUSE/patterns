@@ -115,4 +115,19 @@ zenity
 gdb
 // #301664
 gnome-commander
+// Pulseaudio is the default sound server
+pulseaudio-esound-compat
+pulseaudio-module-bluetooth
+pulseaudio-module-gconf
+pulseaudio-module-jack
+pulseaudio-module-lirc
+pulseaudio-module-x11
+pulseaudio-module-zeroconf
+pulseaudio-utils
+padevchooser
+paman
+paprefs
+pavucontrol
+pavumeter
+gstreamer010-pulse
 -Prc:
