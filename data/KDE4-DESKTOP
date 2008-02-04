@@ -1,5 +1,9 @@
 +Psg:
-kdeedu3
+kde4-marble
+// not yet ported, but anyway
+kde4-kwalletmanager
+kde4-kcalc
+kde4-ark
 kiosktool
 -Psg:
 

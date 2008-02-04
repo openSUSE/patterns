@@ -4,9 +4,10 @@ digikam
 kipi-plugins
 // kipi-plugins needs /usr/bin/jpegtran
 jpeg
-kdegraphics3
-kdegraphics3-kamera
-kdegraphics3-postscript
+kde4-okular
+kde4-kio_kamera
+kde4-kcolorchooser
+kde4-kgamma
 -Prq:
 +Prc:
 digikamimageplugins

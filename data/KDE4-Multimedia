@@ -1,9 +1,9 @@
 +Prq:
 amarok
 k3b
-kdemultimedia3
-kdemultimedia3-mixer
-kdemultimedia3-CD
+kde4-kmix
+kde4-kscd
+kde4-kio_audiocd
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:
@@ -16,4 +16,6 @@ kdetv
 kio_ipodslave
 kio_iso
 krecord
+phonon_xine
+phonon_gst
 -Prc:

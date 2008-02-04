@@ -1,5 +1,5 @@
 +Prq:
-kdeartwork3-kscreensaver
+kdeartwork4-screensaver
 kdebluetooth
 kitchensync
 -Prq:
@@ -7,7 +7,11 @@ kitchensync
 kdepim3-kpilot
 -Prc:
 +Psg:
-kdetoys3
+kde4-kworldclock
+kde4-kweather
+kde4-kteatime
+kde4-ktux
+kde4-amor
 kdirstat
 libopensync 
 libopensync-plugin-file

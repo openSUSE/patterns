@@ -1,8 +1,10 @@
 +Prq:
-kdenetwork3
-kdenetwork3-InstantMessenger
-kdenetwork3-news
-kio_slp
+kde4-kdnssd
+kde4-kget
+kde4-kopete
+kde4-knewsticker
+// not KDE4 related
+//kio_slp
 ktorrent
 -Prq:
 +Prc:
@@ -11,9 +13,3 @@ kde4-krfb
 kde4-krdc
 konversation
 -Prc:
-+Psg:
-// needed till nm 0.7 comes along
-kinternet
-NetworkManager-vpnc-kde
--Psg:
-

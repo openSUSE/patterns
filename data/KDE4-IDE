@@ -1,6 +1,7 @@
 +Prc:
 kdbg
-kdeaddons3-kate
-kdesdk3-translate
-kdevelop3
+kde4-kate
+kde4-kapptemplate
+kde4-l10n-devel
+kdevelop4
 -Prc:
