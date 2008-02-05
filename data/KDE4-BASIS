@@ -13,4 +13,12 @@ kde4-konsole
 #if !defined(__s390__)
 kdebase4-nsplugin
 #endif
+NetworkManager
+NetworkManager-kde
+kdebase3-kdm
 -Prc:
++Psc:
+NetworkManager-vpnc
+NetworkManager-vpnc-kde
+-Psc:
+
