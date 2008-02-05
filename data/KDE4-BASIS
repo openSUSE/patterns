@@ -22,6 +22,8 @@ qtcurve-gtk2
 yast2-control-center-qt
 // we want useful bug reports
 gdb
+// SuSE has kdm theming
+kdebase3-SuSE
 kdebase3-kdm
 -Prc:
 +Psc:
