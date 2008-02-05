@@ -15,10 +15,18 @@ kdebase4-nsplugin
 #endif
 NetworkManager
 NetworkManager-kde
+kdepim3
+kdepim3-notes
+pinentry-qt
+qtcurve-gtk2
+yast2-control-center-qt
+// we want useful bug reports
+gdb
 kdebase3-kdm
 -Prc:
 +Psc:
 NetworkManager-vpnc
 NetworkManager-vpnc-kde
+kpowersave
 -Psc:
 
