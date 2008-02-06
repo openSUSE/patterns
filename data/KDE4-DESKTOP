@@ -1,9 +1,14 @@
-+Psg:
-kde4-marble
++Prc:
+kde4-ark
+kde4-kcalc
+kde4-kgpg
+kde4-ksnapshot
 // not yet ported, but anyway
 kde4-kwalletmanager
-kde4-kcalc
-kde4-ark
+-Prc:
++Psg:
+kde4-marble
 kiosktool
+kde4-kfloppy
 -Psg:
 
