@@ -20,7 +20,6 @@ ant-javamail
 antivir
 apache2-mod_tidy
 apache2-worker
-arcad_eval
 ash
 atftp
 atmel-firmware
@@ -284,7 +283,6 @@ pin
 alpine
 pinepg
 pinfo
-planmaker
 python-kde-extensions
 pyxml
 qlogic-firmware
@@ -294,7 +292,6 @@ sesam_srv
 slrn
 smartlink-softmodem
 smpppd
-textmaker
 tidy
 tomcat6
 tomcat6-admin-webapps

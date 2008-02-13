@@ -21,9 +21,6 @@ IPAPGothic
 IPAPMincho
 IPAUIGothic
 acroread
-#if defined(__i386__)
-arcad_eval
-#endif
 atmel-firmware
 ipw-firmware
 iwl3945-ucode
@@ -33,10 +30,7 @@ iscan-firmware
 iscan-proprietary-drivers
 moneyplex
 opera
-planmaker
 qlogic-firmware
-sesam_srv
-textmaker
 ttf-founder-simplified
 ttf-founder-traditional
 wink
