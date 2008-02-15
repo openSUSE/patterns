@@ -67,8 +67,6 @@ dosfstools
 cryptsetup
 
 // kernel modules
-ipw3945-kmp-default
-ipw3945d
 ndiswrapper-kmp-default
 wlan-ng-kmp-default
 

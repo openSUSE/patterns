@@ -26,9 +26,6 @@ aufs-kmp-xen
 aufs-kmp-xenpae
 yast2-live-installer
 
-// #300798
-ipw3945-kmp-pae
- 
 //# 306071
 virtualbox
 virtualbox-kmp-default
