@@ -4,7 +4,6 @@ vm-install
 xen
 xen-libs
 xen-tools
-xen-tools-ioemu
 -Prq:
 +Prc:
 virt-manager
