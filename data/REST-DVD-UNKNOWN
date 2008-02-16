@@ -111,7 +111,6 @@ ElectricFence
 encfs
 engdic
 epic
-evms
 evms-gui
 evolution-exchange
 evolution-webcal
@@ -139,7 +138,6 @@ garlic
 gau
 gbuffy
 gcal
-gcc-java
 gdk-pixbuf-gnome
 gfxboot
 gimp-cmyk
@@ -197,8 +195,6 @@ i4lfirm
 i4l-isdnlog
 i4l-vbox
 ibm-data-db2
-icewm
-icewm-default
 icewm-gnome
 icon-naming-utils
 icu
@@ -446,7 +442,6 @@ perl-MP3-Info
 perl-NetAddr-IP
 perl-Net-IPv4Addr
 perl-Net-SNMP
-perl-NetxAP
 perl-NKF
 perl-PDA-Pilot
 perl-SNMP
@@ -594,7 +589,6 @@ vbetool
 vdr
 viki
 vkeybd
-vpnc
 vte-sharp2
 vym
 w3m-el
