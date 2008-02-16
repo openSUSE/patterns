@@ -32,4 +32,8 @@ mono-winforms
 -Prc:
 +Psg:
 ipod-sharp
+mono-debugger
+mono-jscript
+rsvg-sharp2
+vte-sharp2
 -Psg:

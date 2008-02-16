@@ -18,4 +18,17 @@ python-wxGTK-doc
 python-wxGTK-examples
 pyxml
 treeline
+python-curl
+python-dateutil
+python-fcgi
+python-gdbm
+python-httplib2
+python-openssl
+python-opensync
+python-pam
+python-pygame
+python-serial
+python-twisted-doc
+python-twisted-web
+python-zopeinterface
 -Psg:

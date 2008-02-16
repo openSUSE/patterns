@@ -119,4 +119,5 @@ python-cairo-devel
 python-gnome-devel
 python-gobject2-devel
 python-gtk-devel
+atk-doc
 -Psg:
