@@ -12,5 +12,7 @@ gitk
 git-email
 -Prc:
 +Psg:
+#pragma online
 kernel-debug
+gitk
 -Psg:

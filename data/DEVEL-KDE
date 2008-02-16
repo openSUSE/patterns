@@ -56,15 +56,20 @@ kdebindings3-java
 kdebindings3-javascript
 kdebindings3-perl
 kdebindings3-ruby
+#pragma online
 kdegraphics3-devel
 kdelibs3-devel
 kdelibs3-devel-doc
+#pragma online
 kdemultimedia3-devel
+#pragma online
 kdepim3-devel
 kdesdk3
+#pragma online
 kdesdk3-devel
 kdesdk3-profile
 kdesdk3-translate
+#pragma online
 kdeutils3-devel
 libkdepimlibs4-devel
 libvisual-devel
@@ -73,6 +78,7 @@ net-snmp-devel
 python-kde3
 qt3-devel-doc
 qt3-devel-tools
+#pragma online
 qt3-static
 xemacs
 xemacs-info

@@ -66,12 +66,10 @@ salinfo
 ash
 cpufrequtils
 delayacct-utils
-exim
 #ifndef __powerpc__
 hfsutils
 #endif
 jfsutils
-sendmail
 ocfs2-tools
 rsh
 xfsprogs

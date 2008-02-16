@@ -46,7 +46,6 @@ fdupes
 build
 gcc-fortran
 gcc-objc
-libobjc41
 // Matz thinks people want that
 mpfr-devel
 -Psg:

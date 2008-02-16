@@ -5,11 +5,16 @@ freeciv
 supertux
 xmoto
 lbreakout
+#pragma online
 BASS
+#pragma online
 FOTAQ
+#pragma online
 enigma
+#pragma online
 glest
 scummvm
+#pragma online
 torcs
 wesnoth
 wesnoth-data-full

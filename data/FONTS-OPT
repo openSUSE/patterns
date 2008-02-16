@@ -6,5 +6,6 @@ intlfnts
 xorg-x11-fonts
 -Prc:
 +Psg:
+#pragma online
 bitstream-vera
 -Psg:

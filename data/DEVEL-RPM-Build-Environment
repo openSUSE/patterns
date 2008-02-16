@@ -28,4 +28,5 @@ util-linux
 
 +Psg:
 build
+inst-source-utils
 -Psg:
