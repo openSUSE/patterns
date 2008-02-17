@@ -27,9 +27,9 @@ aufs-kmp-xenpae
 yast2-live-installer
 
 //# 306071
-virtualbox
-virtualbox-kmp-default
-virtualbox-kmp-pae
+virtualbox-ose
+virtualbox-ose-kmp-default
+virtualbox-ose-kmp-pae
 
 // Internet Storage Name Service
 yast2-isns
