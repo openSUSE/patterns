@@ -4,6 +4,12 @@ vm-install
 xen
 xen-libs
 xen-tools
+#if defined(__i386__)
+kernel-xenpae
+#endif
+#if defined(__x86_64__)
+kernel-xen
+#endif
 -Prq:
 +Prc:
 virt-manager
