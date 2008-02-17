@@ -5,7 +5,6 @@ java-plugin
 #endif
 -Prq:
 +Psg:
-ant-antlr
 ant-javamail
 java-1_5_0-sun-alsa
 java-1_5_0-sun-devel
