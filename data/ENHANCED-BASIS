@@ -75,7 +75,6 @@ dosfstools
 gawk
 gdbm
 gettext-runtime
-glibc-i18ndata
 glibc-locale
 gpart
 gpg2
