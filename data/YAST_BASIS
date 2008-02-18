@@ -21,6 +21,7 @@ yast2-ldap
 yast2-mail
 yast2-mouse
 yast2-ncurses
+yast2-ncurses-pkg
 yast2-network
 yast2-online-update
 yast2-online-update-frontend
@@ -69,6 +70,7 @@ autoyast2
 autoyast2-installation
 inst-source-utils
 yast2-qt
+yast2-qt-pkg
 yast2-gtk
 yast2-autofs
 yast2-drbd
