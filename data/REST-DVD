@@ -23,7 +23,6 @@ aufs
 aufs-kmp-pae
 aufs-kmp-default
 aufs-kmp-xen
-aufs-kmp-xenpae
 yast2-live-installer
 
 //# 306071
@@ -132,11 +131,9 @@ yast2-product-creator
 acx-kmp-default
 acx-kmp-pae
 acx-kmp-xen
-acx-kmp-xenpae
 at76_usb-kmp-default
 at76_usb-kmp-pae
 at76_usb-kmp-xen
-at76_usb-kmp-xenpae
 dazuko-kmp-default
 dazuko-kmp-pae
 dazuko-kmp-xen
@@ -148,11 +145,9 @@ gspcav-kmp-pae
 ivtv-kmp-default
 ivtv-kmp-pae
 ivtv-kmp-xen
-ivtv-kmp-xenpae
 lirc-kmp-default
 lirc-kmp-pae
 lirc-kmp-xen
-lirc-kmp-xenpae
 ndiswrapper-kmp-pae
 ndiswrapper-kmp-xen
 novfs-kmp-default
@@ -161,13 +156,10 @@ novfs-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-pae
 omnibook-kmp-xen
-omnibook-kmp-xenpae
 uvcvideo-kmp-default
 uvcvideo-kmp-pae
 uvcvideo-kmp-xen
-uvcvideo-kmp-xenpae
 wlan-ng-kmp-pae
 wlan-ng-kmp-xen
-wlan-ng-kmp-xenpae
 
 -Prc:
