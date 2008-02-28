@@ -101,4 +101,7 @@ pam_thinkfinger-64bit
 
 // yast can configure quota - if present on medium (#348336)
 quota
+
+// enhances virtualbox speed (#365562)
+xorg-x11-driver-virtualbox-ose
 -Prc:
