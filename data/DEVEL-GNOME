@@ -34,6 +34,7 @@ glib-devel
 glib2-devel
 glib2-doc
 glitz-devel
+gvfs-devel
 libgweather-devel
 libgnomebt-devel
 gnome-common
