@@ -13,7 +13,6 @@ kde4_multimedia
 kde4_laptop
 kde4_office
 kde4_utilities
-kde4_xgl
 kde4_yast
 laptop
 multimedia
@@ -21,6 +20,7 @@ office
 sw_management
 sw_management_kde
 x11
-xgl
 yast2_basis
 yast2_install_wf
+games
+kde4_games
