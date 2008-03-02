@@ -92,8 +92,8 @@ i4lfirmware
 i4l-isdnlog
 autofs4
 ypserv
-xntp
-xntp-doc
+ntp
+ntp-doc
 hplib
 hp-officeJet
 star
