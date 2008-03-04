@@ -161,5 +161,6 @@ uvcvideo-kmp-pae
 uvcvideo-kmp-xen
 wlan-ng-kmp-pae
 wlan-ng-kmp-xen
-
+quickcam-kmp-default
+quickcam-kmp-pae
 -Prc:
