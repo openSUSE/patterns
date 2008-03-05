@@ -15,6 +15,8 @@ yast2-python-bindings
 yast2-ruby-bindings
 subversion
 libzypp-devel
+yast2-libyui-devel
+yast2-ycp-ui-bindings-devel
 -Prq:
 +Psg:
 inst-source-utils
