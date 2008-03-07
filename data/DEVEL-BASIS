@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 autoconf
 automake
 binutils 
@@ -18,9 +18,7 @@ patch
 rcs
 texinfo
 zlib-devel
--Prq:
 
-+Prc:
 bin86
 libdb-4_5-devel
 gcc-c++

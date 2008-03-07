@@ -1,10 +1,8 @@
-+Prq:
++Prc:
 #if !defined(__s390__) && !defined (__ia64__)
 OpenOffice_org
 #endif
--Prq:
 
-+Prc:
 #if !defined(__s390__) && !defined (__ia64__)
 OpenOffice_org-calc
 OpenOffice_org-draw

@@ -1,5 +1,4 @@
 +Prc:
-AdobeICCProfiles
 gimp-help
 exiftool
 gimp
@@ -7,6 +6,7 @@ ufraw
 ufraw-gimp
 -Prc:
 +Psg:
+AdobeICCProfiles
 pfstools
 pfstmo
 pfscalibration

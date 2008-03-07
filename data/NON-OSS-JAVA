@@ -1,9 +1,9 @@
-+Prq:
++Prc:
 java-1_6_0-sun
 #ifdef __i386__
 java-plugin
 #endif
--Prq:
+-Prc:
 +Psg:
 ant-javamail
 java-1_5_0-sun-alsa

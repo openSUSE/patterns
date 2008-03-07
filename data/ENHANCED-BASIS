@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 // having a ftp command line client is good for moving log files
 lukemftp
 // needed for detecting software raid - required by yast2-storage too
@@ -50,9 +50,7 @@ suse-build-key
 // create log file tars
 tar
 wget
--Prq:
 
-+Prc:
 // #302569
 alsa-plugins
 // useful for debugging

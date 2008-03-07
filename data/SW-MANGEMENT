@@ -1,8 +1,6 @@
-+Prq:
++Prc:
 zypper
-// workaround for broken Ooo provides
-libicu
--Prq:
+-Prc:
 +Psg:
 pin
 -Psg:

@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 nss_ldap
 openldap2
 pam_ldap
@@ -7,7 +7,7 @@ yast2-ldap-server
 nss_ldap-32bit
 pam_ldap-32bit
 #endif
--Prq:
+-Prc:
 
 +Prc:
 -Prc:

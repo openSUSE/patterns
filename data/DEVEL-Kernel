@@ -1,7 +1,5 @@
-+Prq:
-kernel-source
--Prq:
 +Prc:
+kernel-source
 cscope
 diffstat
 git-core

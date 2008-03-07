@@ -1,8 +1,5 @@
-+Prq:
-tcl
--Prq:
-
 +Prc:
+tcl
 blt
 bwidget
 expect

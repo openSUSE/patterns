@@ -1,9 +1,6 @@
-+Prq:
++Prc:
 gtk2-devel
 gtk-doc
--Prq:
-
-+Prc:
 aalib-devel
 alsa-devel
 at-spi-devel

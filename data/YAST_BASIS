@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 // #304686
 yast2-fingerprint-reader
 #if defined(__x86_64__) ||  defined(__s390x__)  || defined(__ppc__)
@@ -42,8 +42,8 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-xml
--Prq:
-+Prc:
+
+// second class
 yast2-backup
 yast2-inetd
 yast2-iscsi-client
