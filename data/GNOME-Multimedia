@@ -1,11 +1,11 @@
-+Prq:
++Prc:
 banshee-player
 f-spot
 totem
 totem-plugin
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
--Prq:
+-Prc:
 
 +Psg:
 banshee

@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 amarok
 k3b
 kdemultimedia3
@@ -6,9 +6,6 @@ kdemultimedia3-mixer
 kdemultimedia3-CD
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
--Prq:
-
-+Prc:
 amarok-yauap
 amarok-libvisual
 kaffeine

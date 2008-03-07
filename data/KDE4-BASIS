@@ -2,11 +2,11 @@
 kdebase4
 kdebase4-session
 kdebase4-workspace
-kde4-dolphin
 kde4-kwin
-kde4-kwrite
 -Prq:
 +Prc:
+kde4-kwrite
+kde4-dolphin
 kde4-keditbookmarks
 kde4-konqueror
 kde4-konsole

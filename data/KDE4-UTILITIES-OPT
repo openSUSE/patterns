@@ -1,7 +1,5 @@
-+Prq:
-kde4-konqueror-plugins
--Prq:
 +Prc:
+kde4-konqueror-plugins
 extragear-plasma
 -Prc:
 +Psg:

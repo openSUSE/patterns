@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 kde4-kdnssd
 kde4-kget
 kde4-kopete
@@ -6,8 +6,6 @@ kde4-knewsticker
 // not KDE4 related
 //kio_slp
 ktorrent
--Prq:
-+Prc:
 // 297684 for these 2
 kde4-krfb
 kde4-krdc

@@ -1,4 +1,4 @@
-+Prq:
++Prc:
 deskbar-applet
 evolution-pilot
 fast-user-switch-applet
@@ -10,7 +10,5 @@ multisync-gui
 libopensync-plugin-file
 seahorse
 vino
--Prq:
-+Prc:
 dasher
 -Prc:
