@@ -12,7 +12,9 @@ ia32el
 #endif
 -Prc:
 +Psg:
+#pragma online
 antivir-gui
+#pragma online
 antivir
 AdobeICCProfiles
 IPAGothic
