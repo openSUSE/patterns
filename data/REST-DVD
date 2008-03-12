@@ -164,6 +164,4 @@ wlan-ng-kmp-xen
 quickcam-kmp-default
 quickcam-kmp-pae
 
-// drag in -lang for the easy ones
-bundle-lang-other
 -Prc:
