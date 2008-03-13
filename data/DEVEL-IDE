@@ -1,5 +1,7 @@
 +Psg:
 anjuta
+#if !defined(ppc)
 eclipse
+#endif
 monodevelop
 -Psg:
