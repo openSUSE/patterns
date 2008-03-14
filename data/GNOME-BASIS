@@ -11,6 +11,8 @@ ggreeter
 -Prq:
 
 +Prc:
+gnome-session-branding-openSUSE
+gtk2-branding-openSUSE
 // #302205
 libgail-gnome
 // gconf-editor by default (#304663)
@@ -40,7 +42,7 @@ file-roller
 gail
 pidgin
 gcalctool
-gconf2
+gconf2-branding-openSUSE
 gedit
 gle
 // open terminal from RMB on desktop
