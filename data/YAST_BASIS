@@ -107,5 +107,6 @@ nxtvepg
 v4l-tools
 zapping
 install-initrd
-xen-tools-ioemu
+yast2-theme-openSUSE-Crystal
+yast2-theme-openSUSE-Oxygen
 -Psg:
