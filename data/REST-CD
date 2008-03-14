@@ -104,4 +104,6 @@ quota
 
 // enhances virtualbox speed (#365562)
 xorg-x11-driver-virtualbox-ose
+
+gtk2-branding-openSUSE
 -Prc:
