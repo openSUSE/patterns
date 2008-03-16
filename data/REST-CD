@@ -4,7 +4,7 @@ kernel-default
 
 +Prc:
 // #327506
-bcm43xx-fwcutter
+b43-fwcutter
 // #304219
 memtest86+
 // adaptec-firmware (#298726)
