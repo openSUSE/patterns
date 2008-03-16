@@ -60,6 +60,7 @@ zsh
 pfmon
 salinfo
 #endif
+lzma
 -Prc:
 
 +Psg:
