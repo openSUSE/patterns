@@ -19,7 +19,9 @@ scummvm
 #pragma online
 torcs
 madbomber
+#pragma online
 wesnoth
+#pragma online
 wesnoth-data
 armagetron
 briquolo
