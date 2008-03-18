@@ -15,7 +15,9 @@ java-1_5_0-sun
 java-1_6_0-sun-alsa
 java-1_6_0-sun-devel
 java-1_6_0-sun-jdbc
+#ifdef __i386__
 java-1_6_0-sun-plugin
+#endif
 java-1_6_0-sun
 javamail
 #pragma online

@@ -1,11 +1,5 @@
 +Prc:
 
-// for yast2-scanner
-sane                      // mandatory
-hplip                     // optionally, this should be already installed by default
-iscan                     // optionally, proprietary binary-only i386-only software from Epson Kowa
-iscan-free                // optionally, open source, derived from iscan
-
 // git hype (is a meta package dragging in everything else)
 git
 
@@ -15,12 +9,10 @@ abcde
 // qemu rocks
 qemu
 kqemu-kmp-default
-kqemu-kmp-pae
 
 // needed for kiwi creation
 squashfs
 aufs
-aufs-kmp-pae
 aufs-kmp-default
 aufs-kmp-xen
 yast2-live-installer
@@ -28,7 +20,6 @@ yast2-live-installer
 //# 306071
 virtualbox-ose
 virtualbox-ose-kmp-default
-virtualbox-ose-kmp-pae
 
 // Internet Storage Name Service
 yast2-isns
@@ -129,39 +120,44 @@ yast2-product-creator
 
 // kernel modules
 acx-kmp-default
-acx-kmp-pae
 acx-kmp-xen
 at76_usb-kmp-default
-at76_usb-kmp-pae
 at76_usb-kmp-xen
 dazuko-kmp-default
-dazuko-kmp-pae
 dazuko-kmp-xen
 drbd-kmp-default
-drbd-kmp-pae
 drbd-kmp-xen
 gspcav-kmp-default
-gspcav-kmp-pae
 ivtv-kmp-default
-ivtv-kmp-pae
 ivtv-kmp-xen
 lirc-kmp-default
-lirc-kmp-pae
 lirc-kmp-xen
-ndiswrapper-kmp-pae
 ndiswrapper-kmp-xen
 novfs-kmp-default
-novfs-kmp-pae
 novfs-kmp-xen
 omnibook-kmp-default
-omnibook-kmp-pae
 omnibook-kmp-xen
 uvcvideo-kmp-default
-uvcvideo-kmp-pae
 uvcvideo-kmp-xen
-wlan-ng-kmp-pae
 wlan-ng-kmp-xen
 quickcam-kmp-default
-quickcam-kmp-pae
 
+#if defined(__i586__)
+kqemu-kmp-pae
+aufs-kmp-pae
+virtualbox-ose-kmp-pae
+acx-kmp-pae
+at76_usb-kmp-pae
+dazuko-kmp-pae
+drbd-kmp-pae
+gspcav-kmp-pae
+ivtv-kmp-pae
+lirc-kmp-pae
+ndiswrapper-kmp-pae
+novfs-kmp-pae
+omnibook-kmp-pae
+uvcvideo-kmp-pae
+wlan-ng-kmp-pae
+quickcam-kmp-pae
+#endif
 -Prc:

@@ -12,10 +12,12 @@ ia32el
 #endif
 -Prc:
 +Psg:
+#if defined(__i386__)
 #pragma online
 antivir-gui
 #pragma online
 antivir
+#endif
 AdobeICCProfiles
 IPAGothic
 IPAMincho
@@ -27,13 +29,17 @@ atmel-firmware
 ipw-firmware
 iwl3945-ucode
 iwl4965-ucode
+#if defined(__i386__)
 iscan
 iscan-firmware
 iscan-proprietary-drivers
+#endif
 moneyplex
 opera
 qlogic-firmware
 ttf-founder-simplified
 ttf-founder-traditional
+#if defined(__i386__)
 wink
+#endif
 -Psg:

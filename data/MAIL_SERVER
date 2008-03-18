@@ -1,5 +1,7 @@
 +Prc:
+#if defined(__i386__)
 avmailgate
+#endif
 amavisd-new
 mailman
 cyrus-imapd

@@ -80,33 +80,26 @@ yast2-multipath
 yast2-phone-services
 yast2-storage-evms
 // see extra-packages for reasons
-alice-compat
 star
-apache2-mod_ruby
 sbl
 xorg-x11-Mesa
 kdump-helpers
-autofs4
-avm_fcdsl
-i4lfirmware
 i4l-isdnlog
-autofs4
 ypserv
 ntp
 ntp-doc
-hplib
-hp-officeJet
 star
-samba-pdb
-hp-officeJet
-iscan
 alevt
 kradio
 motv
 nxtvepg
 v4l-tools
-zapping
 install-initrd
+// for yast2-scanner
+sane                      // mandatory
+hplip                     // optionally, this should be already installed by default
+iscan-free                // optionally, open source, derived from iscan
+// themeing for hardcore KDE lovers
 yast2-theme-openSUSE-Crystal
 yast2-theme-openSUSE-Oxygen
 -Psg:

@@ -28,7 +28,3 @@ yast2-control-center-qt
 // we want useful bug reports
 gdb
 -Prc:
-+Psc:
-NetworkManager-vpnc
-NetworkManager-vpnc-kde
--Psc:

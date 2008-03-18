@@ -12,6 +12,6 @@ konversation
 +Psg:
 // needed till nm 0.7 comes along
 kinternet
-NetworkManager-vpnc-kde
+// REENABLE NetworkManager-vpnc-kde
 -Psg:
 
