@@ -16,7 +16,7 @@ groff
 gutenprint
 hplip
 initviocons
-#ifdef __powerpc__
+#ifdef __ppc__
 hfsutils
 #endif
 joe
@@ -67,7 +67,7 @@ lzma
 ash
 cpufrequtils
 delayacct-utils
-#ifndef __powerpc__
+#ifndef __ppc__
 hfsutils
 #endif
 jfsutils

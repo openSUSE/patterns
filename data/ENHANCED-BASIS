@@ -130,7 +130,7 @@ ntp
 yp-tools
 ypbind
 lilo
-#ifdef __powerpc__
+#ifdef __ppc__
 pdisk
 powerpc32
 // #303737
