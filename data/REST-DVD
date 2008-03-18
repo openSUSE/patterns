@@ -142,7 +142,7 @@ uvcvideo-kmp-xen
 wlan-ng-kmp-xen
 quickcam-kmp-default
 
-#if defined(__i586__)
+#if defined(__i386__)
 kqemu-kmp-pae
 aufs-kmp-pae
 virtualbox-ose-kmp-pae

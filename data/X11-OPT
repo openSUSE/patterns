@@ -7,7 +7,7 @@ unclutter
 x11-input-wacom
 xlockmore
 xtermset
-#if !defined(i386)
+#if !defined(__i386__)
 nspluginwrapper
 #endif
 -Prc:
