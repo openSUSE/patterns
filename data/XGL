@@ -1,4 +1,10 @@
 +Prq:
 compiz
 xgl
+compizconfig-settings-manager
+compiz-fusion-plugins-main
+libcompizconfig
+python-compizconfig
+compiz-manager
+simple-ccsm
 -Prq:
