@@ -24,7 +24,7 @@ yast2-control-center-qt
 gdb
 kde4-kdm
 -Prc:
-+Psc:
++Psg:
 kpowersave
--Psc:
+-Psg:
 
