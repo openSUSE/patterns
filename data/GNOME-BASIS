@@ -8,6 +8,8 @@ gtk2-themes
 gnome-vfs2
 // SUSE gnome greeter (#302026)
 ggreeter
+// #372514
+PolicyKit-gnome
 -Prq:
 
 +Prc:
