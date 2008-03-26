@@ -160,4 +160,10 @@ uvcvideo-kmp-pae
 wlan-ng-kmp-pae
 quickcam-kmp-pae
 #endif
+
+// someone missed it (#372888)
+smart-gui
+
+// register your hardware
+smolt
 -Prc:
