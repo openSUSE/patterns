@@ -169,6 +169,7 @@ bluez-hcidump
 libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
+libsyncml-tools
 msynctool
 unison
 
