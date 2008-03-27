@@ -50,5 +50,7 @@ javacc
 jdepend
 mysql-connector-java
 puretls
+// just an editor
+jedit
 -Psg:
 

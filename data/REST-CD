@@ -108,4 +108,7 @@ gtk2-branding-openSUSE
 
 // Firmware for ZD1211 based WLAN sticks
 zd1211-firmware
+
+// rescue
+ddrescue
 -Prc:
