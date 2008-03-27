@@ -3,4 +3,9 @@ dvd+rw-tools
 vorbis-tools
 yast2-sound
 -Prc:
++Psg:
+grip
+gstreamer-0_10-plugins-good-extra
+audacity
+-Psg:
 

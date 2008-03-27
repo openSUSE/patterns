@@ -23,4 +23,6 @@ pinfo
 vlock
 alpine
 pico
+convert
+unix2dos
 -Psg:

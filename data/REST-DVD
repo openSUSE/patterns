@@ -166,4 +166,11 @@ smart-gui
 
 // register your hardware
 smolt
+
+// no sync pattern
+bluez-hcidump
+libopensync-plugin-google-calendar
+libopensync-plugin-moto
+libopensync-plugin-python-module
+msynctool
 -Prc:
