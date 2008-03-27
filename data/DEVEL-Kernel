@@ -13,4 +13,5 @@ git-email
 #pragma online
 kernel-debug
 gitk
+kernel-docs
 -Psg:
