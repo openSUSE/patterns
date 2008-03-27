@@ -13,7 +13,6 @@ nspluginwrapper
 -Prc:
 
 +Psg:
-black-box
 synergy
 WindowMaker
 WindowMaker-applets
