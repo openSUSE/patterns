@@ -3,9 +3,6 @@
 // git hype (is a meta package dragging in everything else)
 git
 
-// maintained by coolo - must be good
-abcde
-
 // qemu rocks
 qemu
 kqemu-kmp-default
@@ -173,4 +170,8 @@ libopensync-plugin-google-calendar
 libopensync-plugin-moto
 libopensync-plugin-python-module
 msynctool
+
+// could not find a better pattern
+ircd
+
 -Prc:

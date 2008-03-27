@@ -9,3 +9,7 @@ squid3
 squidGuard
 wireshark
 -Prc:
++Psg:
+wwwoffle
+mirror
+-Psg:

@@ -81,4 +81,6 @@ w3m-el-xemacs
 // #373195
 checkinstall
 pwgen
+// delta apply
+xdelta
 -Psg:

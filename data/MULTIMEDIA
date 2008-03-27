@@ -5,6 +5,9 @@ yast2-sound
 -Prc:
 +Psg:
 grip
+ripit
+// maintained by coolo - must be good
+abcde
 gstreamer-0_10-plugins-good-extra
 audacity
 timidity

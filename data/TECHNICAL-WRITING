@@ -46,4 +46,6 @@ texlive-metapost
 texlive-omega
 texlive-xetex
 TeXmacs
+detex
+dvi2tty
 -Psg:

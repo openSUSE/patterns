@@ -48,4 +48,5 @@ gcc-objc
 mpfr-devel
 ccache
 icecream
+subversion-doc
 -Psg:
