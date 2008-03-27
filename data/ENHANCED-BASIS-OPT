@@ -83,4 +83,6 @@ checkinstall
 pwgen
 // delta apply
 xdelta
+// needed as soon as you want to do kerberos authentication
+cyrus-sasl-gssapi
 -Psg:

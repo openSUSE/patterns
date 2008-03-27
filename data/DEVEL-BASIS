@@ -38,6 +38,8 @@ itrace
 #endif
 // most of our packages use this tool
 fdupes
+// applying patches
+patch
 -Prc:
 
 +Psg:
@@ -49,4 +51,5 @@ mpfr-devel
 ccache
 icecream
 subversion-doc
+wiggle
 -Psg:
