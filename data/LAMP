@@ -18,4 +18,6 @@ php5-mysql
 php5-gd
 php5-mbstring
 php5-zlib
+// slightly out of place I admit
+postgresql
 -Psg:
