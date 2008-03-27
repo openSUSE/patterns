@@ -175,6 +175,8 @@ unison
 
 // could not find a better pattern
 ircd
+subversion-server
+subversion-tools
 sshfs
 
 // FAX

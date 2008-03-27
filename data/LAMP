@@ -20,4 +20,6 @@ php5-mbstring
 php5-zlib
 // slightly out of place I admit
 postgresql
+postgresql-contrib
+postgresql-server
 -Psg:
