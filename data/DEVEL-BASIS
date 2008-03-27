@@ -46,4 +46,6 @@ gcc-fortran
 gcc-objc
 // Matz thinks people want that
 mpfr-devel
+ccache
+icecream
 -Psg:
