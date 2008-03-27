@@ -102,4 +102,6 @@ iscan-free                // optionally, open source, derived from iscan
 // themeing for hardcore KDE lovers
 yast2-theme-openSUSE-Crystal
 yast2-theme-openSUSE-Oxygen
+ivtv
+ivtv-firmware
 -Psg:
