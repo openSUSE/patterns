@@ -2,7 +2,6 @@ a2ps-h
 acct
 aeolus
 aide
-alevt
 alien
 alsamixergui
 alsa-plugins-samplerate
@@ -100,7 +99,6 @@ firmwarekit
 fkwnn
 fkwnndev
 flac
-flim-xemacs
 fluidsynth
 fonttools
 fping
@@ -122,7 +120,6 @@ glibc-obsolete
 gnome-backgrounds
 gnome-blog
 gnomeicu
-gnome-libs
 gnome-media-cd
 gnome-netstatus
 gnome-panel-doc
@@ -130,7 +127,6 @@ gnome-phone-manager
 gnome-pilot-conduits
 gnome-reset
 gnu-getopt
-gnuplot
 gnu-regexp
 gnu-regexp-demo
 gok
@@ -166,7 +162,6 @@ htdig
 html2text
 hydrogen
 i4lfirm
-i4l-isdnlog
 i4l-vbox
 ibm-data-db2
 icon-naming-utils
@@ -193,7 +188,6 @@ jamin
 jedit
 jfbterm
 joy2key
-kakasi-dict
 kalsatools
 kanji-lookup
 kanjipad
@@ -232,7 +226,6 @@ libopensync-plugin-moto
 libopensync-plugin-python-module
 libpqxx
 libraw1394
-libreiserfs
 libsap
 libsndfile-progs
 libsvg-cairo
@@ -241,7 +234,6 @@ libwpd-tools
 libxml
 lilypond
 lilypond-documentation
-lineakd
 lineak_defaultplugin
 lineak_xosdplugin
 linphone-applet
@@ -261,7 +253,6 @@ mined
 mirror
 mmv
 Modules
-motv
 msynctool
 muse
 musictex
@@ -271,13 +262,11 @@ netacct
 netatalk
 netdate
 netdiag
-net-snmp
 nh2ps
 nicolatter
 ntfsprogs-fuse
 ntop
 nvtv
-nxtvepg
 obconf
 ocfs2console
 oggztools
@@ -329,10 +318,6 @@ qjackctl
 qnotify
 qnotify-libs
 qpopper
-qt3-mysql
-qt3-postgresql
-qt3-sqlite
-qt3-unixODBC
 QtDMM
 raptor
 rasmol
@@ -347,10 +332,8 @@ rxp
 sabayon-admin
 samba-vscan
 sane-frontends
-sbl
 scsirastools
 seccheck
-semi-xemacs
 seq24
 servletapi4
 sgi-fonts
@@ -371,7 +354,6 @@ spectcl
 speex
 src_vipa
 sshfs
-star
 statserial
 subversion-doc
 subversion-python
@@ -396,15 +378,12 @@ traffic-vis
 transset
 tree
 ttf-caslon
-tv-common
-tv-fonts
 umtsmon
 unison
 units
 unix2dos
 upx
 usbview
-v4l-tools
 vbetool
 vdr
 vkeybd
@@ -435,7 +414,6 @@ xchat
 xcompmgr
 xdelta
 Xerces-c
-xfig
 xfsdump
 xgrabsc
 xine-ui
@@ -454,9 +432,7 @@ xv
 xyaku
 xzgv
 yafc
-ypserv
 yudit
-yum
 yumex
 yum-utils
 zd1211-firmware
