@@ -20,6 +20,7 @@ xfce4-appfinder
 xfce4-mixer
 xfce4-volstatus
 xfprint
+xsane
 -Prc:
 +Psg:
 #pragma online
