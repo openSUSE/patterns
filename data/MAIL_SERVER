@@ -20,4 +20,5 @@ exim
 mlmmj
 #pragma ignore
 sendmail
+bogofilter
 -Psg:
