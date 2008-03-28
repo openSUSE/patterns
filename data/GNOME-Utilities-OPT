@@ -12,4 +12,5 @@ libopensync-plugin-sunbird
 libopensync-plugin-syncml 
 libopensync 
 libopensync-tools
+evolution-webcal
 -Psg:
