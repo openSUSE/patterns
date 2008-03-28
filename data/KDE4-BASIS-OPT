@@ -3,6 +3,7 @@ beagle-index
 // beagle and friends (good for CD later)
 beagle-firefox
 kerry
+kde4-kio_beagle
 -Prc:
 +Psg:
 -Psg:

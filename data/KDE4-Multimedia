@@ -10,8 +10,7 @@ amarok-yauap
 amarok-libvisual
 kaffeine
 kdetv
-kio_ipodslave
-kio_iso
+//kio_ipodslave
 krecord
 //phonon_xine
 //phonon_gst

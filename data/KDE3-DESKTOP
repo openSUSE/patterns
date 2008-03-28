@@ -9,6 +9,7 @@ kdeaddons3-kontact
 kdeadmin3
 kdebase3-extra
 kdeedu4
+kdepim3-mobile
 kdepim3-time-management
 kdeutils3-extra
 kommander
@@ -44,8 +45,6 @@ kdenetwork3-IRC
 kdenetwork3-lan
 kdenetwork3-query
 kdenetwork3-wireless
-kdepim3-mobile
-kdepim3-time-management
 kdesdk3-kdecvs
 kdesvn
 kdeutils3-extra
