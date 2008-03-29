@@ -42,7 +42,6 @@ setserial
 sharutils
 smartmontools
 strace
-suspend
 tcpdump
 tcsh
 telnet

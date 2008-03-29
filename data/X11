@@ -34,6 +34,11 @@ x11-tools
 // #353229 - drag in empty replacements
 translation-update
 
+// interesting for workstations too
+#if defined(__i386__) || defined (__x86_64__)
+suspend
+#endif
+
 // yast modules for the desktop
 yast2-scanner
 #if !defined(__s390__)
