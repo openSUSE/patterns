@@ -29,8 +29,6 @@ beagle-evolution
 beagle-firefox
 beagle-gui
 bug-buddy
-cdparanoia
-cdrdao
 control-center2
 cups-backends
 dbus-1-x11
@@ -46,7 +44,6 @@ pidgin
 gcalctool
 gconf2-branding-openSUSE
 gedit
-gle
 // open terminal from RMB on desktop
 nautilus-open-terminal 
 gnome2-SuSE
@@ -82,7 +79,6 @@ gtkhtml2
 gtksourceview
 gtkspell
 gucharmap
-guile
 input-utils
 metacity
 nautilus
@@ -98,16 +94,12 @@ orca
 pinentry-gtk2
 python-gnome
 python-gtk
-python-numeric
-python-orbit
 samba
 shared-mime-info
-sox
 startup-notification
 susehelp
 tango-icon-theme
 tomboy
-vcdimager
 vino
 vte
 xkeyboard-config
