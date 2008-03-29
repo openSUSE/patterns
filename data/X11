@@ -33,6 +33,11 @@ freeglut
 x11-tools
 // #353229 - drag in empty replacements
 translation-update
+
+// yast modules for the desktop
+yast2-scanner
+#if !defined(__s390__)
+yast2-tv
 -Prc:
 
 +Psg:

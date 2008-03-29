@@ -56,13 +56,9 @@ yast2-ntp-client
 yast2-printer
 yast2-profile-manager
 yast2-restore
-yast2-scanner
 yast2-slp
 yast2-sudo
 yast2-support
-#if !defined(__s390__)
-yast2-tv
-#endif
 -Prc:
 +Psg:
 yast2-product-creator
