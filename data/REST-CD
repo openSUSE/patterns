@@ -46,8 +46,8 @@ susehelp_en
 yast2-trans-en_US
 krb5-client
 
-// prefer the small version
-cracklib-dict-small
+// prefer the full version for installation
+cracklib-dict-full
 
 // filesystem(minix)
 util-linux
