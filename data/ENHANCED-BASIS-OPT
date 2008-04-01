@@ -11,7 +11,6 @@ ed
 filters
 finger
 fbset
-gdb
 groff
 initviocons
 #ifdef __ppc__
