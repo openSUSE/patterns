@@ -78,7 +78,7 @@ yast2-storage-evms
 // see extra-packages for reasons
 star
 sbl
-xorg-x11-Mesa
+Mesa
 kdump-helpers
 i4l-isdnlog
 ypserv

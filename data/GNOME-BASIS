@@ -13,7 +13,7 @@ PolicyKit-gnome
 -Prq:
 
 +Prc:
-gnome-session-branding-openSUSE
+gconf2-branding-openSUSE
 gtk2-branding-openSUSE
 // #302205
 libgail-gnome
