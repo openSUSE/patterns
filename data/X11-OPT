@@ -10,6 +10,11 @@ xtermset
 #if !defined(__i386__)
 nspluginwrapper
 #endif
+// packages a GTK application
+gutenprint
+
+// needs python-qt
+hplip
 -Prc:
 
 +Psg:
