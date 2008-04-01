@@ -43,6 +43,9 @@ suspend
 yast2-scanner
 #if !defined(__s390__)
 yast2-tv
+
+// packages a GTK application
+gutenprint
 -Prc:
 
 +Psg:

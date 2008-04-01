@@ -13,7 +13,6 @@ finger
 fbset
 gdb
 groff
-gutenprint
 hplip
 initviocons
 #ifdef __ppc__
