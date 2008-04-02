@@ -1,7 +1,6 @@
 +Psg:
 anjuta
-#if !defined(ppc)
+#pragma online
 eclipse
-#endif
 monodevelop
 -Psg:
