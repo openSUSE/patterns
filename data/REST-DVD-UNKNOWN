@@ -20,10 +20,7 @@ bdfresize
 bibview
 bing
 blackbox
-blender
-bluez-cups
 bluez-test
-bogofilter
 bonnie
 bonnie++
 bsh2-bsf
@@ -47,10 +44,8 @@ cryptconfig
 Crystalcursors
 ctapi-cyberjack
 cvs2svn
-cyrus-sasl-gssapi
 cyrus-sasl-otp
 cyrus-sasl-sqlauxprop
-dar
 darts
 dazuko
 dbench
@@ -71,22 +66,18 @@ ebview
 ec-fonts-mftraced
 edict-emacs
 efont-serif-ttf
-eID-belgium
-eIDconfig-belgium
 ElectricFence
 encfs
 engdic
 epic
 evms-gui
 evolution-exchange
-evolution-webcal
 fcwnn
 fcwnndev
 finger-server
 firmwarekit
 fkwnn
 fkwnndev
-flac
 fluidsynth
 fonttools
 fping
@@ -104,7 +95,6 @@ gfxboot
 gimp-cmyk
 glibc-html
 glibc-obsolete
-gnome-backgrounds
 gnome-blog
 gnomeicu
 gnome-media-cd
@@ -150,7 +140,6 @@ img2eps
 imgSeek
 indeview
 intlfonts-ttf
-iptraf
 ipxrip
 isapnp
 jaaa
@@ -167,7 +156,6 @@ kanji-lookup
 kanjipad
 kdedesktopcheck
 kdrill
-kernel-docs
 kernel-syms
 keychain
 keyutils
@@ -183,10 +171,8 @@ kterm
 kvocabs
 lash
 lash-libs
-libavc1394
 libcap-progs
 libcdio-utils
-libdc1394
 libdvdnav
 libexif-gtk
 libghttp
@@ -198,7 +184,6 @@ libraw1394
 libsap
 libsndfile-progs
 libsvg-cairo
-libsyncml-tools
 libwpd-tools
 libxml
 lilypond
@@ -245,7 +230,6 @@ pam_cifs
 pam-doc
 pam_smb
 pam_ssh
-par
 patchrpm
 pbbuttonsd
 pcsc-acr38
@@ -262,12 +246,8 @@ php5-zip
 physfs
 plib
 plptools-kde
-postgresql-contrib
-postgresql-server
 po-utils
 powerprefs
-pptpd
-privoxy
 psgplay
 qamix
 qemacs
@@ -302,7 +282,6 @@ sitar
 snd_sf2
 socat
 solfege
-sound-juicer
 soundtouch
 spandsp
 spectcl
@@ -310,8 +289,6 @@ speex
 src_vipa
 statserial
 subversion-python
-subversion-server
-subversion-tools
 suck
 susevbox
 syslogd
@@ -341,11 +318,9 @@ wadokujt
 wavpack
 wbxml2
 wdfs
-wiggle
 wlan-ng
 wl-xemacs
 wm-icons
-wondershaper
 wsndpref
 wsndsrv
 x2x
@@ -356,7 +331,6 @@ xaos
 xbanner
 xbsql
 Xerces-c
-xfsdump
 xjdic
 xjdic-data
 xjdic-indices
