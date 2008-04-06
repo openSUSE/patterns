@@ -12,4 +12,6 @@ xvkbd
 x11-input-fujitsu
 libsmbios-bin
 powertop
+// UMTS support for Gerald's Laptop
+umtsmon
 -Psg:
