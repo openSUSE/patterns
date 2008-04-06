@@ -37,8 +37,12 @@ iscan-proprietary-drivers
 moneyplex
 opera
 qlogic-firmware
-ttf-founder-simplified
-ttf-founder-traditional
+FZFangSong
+FZHeiTi
+FZKaiTi
+FZKaiTiB
+FZMingTiB
+FZSongTi
 #if defined(__i386__)
 wink
 #endif
