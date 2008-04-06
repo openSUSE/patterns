@@ -1,7 +1,6 @@
 +Prc:
 kdeartwork4-screensaver
 kdebluetooth
-kitchensync
 kde4-kpilot
 -Prc:
 +Psg:
@@ -11,15 +10,4 @@ kde4-kteatime
 kde4-ktux
 kde4-amor
 kdirstat
-libopensync 
-libopensync-plugin-file
-libopensync-plugin-gnokii
-libopensync-plugin-gpe 
-libopensync-plugin-irmc
-libopensync-plugin-kdepim 
-libopensync-plugin-opie 
-libopensync-plugin-palm 
-libopensync-plugin-sunbird 
-libopensync-plugin-syncml 
-libopensync-tools
 -Psg:
