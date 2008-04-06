@@ -81,4 +81,6 @@ pwgen
 xdelta
 // needed as soon as you want to do kerberos authentication
 cyrus-sasl-gssapi
+// tool for xfs
+xfsdump
 -Psg:

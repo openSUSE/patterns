@@ -44,11 +44,6 @@ kexec-tools
 kdump-helpers
 yast2-kdump 
 
-// autobuild dependencies of yast modules
-cups-drivers-stp
-nfs-utils
-xfsdump
-
 // #296387
 xournal
 // #297414, #304221
