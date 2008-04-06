@@ -93,7 +93,7 @@ v4l-tools
 #pragma online
 install-initrd
 // for yast2-scanner
-sane                      // mandatory
+sane-backends             // mandatory
 hplip                     // optionally, this should be already installed by default
 iscan-free                // optionally, open source, derived from iscan
 // themeing for hardcore KDE lovers

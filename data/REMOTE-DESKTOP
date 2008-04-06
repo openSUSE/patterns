@@ -2,9 +2,8 @@
 rdesktop
 tsclient
 FreeNX
-vnc
+tightvnc
 -Prc:
 +Psg:
-tightvnc
 kdenetwork3-vnc
 -Psg:
