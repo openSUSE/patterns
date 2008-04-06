@@ -6,11 +6,15 @@ java-plugin
 -Prc:
 +Psg:
 ant-javamail
+#pragma online
 java-1_5_0-sun-alsa
+#pragma online
 java-1_5_0-sun-devel
+#pragma online
 java-1_5_0-sun-jdbc
 #pragma online
 java-1_5_0-sun-src
+#pragma online
 java-1_5_0-sun
 java-1_6_0-sun-alsa
 java-1_6_0-sun-devel

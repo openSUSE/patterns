@@ -90,6 +90,7 @@ kradio
 motv
 nxtvepg
 v4l-tools
+#pragma online
 install-initrd
 // for yast2-scanner
 sane                      // mandatory
