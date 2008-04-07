@@ -111,4 +111,7 @@ zd1211-firmware
 
 // rescue
 ddrescue
+
+// required by yast2-dsl (#377472)
+smpppd
 -Prc:
