@@ -3,4 +3,6 @@ xournal
 bluez-gnome
 gsynaptics
 resapplet
+// bnc#372208
+gnome-phone-manager
 -Prc:
