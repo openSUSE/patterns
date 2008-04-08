@@ -1,11 +1,7 @@
 +Prc:
 freeglut
 xdmbgrd
-lsb
-tk
-unclutter
 x11-input-wacom
-xlockmore
 xtermset
 #if !defined(__i386__)
 nspluginwrapper
@@ -18,6 +14,10 @@ hplip
 -Prc:
 
 +Psg:
+tk
+unclutter
+xlockmore
+lsb
 synergy
 WindowMaker
 WindowMaker-applets
