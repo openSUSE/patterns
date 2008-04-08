@@ -44,6 +44,9 @@ yast2-scanner
 #if !defined(__s390__)
 yast2-tv
 #endif
+
+// split of ConsoleKit
+ConsoleKit-x11
 -Prc:
 
 +Psg:

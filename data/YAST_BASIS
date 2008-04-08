@@ -31,7 +31,6 @@ yast2-perl-bindings
 yast2-pkg-bindings
 yast2-repair
 yast2-runlevel
-yast2-schema
 yast2-security
 yast2-storage
 yast2-storage-lib
@@ -101,4 +100,6 @@ yast2-theme-openSUSE-Crystal
 yast2-theme-openSUSE-Oxygen
 ivtv
 ivtv-firmware
+// required by yast2-storage
+pam_mount
 -Psg:
