@@ -6,13 +6,13 @@ gnome-panel
 gnome-session
 gtk2-themes
 gnome-vfs2
+-Prq:
+
++Prc:
 // SUSE gnome greeter (#302026)
 ggreeter
 // #372514
 PolicyKit-gnome
--Prq:
-
-+Prc:
 gconf2-branding-openSUSE
 gtk2-branding-openSUSE
 // #302205
