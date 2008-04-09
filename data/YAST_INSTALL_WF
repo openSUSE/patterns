@@ -32,4 +32,8 @@ yast2-tv
 #endif
 yast2-update
 autoyast2
+#if defined(__x86_64__)
+samba-client-32bit
+samba-winbind-32bit
+#endif
 -Psg:
