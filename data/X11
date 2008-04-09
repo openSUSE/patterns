@@ -47,11 +47,12 @@ yast2-tv
 
 // split of ConsoleKit
 ConsoleKit-x11
+// chooce icewm-lite if you have a choice
+icewm-lite
 -Prc:
 
 +Psg:
 // required by others
-icewm-lite
 icewm-default
 icewm-gnome
 915resolution
