@@ -36,4 +36,12 @@ autoyast2
 samba-client-32bit
 samba-winbind-32bit
 #endif
+#if defined(__ppc__)
+pam_thinkfinger-64bit
+pam_krb5-64bit
+nss_ldap-64bit
+pam_ldap-64bit
+samba-client-64bit
+samba-winbind-64bit
+#endif
 -Psg:
