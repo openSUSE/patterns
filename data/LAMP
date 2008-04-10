@@ -18,6 +18,7 @@ php5-mysql
 php5-gd
 php5-mbstring
 php5-zlib
+php5-zip
 // slightly out of place I admit
 postgresql
 postgresql-contrib
