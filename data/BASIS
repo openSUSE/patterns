@@ -29,6 +29,8 @@ grub
 #ifdef __ppc__
 lilo
 #endif
+// get it branded
+branding-openSUSE
 -Prq:
 
 +Prc:
