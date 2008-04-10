@@ -143,4 +143,6 @@ glibc-locale-32bit
 numactl
 irqbalance
 #endif
+// #375103
+cifs-mount
 -Prc:
