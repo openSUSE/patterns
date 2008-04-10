@@ -143,4 +143,6 @@ glibc-locale-32bit
 numactl
 irqbalance
 #endif
+// get it branded
+branding-openSUSE
 -Prc:
