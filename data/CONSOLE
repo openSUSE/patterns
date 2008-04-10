@@ -34,4 +34,6 @@ lftp
 dar
 par
 makedev
+// #378747
+cryptconfig
 -Psg:
