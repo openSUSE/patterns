@@ -15,6 +15,7 @@ kdebase4-nsplugin
 #endif
 NetworkManager
 NetworkManager-kde
+NetworkManager-kde4
 kdepim4-wizards
 kde4-akregator
 kde4-kaddressbook
@@ -30,6 +31,8 @@ yast2-control-center-qt
 gdb
 kde4-kdm
 kde4-kio_iso
+// #379583
+PolicyKit-kde
 -Prc:
 +Psg:
 kpowersave
