@@ -15,7 +15,6 @@ kdebase4-nsplugin
 #endif
 NetworkManager
 NetworkManager-kde
-NetworkManager-kde4
 kdepim4-wizards
 kde4-akregator
 kde4-kaddressbook
