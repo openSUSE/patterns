@@ -10,7 +10,6 @@ python-cairo-devel
 python-gnome-devel
 python-gobject2-devel
 python-gtk-devel
-python-kde-extensions
 python-ldap
 python-qt
 python-wxGTK
