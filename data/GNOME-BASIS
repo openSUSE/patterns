@@ -29,7 +29,7 @@ beagle-evolution
 beagle-firefox
 beagle-gui
 bug-buddy
-control-center2
+gnome-control-center
 cups-backends
 dbus-1-x11
 desktop-file-utils
