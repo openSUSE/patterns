@@ -17,6 +17,8 @@ subversion
 libzypp-devel
 yast2-libyui-devel
 yast2-ycp-ui-bindings-devel
+yast2-qt-devel
+yast2-ncurses-devel
 -Prc:
 +Psg:
 inst-source-utils

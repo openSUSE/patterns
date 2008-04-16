@@ -13,6 +13,7 @@ aufs
 aufs-kmp-default
 aufs-kmp-xen
 yast2-live-installer
+cromfs
 
 //# 306071
 virtualbox-ose
