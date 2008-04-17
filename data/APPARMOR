@@ -1,8 +1,8 @@
-+Prq:
++Prc:
 apparmor-parser
 apparmor-profiles
 audit
--Prq:
+-Prc:
 
 +Prc:
 yast2-apparmor
