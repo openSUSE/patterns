@@ -1,4 +1,4 @@
-+Prc:
++Prq:
 yast2-devtools
 yast2-testsuite
 // Bug 304645 gives the list below:
@@ -17,6 +17,8 @@ subversion
 libzypp-devel
 yast2-libyui-devel
 yast2-ycp-ui-bindings-devel
+-Prq:
++Prc:
 yast2-qt-devel
 yast2-ncurses-devel
 -Prc:

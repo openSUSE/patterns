@@ -1,5 +1,8 @@
-+Prc:
++Prq:
 cups
+-Prq:
+
++Prc:
 cups-backends
 cups-drivers
 filters

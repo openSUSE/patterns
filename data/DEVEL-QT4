@@ -1,6 +1,8 @@
-+Prc:
++Prq:
 libqt4-devel
 libqt4-devel-doc
+-Prq:
++Prc:
 libqt4-sql-sqlite
 -Prc:
 +Psg:

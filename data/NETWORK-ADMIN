@@ -1,9 +1,11 @@
-+Prc:
++Prq:
 nmap
 quagga
 tcpdump
 whois
 wireshark
+-Prq:
++Prc:
 arpwatch
 iftop
 nagios

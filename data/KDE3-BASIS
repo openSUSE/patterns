@@ -3,9 +3,9 @@ kdebase3-kdm
 kdebase3-SuSE
 kdebase3-session
 kdelibs3
+kwin-decor-suse2
 -Prq:
 +Prc:
-kwin-decor-suse2
 #if defined(__i386__)
 kdebase3-nsplugin
 #endif

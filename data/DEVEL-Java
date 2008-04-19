@@ -1,4 +1,4 @@
-+Prc:
++Prq:
 ant
 ant-antlr
 ant-apache-bcel
@@ -25,6 +25,8 @@ xerces-j2
 xml-commons-apis
 xml-commons-resolver
 xml-commons-which
+-Prq:
++Prc:
 java-1_5_0-gcj-compat-devel
 -Prc:
 +Psg:

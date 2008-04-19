@@ -1,7 +1,7 @@
-+Prc:
++Prq:
 pychecker
 python
--Prc:
+-Prq:
 +Psg:
 eric
 libxml2-python

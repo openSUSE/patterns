@@ -1,9 +1,11 @@
-+Prc:
++Prq:
 nfsidmap
 nfs-kernel-server
 samba
 yast2-nfs-server
 yast2-samba-server
+-Prq:
++Prc:
 vsftpd
 samba-client
 samba-winbind

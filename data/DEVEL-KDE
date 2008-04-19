@@ -1,6 +1,9 @@
-+Prc:
++Prq:
 cmake
 kdebase4-workspace-devel
+-Prq:
+
++Prc:
 alsa-devel
 aspell-devel
 avahi-compat-mDNSResponder-devel

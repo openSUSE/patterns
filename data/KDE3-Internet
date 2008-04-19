@@ -1,9 +1,11 @@
-+Prc:
++Prq:
 kdenetwork3
 kdenetwork3-InstantMessenger
 kdenetwork3-news
 kio_slp
 ktorrent
+-Prq:
++Prc:
 // 297684 for these 2
 kde4-krfb
 kde4-krdc

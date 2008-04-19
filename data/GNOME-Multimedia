@@ -1,10 +1,10 @@
-+Prc:
++Prq:
 banshee-player
 totem
 totem-plugin
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
--Prc:
+-Prq:
 
 +Psg:
 banshee

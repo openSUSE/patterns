@@ -1,4 +1,4 @@
-+Prc:
++Prq:
 kde4-gwenview
 digikam
 kipi-plugins
@@ -8,5 +8,7 @@ kde4-okular
 kde4-kio_kamera
 kde4-kcolorchooser
 kde4-kgamma
+-Prq:
++Prc:
 digikamimageplugins
 -Prc:

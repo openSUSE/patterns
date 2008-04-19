@@ -1,8 +1,10 @@
-+Prc:
++Prq:
 ivman
 mc
 w3m
 wodim
+-Prq:
++Prc:
 emacs-nox
 mtools
 sox

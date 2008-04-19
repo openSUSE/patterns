@@ -1,10 +1,12 @@
-+Prc:
++Prq:
 bind
 dhcp-relay
 dhcp-server
 dhcp-tools
 yast2-dhcp-server
 yast2-dns-server
+-Prq:
++Prc:
 bind-doc
 dhcpv6
 -Prc:

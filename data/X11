@@ -3,12 +3,12 @@ xkeyboard-config
 #if defined __x86_64__
 nss-mdns-32bit
 #endif
--Prq:
-
-+Prc:
 #if !defined(__s390__)
 yast2-x11
 #endif
+-Prq:
+
++Prc:
 // needed e.g. for nvidia drivers
 3ddiag
 // needed for fetchmsfonts (#327524)

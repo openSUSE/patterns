@@ -1,12 +1,14 @@
-+Prc:
++Prq:
 irda
 jarnal 
 pcmciautils
 scpm
 wpa_supplicant
-x11-input-wacom-tools
 xstroke
+-Prq:
++Prc:
 xvkbd
+x11-input-wacom-tools
 -Prc:
 +Psg:
 x11-input-fujitsu

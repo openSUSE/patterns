@@ -1,6 +1,8 @@
-+Prc:
++Prq:
 ghostscript-fonts-std
 xorg-x11-fonts-core
+-Prq:
++Prc:
 dejavu
 ifnteuro
 -Prc:
