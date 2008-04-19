@@ -3,7 +3,6 @@ deskbar-applet
 evolution-pilot
 fast-user-switch-applet
 gftp
-gnet
 gnome-bluetooth
 bluez-gnome
 multisync-gui
@@ -12,3 +11,6 @@ seahorse
 vino
 dasher
 -Prc:
++Psg:
+gnet
+-Psg:

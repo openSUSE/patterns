@@ -37,7 +37,6 @@ dirmngr
 eog
 evince
 evolution
-fam-server
 file-roller
 gail
 pidgin
@@ -85,7 +84,6 @@ nautilus
 brasero
 nautilus-sendto
 nautilus-share
-ncpfs
 NetworkManager
 NetworkManager-gnome
 notification-daemon
@@ -108,13 +106,10 @@ yelp
 zenity
 // we want useful bug reports
 gdb
-// #301664
-gnome-commander
 // Pulseaudio is the default sound server
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
-pulseaudio-module-jack
 pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
@@ -129,3 +124,7 @@ gstreamer-0_10-pulse
 gnome-do
 tasque
 -Prc:
++Psg:
+// #301664 -> suggests due to 380248
+gnome-commander
+-Psg:

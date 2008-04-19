@@ -1,7 +1,9 @@
 +Prc:
 alacarte
-pessulus
-sabayon
 // bnc#372207
 vinagre
 -Prc:
++Psg:
+sabayon
+pessulus
+-Psg:
