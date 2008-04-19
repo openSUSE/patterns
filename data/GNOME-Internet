@@ -1,6 +1,8 @@
 +Prc:
 liferea
 xchat-gnome
+// bnc#381006
+monsoon
 -Prc:
 +Psg:
 pan
