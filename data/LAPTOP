@@ -1,12 +1,12 @@
 +Prq:
 irda
-jarnal 
 pcmciautils
 scpm
 wpa_supplicant
 xstroke
 -Prq:
 +Prc:
+jarnal
 xvkbd
 x11-input-wacom-tools
 -Prc:
