@@ -14,6 +14,7 @@ aufs-kmp-default
 aufs-kmp-xen
 yast2-live-installer
 cromfs
+gfxboot-devel
 
 //# 306071
 virtualbox-ose
