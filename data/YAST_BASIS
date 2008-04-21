@@ -1,15 +1,6 @@
 +Prq:
 // #304686
 yast2-fingerprint-reader
-#if defined(__x86_64__) ||  defined(__s390x__)  || defined(__ppc__)
-pam_thinkfinger-32bit
-#endif
-#if defined(__ia64__)
-pam_thinkfinger-x86
-#endif
-#if defined(__ppc64__)
-pam_thinkfinger-64bit
-#endif
 limal-perl
 yast2
 yast2-country
@@ -105,4 +96,13 @@ ivtv
 ivtv-firmware
 // required by yast2-storage
 pam_mount
+#if defined(__x86_64__) ||  defined(__s390x__)
+pam_thinkfinger-32bit
+#endif
+#if defined(__ia64__)
+pam_thinkfinger-x86
+#endif
+#if defined(__ppc64__)
+pam_thinkfinger-64bit
+#endif
 -Psg:
