@@ -15,6 +15,8 @@ aufs-kmp-xen
 yast2-live-installer
 cromfs
 gfxboot-devel
+nbd
+nbd-doc
 
 //# 306071
 virtualbox-ose
