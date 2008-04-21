@@ -181,4 +181,10 @@ capisuite
 
 // Sonja loves Belgium
 eIDconfig-belgium
+
+#if defined(__ppc__)
+// #381940
+kernel-ppc64
+#endif
+
 -Prc:
