@@ -15,3 +15,7 @@ xen-doc-pdf
 xterm
 yast2-vm
 -Prc:
++Psg:
+// #382423
+install-initrd
+-Psg:
