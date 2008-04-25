@@ -16,4 +16,5 @@ git-email
 kernel-debug
 gitk
 kernel-docs
+kernel-syms
 -Psg:
