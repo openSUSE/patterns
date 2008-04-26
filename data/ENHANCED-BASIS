@@ -50,6 +50,8 @@ suse-build-key
 // create log file tars
 tar
 wget
+// split out of ncurses
+ncurses-utils
 -Prq:
 
 +Prc:
