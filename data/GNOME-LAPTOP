@@ -1,5 +1,4 @@
 +Prc:
-xournal
 bluez-gnome
 gsynaptics
 resapplet
@@ -8,3 +7,6 @@ gnome-phone-manager
 // bnc#380390
 gnome-docker
 -Prc:
++Psg:
+xournal
+-Psg:
