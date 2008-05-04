@@ -1,6 +1,7 @@
 +Prc:
 liferea
-xchat-gnome
+// bnc#381620
+xchat
 // bnc#381006
 monsoon
 -Prc:
@@ -8,5 +9,6 @@ monsoon
 pan
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc-gnome
+xchat-gnome
 -Psg:
 
