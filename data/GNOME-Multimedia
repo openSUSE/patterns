@@ -1,12 +1,16 @@
 +Prq:
-banshee-player
+banshee-1
+banshee-1-backend-engine-gstreamer
+banshee-1-backend-platform-unix
 totem
 totem-plugin
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:
-
++Prq:
+banshee-1-extensions-default
+banshee-1-backend-platform-gnome
+-Prc:
 +Psg:
-banshee
 sound-juicer
 -Psg:
