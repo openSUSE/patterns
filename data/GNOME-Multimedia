@@ -7,7 +7,7 @@ totem-plugin
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:
-+Prq:
++Prc:
 banshee-1-extensions-default
 banshee-1-backend-platform-gnome
 -Prc:
