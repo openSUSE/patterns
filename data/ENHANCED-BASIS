@@ -52,6 +52,8 @@ tar
 wget
 // split out of ncurses
 ncurses-utils
+// we want a branded boot (bnc#385502)
+bootsplash-branding
 -Prq:
 
 +Prc:
