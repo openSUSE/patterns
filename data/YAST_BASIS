@@ -87,6 +87,7 @@ install-initrd
 // for yast2-scanner
 sane-backends             // mandatory
 hplip                     // optionally, this should be already installed by default
+iscan                     // optionally, proprietary binary-only i386-only software from Epson Kowa
 iscan-free                // optionally, open source, derived from iscan
 // themeing for hardcore KDE lovers
 yast2-theme-openSUSE-Crystal
@@ -103,5 +104,14 @@ pam_thinkfinger-x86
 #endif
 #if defined(__ppc64__)
 pam_thinkfinger-64bit
+#endif
+// yast2-sound
+alsa-firmware 
+alsa-tools
+// yast2-printer
+ncpfs              // printing via novell ipx
+// yast2-kdump
+#if defined(__ppc__)
+kernel-kdump
 #endif
 -Psg:
