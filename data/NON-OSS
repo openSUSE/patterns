@@ -29,7 +29,7 @@ atmel-firmware
 ipw-firmware
 iwl3945-ucode
 iwl4965-ucode
-#if defined(__i386__)
+#if defined(__i386__) || defined (__x86_64__)
 iscan
 iscan-firmware
 iscan-proprietary-drivers
