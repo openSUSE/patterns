@@ -114,6 +114,7 @@ vte-devel
 wvstreams-devel
 imlib2-devel
 emacs-x11
+guile-devel
 -Prc:
 +Psg:
 python-cairo-devel

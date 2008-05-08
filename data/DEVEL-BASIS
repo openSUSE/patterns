@@ -42,6 +42,10 @@ itrace
 fdupes
 // applying patches
 patch
+binutils-devel
+e2fsprogs-devel
+libapparmor-devel
+libosip2-devel
 -Prc:
 
 +Psg:
