@@ -187,6 +187,12 @@ eIDconfig-belgium
 #if defined(__ppc__)
 // #381940
 kernel-ppc64
+// #387170
+ps3-utils
+gtkpbbuttons
+pbbuttonsd
+petitboot
+powerprefs
 #endif
 
 -Prc:
