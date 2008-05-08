@@ -57,6 +57,8 @@ pfmon
 salinfo
 #endif
 lzma
+// bnc#388149
+hplip
 -Prc:
 
 +Psg:
