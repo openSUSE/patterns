@@ -1,5 +1,6 @@
 +Prq:
 tcl
+tk
 -Prq:
 
 +Prc:
@@ -16,12 +17,18 @@ tcludp
 tclx
 tdom
 tix
-tk
 tk-devel
 tkcon
 tkimg
 tktable
 tls
+// #387771
+itcl-devel
+itk
+itk-devel
+expect-devel
+// #387771
+tclplug
 -Prc:
 
 +Psg:
