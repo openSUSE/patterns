@@ -1,4 +1,4 @@
-+Prc:
++Prq:
 gwenview
 digikam
 kipi-plugins
@@ -7,7 +7,7 @@ jpeg
 kdegraphics3
 kdegraphics3-kamera
 kdegraphics3-postscript
--Prc:
+-Prq:
 +Prc:
 digikamimageplugins
 -Prc:
