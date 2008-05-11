@@ -36,4 +36,6 @@ branding-openSUSE
 +Prc:
 // resmgr by default (#304695)
 resmgr
+// only on DVD
+openSUSE-release-dvd
 -Prc:
