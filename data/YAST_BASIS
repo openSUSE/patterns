@@ -119,4 +119,6 @@ ncpfs              // printing via novell ipx
 #if defined(__ppc__)
 kernel-kdump
 #endif
+// yast2-network
+smartlink-softmodem
 -Psg:
