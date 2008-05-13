@@ -53,6 +53,8 @@ yast2-support
 // see the discussion in #386473
 yast2-samba-client
 yast2-samba-server
+// #388892
+yast2-vm
 -Prc:
 +Psg:
 yast2-product-creator
