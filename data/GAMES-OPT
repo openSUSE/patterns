@@ -3,6 +3,7 @@ chromium
 frozen-bubble
 freeciv
 supertux
+#pragma online
 xmoto
 lbreakout
 #pragma online
