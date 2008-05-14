@@ -195,4 +195,7 @@ petitboot
 powerprefs
 #endif
 
+// minimal korean support (bnc#390099)
+unfonts
+scim-hangul 
 -Prc:
