@@ -12,7 +12,6 @@ kdebase3-nsplugin
 qtcurve-gtk2-32bit
 #endif
 opensuse-kde3user_en
-opensuse-kde3user_en-pdf
 -Prc:
 +Psg:
 -Psg:
