@@ -138,6 +138,7 @@ uvcvideo-kmp-default
 uvcvideo-kmp-xen
 wlan-ng-kmp-xen
 quickcam-kmp-default
+kvm-kmp-default
 
 #if defined(__i386__)
 kqemu-kmp-pae
@@ -156,6 +157,7 @@ omnibook-kmp-pae
 uvcvideo-kmp-pae
 wlan-ng-kmp-pae
 quickcam-kmp-pae
+kvmp-kmp-pae
 #endif
 
 // someone missed it (#372888)
@@ -198,4 +200,7 @@ powerprefs
 // minimal korean support (bnc#390099)
 unfonts
 scim-hangul 
+
+// #390825
+kvm
 -Prc:
