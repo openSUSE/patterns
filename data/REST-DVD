@@ -45,7 +45,6 @@ kiwi-pxeboot
 yast2-python-bindings
 // kdump+tools
 kexec-tools
-kdump-helpers
 yast2-kdump 
 
 // #296387
@@ -130,8 +129,6 @@ ivtv-kmp-xen
 lirc-kmp-default
 lirc-kmp-xen
 ndiswrapper-kmp-xen
-novfs-kmp-default
-novfs-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
 uvcvideo-kmp-default
@@ -152,12 +149,11 @@ gspcav-kmp-pae
 ivtv-kmp-pae
 lirc-kmp-pae
 ndiswrapper-kmp-pae
-novfs-kmp-pae
 omnibook-kmp-pae
 uvcvideo-kmp-pae
 wlan-ng-kmp-pae
 quickcam-kmp-pae
-kvmp-kmp-pae
+kvm-kmp-pae
 #endif
 
 // someone missed it (#372888)

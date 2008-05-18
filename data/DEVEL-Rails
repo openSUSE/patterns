@@ -17,6 +17,6 @@ rubygem-erubis
 rubygem-needle
 rubygem-net-sftp
 rubygem-net-ssh
-rubygem-ruby-postgres
+rubygem-postgres
 lighttpd
 -Psg:
