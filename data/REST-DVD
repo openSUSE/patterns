@@ -44,6 +44,7 @@ kiwi-pxeboot
 // #301029
 yast2-python-bindings
 // kdump+tools
+kdump
 kexec-tools
 yast2-kdump 
 
