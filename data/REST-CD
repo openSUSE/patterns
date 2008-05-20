@@ -114,4 +114,8 @@ ddrescue
 
 // required by yast2-dsl (#377472)
 smpppd
+
+// bnc#391434
+vmware-kmp-default
+vmware-kmp-pae
 -Prc:

@@ -199,4 +199,7 @@ scim-hangul
 
 // #390825
 kvm
+
+// #391434
+open-vm-tools
 -Prc:
