@@ -124,7 +124,6 @@ perl-ldap-ssl
 perl-libconfigfile
 perl-Mail-Mbox-MessageParser
 perl-MIME-Types
-perl-MP3-Info
 perl-NetAddr-IP
 perl-Net-IPv4Addr
 perl-Net-SNMP
