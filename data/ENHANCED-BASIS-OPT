@@ -85,4 +85,6 @@ xdelta
 cyrus-sasl-gssapi
 // tool for xfs
 xfsdump
+// #393589
+open-iscsi
 -Psg:
