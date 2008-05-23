@@ -198,6 +198,17 @@ powerprefs
 unfonts
 scim-hangul 
 
+// packages for instsys
+cracklib-dict-full
+FZSongTi
+IPAGothic
+KhmerOS-fonts
+fonts-arabic
+fonts-thai
+indic-fonts
+lklug
+unfonts
+
 // #390825
 kvm
 
