@@ -21,6 +21,8 @@ xfce4-mixer
 xfce4-volstatus
 xfprint
 xsane
+// #393956
+gdm
 -Prc:
 +Psg:
 #pragma online
