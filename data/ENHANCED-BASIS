@@ -118,7 +118,9 @@ preload
 recode
 reiserfs
 release-notes-openSUSE
-scsi
+smp_utils
+sg3_utils
+lsscsi
 sudo
 suseRegister
 timezone
