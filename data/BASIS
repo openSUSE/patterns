@@ -26,7 +26,7 @@ efibootmgr
 #if defined(__i386__) || defined (__x86_64__)
 grub
 #endif
-#if defined(__ppc__)
+#if defined(__powerpc__)
 lilo
 #endif
 // get it branded

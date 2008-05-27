@@ -13,7 +13,7 @@ finger
 fbset
 groff
 initviocons
-#if defined(__ppc__)
+#if defined(__powerpc__)
 hfsutils
 #endif
 joe
@@ -65,7 +65,7 @@ hplip
 ash
 cpufrequtils
 delayacct-utils
-#if !defined(__ppc__)
+#if !defined(__powerpc__)
 hfsutils
 #endif
 jfsutils

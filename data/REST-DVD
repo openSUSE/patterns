@@ -130,7 +130,7 @@ capisuite
 // Sonja loves Belgium
 eIDconfig-belgium
 
-#if defined(__ppc__)
+#if defined(__powerpc__)
 // #381940
 kernel-ppc64
 // #387170

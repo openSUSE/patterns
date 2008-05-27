@@ -35,7 +35,7 @@ openldap2-devel
 pam-devel
 pkg-config
 subversion
-#if defined(__ppc__)
+#if defined(__powerpc__)
 itrace
 #endif
 // most of our packages use this tool

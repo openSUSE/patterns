@@ -106,7 +106,7 @@ pam_thinkfinger-32bit
 #if defined(__ia64__)
 pam_thinkfinger-x86
 #endif
-#if defined(__ppc64__)
+#if defined(__powerpc64__)
 pam_thinkfinger-64bit
 #endif
 // yast2-sound
@@ -115,7 +115,7 @@ alsa-tools
 // yast2-printer
 ncpfs              // printing via novell ipx
 // yast2-kdump
-#if defined(__ppc__)
+#if defined(__powerpc__)
 kernel-kdump
 #endif
 // yast2-network
