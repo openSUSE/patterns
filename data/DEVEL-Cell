@@ -2,7 +2,7 @@
 cross-spu-newlib
 cross-spu-gcc
 cross-spu-binutils
-#ifdef __ppc__
+#if defined(__ppc__)
 libspe
 #endif
 -Prc:

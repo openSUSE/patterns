@@ -135,16 +135,16 @@ ntp
 yp-tools
 ypbind
 lilo
-#ifdef __ppc__
+#if defined(__ppc__)
 pdisk
 powerpc32
 // #303737
 mouseemu
 #endif
-#ifdef __x86_64__
+#if defined(__x86_64__)
 linux32
 #endif
-#ifdef __x86_64__
+#if defined(__x86_64__)
 glibc-32bit
 glibc-locale-32bit
 numactl

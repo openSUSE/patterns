@@ -13,7 +13,7 @@ finger
 fbset
 groff
 initviocons
-#ifdef __ppc__
+#if defined(__ppc__)
 hfsutils
 #endif
 joe
@@ -52,7 +52,7 @@ wol
 zip
 zisofs-tools
 zsh
-#ifdef __ia64__
+#if defined(__ia64__)
 pfmon
 salinfo
 #endif
@@ -65,7 +65,7 @@ hplip
 ash
 cpufrequtils
 delayacct-utils
-#ifndef __ppc__
+#if !defined(__ppc__)
 hfsutils
 #endif
 jfsutils

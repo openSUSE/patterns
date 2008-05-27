@@ -8,7 +8,7 @@ kio_beagle
 #if !defined(__i386__)
 kdebase3-nsplugin
 #endif
-#ifdef __x86_64__
+#if defined(__x86_64__)
 qtcurve-gtk2-32bit
 #endif
 opensuse-kde3user_en

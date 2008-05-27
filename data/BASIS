@@ -19,14 +19,14 @@ suse-build-key
 sysconfig
 syslog-ng
 
-#ifdef __ia64__
+#if defined(__ia64__)
 elilo
 efibootmgr
 #endif
 #if defined(__i386__) || defined (__x86_64__)
 grub
 #endif
-#ifdef __ppc__
+#if defined(__ppc__)
 lilo
 #endif
 // get it branded

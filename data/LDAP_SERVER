@@ -3,7 +3,7 @@ nss_ldap
 openldap2
 pam_ldap
 yast2-ldap-server
-#ifdef __x86_64__
+#if defined(__x86_64__)
 nss_ldap-32bit
 pam_ldap-32bit
 #endif
