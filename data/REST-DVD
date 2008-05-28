@@ -150,4 +150,7 @@ kvm
 
 // #391434
 open-vm-tools
+vmware-kmp-default
+vmware-kmp-pae
+
 -Prc:
