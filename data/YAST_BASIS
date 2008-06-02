@@ -1,6 +1,4 @@
 +Prq:
-// #304686
-yast2-fingerprint-reader
 limal-perl
 yast2
 yast2-country
@@ -120,4 +118,5 @@ kernel-kdump
 #endif
 // yast2-network
 smartlink-softmodem
+yast2-fingerprint-reader
 -Psg:
