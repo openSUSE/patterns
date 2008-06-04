@@ -115,4 +115,7 @@ ddrescue
 // required by yast2-dsl (#377472)
 smpppd
 
+// #396109
+alsa-firmware
+awesfx
 -Prc:
