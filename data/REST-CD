@@ -118,4 +118,6 @@ smpppd
 // #396109
 alsa-firmware
 awesfx
+
+btusb-kmp-default
 -Prc:
