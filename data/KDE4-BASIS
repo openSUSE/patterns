@@ -16,6 +16,7 @@ kdebase4-nsplugin
 NetworkManager
 NetworkManager-kde
 kdepim4-wizards
+kdenetwork4-filesharing
 kde4-akregator
 kde4-kaddressbook
 kde4-kmail
