@@ -1,7 +1,9 @@
++Prq:
+yast2-sound
+-Prq:
 +Prc:
 dvd+rw-tools
 vorbis-tools
-yast2-sound
 -Prc:
 +Psg:
 grip
