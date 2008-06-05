@@ -1,9 +1,9 @@
-+Prc:
++Prq:
 yast2-installation
 yast2-ncurses
 yast2-network
 yast2-users
--Prc:
+-Prq:
 +Psg:
 autoyast2-installation
 yast2-firewall

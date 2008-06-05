@@ -1,8 +1,11 @@
++Prq:
+nxml-mode
+xmlto
+-Prq:
 +Prc:
 docbook-dsssl-stylesheets
 docbook-xsl-stylesheets
 psutils
-xmlto
 emacs
 emacs-x11
 fop
@@ -13,7 +16,6 @@ batik
 dia
 inkscape
 mxml
-nxml-mode
 sablot
 saxon
 //LATER xmlroff

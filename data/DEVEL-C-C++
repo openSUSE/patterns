@@ -1,9 +1,11 @@
++Prq:
+glibc-info
+-Prc:
 +Prc:
 boost-devel
 boost-doc
 boost-jam
 ddd
-glibc-info
 posix_cc
 swig
 texinfo

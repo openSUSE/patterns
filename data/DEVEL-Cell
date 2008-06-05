@@ -1,8 +1,8 @@
-+Prc:
++Prq:
 cross-spu-newlib
 cross-spu-gcc
 cross-spu-binutils
 #if defined(__powerpc__)
 libspe
 #endif
--Prc:
+-Prq:
