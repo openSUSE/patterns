@@ -8,10 +8,9 @@ totem-plugin
 opensuse-codecs-installer 
 -Prq:
 +Prc:
+banshee-1-extensions-default
 banshee-1-backend-platform-gnome
 -Prc:
 +Psg:
-// require mono-devel for now
-banshee-1-extensions-default
 sound-juicer
 -Psg:
