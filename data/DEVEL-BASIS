@@ -60,4 +60,5 @@ subversion-doc
 wiggle
 oprofile
 libgssglue-devel
+audit-devel
 -Psg:

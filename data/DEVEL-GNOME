@@ -115,6 +115,8 @@ wvstreams-devel
 imlib2-devel
 emacs-x11
 guile-devel
+ConsoleKit-devel
+libnl-devel
 -Prc:
 +Psg:
 python-cairo-devel
