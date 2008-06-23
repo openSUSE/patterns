@@ -122,6 +122,8 @@ gstreamer-0_10-pulse
 // #379486
 gnome-do
 tasque
+// #399801
+mousetweaks
 -Prc:
 +Psg:
 // #301664 -> suggests due to 380248
