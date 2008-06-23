@@ -152,4 +152,7 @@ irqbalance
 #endif
 // #375103
 cifs-mount
+// lsusb is good for debugging USB devices - #401593
+usbutils
+cryptsetup
 -Prc:

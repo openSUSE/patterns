@@ -120,4 +120,7 @@ alsa-firmware
 awesfx
 
 btusb-kmp-default
+
+// needed by yast2-storage for crypt partitions
+pam_mount
 -Prc:
