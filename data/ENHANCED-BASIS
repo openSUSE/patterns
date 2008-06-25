@@ -156,3 +156,7 @@ cifs-mount
 usbutils
 cryptsetup
 -Prc:
++Psg:
+// DELL computers mainly #403270
+biosdevname
+-Psg:
