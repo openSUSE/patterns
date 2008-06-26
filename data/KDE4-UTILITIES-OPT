@@ -2,7 +2,7 @@
 kde4-konqueror-plugins
 -Prq:
 +Prc:
-extragear-plasma
+kdeplasmoids4
 -Prc:
 +Psg:
 -Psg:
