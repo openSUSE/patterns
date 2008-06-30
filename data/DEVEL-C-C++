@@ -12,3 +12,7 @@ texinfo
 valgrind
 ltrace
 -Prc:
++Psg:
+dejagnu
+expect
++Psg:
