@@ -23,6 +23,13 @@ xfprint
 xsane
 // #393956
 gdm
+// #404447
+gtk2-engine-murrine
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-thumbnailers
+xfce4-taskmanager
+ristretto
 -Prc:
 +Psg:
 #pragma online
@@ -30,6 +37,7 @@ xfce4-dev-tools
 xfce4-taskmanager
 xfmedia
 xfwm4-themes
+xfce4-dict
 xfce4-panel-plugin-battery
 xfce4-panel-plugin-cellmodem
 xfce4-panel-plugin-clipman
