@@ -19,9 +19,12 @@ antivir-gui
 antivir
 #endif
 AdobeICCProfiles
+// needed for instsys
 IPAGothic
+#pragma online
 IPAMincho
 IPAPGothic
+#pragma online
 IPAPMincho
 IPAUIGothic
 acroread
@@ -35,15 +38,22 @@ iscan-firmware
 iscan-proprietary-drivers
 #endif
 moneyplex
+#pragma online
 opera
 qlogic-firmware
+#pragma online
 FZFangSong
+#pragma online
 FZHeiTi
+#pragma online
 FZKaiTi
+#pragma online
 FZKaiTiB
 FZMingTiB
+// needed for instsys
 FZSongTi
-#if defined(__i386__)
+#if defined(__i386__) || defined (__x86_64__)
+#pragma online
 wink
 #endif
 -Psg:

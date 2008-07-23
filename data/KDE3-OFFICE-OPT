@@ -6,12 +6,18 @@ OpenOffice_org-Quickstarter
 
 +Psg:
 koffice
+#pragma online
 koffice-database
+#pragma online
 koffice-extra
 koffice-illustration
+#pragma online
 koffice-planning
+#pragma online
 koffice-presentation
+#pragma online
 koffice-spreadsheet
+#pragma online
 koffice-wordprocessing
 -Psg:
 
