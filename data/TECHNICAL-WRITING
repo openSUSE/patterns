@@ -37,11 +37,13 @@ tei-roma
 -Prc:
 +Psg:
 lyx
-texlive-bin-cjk
-texlive-bin-dvilj
-texlive-bin-metapost
-texlive-bin-omega
-texlive-bin-xetex
+#pragma online
+texlive-cjk
+texlive-dvilj
+texlive-metapost
+texlive-omega
+#pragma online
+texlive-xetex
 texlive-context
 texlive-dvilj
 texlive-metapost
@@ -50,4 +52,8 @@ texlive-xetex
 TeXmacs
 texlive-tools
 dvi2tty
+#pragma online
+texlive-latex-doc
+#pragma online
+texlive-doc
 -Psg:
