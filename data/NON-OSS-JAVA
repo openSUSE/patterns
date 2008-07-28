@@ -6,25 +6,15 @@ java-plugin >= 1.5
 -Prq:
 +Prc:
 #if defined(__i386__)
-java-1_6_0-sun-plugin
+java-1_6_0-openjdk-plugin
 #endif
 -Prc:
 +Psg:
 ant-javamail
-#pragma online
-java-1_5_0-sun-alsa
-#pragma online
-java-1_5_0-sun-devel
-#pragma online
-java-1_5_0-sun-jdbc
-#pragma online
-java-1_5_0-sun-src
-#pragma online
-java-1_5_0-sun
-java-1_6_0-sun-alsa
-java-1_6_0-sun-devel
-java-1_6_0-sun-jdbc
-java-1_6_0-sun
+java-1_6_0-openjdk-alsa
+java-1_6_0-openjdk-devel
+java-1_6_0-openjdk-jdbc
+java-1_6_0-openjdk
 javamail
 #pragma online
 javamail-demo
