@@ -7,7 +7,6 @@ console
 default
 devel_basis
 devel_C_C++
-devel_cell
 devel_gnome
 devel_ide
 devel_java
@@ -17,12 +16,8 @@ devel_mono
 devel_perl
 devel_python
 devel_qt4
-devel_rails
 devel_rpm_build
-devel_ruby
 devel_tcl
-devel_web
-devel_yast
 dhcp_dns_server
 directory_server
 enhanced_base
@@ -90,7 +85,6 @@ kde4_utilities
 kde4_utilities_opt
 kde4_xgl
 kde4_yast
-lamp_server
 laptop
 mail_server
 manuals
@@ -108,8 +102,6 @@ sw_management
 sw_management_gnome
 sw_management_kde3
 sw_management_kde4
-technical_writing
-voip
 x11
 x11_opt
 x11_yast

@@ -19,7 +19,6 @@ ant-scripts
 ant-swing
 ant-trax
 log4j
-tomcat6
 xalan-j2
 xerces-j2
 xml-commons-apis
