@@ -16,4 +16,6 @@ libsmbios-bin
 powertop
 // UMTS support for Gerald's Laptop
 umtsmon
+// fate#303035
+laptop-mode-tools
 -Psg:
