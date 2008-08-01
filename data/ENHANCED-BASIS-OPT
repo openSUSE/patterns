@@ -56,6 +56,8 @@ salinfo
 lzma
 // bnc#388149
 hplip
+// DELL computers mainly #403270
+biosdevname
 -Prc:
 
 +Psg:

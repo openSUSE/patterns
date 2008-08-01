@@ -74,5 +74,6 @@ xpp
 xpdf
 xosd
 // #394406
+#pragma online
 desktop-data-openSUSE-extra
 -Psg:

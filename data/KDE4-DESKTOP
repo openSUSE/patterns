@@ -12,7 +12,9 @@ kiosktool
 kde4-kfloppy
 kde4-ktimetracker
 kde4-kalarm
+#pragma online
 kdeartwork4-wallpapers
+#pragma online
 kdebase4-wallpapers
 -Psg:
 
