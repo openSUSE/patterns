@@ -2,11 +2,7 @@
 kdeartwork4-screensaver
 kdebluetooth
 -Prq:
-+Prc:
-kde4-kpilot
--Prc:
 +Psg:
-kde4-kworldclock
 kde4-kweather
 kde4-kteatime
 kde4-ktux

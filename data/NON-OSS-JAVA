@@ -11,9 +11,7 @@ java-1_6_0-openjdk-plugin
 -Prc:
 +Psg:
 ant-javamail
-java-1_6_0-openjdk-alsa
 java-1_6_0-openjdk-devel
-java-1_6_0-openjdk-jdbc
 java-1_6_0-openjdk
 javamail
 #pragma online

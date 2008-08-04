@@ -68,7 +68,6 @@ yast2-firstboot
 yast2-mail-plugins
 yast2-multipath
 yast2-phone-services
-yast2-storage-evms
 // #381365
 yast2-squid
 // see extra-packages for reasons

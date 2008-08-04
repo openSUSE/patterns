@@ -25,7 +25,6 @@ tls
 // #387771
 itcl-devel
 itk
-itk-devel
 expect-devel
 // #387771
 tclplug

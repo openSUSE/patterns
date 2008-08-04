@@ -40,7 +40,6 @@ php5-ldap
 php5-mbstring
 php5-mcrypt
 php5-mysql
-php5-ncurses
 php5-odbc
 php5-openssl
 php5-pear

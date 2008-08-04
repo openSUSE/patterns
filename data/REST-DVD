@@ -79,8 +79,6 @@ lirc-kmp-xen
 ndiswrapper-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
-uvcvideo-kmp-default
-uvcvideo-kmp-xen
 wlan-ng-kmp-xen
 quickcam-kmp-default
 kvm-kmp-default
@@ -99,7 +97,6 @@ ivtv-kmp-pae
 lirc-kmp-pae
 ndiswrapper-kmp-pae
 omnibook-kmp-pae
-uvcvideo-kmp-pae
 wlan-ng-kmp-pae
 quickcam-kmp-pae
 kvm-kmp-pae
