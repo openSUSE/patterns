@@ -5,6 +5,7 @@ nss-mdns-32bit
 #endif
 #if !defined(__s390__)
 yast2-x11
+sax2-gui
 #endif
 -Prq:
 
@@ -18,7 +19,6 @@ desktop-data-openSUSE
 ghostscript-x11
 MozillaFirefox
 openssh-askpass
-sax2-gui
 tightvnc
 x11-input-synaptics
 xorg-x11-libX11-ccache
