@@ -1,4 +1,8 @@
 +Prq:
+jre >= 1.5
+#if defined(__i386__)
+java-plugin >= 1.5
+#endif
 ant
 ant-antlr
 ant-apache-bcel
@@ -26,6 +30,9 @@ xml-commons-resolver
 xml-commons-which
 -Prq:
 +Prc:
+#if defined(__i386__)
+java-1_6_0-openjdk-plugin
+#endif
 java-1_5_0-gcj-compat-devel
 -Prc:
 +Psg:
@@ -53,5 +60,7 @@ mysql-connector-java
 puretls
 // just an editor
 jedit
+java-1_6_0-openjdk-devel
+java-1_6_0-openjdk
 -Psg:
 

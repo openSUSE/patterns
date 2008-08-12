@@ -4,15 +4,8 @@ jre >= 1.5
 java-plugin >= 1.5
 #endif
 -Prq:
-+Prc:
-#if defined(__i386__)
-java-1_6_0-openjdk-plugin
-#endif
--Prc:
 +Psg:
 ant-javamail
-java-1_6_0-openjdk-devel
-java-1_6_0-openjdk
 javamail
 #pragma online
 javamail-demo
