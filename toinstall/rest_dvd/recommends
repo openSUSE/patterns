@@ -102,6 +102,7 @@ sw_management
 sw_management_gnome
 sw_management_kde3
 sw_management_kde4
+technical_writing
 x11
 x11_opt
 x11_yast
@@ -111,4 +112,3 @@ xfce
 xgl
 yast2_basis
 yast2_install_wf
-enhanced_base_opt
