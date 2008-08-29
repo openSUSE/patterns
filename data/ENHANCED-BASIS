@@ -109,7 +109,7 @@ microcode_ctl
 #endif
 pm-utils
 popt
-portmap
+rpcbind
 postfix
 powersave
 ppp
