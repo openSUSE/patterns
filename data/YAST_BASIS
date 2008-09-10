@@ -47,7 +47,6 @@ yast2-profile-manager
 yast2-restore
 yast2-slp
 yast2-sudo
-yast2-support
 // see the discussion in #386473
 yast2-samba-client
 yast2-samba-server
