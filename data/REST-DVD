@@ -71,7 +71,6 @@ dazuko-kmp-default
 dazuko-kmp-xen
 drbd-kmp-default
 drbd-kmp-xen
-gspcav-kmp-default
 ivtv-kmp-default
 ivtv-kmp-xen
 lirc-kmp-default
@@ -92,7 +91,6 @@ acx-kmp-pae
 at76_usb-kmp-pae
 dazuko-kmp-pae
 drbd-kmp-pae
-gspcav-kmp-pae
 ivtv-kmp-pae
 lirc-kmp-pae
 ndiswrapper-kmp-pae

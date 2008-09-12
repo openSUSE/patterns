@@ -86,7 +86,7 @@ hal
 hdparm
 ifplugd
 info
-ldapcpplib
+libldapcpp1
 linux-atm-lib
 master-boot-code
 netcat

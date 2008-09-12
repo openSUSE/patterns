@@ -89,7 +89,6 @@ perl-Set-Crontab
 perl-Set-Object
 perl-Set-Scalar
 perl-Socket6
-perl-Spreadsheet-WriteExcel
 perl-Template-Toolkit
 perl-Text-CSV_XS
 perl-Text-DelimMatch
@@ -101,7 +100,6 @@ perl-Unicode-String
 perl-XML-LibXML
 perl-XML-Simple
 perl-XML-Stream
-perl-XML-XQL
 perl-XML-XSLT
 perl-YAML 
 perl-libxml-perl
@@ -136,6 +134,5 @@ perl-Text-Kakasi
 perl-Time-Duration
 perl-Time-Period
 perl-WeakRef
-perl-XML-Generator
 perl-XML-LibXSLT
 -Psg:
