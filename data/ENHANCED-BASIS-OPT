@@ -21,6 +21,7 @@ ksh
 ksymoops
 lsof
 man-pages
+man-pages-posix
 manufacturer-PPDs
 #if defined (__x86_64__)
 mcelog
