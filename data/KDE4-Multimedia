@@ -1,5 +1,5 @@
 +Prq:
-amarok
+kde4-amarok
 k3b
 kde4-kmix
 kde4-kscd
@@ -9,8 +9,6 @@ opensuse-codecs-installer
 -Prq:
 
 +Prc:
-amarok-yauap
-amarok-libvisual
 kaffeine
 kdetv
 //kio_ipodslave
