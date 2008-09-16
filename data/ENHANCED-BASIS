@@ -110,7 +110,7 @@ pm-utils
 popt
 rpcbind
 postfix
-powersave
+pm-profiler
 ppp
 pptp
 preload
