@@ -150,4 +150,7 @@ open-vm-tools
 vmware-kmp-default
 vmware-kmp-pae
 
+// #304494: System Instrumentation (CIM Enablement)
+smis-providers
+
 -Prc:
