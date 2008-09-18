@@ -45,8 +45,6 @@ openssh
 perl-base
 // we rely on cron for daily/hourly 
 cron
-// security
-suse-build-key
 // create log file tars
 tar
 wget

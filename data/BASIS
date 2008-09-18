@@ -15,7 +15,7 @@ procps
 pwdutils
 rpm
 openSUSE-release
-suse-build-key
+openSUSEsuse-build-key
 sysconfig
 syslog-ng
 
@@ -36,5 +36,4 @@ branding-openSUSE
 +Prc:
 // only on DVD
 openSUSE-release-dvd5
-openSUSE-release-dvd9
 -Prc:
