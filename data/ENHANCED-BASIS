@@ -106,7 +106,6 @@ microcode_ctl
 #endif
 pm-utils
 popt
-rpcbind
 postfix
 pm-profiler
 ppp

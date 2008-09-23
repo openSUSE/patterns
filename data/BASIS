@@ -31,9 +31,6 @@ lilo
 #endif
 // get it branded
 branding-openSUSE
+// enable NFS installation for minimal
+rpcbind
 -Prq:
-
-+Prc:
-// only on DVD
-openSUSE-release-dvd
--Prc:
