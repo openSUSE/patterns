@@ -31,6 +31,7 @@ atmel-firmware
 ipw-firmware
 iwl3945-ucode
 iwl4965-ucode
+iwl5000-ucode
 #if defined(__i386__) || defined (__x86_64__)
 iscan
 iscan-firmware
