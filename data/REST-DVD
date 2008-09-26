@@ -153,4 +153,7 @@ vmware-kmp-pae
 // #304494: System Instrumentation (CIM Enablement)
 smis-providers
 
+// bnc#420039 - EEPC modules for 11.1
+atl2-kmp-pae
+atl2-kmp-default
 -Prc:
