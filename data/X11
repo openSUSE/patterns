@@ -49,6 +49,7 @@ yast2-tv
 ConsoleKit-x11
 // chooce icewm-lite if you have a choice
 icewm-lite
+xorg-x11-xauth
 -Prc:
 
 +Psg:
