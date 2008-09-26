@@ -46,7 +46,7 @@ gedit
 nautilus-open-terminal 
 gnome2-user-docs
 gnome-audio
-gnome-cups-manager
+system-config-printer
 gnome-desktop
 gnome-icon-theme
 gnome-keyring
