@@ -77,4 +77,5 @@ xosd
 // #394406
 #pragma online
 desktop-data-openSUSE-extra
+xorg-x11-driver-video-radeonhd
 -Psg:
