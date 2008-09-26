@@ -33,6 +33,8 @@ kde4-kdm
 kde4-kio_iso
 // #379583
 PolicyKit-kde
+// bnc#430161
+polkit-default-privs
 // pulseaudio
 pulseaudio
 pulseaudio-module-bluetooth
