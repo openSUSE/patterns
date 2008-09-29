@@ -1,5 +1,4 @@
 +Psg:
-kdeedu3
 kiosktool
 thinkeramik
 thinkeramik-style
@@ -23,13 +22,8 @@ fuse_kio
 kadslwatch
 kaffeine-gstreamer
 kbarcode
-kbiff
-kdeaccessibility3
-kdeaddons3-games
-kdeaddons3-kontact
 kdeaddons3-sound
 kdeadmin3
-kdebase3-extra
 kdegraphics3-extra
 kdegraphics3-fax
 kdegraphics3-imaging
@@ -47,7 +41,6 @@ kdenetwork3-query
 kdenetwork3-wireless
 kdesdk3-kdecvs
 kdesvn
-kdeutils3-extra
 kdiff3
 kdissert
 kile

@@ -2,7 +2,8 @@
 kde4-konqueror-plugins
 -Prq:
 +Prc:
-kde4-plasma-addons
 -Prc:
 +Psg:
+rsibreak
+speedcrunch
 -Psg:

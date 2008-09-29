@@ -12,8 +12,11 @@ opensuse-codecs-installer
 amarok-yauap
 amarok-libvisual
 kaffeine
-kdetv
 kio_ipodslave
 kio_iso
 krecord
 -Prc:
+
++Psg:
+kdetv
+-Psg:

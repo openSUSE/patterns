@@ -7,6 +7,9 @@ kde4-kwin
 kde4-kwrite
 -Prq:
 +Prc:
+kde4-plasma-addons
+kde4-plasmoid-quicklauncher
+kde4-plasmoid-quickaccess
 kde4-keditbookmarks
 kde4-konqueror
 kde4-konsole
