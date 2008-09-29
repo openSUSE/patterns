@@ -14,7 +14,7 @@ openssh
 procps
 pwdutils
 rpm
-openSUSE-release
+// openSUSE-release
 openSUSE-build-key
 sysconfig
 syslog-ng
