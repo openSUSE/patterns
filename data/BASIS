@@ -33,4 +33,6 @@ lilo
 branding-openSUSE
 // enable NFS installation for minimal
 rpcbind
+PolicyKit
+polkit-default-privs
 -Prq:
