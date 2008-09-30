@@ -83,7 +83,6 @@ iwl5000-ucode
 ipw-firmware
 
 // supplements by modaliases
-915resolution
 bluez-firmware
 dvb
 lomoco
@@ -119,8 +118,6 @@ smpppd
 // #396109
 alsa-firmware
 awesfx
-
-btusb-kmp-default
 
 // needed by yast2-storage for crypt partitions
 pam_mount

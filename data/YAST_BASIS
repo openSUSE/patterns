@@ -115,6 +115,8 @@ ncpfs              // printing via novell ipx
 kernel-kdump
 #endif
 // yast2-network
+#if defined(__i386__) 
 smartlink-softmodem
+#endif
 yast2-fingerprint-reader
 -Psg:

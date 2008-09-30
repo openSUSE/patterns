@@ -81,7 +81,8 @@ omnibook-kmp-xen
 wlan-ng-kmp-xen
 quickcam-kmp-default
 kvm-kmp-default
-btusb-kmp-default
+// bnc#420039 - EEPC modules for 11.1
+atl2-kmp-default
 
 #if defined(__i386__)
 kqemu-kmp-pae
@@ -98,11 +99,9 @@ omnibook-kmp-pae
 wlan-ng-kmp-pae
 quickcam-kmp-pae
 kvm-kmp-pae
-btusb-kmp-pae
+atl2-kmp-pae
+vmware-kmp-pae
 #endif
-
-// someone missed it (#372888)
-smart-gui
 
 // register your hardware
 smolt
@@ -148,12 +147,7 @@ kvm
 // #391434
 open-vm-tools
 vmware-kmp-default
-vmware-kmp-pae
 
 // #304494: System Instrumentation (CIM Enablement)
 smis-providers
-
-// bnc#420039 - EEPC modules for 11.1
-atl2-kmp-pae
-atl2-kmp-default
 -Prc:

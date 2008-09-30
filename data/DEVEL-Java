@@ -37,7 +37,6 @@ java-1_5_0-gcj-compat-devel
 -Prc:
 +Psg:
 gnu-jaf
-geronimo2
 jakarta-commons-beanutils
 jakarta-commons-codec
 jakarta-commons-collections
