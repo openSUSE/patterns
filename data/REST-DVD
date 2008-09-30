@@ -150,4 +150,9 @@ vmware-kmp-default
 
 // #304494: System Instrumentation (CIM Enablement)
 smis-providers
+
+// split kernel
+kernel-pae-base
+kernel-pae
+kernel-pae-extra
 -Prc:
