@@ -7,5 +7,6 @@ FreeNX
 tightvnc
 -Prc:
 +Psg:
-kdenetwork3-vnc
+kde4-krfb
+kde4-krdc
 -Psg:

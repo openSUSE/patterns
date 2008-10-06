@@ -5,7 +5,7 @@ kde4-kate
 kdbg
 kde4-kate
 kde4-kapptemplate
-// TODO lokalize from KDE 4.1
+kde4-lokalize
 kde4-l10n-devel
 kdevelop3
 -Prc:
