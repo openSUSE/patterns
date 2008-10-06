@@ -21,7 +21,12 @@ bzip2
 // printing considered cool
 cups-client
 curl
-cyrus-sasl-saslauthd
+cyrus-sasl-gssapi
+cyrus-sasl-crammd5
+cyrus-sasl-digestmd5
+cyrus-sasl-plain
+// bnc#430895
+// cyrus-sasl-saslauthd
 db-utils
 diffutils
 ethtool
