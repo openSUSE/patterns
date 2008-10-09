@@ -4,7 +4,6 @@ default
 enhanced_base
 fonts
 imaging
-kde
 kde4
 kde4_basis
 kde4_imaging
