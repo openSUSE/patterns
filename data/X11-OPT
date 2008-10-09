@@ -8,16 +8,15 @@ nspluginwrapper
 #endif
 // packages a GTK application
 gutenprint
-
 // needs python-qt
 hplip
+lsb
 -Prc:
 
 +Psg:
 tk
 unclutter
 xlockmore
-lsb
 synergy
 WindowMaker
 WindowMaker-applets
