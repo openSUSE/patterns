@@ -125,4 +125,8 @@ pam_mount
 
 // kernel split
 kernel-default-extra
+
+// adding to LiveCD (bnc#419201)
+rsync
+smartmontools
 -Prc:
