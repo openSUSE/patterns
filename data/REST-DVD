@@ -155,4 +155,7 @@ smis-providers
 kernel-pae-base
 kernel-pae
 kernel-pae-extra
+
+// bnc#431280 (Japanese fonts)
+ttf-arphic-uming
 -Prc:
