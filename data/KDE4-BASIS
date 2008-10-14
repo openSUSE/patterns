@@ -50,7 +50,7 @@ gstreamer-0_10-pulse
 alsa-plugins-pulse
 -Prc:
 +Psg:
-kpowersave
+powerdevil
 kde4-knode
 kde4-ktnef
 -Psg:
