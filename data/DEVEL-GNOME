@@ -114,6 +114,7 @@ emacs-x11
 guile-devel
 ConsoleKit-devel
 libnl-devel
+accerciser
 -Prc:
 +Psg:
 python-cairo-devel

@@ -103,6 +103,7 @@ sw_management_gnome
 sw_management_kde3
 sw_management_kde4
 technical_writing
+tabletpc
 x11
 x11_opt
 x11_yast
@@ -110,5 +111,6 @@ x86
 xen_server
 xfce
 xgl
+xfce_office
 yast2_basis
 yast2_install_wf

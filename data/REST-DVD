@@ -61,6 +61,7 @@ seamonkey-venkman
 // feature 301945
 yast2-add-on-creator
 yast2-product-creator
+createrepo
 
 // kernel modules
 acx-kmp-default

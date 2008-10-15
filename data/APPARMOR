@@ -7,4 +7,5 @@ audit
 +Prc:
 yast2-apparmor
 apparmor-utils
+pam_apparmor
 -Prc:

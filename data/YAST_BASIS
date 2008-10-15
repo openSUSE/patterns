@@ -120,4 +120,10 @@ kernel-kdump
 smartlink-softmodem
 #endif
 yast2-fingerprint-reader
+
+// FATE 304350
+#pragma online
+sblim-sfcb
+#pragma online
+cim-schema
 -Psg:
