@@ -46,7 +46,6 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-gstreamer-0_10-pulse
 alsa-plugins-pulse
 -Prc:
 +Psg:
