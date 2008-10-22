@@ -43,6 +43,7 @@ SDL-devel
 sqlite3-devel
 strigi-devel
 wv2-devel
+PolicyKit-devel
 -Prc:
 
 +Psg:
