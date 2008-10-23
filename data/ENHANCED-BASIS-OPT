@@ -87,4 +87,6 @@ cyrus-sasl-gssapi
 xfsdump
 // #393589
 open-iscsi
+// #437252
+pam_ssh
 -Psg:
