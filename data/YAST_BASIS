@@ -31,7 +31,6 @@ yast2-tune
 yast2-update
 yast2-users
 yast2-xml
-yast2-wagon
 -Prq:
 +Prc:
 yast2-backup
