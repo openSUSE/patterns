@@ -59,6 +59,8 @@ lzma
 hplip
 // DELL computers mainly #403270
 biosdevname
+// bnc#388570
+kerneloops
 -Prc:
 
 +Psg:
