@@ -1,12 +1,15 @@
++Prq:
+pullin-fluendo-mp3
+#if defined(__i386__) || defined (__x86_64__)
+pullin-flash-player
+#endif
+-Prq:
 +Prc:
 gst-fluendo-mp3
 #if defined(__i386__) || defined (__x86_64__)
 flash-player
 #endif
-#if defined(__i386__) || defined (__x86_64__)
-RealPlayer
-#endif
-#if defined __ia64__
+#if defined(__ia64__)
 ia32el
 #endif
 -Prc:

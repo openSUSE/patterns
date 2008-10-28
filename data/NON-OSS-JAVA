@@ -1,8 +1,6 @@
 +Prq:
-jre >= 1.5
-#if defined(__i386__)
-java-plugin >= 1.5
-#endif
+jms
+mx4j
 -Prq:
 +Psg:
 ant-javamail
@@ -11,6 +9,4 @@ javamail
 javamail-demo
 javamail-javadoc
 javamail-monolithic
-jms
-mx4j
 -Psg:
