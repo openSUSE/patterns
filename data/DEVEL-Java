@@ -1,8 +1,5 @@
 +Prq:
-jre >= 1.5
-#if defined(__i386__)
-java-plugin >= 1.5
-#endif
+jre >= 1.6
 ant
 ant-antlr
 ant-apache-bcel

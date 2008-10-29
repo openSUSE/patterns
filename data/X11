@@ -45,10 +45,6 @@ yast2-scanner
 yast2-tv
 #endif
 
-#if defined(__i386__)
-java-plugin >= 1.5
-#endif
-
 // split of ConsoleKit
 ConsoleKit-x11
 // chooce icewm-lite if you have a choice
