@@ -156,7 +156,4 @@ cifs-mount
 // lsusb is good for debugging USB devices - #401593
 usbutils
 cryptsetup
-// Bug 424707 - Feature "Command not found" for openSUSE by default
-scout
-command-not-found
 -Prc:
