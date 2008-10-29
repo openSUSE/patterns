@@ -161,18 +161,18 @@ kernel-pae-extra
 ttf-arphic-uming
 
 #if  defined(__x86_64__)  ||  defined(__s390x__)  || defined(__powerpc__)
-#pam_krb5-32bit
-#pam_ldap-32bit
-#nss_ldap-32bit
+pam_krb5-32bit
+pam_ldap-32bit
+nss_ldap-32bit
 #endif
 #if defined(__ia64__)
-#pam_krb5-x86
-#pam_ldap-x86
-#nss_ldap-x86
+pam_krb5-x86
+pam_ldap-x86
+nss_ldap-x86
 #endif
 #if defined(__powerpc64__)
-#pam_krb5-64bit
-#pam_ldap-64bit
-#nss_ldap-64bit
+pam_krb5-64bit
+pam_ldap-64bit
+nss_ldap-64bit
 #endif
 -Prc:
