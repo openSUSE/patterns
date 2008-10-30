@@ -135,8 +135,8 @@ xinetd
 ntp
 yp-tools
 ypbind
-lilo
 #if defined(__powerpc__)
+lilo
 pdisk
 powerpc32
 // #303737

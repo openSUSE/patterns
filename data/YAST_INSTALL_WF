@@ -26,7 +26,7 @@ samba-client-32bit
 samba-winbind-32bit
 #endif
 #if defined(__powerpc__) && defined(__powerpc64__)
-pam_thinkfinger-64bit
+pam_fp-64bit
 pam_krb5-64bit
 nss_ldap-64bit
 pam_ldap-64bit

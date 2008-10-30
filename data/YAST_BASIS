@@ -97,13 +97,13 @@ ivtv-firmware
 // required by yast2-storage
 pam_mount
 #if defined(__x86_64__) ||  defined(__s390x__)
-pam_thinkfinger-32bit
+pam_fp-32bit
 #endif
 #if defined(__ia64__)
-pam_thinkfinger-x86
+pam_fp-x86
 #endif
 #if defined(__powerpc64__)
-pam_thinkfinger-64bit
+pam_fp-64bit
 #endif
 // yast2-sound
 alsa-firmware 
