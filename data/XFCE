@@ -30,6 +30,8 @@ thunar-media-tags-plugin
 thunar-thumbnailers
 xfce4-taskmanager
 ristretto
+// #440285
+pinentry-gtk2
 -Prc:
 +Psg:
 #pragma online
