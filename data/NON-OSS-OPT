@@ -1,0 +1,53 @@
++Prc:
+gst-fluendo-mp3
+#if defined(__i386__) || defined (__x86_64__)
+flash-player
+#endif
+#if defined(__ia64__)
+ia32el
+#endif
+-Prc:
++Psg:
+#if defined(__i386__)
+#pragma online
+antivir-gui
+#pragma online
+antivir
+#endif
+AdobeICCProfiles
+acroread
+atmel-firmware
+ipw-firmware
+#if defined(__i386__) || defined (__x86_64__)
+iscan
+iscan-firmware
+iscan-proprietary-drivers
+#endif
+moneyplex
+#pragma online
+opera
+qlogic-firmware
+#pragma online
+FZFangSong
+#pragma online
+FZHeiTi
+#pragma online
+FZKaiTi
+#pragma online
+FZKaiTiB
+FZMingTiB
+// needed for instsys
+FZSongTi
+#if defined(__i386__) || defined (__x86_64__)
+#pragma online
+wink
+#endif
+jms
+mx4j
+ant-javamail
+javamail
+#pragma online
+javamail-demo
+javamail-javadoc
+javamail-monolithic
+-Psg:

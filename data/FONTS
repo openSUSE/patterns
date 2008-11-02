@@ -7,3 +7,13 @@ dejavu
 ifnteuro
 liberation-fonts
 -Prc:
++Psg:
+// needed for instsys
+IPAGothic
+#pragma online
+IPAMincho
+IPAPGothic
+#pragma online
+IPAPMincho
+IPAUIGothic
+-Psg:
