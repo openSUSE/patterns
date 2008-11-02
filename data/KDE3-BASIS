@@ -36,5 +36,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
+// 440829
 PolicyKit-kde
 -Prc:
