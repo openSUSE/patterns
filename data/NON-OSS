@@ -59,4 +59,12 @@ FZSongTi
 #pragma online
 wink
 #endif
+jms
+mx4j
+ant-javamail
+javamail
+#pragma online
+javamail-demo
+javamail-javadoc
+javamail-monolithic
 -Psg:
