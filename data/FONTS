@@ -5,4 +5,5 @@ xorg-x11-fonts-core
 +Prc:
 dejavu
 ifnteuro
+liberation-fonts
 -Prc:
