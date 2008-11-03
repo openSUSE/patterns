@@ -69,7 +69,6 @@ xen_server:		Xen Virtual Machine Host Server
 Non-OSS Software
 ================
 non_oss:		Misc. Non Open Source Packages  [only on NON-OSS Media]
-non_oss_java:		Java Environment  [only on NON-OSS Media]
 
 Development
 ===========
