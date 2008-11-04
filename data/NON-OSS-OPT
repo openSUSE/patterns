@@ -8,6 +8,7 @@ ia32el
 #endif
 -Prc:
 +Psg:
+poppler-data
 #if defined(__i386__)
 #pragma online
 antivir-gui
