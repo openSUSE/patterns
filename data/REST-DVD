@@ -178,5 +178,6 @@ nss_ldap-64bit
 #endif
 
 // bluncks 2nd baby
-apport
+apport-gtk
+apport-qt
 -Prc:
