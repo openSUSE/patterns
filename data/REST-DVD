@@ -176,4 +176,7 @@ pam_krb5-64bit
 pam_ldap-64bit
 nss_ldap-64bit
 #endif
+
+// bluncks 2nd baby
+apport
 -Prc:
