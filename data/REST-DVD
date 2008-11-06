@@ -180,4 +180,8 @@ nss_ldap-64bit
 // bluncks 2nd baby
 apport-gtk
 apport-qt
+
+// very special case - 442295
+// supporting lib for non-oss
+libstdc++33
 -Prc:
