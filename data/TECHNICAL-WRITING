@@ -56,4 +56,6 @@ dvi2tty
 texlive-latex-doc
 #pragma online
 texlive-doc
+// 441536
+djvulibre
 -Psg:
