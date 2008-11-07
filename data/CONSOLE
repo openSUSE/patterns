@@ -38,4 +38,5 @@ par
 makedev
 // #378747
 cryptconfig
+cnetworkmanager
 -Psg:
