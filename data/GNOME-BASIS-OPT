@@ -4,6 +4,12 @@ latex2html-pngicons
 sensors
 // #394406
 desktop-data-openSUSE-extra-gnome
+// packages a GTK application
+gutenprint
+// needs python-qt
+hplip
+lsb
+java-plugin >= 1.6
 -Prc:
 
 +Psg:

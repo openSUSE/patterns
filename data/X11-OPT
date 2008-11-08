@@ -6,12 +6,6 @@ xtermset
 #if !defined(__i386__)
 nspluginwrapper
 #endif
-// packages a GTK application
-gutenprint
-// needs python-qt
-hplip
-lsb
-java-plugin >= 1.6
 -Prc:
 
 +Psg:

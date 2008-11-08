@@ -4,6 +4,12 @@ beagle-index
 beagle-firefox
 kerry
 kde4-kio_beagle
+// packages a GTK application
+gutenprint
+// needs python-qt
+hplip
+lsb
+java-plugin >= 1.6
 -Prc:
 +Psg:
 kepas

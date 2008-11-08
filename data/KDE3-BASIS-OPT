@@ -12,6 +12,12 @@ kdebase3-nsplugin
 qtcurve-gtk2-32bit
 #endif
 opensuse-kde3user_en
+// packages a GTK application
+gutenprint
+// needs python-qt
+hplip
+lsb
+java-plugin >= 1.6
 -Prc:
 +Psg:
 -Psg:
