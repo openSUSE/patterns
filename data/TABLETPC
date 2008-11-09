@@ -1,10 +1,12 @@
++Prq:
+x11-input-evtouch
+-Prq:
 +Prc:
 cellwriter
 jarnal
 x11-input-fujitsu
 x11-input-wacom
 x11-input-wacom-tools
-x11-input-evtouch
 wacom-kmp-default
 #if defined(__i386__)
 wacom-kmp-pae
