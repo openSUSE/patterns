@@ -85,6 +85,7 @@ kde4_utilities
 kde4_utilities_opt
 kde4_xgl
 kde4_yast
+lamp_server
 laptop
 mail_server
 manuals
@@ -101,15 +102,15 @@ sw_management
 sw_management_gnome
 sw_management_kde3
 sw_management_kde4
-technical_writing
 tabletpc
+technical_writing
 x11
 x11_opt
 x11_yast
 x86
 xen_server
 xfce
-xgl
 xfce_office
+xgl
 yast2_basis
 yast2_install_wf
