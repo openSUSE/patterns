@@ -1,7 +1,7 @@
-+Prc:
++Prq:
 ruby
 rubygems
--Prc:
+-Prq:
 +Psg:
 ruby-devel
 ruby-doc-html

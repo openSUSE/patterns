@@ -1,5 +1,7 @@
-+Prc:
++Prq:
 rubygem-rails
+-Prq:
++Prc:
 rubygem-mongrel
 -Prc:
 +Psg:

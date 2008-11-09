@@ -1,9 +1,9 @@
-+Prc:
-// required, but only recommended, due to pattern being available online
-// only
++Prq:
 apache2
 yast2-http-server
-// recommended
+-Prq:
+
++Prc:
 apache2-doc
 apache2-example-pages
 apache2-mod_perl
