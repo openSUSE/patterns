@@ -58,5 +58,13 @@ puretls
 jedit
 java-1_6_0-openjdk-devel
 java-1_6_0-openjdk
+mx4j
+ant-javamail
+jms
+javamail
+#pragma online
+javamail-demo
+javamail-javadoc
+javamail-monolithic
 -Psg:
 
