@@ -3,9 +3,6 @@ freeglut
 xdmbgrd
 x11-input-wacom
 xtermset
-#if !defined(__i386__)
-nspluginwrapper
-#endif
 -Prc:
 
 +Psg:

@@ -1,0 +1,12 @@
++Prc:
+// packages a GTK application
+gutenprint
+// needs python-qt
+hplip
+lsb
+java-plugin >= 1.6
+#if !defined(__i386__)
+nspluginwrapper
+#endif
+-Prc:
+

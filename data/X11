@@ -15,9 +15,7 @@ sax2-gui
 // needed for fetchmsfonts (#327524)
 cabextract
 xterm
-desktop-data-openSUSE
 ghostscript-x11
-MozillaFirefox
 openssh-askpass
 tightvnc
 x11-input-synaptics
