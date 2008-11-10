@@ -1,6 +1,8 @@
 +Prq:
 tcl
+tcl-devel
 tk
+tk-devel
 -Prq:
 
 +Prc:
@@ -11,13 +13,11 @@ frink
 itcl
 iwidgets
 snack
-tcl-devel
 tcllib
 tcludp
 tclx
 tdom
 tix
-tk-devel
 tkcon
 tkimg
 tktable
