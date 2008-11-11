@@ -14,6 +14,7 @@ xen-doc-html
 xen-doc-pdf
 xterm
 yast2-vm
+virt-viewer
 -Prc:
 +Psg:
 // #382423
