@@ -1,5 +1,5 @@
 +Prq:
-jre >= 1.6
+jre
 ant
 ant-antlr
 ant-apache-bcel
