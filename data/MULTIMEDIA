@@ -6,6 +6,7 @@ dvd+rw-tools
 vorbis-tools
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
+gstreamer-0_10-schroedinger
 -Prc:
 +Psg:
 grip
