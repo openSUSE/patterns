@@ -14,6 +14,6 @@ kde4-krdc
 konversation
 -Prc:
 +Psg:
-NetworkManager-openvpn-kde4
-NetworkManager-vpnc-kde4
+NetworkManager-openvpn-kde
+NetworkManager-vpnc-kde
 -Psg:

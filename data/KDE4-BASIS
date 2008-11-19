@@ -17,7 +17,7 @@ kde4-konsole
 kdebase4-nsplugin
 #endif
 NetworkManager
-NetworkManager-kde4
+NetworkManager-kde
 kdepim4-wizards
 kdenetwork4-filesharing
 kde4-akregator

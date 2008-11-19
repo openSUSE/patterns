@@ -13,7 +13,7 @@ konversation
 +Psg:
 // needed till nm 0.7 comes along
 kinternet
-// REENABLE NetworkManager-vpnc-kde
+NetworkManager-vpnc-kde
 kdenetwork3-news
 -Psg:
 
