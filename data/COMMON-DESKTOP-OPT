@@ -8,5 +8,7 @@ java-plugin >= 1.6
 #if !defined(__i386__)
 nspluginwrapper
 #endif
+// metalink downloader
+aria2
 -Prc:
 
