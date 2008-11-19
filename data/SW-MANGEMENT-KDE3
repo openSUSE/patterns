@@ -2,3 +2,6 @@
 kde4-kupdateapplet
 smolt
 -Prq:
++Prc:
+kde4-kupdateapplet-packagekit
+-Prc:
