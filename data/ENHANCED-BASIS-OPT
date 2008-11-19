@@ -94,4 +94,8 @@ xfsdump
 open-iscsi
 // #437252
 pam_ssh
+// for old installs
+lilo
+// used by yast2-iscsi-server
+iscsitarget
 -Psg:
