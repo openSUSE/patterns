@@ -57,8 +57,6 @@ salinfo
 lzma
 // bnc#388149
 hplip
-// DELL computers mainly #403270
-biosdevname
 // bnc#388570
 kerneloops
 // Bug 424707 - Feature "Command not found" for openSUSE by default
@@ -98,4 +96,6 @@ pam_ssh
 lilo
 // used by yast2-iscsi-server
 iscsitarget
+// DELL computers mainly #403270, but #441079
+biosdevname
 -Psg:
