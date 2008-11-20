@@ -5,8 +5,8 @@ apparmor_opt
 base
 console
 default
-devel_basis
 devel_C_C++
+devel_basis
 devel_gnome
 devel_ide
 devel_java
@@ -17,7 +17,9 @@ devel_perl
 devel_python
 devel_qt4
 devel_rpm_build
+devel_ruby
 devel_tcl
+devel_web
 dhcp_dns_server
 directory_server
 enhanced_base
