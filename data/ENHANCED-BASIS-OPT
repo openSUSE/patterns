@@ -57,8 +57,6 @@ salinfo
 lzma
 // bnc#388149
 hplip
-// bnc#388570
-kerneloops
 // Bug 424707 - Feature "Command not found" for openSUSE by default
 scout
 command-not-found
@@ -98,4 +96,6 @@ lilo
 iscsitarget
 // DELL computers mainly #403270, but #441079
 biosdevname
+// bnc#388570
+kerneloops
 -Psg:
