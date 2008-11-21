@@ -4,6 +4,8 @@ evolution-pilot
 gftp
 gnome-bluetooth
 bluez-gnome
+// #447627
+gnome-user-share
 multisync-gui
 libopensync-plugin-file
 seahorse
