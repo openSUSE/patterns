@@ -32,6 +32,7 @@ xfce4-taskmanager
 ristretto
 // #440285
 pinentry-gtk2
+avahi
 -Prc:
 +Psg:
 #pragma online
