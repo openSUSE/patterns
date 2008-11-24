@@ -32,7 +32,7 @@ libqt4-devel
 libsmbclient-devel
 libsoprano-devel
 libtiff-devel
-libusb-compat-devel
+libusb-devel
 libxklavier-devel
 libxml2-devel
 libxslt-devel
