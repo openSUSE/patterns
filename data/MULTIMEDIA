@@ -6,9 +6,9 @@ dvd+rw-tools
 vorbis-tools
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
-# bnc#445312
+// bnc#445312
 gstreamer-0_10-schroedinger
-# bnc#445314
+// bnc#445314
 gstreamer-utils
 -Prc:
 +Psg:
