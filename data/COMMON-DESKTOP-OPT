@@ -4,7 +4,7 @@ gutenprint
 // needs python-qt
 hplip
 lsb
-java-plugin >= 1.6
+java-1_6_0-openjdk-plugin
 #if !defined(__i386__)
 nspluginwrapper
 #endif
