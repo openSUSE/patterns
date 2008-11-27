@@ -1,5 +1,5 @@
 +Prq:
-kde4-amarok
+amarok
 k3b
 kde4-kmix
 kde4-kscd
@@ -18,4 +18,5 @@ krecord
 
 +Psg:
 kdetv
+kde4-amarok
 -Psg:
