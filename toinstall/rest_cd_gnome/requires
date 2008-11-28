@@ -22,7 +22,7 @@ x11
 xgl
 yast2_basis
 yast2_install_wf
-#if defined(__i386__)
+//#if defined(__i386__)
 games
 gnome_games
-#endif
+//#endif
