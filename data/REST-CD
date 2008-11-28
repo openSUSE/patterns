@@ -114,4 +114,9 @@ espeak
 
 // give vim hates an editor
 nano
+
+// pull flash and mp3 also on livecd installs
+pullin-fluendo-mp3
+pullin-flash-player
+
 -Prc:

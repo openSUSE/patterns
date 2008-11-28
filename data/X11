@@ -10,6 +10,8 @@ sax2-gui
 -Prq:
 
 +Prc:
+// fetchmsfonts
+pullin-msttf-fonts
 // needed e.g. for nvidia drivers
 3ddiag
 // needed for fetchmsfonts (#327524)
