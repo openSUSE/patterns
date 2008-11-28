@@ -10,7 +10,8 @@ dos2unix
 ed
 filters
 finger
-fbset
+// 304995
+// fbset
 groff
 initviocons
 #if defined(__powerpc__)
