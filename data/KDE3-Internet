@@ -1,6 +1,6 @@
 +Prq:
-kdenetwork3
-kdenetwork3-InstantMessenger
+kdenetwork3 > 3.5.1
+kdenetwork3-InstantMessenger > 3.5.1
 kio_slp
 ktorrent
 -Prq:
@@ -14,6 +14,6 @@ konversation
 // needed till nm 0.7 comes along
 kinternet
 NetworkManager-vpnc-kde
-kdenetwork3-news
+kdenetwork3-news > 3.5.1
 -Psg:
 

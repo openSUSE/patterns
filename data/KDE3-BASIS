@@ -2,23 +2,23 @@
 kde4-kdm
 kdebase3-SuSE
 kdebase3-session
-kdelibs3
+kdelibs3 > 3.5.1
 kwin-decor-suse2
 -Prq:
 +Prc:
 #if defined(__i386__)
-kdebase3-nsplugin
+kdebase3-nsplugin > 3.5.1
 #endif
 kpowersave
 NetworkManager
 NetworkManager-kde
-kdeaddons3-konqueror
-kdegraphics3-pdf
-kdepim3
-kdepim3-notes
-kdeutils3
+kdeaddons3-konqueror > 3.5.1
+kdegraphics3-pdf > 3.5.1
+kdepim3 > 3.5.1
+kdepim3-notes > 3.5.1
+kdeutils3 > 3.5.1
 kcm_gtk
-kdebase3-samba
+kdebase3-samba > 3.5.1
 kio_iso
 pinentry-qt
 preload
