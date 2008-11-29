@@ -1,9 +1,9 @@
 +Prq:
 amarok
 k3b
-kdemultimedia3
-kdemultimedia3-mixer
-kdemultimedia3-CD
+kdemultimedia3 > 3.5.1
+kdemultimedia3-mixer > 3.5.1
+kdemultimedia3-CD > 3.5.1
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:
