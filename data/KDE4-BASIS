@@ -5,6 +5,7 @@ kdebase4-workspace
 kde4-dolphin
 kde4-kwin
 kde4-kwrite
+NetworkManager-kde
 -Prq:
 +Prc:
 kde4-plasma-addons
@@ -16,8 +17,6 @@ kde4-konsole
 #if !defined(__s390__)
 kdebase4-nsplugin
 #endif
-NetworkManager
-NetworkManager-kde
 kdepim4-wizards
 kdenetwork4-filesharing
 kde4-akregator
