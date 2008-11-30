@@ -1,8 +1,5 @@
 +Prq:
 xkeyboard-config
-#if defined __x86_64__
-nss-mdns-32bit
-#endif
 #if !defined(__s390__)
 yast2-x11
 sax2-gui
@@ -10,6 +7,9 @@ sax2-gui
 -Prq:
 
 +Prc:
+#if defined __x86_64__
+nss-mdns-32bit
+#endif
 // fetchmsfonts
 pullin-msttf-fonts
 // needed e.g. for nvidia drivers
