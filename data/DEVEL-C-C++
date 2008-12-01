@@ -3,7 +3,6 @@ glibc-info
 -Prq:
 +Prc:
 boost-devel
-boost-doc
 boost-jam
 ddd
 posix_cc
@@ -13,6 +12,8 @@ valgrind
 ltrace
 -Prc:
 +Psg:
+#pragma online
+boost-doc
 // 403368
 dejagnu
 expect
