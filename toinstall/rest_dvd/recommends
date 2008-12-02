@@ -42,8 +42,10 @@ gnome_internet
 gnome_laptop
 gnome_multimedia
 gnome_multimedia_opt
+#if defined(__i386__) || defined (__x86_64__)
 gnome_office
 gnome_office_opt
+#endif
 gnome_utilities
 gnome_utilities_opt
 gnome_xgl
@@ -63,8 +65,10 @@ kde3_imaging_opt
 kde3_internet
 kde3_laptop
 kde3_multimedia
+#if defined(__i386__) || defined (__x86_64__)
 kde3_office
 kde3_office_opt
+#endif
 kde3_utilities
 kde3_utilities_opt
 kde3_xgl
@@ -96,8 +100,10 @@ multimedia
 multimedia_opt
 network_admin
 non_oss
+#if defined(__i386__) || defined (__x86_64__)
 office
 office_opt
+#endif
 print_server
 remote_desktop
 sw_management
@@ -112,7 +118,9 @@ x11_yast
 x86
 xen_server
 xfce
+#if defined(__i386__) || defined (__x86_64__)
 xfce_office
+#endif
 xgl
 yast2_basis
 yast2_install_wf
