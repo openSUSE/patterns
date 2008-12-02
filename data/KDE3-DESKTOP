@@ -3,14 +3,14 @@ kiosktool
 thinkeramik
 thinkeramik-style
 kdeaccessibility3
-kdeaddons3-games
-kdeaddons3-kontact
-kdeadmin3
-kdebase3-extra
+kdeaddons3-games > 3.5.1
+kdeaddons3-kontact > 3.5.1
+kdeadmin3 > 3.5.1
+kdebase3-extra > 3.5.1
 kdeedu4
-kdepim3-mobile
-kdepim3-time-management
-kdeutils3-extra
+kdepim3-mobile > 3.5.1
+kdepim3-time-management > 3.5.1
+kdeutils3-extra > 3.5.1
 kommander
 ktray
 qt3-mysql
@@ -22,24 +22,24 @@ fuse_kio
 kadslwatch
 kaffeine-gstreamer
 kbarcode
-kdeaddons3-sound
-kdeadmin3
-kdegraphics3-extra
-kdegraphics3-fax
-kdegraphics3-imaging
-kdegraphics3-tex
-kdemultimedia3-extra
-kdemultimedia3-jukebox
-kdemultimedia3-midi
-kdemultimedia3-sound
-kdemultimedia3-video
-kdemultimedia3-video-xine
-kdenetwork3-dialup
-kdenetwork3-IRC
-kdenetwork3-lan
-kdenetwork3-query
-kdenetwork3-wireless
-kdesdk3-kdecvs
+kdeaddons3-sound > 3.5.1
+kdeadmin3 > 3.5.1
+kdegraphics3-extra > 3.5.1
+kdegraphics3-fax > 3.5.1
+kdegraphics3-imaging > 3.5.1
+kdegraphics3-tex > 3.5.1
+kdemultimedia3-extra > 3.5.1
+kdemultimedia3-jukebox > 3.5.1
+kdemultimedia3-midi > 3.5.1
+kdemultimedia3-sound > 3.5.1
+kdemultimedia3-video > 3.5.1
+kdemultimedia3-video-xine > 3.5.1
+kdenetwork3-dialup > 3.5.1
+kdenetwork3-IRC > 3.5.1
+kdenetwork3-lan > 3.5.1
+kdenetwork3-query 3.5.1
+kdenetwork3-wireless > 3.5.1
+kdesdk3-kdecvs > 3.5.1
 kdesvn
 kdiff3
 kdissert

@@ -1,7 +1,7 @@
 +Prq:
 kde4-kdm
 kdebase3-SuSE
-kdebase3-session
+kdebase3-session > 3.5.1
 kdelibs3 > 3.5.1
 kwin-decor-suse2
 -Prq:

@@ -1,13 +1,13 @@
 +Prq:
-kdeartwork3-kscreensaver
+kdeartwork3-kscreensaver > 3.5.1
 kdebluetooth
 kitchensync
 -Prq:
 +Prc:
-kdepim3-kpilot
+kdepim3-kpilot > 3.5.1
 -Prc:
 +Psg:
-kdetoys3
+kdetoys3 > 3.5.1
 kdirstat
 libopensync 
 libopensync-plugin-file
