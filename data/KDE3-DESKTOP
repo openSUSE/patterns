@@ -37,7 +37,7 @@ kdemultimedia3-video-xine > 3.5.1
 kdenetwork3-dialup > 3.5.1
 kdenetwork3-IRC > 3.5.1
 kdenetwork3-lan > 3.5.1
-kdenetwork3-query 3.5.1
+kdenetwork3-query > 3.5.1
 kdenetwork3-wireless > 3.5.1
 kdesdk3-kdecvs > 3.5.1
 kdesvn
