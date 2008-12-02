@@ -4,9 +4,9 @@ digikam
 kipi-plugins
 // kipi-plugins needs /usr/bin/jpegtran
 jpeg
-kdegraphics3
-kdegraphics3-kamera
-kdegraphics3-postscript
+kdegraphics3 > 3.5.1
+kdegraphics3-kamera > 3.5.1
+kdegraphics3-postscript > 3.5.1
 -Prq:
 +Prc:
 digikamimageplugins
