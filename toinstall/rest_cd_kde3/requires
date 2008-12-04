@@ -21,7 +21,5 @@ sw_management_kde4
 x11
 yast2_basis
 yast2_install_wf
-games
-kde3_games
 kde3_xgl
 xgl
