@@ -1,6 +1,7 @@
 +Prq:
 pychecker
 python
+python-devel
 -Prq:
 +Psg:
 eric
