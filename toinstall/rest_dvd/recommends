@@ -85,8 +85,10 @@ kde4_imaging_opt
 kde4_internet
 kde4_laptop
 kde4_multimedia
+#if defined(__i386__) || defined (__x86_64__)
 kde4_office
 kde4_office_opt
+#endif
 kde4_utilities
 kde4_utilities_opt
 kde4_xgl
