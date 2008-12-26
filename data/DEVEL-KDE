@@ -63,6 +63,7 @@ ConsoleKit-devel
 libical-devel
 libmysqlclient-devel
 libraptor-devel
+openldap2-devel
 -Prc:
 
 +Psg:
