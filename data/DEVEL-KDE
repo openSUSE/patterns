@@ -53,6 +53,16 @@ OpenEXR-devel
 enchant-devel
 fam-devel
 libjasper-devel
+clucene-core-devel
+libpulse-devel
+libraw1394-devel
+google-gadgets-devel
+python-devel
+libsensors3-devel
+ConsoleKit-devel
+libical-devel
+libmysqlclient-devel
+libraptor-devel
 -Prc:
 
 +Psg:
