@@ -44,6 +44,7 @@ sqlite3-devel
 strigi-devel
 wv2-devel
 PolicyKit-devel
+libbz2-devel
 -Prc:
 
 +Psg:
