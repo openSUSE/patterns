@@ -45,6 +45,14 @@ strigi-devel
 wv2-devel
 PolicyKit-devel
 libbz2-devel
+ggz-client-libs-devel
+libqca2-devel
+libavahi-devel
+libavahi-qt4-devel
+OpenEXR-devel
+enchant-devel
+fam-devel
+libjasper-devel
 -Prc:
 
 +Psg:
