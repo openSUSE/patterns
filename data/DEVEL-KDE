@@ -64,9 +64,19 @@ libical-devel
 libmysqlclient-devel
 libraptor-devel
 openldap2-devel
+gettext-tools
+libgpod-devel
+libmtp-devel
+libmp4v2-devel
+loudmouth-devel
+libdvdread-devel
+libgphoto2-devel
 -Prc:
 
 +Psg:
+libkdcraw7-devel
+libkexiv2-7-devel
+libkipi6-devel
 freeglut-devel
 graphviz
 icecream-monitor
