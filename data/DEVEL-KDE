@@ -76,6 +76,7 @@ libxine-devel
 cups-devel
 bluez-devel
 libpoppler-qt4-devel
+libkexiv2-7-devel
 -Prc:
 
 +Psg:
