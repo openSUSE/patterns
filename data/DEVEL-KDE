@@ -71,6 +71,11 @@ libmp4v2-devel
 loudmouth-devel
 libdvdread-devel
 libgphoto2-devel
+gstreamer-0_10-devel
+libxine-devel
+cups-devel
+bluez-devel
+libpoppler-qt4-devel
 -Prc:
 
 +Psg:
