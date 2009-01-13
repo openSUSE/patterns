@@ -77,6 +77,7 @@ cups-devel
 bluez-devel
 libpoppler-qt4-devel
 libkexiv2-7-devel
+giflib-devel
 -Prc:
 
 +Psg:
