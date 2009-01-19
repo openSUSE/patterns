@@ -7,6 +7,8 @@ xfce4-icon-theme
 xfce4-panel
 xfce4-session
 xfwm4
+// #393956 + 450220
+gdm
 -Prq:
 +Prc:
 gtk-xfce-engine
@@ -21,8 +23,6 @@ xfce4-mixer
 xfce4-volstatus
 xfprint
 xsane
-// #393956
-gdm
 // #404447
 gtk2-engine-murrine
 thunar-archive-plugin
