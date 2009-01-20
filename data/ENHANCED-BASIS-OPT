@@ -48,14 +48,12 @@ terminfo
 vlan
 w3m
 wol
-zip
 zisofs-tools
 zsh
 #if defined(__ia64__)
 pfmon
 salinfo
 #endif
-lzma
 // bnc#388149
 hplip
 // Bug 424707 - Feature "Command not found" for openSUSE by default
@@ -64,6 +62,10 @@ command-not-found
 -Prc:
 
 +Psg:
+lzma
+zip
+unzip
+unrar
 ash
 cpufrequtils
 delayacct-utils
