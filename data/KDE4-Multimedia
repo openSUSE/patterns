@@ -1,7 +1,6 @@
 +Prq:
-amarok
-amarok-yauap
-k3b
+kde4-amarok
+kde4-k3b
 kde4-kmix
 kde4-kscd
 kde4-kio_audiocd
@@ -19,5 +18,4 @@ krecord
 
 +Psg:
 kdetv
-kde4-amarok
 -Psg:

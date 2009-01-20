@@ -10,7 +10,7 @@ kde4_imaging
 kde4_internet
 kde4_multimedia
 kde4_laptop
-kde4_office
+// drags in kde3: kde4_office
 kde4_utilities
 kde4_yast
 laptop
@@ -25,5 +25,3 @@ yast2_install_wf
 games
 kde4_games
 #endif
-kde4_xgl
-xgl

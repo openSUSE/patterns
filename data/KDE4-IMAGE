@@ -1,7 +1,7 @@
 +Prq:
 kde4-gwenview
-digikam
-kipi-plugins
+kde4-digikam
+kde4-kipi-plugins
 // kipi-plugins needs /usr/bin/jpegtran
 jpeg
 kde4-okular
@@ -11,5 +11,4 @@ kde4-kgamma
 skanlite
 -Prq:
 +Prc:
-digikamimageplugins
 -Prc:
