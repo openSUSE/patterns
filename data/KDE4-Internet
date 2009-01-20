@@ -4,11 +4,10 @@ kde4-kget
 kde4-kopete
 // not KDE4 related
 //kio_slp
-ktorrent
 // we really should not require it
 // but with just a recommend, it also 
 // pulls in -gnome
-NetworkManager-kde
+NetworkManager-kde4
 -Prq:
 +Prc:
 // 297684 for these 2
@@ -17,6 +16,7 @@ kde4-krdc
 konversation
 -Prc:
 +Psg:
-NetworkManager-openvpn-kde
-NetworkManager-vpnc-kde
+NetworkManager-openvpn-kde4
+NetworkManager-vpnc-kde4
+ktorrent
 -Psg:

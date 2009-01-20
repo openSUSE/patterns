@@ -5,9 +5,9 @@ kdebase4-workspace
 kde4-dolphin
 kde4-kwin
 kde4-kwrite
-NetworkManager-kde
 -Prq:
 +Prc:
+NetworkManager-kde4
 kde4-plasma-addons
 kde4-plasmoid-quicklauncher
 kde4-plasmoid-quickaccess
