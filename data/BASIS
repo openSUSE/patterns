@@ -35,4 +35,10 @@ branding-openSUSE
 rpcbind
 PolicyKit
 polkit-default-privs
+#if defined(__powerpc__)
+// #467330 (ps3)
+libspe
+spu-tools
+#endif
+
 -Prq:
