@@ -9,7 +9,7 @@ opensuse-codecs-installer
 -Prq:
 
 +Prc:
-kaffeine
+kde4-kaffeine
 //kio_ipodslave
 krecord
 //phonon_xine
