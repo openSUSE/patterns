@@ -6,6 +6,10 @@ wpa_supplicant
 xstroke
 -Prq:
 +Prc:
+// bnc#480879
+crda
+wireless-regdb
+iw
 jarnal
 xvkbd
 x11-input-wacom-tools
