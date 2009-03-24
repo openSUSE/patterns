@@ -9,13 +9,13 @@ gnome_imaging
 gnome_internet
 gnome_laptop
 gnome_multimedia
-//gnome_office
+gnome_office
 gnome_xgl
 gnome_yast
 imaging
 laptop
 multimedia
-//office
+office
 sw_management
 sw_management_gnome
 x11
