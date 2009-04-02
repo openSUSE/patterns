@@ -1,6 +1,9 @@
 +Prq:
 kernel-default-base
 kernel-default
+// we need it for the live cds
+preload
+preload-kmp-default
 -Prq:
 
 +Prc:
