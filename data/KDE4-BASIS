@@ -9,7 +9,6 @@ kde4-kwrite
 +Prc:
 NetworkManager-kde4
 kde4-plasma-addons
-kde4-plasmoid-quicklauncher
 kde4-plasmoid-quickaccess
 kde4-keditbookmarks
 kde4-konqueror
@@ -32,7 +31,7 @@ yast2-control-center-qt
 // we want useful bug reports
 gdb
 kde4-kdm
-kde4-kio_iso
+kio_iso
 // #379583
 PolicyKit-kde
 // bnc#430161
@@ -48,7 +47,6 @@ pulseaudio-utils
 alsa-plugins-pulse
 -Prc:
 +Psg:
-powerdevil
 kde4-knode
 kde4-ktnef
 -Psg:

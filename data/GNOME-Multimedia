@@ -3,7 +3,7 @@ banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-unix
 totem
-totem-plugin
+totem-browser-plugin
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:

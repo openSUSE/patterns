@@ -13,7 +13,7 @@ gdm
 +Prc:
 gtk-xfce-engine
 mousepad
-notification-daemon-xfce
+xfce4-notifyd
 orage
 Terminal
 xarchiver

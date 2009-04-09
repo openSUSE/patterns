@@ -13,14 +13,14 @@ nss-mdns-32bit
 // fetchmsfonts
 pullin-msttf-fonts
 // needed e.g. for nvidia drivers
-3ddiag
+x11-tools
 // needed for fetchmsfonts (#327524)
 cabextract
 xterm
 ghostscript-x11
 openssh-askpass
 tightvnc
-x11-input-synaptics
+xorg-x11-driver-input
 xorg-x11-libX11-ccache
 // provides e.g. xdm
 xorg-x11
@@ -71,7 +71,7 @@ xosview
 // cups client for the poor
 xpp
 // on security probation
-xpdf
+xpdf-poppler
 xosd
 // #394406
 #pragma online

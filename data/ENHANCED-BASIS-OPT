@@ -62,7 +62,7 @@ command-not-found
 -Prc:
 
 +Psg:
-lzma
+xz
 zip
 unzip
 unrar

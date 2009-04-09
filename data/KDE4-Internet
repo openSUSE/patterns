@@ -13,7 +13,7 @@ NetworkManager-kde4
 // 297684 for these 2
 kde4-krfb
 kde4-krdc
-kde4-konversation
+konversation
 -Prc:
 +Psg:
 NetworkManager-openvpn-kde4

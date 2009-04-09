@@ -24,18 +24,15 @@ evolution-devel
 fam-devel
 libpurple-devel
 gconf2-devel
-gconf2-doc
 ghex
 glade
 glib-devel
 glib2-devel
-glib2-doc
 glitz-devel
 gvfs-devel
 libgweather-devel
-libgnomebt-devel
+gnome-bluetooth-devel
 gnome-common
-gnome-cups-manager-devel
 gnome-desktop-devel
 gnome-doc-utils
 gnome-doc-utils-devel
@@ -54,7 +51,6 @@ gstreamer-0_10-doc
 gstreamer-0_10-plugins-base-devel
 gtkhtml2-devel
 gtksourceview-devel
-gtksourceview-doc
 gucharmap-devel
 intltool
 libart_lgpl-devel
@@ -72,9 +68,7 @@ libgda-3_0-devel
 libglade2-devel
 libglade2-doc
 libgnome-devel
-libgnome-doc
 libgnomecanvas-devel
-libgnomecanvas-doc
 libgnomecups-devel
 libgnomedb-devel
 libgnomekbd-devel
@@ -104,7 +98,6 @@ nautilus-devel
 libneon-devel
 orbit2-devel
 pango-devel
-pango-doc
 planner-devel
 startup-notification-devel
 vte-devel

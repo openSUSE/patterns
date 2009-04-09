@@ -2,7 +2,6 @@
 perlref
 -Prq:
 +Psg:
-kdebindings3-perl
 perl-Algorithm-Diff
 perl-AppConfig
 perl-Authen-SASL

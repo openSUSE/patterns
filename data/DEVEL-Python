@@ -28,6 +28,6 @@ python-pam
 python-pygame
 python-serial
 python-twisted-doc
-python-twisted-web
+python-twisted
 python-zopeinterface
 -Psg:
