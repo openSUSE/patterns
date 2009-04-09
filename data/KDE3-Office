@@ -1,6 +1,0 @@
-+Prq:
-#if !defined(__s390__) && !defined (ia64)
-OpenOffice_org-kde
-OpenOffice_org-Quickstarter
-#endif
--Prq:

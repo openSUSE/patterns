@@ -53,26 +53,6 @@ gnome_yast
 imaging
 imaging_opt
 kde
-kde3
-kde3_admin
-kde3_basis
-kde3_basis_opt
-kde3_edutainment
-kde3_games
-kde3_ide
-kde3_imaging
-kde3_imaging_opt
-kde3_internet
-kde3_laptop
-kde3_multimedia
-#if defined(__i386__) || defined (__x86_64__)
-kde3_office
-kde3_office_opt
-#endif
-kde3_utilities
-kde3_utilities_opt
-kde3_xgl
-kde3_yast
 kde4
 kde4_admin
 kde4_basis
@@ -110,7 +90,6 @@ print_server
 remote_desktop
 sw_management
 sw_management_gnome
-sw_management_kde3
 sw_management_kde4
 tabletpc
 technical_writing
