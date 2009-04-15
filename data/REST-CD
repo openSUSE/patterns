@@ -127,4 +127,8 @@ umtsmon
 
 // need to profile live cds
 bootchart
+
+// #494547 - just testing
+cups-drivers
+manufacturer-PPDs
 -Prc:
