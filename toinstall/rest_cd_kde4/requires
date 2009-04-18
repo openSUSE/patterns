@@ -20,7 +20,5 @@ sw_management_kde4
 x11
 yast2_basis
 yast2_install_wf
-#if defined(__i386__)
 games
 kde4_games
-#endif
