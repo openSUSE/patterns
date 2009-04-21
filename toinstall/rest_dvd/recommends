@@ -1,5 +1,9 @@
+#if defined (__x86_64__)
 32bit
+#endif
+#if defined(__powerpc__)
 64bit
+#endif
 apparmor
 apparmor_opt
 base
@@ -96,7 +100,9 @@ technical_writing
 x11
 x11_opt
 x11_yast
+#if defined(__ia64__)
 x86
+#endif
 xen_server
 xfce
 #if defined(__i386__) || defined (__x86_64__)
