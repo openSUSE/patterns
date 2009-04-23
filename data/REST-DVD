@@ -9,15 +9,13 @@ kqemu-kmp-default
 
 // needed for kiwi creation
 squashfs
-aufs
-aufs-kmp-default
-aufs-kmp-xen
 yast2-live-installer
-cromfs
+
 gfxboot-devel
 nbd
 nbd-doc
 kiwi-config-openSUSE
+clicfs
 
 //# 306071
 virtualbox-ose
@@ -88,8 +86,8 @@ atl2-kmp-default
 
 #if defined(__i386__)
 kqemu-kmp-pae
-aufs-kmp-pae
 virtualbox-ose-kmp-pae
+kvm-kmp-pae
 acx-kmp-pae
 at76_usb-kmp-pae
 dazuko-kmp-pae
