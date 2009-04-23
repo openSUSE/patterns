@@ -14,9 +14,9 @@ NetworkManager-kde4
 kde4-krfb
 kde4-krdc
 konversation
+ktorrent
 -Prc:
 +Psg:
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
-ktorrent
 -Psg:
