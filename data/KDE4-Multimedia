@@ -1,6 +1,6 @@
 +Prq:
-kde4-amarok
-kde4-k3b
+amarok
+k3b
 kde4-kmix
 kde4-kscd
 kde4-kio_audiocd
@@ -9,7 +9,7 @@ opensuse-codecs-installer
 -Prq:
 
 +Prc:
-kde4-kaffeine
+kaffeine
 //kio_ipodslave
 krecord
 //phonon_xine
