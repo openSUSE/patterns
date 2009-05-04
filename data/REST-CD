@@ -131,4 +131,17 @@ bootchart
 // #494547 - just testing
 cups-drivers
 manufacturer-PPDs
+
+// needed to detect if a system is the same
+dmidecode
+
+// decompression to recover something
+xz
+zip
+unzip
+unrar
+
+// file system stuff
+xfsdump
+
 -Prc:
