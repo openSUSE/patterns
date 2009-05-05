@@ -4,6 +4,7 @@ xkeyboard-config
 yast2-x11
 sax2-gui
 #endif
+xorg-x11-server
 -Prq:
 
 +Prc:
@@ -21,6 +22,7 @@ ghostscript-x11
 openssh-askpass
 tightvnc
 xorg-x11-driver-input
+xorg-x11-driver-video
 xorg-x11-libX11-ccache
 // provides e.g. xdm
 xorg-x11
