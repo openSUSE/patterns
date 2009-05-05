@@ -65,8 +65,6 @@ createrepo
 // kernel modules
 acx-kmp-default
 acx-kmp-xen
-at76_usb-kmp-default
-at76_usb-kmp-xen
 dazuko-kmp-default
 dazuko-kmp-xen
 drbd-kmp-default
@@ -81,8 +79,6 @@ omnibook-kmp-xen
 wlan-ng-kmp-xen
 quickcam-kmp-default
 kvm-kmp-default
-// bnc#420039 - EEPC modules for 11.1
-atl2-kmp-default
 
 #if defined(__i386__)
 kqemu-kmp-pae

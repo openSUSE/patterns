@@ -2,9 +2,6 @@
 kino
 ImageMagick
 mjpegtools
-#if defined(__i386__) || defined (__x86_64__)
-RealPlayer
-#endif
 -Prc:
 
 +Psg:

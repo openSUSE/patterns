@@ -76,13 +76,12 @@ libxine-devel
 cups-devel
 bluez-devel
 libpoppler-qt4-devel
-libkexiv2-7-devel
+libkexiv2-devel
 giflib-devel
 -Prc:
 
 +Psg:
-libkdcraw7-devel
-libkexiv2-7-devel
+libkdcraw-devel
 libkipi-devel
 freeglut-devel
 graphviz
