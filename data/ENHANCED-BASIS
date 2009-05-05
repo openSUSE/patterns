@@ -104,7 +104,8 @@ openslp
 pciutils
 pcsc-lite
 #if defined __i386__ || defined __x86_64 || defined __ia64__
-pmtools
+dmidecode
+acpica
 #endif
 #if defined(__i386__) || defined (__x86_64__)
 microcode_ctl
