@@ -3,8 +3,8 @@ xkeyboard-config
 #if !defined(__s390__)
 yast2-x11
 sax2-gui
-#endif
 xorg-x11-server
+#endif
 -Prq:
 
 +Prc:
