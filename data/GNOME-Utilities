@@ -3,7 +3,6 @@ deskbar-applet
 evolution-pilot
 gftp
 gnome-bluetooth
-bluez-gnome
 // #447627
 gnome-user-share
 multisync-gui
@@ -16,4 +15,5 @@ dasher
 -Prc:
 +Psg:
 gnet
+bluez-gnome
 -Psg:

@@ -116,13 +116,16 @@ pulseaudio-utils
 padevchooser
 paman
 paprefs
-pavucontrol
 pavumeter
 // #379486
 gnome-do
 tasque
 // #399801
 mousetweaks
+// #505211
+gtk2-metatheme-sonar
+fifth-leg-fonts
+gtk2-engine-murrine
 -Prc:
 +Psg:
 // #301664 -> suggests due to 380248
