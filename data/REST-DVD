@@ -81,22 +81,22 @@ quickcam-kmp-default
 kvm-kmp-default
 
 #if defined(__i386__)
-kqemu-kmp-pae
-virtualbox-ose-kmp-pae
-kvm-kmp-pae
-acx-kmp-pae
-at76_usb-kmp-pae
-dazuko-kmp-pae
-drbd-kmp-pae
-ivtv-kmp-pae
-lirc-kmp-pae
-ndiswrapper-kmp-pae
-omnibook-kmp-pae
-wlan-ng-kmp-pae
-quickcam-kmp-pae
-kvm-kmp-pae
-atl2-kmp-pae
-vmware-kmp-pae
+kqemu-kmp-legacy
+virtualbox-ose-kmp-legacy
+kvm-kmp-legacy
+acx-kmp-legacy
+at76_usb-kmp-legacy
+dazuko-kmp-legacy
+drbd-kmp-legacy
+ivtv-kmp-legacy
+lirc-kmp-legacy
+ndiswrapper-kmp-legacy
+omnibook-kmp-legacy
+wlan-ng-kmp-legacy
+quickcam-kmp-legacy
+kvm-kmp-legacy
+atl2-kmp-legacy
+vmware-kmp-legacy
 #endif
 
 // register your hardware
@@ -148,9 +148,9 @@ vmware-kmp-default
 smis-providers
 
 // split kernel
-kernel-pae-base
-kernel-pae
-kernel-pae-extra
+kernel-legacy-base
+kernel-legacy
+kernel-legacy-extra
 
 // bnc#431280 (Japanese fonts)
 ttf-arphic-uming
