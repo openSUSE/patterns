@@ -3,7 +3,7 @@ kernel-default-base
 kernel-default
 // we need it for the live cds
 preload
-//TODOpreload-kmp-default
+preload-kmp-default
 -Prq:
 
 +Prc:
