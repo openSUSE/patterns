@@ -144,4 +144,6 @@ unrar
 // file system stuff
 xfsdump
 
+// fate#306643
+mc 
 -Prc:
