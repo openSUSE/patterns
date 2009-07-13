@@ -45,6 +45,8 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
+// bnc#521177
+yakuake
 -Prc:
 +Psg:
 kde4-knode
