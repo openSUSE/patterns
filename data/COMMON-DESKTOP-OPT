@@ -10,5 +10,6 @@ nspluginwrapper
 #endif
 // metalink downloader
 aria2
+preload
 -Prc:
 
