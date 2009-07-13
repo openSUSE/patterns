@@ -9,4 +9,6 @@ libqt4-sql-sqlite
 libqt4-sql-mysql
 libqt4-sql-postgresql
 libqt4-sql-unixODBC
+// bnc#515160
+qt-creator
 -Psg:
