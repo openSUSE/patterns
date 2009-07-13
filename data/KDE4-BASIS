@@ -24,7 +24,7 @@ kde4-kmail
 kde4-kontact
 kde4-korganizer
 kde4-knotes
-pinentry-qt
+pinentry-qt4
 kcm_gtk
 qtcurve-gtk2
 yast2-control-center-qt

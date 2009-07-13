@@ -10,9 +10,9 @@ opensuse-codecs-installer
 
 +Prc:
 kaffeine
-//kio_ipodslave
 krecord
-//phonon_xine
-//phonon_gst
 -Prc:
 
++Psg:
+krecord
+-Psg:
