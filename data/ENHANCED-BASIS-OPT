@@ -55,9 +55,6 @@ salinfo
 #endif
 // bnc#388149
 hplip
-// Bug 424707 - Feature "Command not found" for openSUSE by default
-scout
-command-not-found
 -Prc:
 
 +Psg:
