@@ -5,19 +5,19 @@ OpenOffice_org-Quickstarter
 -Prq:
 
 +Psg:
-koffice
+koffice2
 #pragma online
-koffice-database
+koffice2-database
 #pragma online
-koffice-extra
-koffice-illustration
+koffice2-extra
+koffice2-illustration
 #pragma online
-koffice-planning
+koffice2-planning
 #pragma online
-koffice-presentation
+koffice2-presentation
 #pragma online
-koffice-spreadsheet
+koffice2-spreadsheet
 #pragma online
-koffice-wordprocessing
+koffice2-wordprocessing
 -Psg:
 

@@ -12,7 +12,7 @@ python-gnome-devel
 python-gobject2-devel
 python-gtk-devel
 python-ldap
-python-qt
+python-qt4
 python-wxGTK
 python-wxGTK-doc
 python-wxGTK-examples
