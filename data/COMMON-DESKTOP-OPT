@@ -1,7 +1,7 @@
 +Prc:
 // packages a GTK application
 gutenprint
-// needs python-qt
+// needs python-qt4
 hplip
 lsb
 java-1_6_0-openjdk-plugin
