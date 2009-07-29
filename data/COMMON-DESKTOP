@@ -2,5 +2,7 @@
 MozillaFirefox
 desktop-data-openSUSE
 avahi
+// bnc#508120
+xdg-user-dirs
 -Prc:
 
