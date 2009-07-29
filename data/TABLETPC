@@ -9,7 +9,7 @@ x11-input-wacom
 x11-input-wacom-tools
 wacom-kmp-default
 #if defined(__i386__)
-wacom-kmp-pae
+wacom-kmp-desktop
 #endif
 xournal
 xstroke
