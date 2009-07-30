@@ -17,7 +17,7 @@ rpm
 openSUSE-release
 openSUSE-build-key
 sysconfig
-syslog-ng
+rsyslog
 
 #if defined(__ia64__)
 elilo
