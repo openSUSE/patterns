@@ -1,6 +1,11 @@
 +Prq:
+#if defined(__x86_64__)
+kernel-desktop-base
+kernel-desktop
+#else
 kernel-default-base
 kernel-default
+#endif
 // we need it for the live cds
 preload
 preload-kmp-default
