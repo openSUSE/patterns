@@ -58,9 +58,9 @@ xhtml-dtd
 xmlcharent
 apache2-worker
 apache2-mod_tidy 
-kde4-kfilereplace
-kde4-kimagemapeditor
-kde4-klinkstatus
+kfilereplace
+kimagemapeditor
+klinkstatus
 quanta
 kompozer
 tomcat6

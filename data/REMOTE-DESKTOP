@@ -6,6 +6,6 @@ tsclient
 tightvnc
 -Prc:
 +Psg:
-kde4-krfb
-kde4-krdc
+krfb
+krdc
 -Psg:

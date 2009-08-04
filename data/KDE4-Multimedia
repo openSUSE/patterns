@@ -1,9 +1,9 @@
 +Prq:
 amarok
 k3b
-kde4-kmix
-kde4-kscd
-kde4-kio_audiocd
+kmix
+kscd
+kio_audiocd
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 -Prq:
@@ -14,4 +14,7 @@ kaffeine
 
 +Psg:
 krecord
+kdemultimedia4
+dragonplayer
+juk
 -Psg:

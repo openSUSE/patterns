@@ -1,22 +1,23 @@
 +Prc:
-kde4-ark
-kde4-kcalc
-kde4-kgpg
-kde4-ksnapshot
+ark
+kcalc
+kgpg
+ksnapshot
 // not yet ported, but anyway
-kde4-kwalletmanager
+kwalletmanager
 -Prc:
 +Psg:
-kde4-marble
-kde4-kiosktool
-kde4-kfloppy
-kde4-ktimetracker
-kde4-kalarm
+marble
+kiosktool
+kfloppy
+ktimetracker
+kalarm
 #pragma online
 kdeartwork4-wallpapers
 #pragma online
 kdebase4-wallpapers
 krename
 vym
+kdeartwork4
 -Psg:
 

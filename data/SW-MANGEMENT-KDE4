@@ -1,10 +1,10 @@
 +Prq:
-kde4-kupdateapplet
+kupdateapplet
 smolt
 -Prq:
 +Prc:
-kde4-kupdateapplet-packagekit
+kupdateapplet-packagekit
 -Prc:
 +Psg:
-kde4-kupdateapplet-zypp
+kupdateapplet-zypp
 -Psg:

@@ -4,10 +4,10 @@ digikam
 kipi-plugins
 // kipi-plugins needs /usr/bin/jpegtran
 jpeg
-kde4-okular
-kde4-kio_kamera
-kde4-kcolorchooser
-kde4-kgamma
+okular
+kio_kamera
+kcolorchooser
+kgamma
 skanlite
 -Prq:
 +Prc:

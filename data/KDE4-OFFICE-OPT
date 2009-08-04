@@ -19,5 +19,8 @@ koffice2-presentation
 koffice2-spreadsheet
 #pragma online
 koffice2-wordprocessing
+
+scribus
+scribus-templates
 -Psg:
 

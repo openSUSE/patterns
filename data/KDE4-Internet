@@ -1,7 +1,7 @@
 +Prq:
-kde4-kdnssd
-kde4-kget
-kde4-kopete
+kdnssd
+kget
+kopete
 // not KDE4 related
 //kio_slp
 // we really should not require it
@@ -11,14 +11,15 @@ NetworkManager-kde4
 -Prq:
 +Prc:
 // 297684 for these 2
-kde4-krfb
-kde4-krdc
+krfb
+krdc
 konversation
 ktorrent
-arora
-choqok
 -Prc:
 +Psg:
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
+arora
+choqok
+kppp
 -Psg:

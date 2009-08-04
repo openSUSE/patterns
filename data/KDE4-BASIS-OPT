@@ -2,11 +2,19 @@
 beagle-index
 // beagle and friends (good for CD later)
 beagle-firefox
-kde4-kerry
-kde4-kio_beagle
+kerry
+kio_beagle
 kepas
 kde4-webkitpart
 yakuake
-kde4-kerry
+kcron
+ksystemlog
+kdepasswd
+kinfocenter
+kvkbd
+phonon-backend-xine
+qtcurve-kde4
+rasqal
+redland
+soprano-backend-sesame
 -Psg:
-

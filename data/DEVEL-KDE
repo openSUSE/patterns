@@ -96,4 +96,11 @@ xemacs
 xemacs-info
 xemacs-packages
 xemacs-packages-info
+mono-kde4
+ruby-kde4
+python-kdebase4
+libkonq-devel
+libkdepim4-devel
+kdepim4-devel
+kdepim4-runtime-devel
 -Psg:
