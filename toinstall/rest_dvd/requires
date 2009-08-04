@@ -101,7 +101,7 @@ x11_opt
 #if defined(__ia64__)
 x86
 #endif
-xen_server
+// for now xen_server
 xfce
 #if defined(__i386__) || defined (__x86_64__)
 xfce_office
