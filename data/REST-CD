@@ -2,13 +2,18 @@
 #if defined(__x86_64__)
 kernel-desktop-base
 kernel-desktop
+preload-kmp-desktop
+// kernel split
+kernel-desktop-extra
 #else
 kernel-default-base
 kernel-default
+preload-kmp-default
+// kernel split
+kernel-default-extra
 #endif
 // we need it for the live cds
 preload
-preload-kmp-default
 -Prq:
 
 +Prc:
@@ -62,9 +67,14 @@ dosfstools
 // crypto partitions
 cryptsetup
 
+#if defined(__x86_64__)
 // kernel modules
+ndiswrapper-kmp-desktop
+wlan-ng-kmp-desktop
+#else
 ndiswrapper-kmp-default
 wlan-ng-kmp-default
+#endif
 
 // #296387 - tablet PC
 x11-input-fujitsu
@@ -108,9 +118,6 @@ awesfx
 
 // needed by yast2-storage for crypt partitions
 pam_mount
-
-// kernel split
-kernel-default-extra
 
 // adding to LiveCD (bnc#419201)
 rsync
