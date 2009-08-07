@@ -9,7 +9,6 @@ kde4_basis
 kde4_imaging
 kde4_internet
 kde4_multimedia
-kde4_laptop
 // drags in kde3: kde4_office
 kde4_utilities
 kde4_yast
