@@ -4,6 +4,8 @@ smolt
 -Prq:
 +Prc:
 kupdateapplet-packagekit
+// bnc#529122
+ksmolt
 -Prc:
 +Psg:
 kupdateapplet-zypp
