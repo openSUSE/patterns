@@ -3,14 +3,10 @@
 kernel-desktop-base
 kernel-desktop
 preload-kmp-desktop
-// kernel split
-kernel-desktop-extra
 #else
 kernel-default-base
 kernel-default
 preload-kmp-default
-// kernel split
-kernel-default-extra
 #endif
 // we need it for the live cds
 preload

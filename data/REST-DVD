@@ -148,7 +148,6 @@ smis-providers
 // split kernel
 kernel-desktop-base
 kernel-desktop
-kernel-desktop-extra
 
 // bnc#431280 (Japanese fonts)
 ttf-arphic-uming
