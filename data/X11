@@ -1,13 +1,11 @@
 +Prq:
 xkeyboard-config
-#if !defined(__s390__)
-yast2-x11
-sax2-gui
 xorg-x11-server
-#endif
 -Prq:
 
 +Prc:
+yast2-x11
+sax2-gui
 #if defined __x86_64__
 nss-mdns-32bit
 #endif
