@@ -175,4 +175,7 @@ apport-qt
 // very special case - 442295
 // supporting lib for non-oss
 libstdc++33
+
+// needed by yast (bnc#527549)
+kinternet
 -Prc:
