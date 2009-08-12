@@ -79,7 +79,6 @@ bootsplash
 cyrus-sasl
 dosfstools
 gawk
-gdbm
 gettext-runtime
 glibc-locale
 gpart
@@ -89,7 +88,6 @@ hal
 hdparm
 ifplugd
 info
-libldapcpp1
 linux-atm-lib
 master-boot-code
 netcat
@@ -97,12 +95,9 @@ nfs-client
 nfsidmap
 unscd
 ntfsprogs
-openct
 openldap2-client
-opensc
 openslp
 pciutils
-pcsc-lite
 #if defined __i386__ || defined __x86_64 || defined __ia64__
 dmidecode
 acpica
@@ -111,13 +106,11 @@ acpica
 microcode_ctl
 #endif
 pm-utils
-popt
 postfix
 pm-profiler
 ppp
 pptp
 recode
-reiserfs
 release-notes-openSUSE
 smp_utils
 sg3_utils
@@ -158,3 +151,7 @@ cryptsetup
 scout
 command-not-found
 -Prc:
+
++Psg:
+reiserfs
+-Psg:
