@@ -145,9 +145,9 @@ vmware-kmp-default
 // #304494: System Instrumentation (CIM Enablement)
 smis-providers
 
-// split kernel
-kernel-desktop-base
+// all kernel flavors we want to have
 kernel-desktop
+kernel-default
 
 // bnc#431280 (Japanese fonts)
 ttf-arphic-uming
