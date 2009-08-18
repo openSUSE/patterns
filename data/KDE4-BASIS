@@ -46,8 +46,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
-#else
-esound-daemon
 #endif
 // bnc#521177
 yakuake
