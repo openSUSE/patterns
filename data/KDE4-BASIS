@@ -36,6 +36,7 @@ kio_iso
 PolicyKit-kde
 // bnc#430161
 polkit-default-privs
+#if 0
 // pulseaudio
 pulseaudio
 pulseaudio-module-bluetooth
@@ -45,6 +46,7 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
+#endif
 // bnc#521177
 yakuake
 -Prc:
