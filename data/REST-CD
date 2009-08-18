@@ -2,12 +2,15 @@
 #if defined(__x86_64__)
 kernel-desktop
 preload-kmp-desktop
+compcache-kmp-desktop
 #else
 kernel-default
 preload-kmp-default
+compcache-kmp-default
 #endif
 // we need it for the live cds
 preload
+compcache
 -Prq:
 
 +Prc:
