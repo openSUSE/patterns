@@ -113,10 +113,7 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-padevchooser
-paman
 paprefs
-pavumeter
 pavucontrol
 // #379486
 gnome-do
