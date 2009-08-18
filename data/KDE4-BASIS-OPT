@@ -1,3 +1,10 @@
++Prc:
+kcron
+ksystemlog
+kdepasswd
+kinfocenter
+kvkbd
+-Prc:
 +Psg:
 beagle-index
 // beagle and friends (good for CD later)
@@ -7,13 +14,7 @@ kio_beagle
 kepas
 kde4-webkitpart
 yakuake
-kcron
-ksystemlog
-kdepasswd
-kinfocenter
-kvkbd
 phonon-backend-gstreamer-0_10
-qtcurve-kde4
 rasqal
 redland
 soprano-backend-sesame

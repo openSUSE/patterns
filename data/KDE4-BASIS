@@ -27,6 +27,7 @@ knotes
 pinentry-qt4
 kcm_gtk
 qtcurve-gtk2
+qtcurve-qt4
 yast2-control-center-qt
 // we want useful bug reports
 gdb

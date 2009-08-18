@@ -15,11 +15,12 @@ krfb
 krdc
 konversation
 ktorrent
+choqok
+knode
 -Prc:
 +Psg:
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
 arora
-choqok
 kppp
 -Psg:
