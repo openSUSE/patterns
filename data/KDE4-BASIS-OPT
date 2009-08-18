@@ -12,7 +12,7 @@ ksystemlog
 kdepasswd
 kinfocenter
 kvkbd
-phonon-backend-xine
+phonon-backend-gstreamer-0_10
 qtcurve-kde4
 rasqal
 redland
