@@ -147,4 +147,15 @@ reiserfs
 
 // fate#306643
 mc 
+
+// laptop stuff
+irda
+pcmciautils
+wpa_supplicant
+xstroke
+// bnc#480879
+crda
+wireless-regdb
+iw
+jarnal
 -Prc:
