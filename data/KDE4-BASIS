@@ -27,7 +27,7 @@ knotes
 pinentry-qt4
 kcm_gtk
 qtcurve-gtk2
-qtcurve-qt4
+qtcurve-kde4
 yast2-control-center-qt
 // we want useful bug reports
 gdb
@@ -50,6 +50,11 @@ alsa-plugins-pulse
 #endif
 // bnc#521177
 yakuake
+kcron
+ksystemlog
+kdepasswd
+kinfocenter
+kvkbd
 -Prc:
 +Psg:
 knode
