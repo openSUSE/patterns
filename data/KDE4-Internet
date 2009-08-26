@@ -21,6 +21,7 @@ knode
 +Psg:
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
+NetworkManager-pptp-kde4
 arora
 kppp
 -Psg:

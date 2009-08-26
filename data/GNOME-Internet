@@ -13,6 +13,7 @@ cheese
 pan
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc-gnome
+NetworkManager-pptp-gnome
 xchat-gnome
 -Psg:
 
