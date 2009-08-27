@@ -13,7 +13,7 @@ samba
 -Prc:
 
 +Psg:
-cups-autoconfig
+udev-configure-printer
 poster
 gtklp
 // print to bluetooth

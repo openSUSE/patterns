@@ -4,7 +4,7 @@ bc
 bootcycle
 cracklib-dict-full
 // autoconfig new printers
-cups-autoconfig
+udev-configure-printer
 cups-drivers
 dos2unix
 ed
