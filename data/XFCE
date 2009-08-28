@@ -7,8 +7,8 @@ xfconf
 xfce4-panel
 xfce4-session
 xfwm4
-// #393956 + 450220
-gdm
+// #393956 + 450220 + 481468
+xdm
 -Prq:
 +Prc:
 xfce4-branding-openSUSE
