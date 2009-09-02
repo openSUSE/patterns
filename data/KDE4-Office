@@ -1,12 +1,9 @@
 +Prq:
-#if !defined(__s390__) && !defined (ia64)
 OpenOffice_org-kde4
-#endif
+OpenOffice_org-icon-theme-oxygen
 -Prq:
 +Psg:
-#if !defined(__s390__) && !defined (ia64)
 OpenOffice_org-Quickstarter
-#endif
 
 #pragma online
 koffice2
