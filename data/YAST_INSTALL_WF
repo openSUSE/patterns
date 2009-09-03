@@ -3,6 +3,8 @@ yast2-installation
 yast2-ncurses
 yast2-network
 yast2-users
+// bnc#535101
+yast2-bootloader
 -Prq:
 +Psg:
 autoyast2-installation
