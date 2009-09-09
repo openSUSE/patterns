@@ -32,6 +32,8 @@ gtk2-engine-murrine
 // #440285
 pinentry-gtk2
 avahi
+// #537365
+smolt
 -Prc:
 +Psg:
 #pragma online
