@@ -11,6 +11,8 @@ xfwm4
 xorg-x11
 -Prq:
 +Prc:
+// bnc#537362
+gnome-packagekit
 xfce4-branding-openSUSE
 gtk-xfce-engine
 mousepad
