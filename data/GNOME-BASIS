@@ -28,7 +28,6 @@ at-spi
 awesfx
 beagle
 beagle-evolution
-beagle-firefox
 beagle-gui
 bug-buddy
 gnome-control-center
@@ -130,4 +129,5 @@ xdg-user-dirs-gtk
 +Psg:
 // #301664 -> suggests due to 380248
 gnome-commander
+beagle-firefox
 -Psg:
