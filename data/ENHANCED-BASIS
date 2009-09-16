@@ -64,6 +64,7 @@ bootsplash-branding-openSUSE
 alsa-plugins
 // useful for debugging
 strace
+lsof
 // make sure applications can't take down the system
 ulimit
 // mount NTFS rw
