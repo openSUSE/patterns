@@ -21,7 +21,6 @@ b43-fwcutter
 memtest86+
 // adaptec-firmware (#298726)
 adaptec-firmware
-qlogic-firmware
 mpt-firmware
 atmel-firmware
 // bnc#445383
