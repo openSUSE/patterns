@@ -17,11 +17,12 @@ konversation
 ktorrent
 choqok
 knode
--Prc:
-+Psg:
+// bnc#533580 
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
 NetworkManager-pptp-kde4
+-Prc:
++Psg:
 arora
 kppp
 -Psg:

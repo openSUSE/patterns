@@ -8,12 +8,13 @@ transmission-gtk
 ekiga
 // bnc#366894
 cheese
--Prc:
-+Psg:
-pan
+// bnc#533580
 NetworkManager-openvpn-gnome
 NetworkManager-vpnc-gnome
 NetworkManager-pptp-gnome
+-Prc:
++Psg:
+pan
 xchat-gnome
 gwibber
 -Psg:
