@@ -82,10 +82,10 @@ x11-input-fujitsu
 ndiswrapper
 
 // from non-oss - exception
-iwl3945-ucode
-iwl4965-ucode
-iwl5000-ucode
-ipw-firmware
+#iwl3945-ucode
+#iwl4965-ucode
+#iwl5000-ucode
+#ipw-firmware
 
 // supplements by modaliases
 bluez-firmware
