@@ -93,9 +93,9 @@ sw_management
 sw_management_gnome
 sw_management_kde4
 tabletpc
-#if !defined(__x86_64__)
+//#if !defined(__x86_64__)
 technical_writing
-#endif
+//#endif
 x11
 x11_opt
 #if defined(__ia64__)
