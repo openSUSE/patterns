@@ -7,6 +7,7 @@ kwin
 kwrite
 -Prq:
 +Prc:
+polkit-gnome
 NetworkManager-kde4
 plasma-addons
 plasmoid-quickaccess
