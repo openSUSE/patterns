@@ -51,6 +51,8 @@ yast2-samba-client
 yast2-samba-server
 // #388892
 yast2-vm
+// #542936
+yast2-packager-webpin
 -Prc:
 +Psg:
 yast2-registration
