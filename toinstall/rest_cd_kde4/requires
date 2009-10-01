@@ -9,7 +9,6 @@ kde4_basis
 kde4_imaging
 kde4_internet
 kde4_multimedia
-// drags in kde3: kde4_office
 kde4_utilities
 kde4_yast
 multimedia
@@ -22,3 +21,6 @@ games
 kde4_games
 kde4_pure
 update_test
+office
+kde4_office
+
