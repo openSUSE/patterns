@@ -15,7 +15,6 @@ samba
 +Psg:
 udev-configure-printer
 poster
-gtklp
 // print to bluetooth
 bluez-cups
 pbm2l7k

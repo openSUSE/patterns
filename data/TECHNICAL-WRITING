@@ -50,7 +50,6 @@ texlive-metapost
 texlive-omega
 texlive-xetex
 texlive-tools
-dvi2tty
 #pragma online
 texlive-latex-doc
 #pragma online
