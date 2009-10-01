@@ -1,12 +1,7 @@
 +Psg:
 frozen-bubble
-lbreakout
 #pragma online
 glest
-#pragma online
-lincity
-scummvm
-madbomber
 #pragma online
 wesnoth
 #pragma online
@@ -15,8 +10,6 @@ armagetron
 circuslinux
 csmash
 ltris
-pacman
-penguin-command
 solarwolf
 xlogical
 black-box

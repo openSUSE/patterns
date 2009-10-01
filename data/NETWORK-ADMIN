@@ -13,7 +13,7 @@ mtr
 -Prc:
 +Psg:
 mrtg
-openswan
+openvpn
 opie
 ckermit
 kismet

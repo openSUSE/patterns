@@ -25,7 +25,6 @@ php5-calendar
 php5-ctype
 php5-curl
 php5-dba
-php5-dbase
 php5-devel
 php5-dom
 php5-exif
@@ -66,8 +65,5 @@ kompozer
 tomcat6
 tomcat6-admin-webapps
 tomcat6-webapps
-selfhtml
-selfphp
-htdig
 html2text
 -Psg:

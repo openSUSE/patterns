@@ -65,25 +65,20 @@ dazuko-kmp-default
 dazuko-kmp-xen
 drbd-kmp-default
 drbd-kmp-xen
-ivtv-kmp-default
-ivtv-kmp-xen
 lirc-kmp-default
 lirc-kmp-xen
 ndiswrapper-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
-quickcam-kmp-default
 
 kqemu-kmp-desktop
 virtualbox-ose-kmp-desktop
 at76_usb-kmp-desktop
 dazuko-kmp-desktop
 drbd-kmp-desktop
-ivtv-kmp-desktop
 lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop
-quickcam-kmp-desktop
 atl2-kmp-desktop
 vmware-guest-kmp-desktop
 
