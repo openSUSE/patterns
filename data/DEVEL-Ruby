@@ -8,8 +8,6 @@ ruby-doc-html
 ruby-doc-ri
 ruby-examples
 ruby-fcgi
-ruby-gdchart
-ruby-gettext
 ruby-mysql
 ruby-racc
 ruby-test-suite

@@ -56,14 +56,12 @@ gnome-media
 gnome-menus
 gnome-nettool
 gnome-power-manager
-gnome-printer-add
 gnome-screensaver
 gnome-spell2
 gnome-system-monitor
 gnome-terminal
 gnome-themes
 gnome-utils
-gnome-volume-manager
 // thumbnailing in nautilus
 gnome-web-photo
 gpg2

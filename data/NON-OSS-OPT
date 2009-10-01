@@ -20,14 +20,11 @@ acroread
 atmel-firmware
 ipw-firmware
 #if defined(__i386__) || defined (__x86_64__)
-iscan
 iscan-firmware
-iscan-proprietary-drivers
 #endif
 moneyplex
 #pragma online
 opera
-qlogic-firmware
 #pragma online
 FZFangSong
 #pragma online

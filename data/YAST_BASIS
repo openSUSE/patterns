@@ -90,7 +90,6 @@ install-initrd
 // for yast2-scanner
 sane-backends             // mandatory
 hplip                     // optionally, this should be already installed by default
-iscan                     // optionally, proprietary binary-only i386-only software from Epson Kowa
 iscan-free                // optionally, open source, derived from iscan
 // themeing for hardcore KDE lovers
 yast2-theme-openSUSE-Crystal

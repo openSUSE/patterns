@@ -6,7 +6,6 @@ tk-devel
 -Prq:
 
 +Prc:
-blt
 bwidget
 expect
 frink

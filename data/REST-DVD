@@ -73,13 +73,11 @@ omnibook-kmp-xen
 
 kqemu-kmp-desktop
 virtualbox-ose-kmp-desktop
-at76_usb-kmp-desktop
 dazuko-kmp-desktop
 drbd-kmp-desktop
 lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop
-atl2-kmp-desktop
 vmware-guest-kmp-desktop
 
 // register your hardware
@@ -126,9 +124,6 @@ kvm
 // #391434
 open-vm-tools
 vmware-guest-kmp-default
-
-// #304494: System Instrumentation (CIM Enablement)
-smis-providers
 
 // all kernel flavors we want to have
 kernel-desktop
