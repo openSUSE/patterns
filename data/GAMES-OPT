@@ -1,16 +1,11 @@
 +Psg:
-chromium
 frozen-bubble
-freeciv
-supertux
 lbreakout
 #pragma online
 glest
 #pragma online
 lincity
 scummvm
-#pragma online
-torcs
 madbomber
 #pragma online
 wesnoth
@@ -20,11 +15,9 @@ armagetron
 circuslinux
 csmash
 ltris
-Maelstrom
 pacman
 penguin-command
 solarwolf
-xboard
 xlogical
 black-box
 -Psg:

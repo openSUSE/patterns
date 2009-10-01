@@ -10,7 +10,6 @@ at-spi-devel
 atk-devel
 audiofile-devel
 cairo-devel
-cairo-doc
 gnome-control-center-devel
 dbus-1-devel
 devhelp
@@ -36,7 +35,7 @@ gnome-desktop-devel
 gnome-doc-utils
 gnome-doc-utils-devel
 gnome-keyring-devel
-gnome-main-menu-devel
+libslab-devel
 gnome-media-devel
 gnome-menus-devel
 gnome-pilot-devel
@@ -79,7 +78,6 @@ libgnomesu-devel
 libgnomeui-devel
 libgnomeui-doc
 libgsf-devel
-libgsf-doc
 libgtop-devel
 libidl-devel
 libksba-devel

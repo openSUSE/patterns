@@ -53,8 +53,6 @@ xournal
 seamonkey
 seamonkey-dom-inspector
 seamonkey-irc
-seamonkey-mail
-seamonkey-spellchecker
 seamonkey-venkman
 
 // feature 301945
@@ -63,8 +61,6 @@ yast2-product-creator
 createrepo
 
 // kernel modules
-acx-kmp-default
-acx-kmp-xen
 dazuko-kmp-default
 dazuko-kmp-xen
 drbd-kmp-default
@@ -76,14 +72,10 @@ lirc-kmp-xen
 ndiswrapper-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
-wlan-ng-kmp-xen
 quickcam-kmp-default
-kvm-kmp-default
 
 kqemu-kmp-desktop
 virtualbox-ose-kmp-desktop
-kvm-kmp-desktop
-acx-kmp-desktop
 at76_usb-kmp-desktop
 dazuko-kmp-desktop
 drbd-kmp-desktop
@@ -91,11 +83,9 @@ ivtv-kmp-desktop
 lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop
-wlan-ng-kmp-desktop
 quickcam-kmp-desktop
-kvm-kmp-desktop
 atl2-kmp-desktop
-vmware-kmp-desktop
+vmware-guest-kmp-desktop
 
 // register your hardware
 smolt
@@ -140,7 +130,7 @@ kvm
 
 // #391434
 open-vm-tools
-vmware-kmp-default
+vmware-guest-kmp-default
 
 // #304494: System Instrumentation (CIM Enablement)
 smis-providers

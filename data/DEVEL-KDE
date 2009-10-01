@@ -39,7 +39,7 @@ libxslt-devel
 NetworkManager-devel
 pcre-devel
 libqt4-devel-doc
-SDL-devel
+libSDL-devel
 sqlite3-devel
 strigi-devel
 wv2-devel

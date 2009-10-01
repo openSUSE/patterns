@@ -1,5 +1,4 @@
 +Prq:
-jre
 ant
 ant-antlr
 ant-apache-bcel
@@ -27,6 +26,7 @@ xml-commons-resolver
 xml-commons-which
 -Prq:
 +Prc:
+java-1_6_0-openjdk
 #if defined(__i386__)
 java-1_6_0-openjdk-plugin
 #endif
@@ -57,7 +57,6 @@ puretls
 // just an editor
 jedit
 java-1_6_0-openjdk-devel
-java-1_6_0-openjdk
 mx4j
 ant-javamail
 jms

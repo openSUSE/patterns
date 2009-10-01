@@ -69,10 +69,8 @@ btrfsprogs
 #if defined(__x86_64__)
 // kernel modules
 ndiswrapper-kmp-desktop
-wlan-ng-kmp-desktop
 #else
 ndiswrapper-kmp-default
-wlan-ng-kmp-default
 #endif
 
 // #296387 - tablet PC

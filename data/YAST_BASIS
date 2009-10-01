@@ -22,7 +22,7 @@ yast2-repair
 yast2-runlevel
 yast2-security
 yast2-storage
-yast2-storage-lib
+libstorage
 yast2-sysconfig
 yast2-theme-openSUSE
 yast2-transfer
