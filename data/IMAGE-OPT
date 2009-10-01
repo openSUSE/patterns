@@ -4,7 +4,7 @@ gimp-help
 -Prc:
 +Psg:
 ufraw
-ufraw-gimp
+gimp-ufraw
 pfstools
 pfstmo
 pfscalibration
