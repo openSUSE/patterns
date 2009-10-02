@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-gnome_utilities
+-Prq:
+
++Prc:
 deskbar-applet
 evolution-pilot
 gftp
@@ -9,8 +13,6 @@ multisync-gui
 libopensync-plugin-file
 seahorse
 vino
--Prq:
-+Prc:
 dasher
 -Prc:
 +Psg:

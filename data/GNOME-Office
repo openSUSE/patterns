@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-gnome_office
+-Prq:
+
++Prc:
 OpenOffice_org-gnome
 OpenOffice_org-icon-theme-tango
--Prq:
+-Prc:

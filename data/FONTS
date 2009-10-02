@@ -1,8 +1,10 @@
 +Prq:
+patterns-openSUSE-fonts
+-Prq:
+
++Prc:
 ghostscript-fonts-std
 xorg-x11-fonts-core
--Prq:
-+Prc:
 dejavu
 ifnteuro
 liberation-fonts
@@ -16,4 +18,7 @@ IPAPGothic
 #pragma online
 IPAPMincho
 //IPAUIGothic
+#pragma online
+bitstream-vera
 -Psg:
+

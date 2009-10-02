@@ -1,6 +1,10 @@
 +Prq:
-monodevelop
+patterns-openSUSE-devel_ide
 -Prq:
+
++Prc:
+monodevelop
+-Prc:
 +Psg:
 anjuta
 #pragma online

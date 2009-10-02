@@ -1,9 +1,10 @@
 +Prq:
-apache2
-yast2-http-server
+patterns-openSUSE-lamp_server
 -Prq:
 
 +Prc:
+apache2
+yast2-http-server
 apache2-doc
 apache2-example-pages
 apache2-mod_perl

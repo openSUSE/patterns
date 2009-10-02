@@ -1,8 +1,10 @@
 +Prq:
+patterns-openSUSE-sw_management_kde4
+-Prq:
+
++Prc:
 kupdateapplet
 smolt
--Prq:
-+Prc:
 kupdateapplet-packagekit
 // bnc#529122
 ksmolt

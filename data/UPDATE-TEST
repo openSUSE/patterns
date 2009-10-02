@@ -1,7 +1,9 @@
 +Prq:
-update-test-trival
+patterns-openSUSE-update_test
 -Prq:
+
 +Prc:
+update-test-trival
 update-test-affects-package-manager
 update-test-security
 update-test-interactive

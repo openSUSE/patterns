@@ -1,9 +1,10 @@
 +Prq:
-gtk2-devel
-gtk-doc
+patterns-openSUSE-devel_gnome
 -Prq:
 
 +Prc:
+gtk2-devel
+gtk-doc
 aalib-devel
 alsa-devel
 at-spi-devel

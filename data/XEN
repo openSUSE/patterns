@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-xen_server
+-Prq:
+
++Prc:
 bridge-utils
 vm-install
 xen
@@ -7,8 +11,6 @@ xen-tools
 #if defined(__x86_64__) || defined(__i386__)
 kernel-xen
 #endif
--Prq:
-+Prc:
 virt-manager
 xen-doc-html
 xen-doc-pdf

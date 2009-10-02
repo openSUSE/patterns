@@ -1,7 +1,9 @@
 +Prq:
-yast2-sound
+patterns-openSUSE-multimedia
 -Prq:
+
 +Prc:
+yast2-sound
 dvd+rw-tools
 vorbis-tools
 -Prc:

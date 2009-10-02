@@ -1,6 +1,10 @@
 +Prq:
-perlref
+patterns-openSUSE-devel_perl
 -Prq:
+
++Prc:
+perlref
+-Prc:
 +Psg:
 perl-Algorithm-Diff
 perl-AppConfig

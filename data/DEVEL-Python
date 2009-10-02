@@ -1,8 +1,12 @@
 +Prq:
+patterns-openSUSE-devel_python
+-Prq:
+
++Prc:
 pychecker
 python
 python-devel
--Prq:
+-Prc:
 +Psg:
 eric
 libxml2-python

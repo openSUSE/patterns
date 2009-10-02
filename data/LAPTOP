@@ -1,11 +1,13 @@
 +Prq:
+patterns-openSUSE-laptop
+-Prq:
+
++Prc:
 irda
 pcmciautils
 scpm
 wpa_supplicant
 xstroke
--Prq:
-+Prc:
 // bnc#480879
 crda
 wireless-regdb

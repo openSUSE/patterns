@@ -1,6 +1,10 @@
 +Prq:
-ekiga
+patterns-openSUSE-voip
 -Prq:
+
++Prc:
+ekiga
+-Prc:
 +Psg:
 kcall
 kiax

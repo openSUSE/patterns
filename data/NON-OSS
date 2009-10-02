@@ -1,8 +1,12 @@
 +Prq:
+patterns-openSUSE-non_oss
+-Prq:
+
++Prc:
 #if defined(__i386__) || defined (__x86_64__)
 pullin-flash-player
 #endif
--Prq:
+-Prc:
 +Psg:
 iwl3945-ucode
 iwl4965-ucode

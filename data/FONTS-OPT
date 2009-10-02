@@ -3,8 +3,5 @@ efont-unicode
 ghostscript-fonts-other
 intlfnts
 xorg-x11-fonts
+droid-fonts
 -Prc:
-+Psg:
-#pragma online
-bitstream-vera
--Psg:

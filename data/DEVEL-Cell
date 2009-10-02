@@ -1,5 +1,9 @@
 +Prq:
+patterns-openSUSE-devel_cell
+-Prq:
+
++Prc:
 cross-spu-newlib
 cross-spu-gcc
 cross-spu-binutils
--Prq:
+-Prc:

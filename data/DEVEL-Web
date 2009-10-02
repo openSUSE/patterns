@@ -1,6 +1,10 @@
 +Prq:
-apache2-devel
+patterns-openSUSE-devel_web
 -Prq:
+
++Prc:
+apache2-devel
+-Prc:
 +Psg:
 html-dtd
 iso_ent

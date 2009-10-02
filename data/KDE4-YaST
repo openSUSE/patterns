@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-kde4_yast
+-Prq:
+
++Prq:
 yast2-qt
 yast2-qt-pkg
 yast2-control-center-qt

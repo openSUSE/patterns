@@ -1,3 +1,7 @@
 +Prq:
-kiosktool
+patterns-openSUSE-kde4_admin
 -Prq:
+
++Prc:
+kiosktool
+-Prc:

@@ -1,7 +1,9 @@
 +Prq:
-cyrus-imapd
+patterns-openSUSE-mail_server
 -Prq:
+
 +Prc:
+cyrus-imapd
 #if defined(__i386__)
 avmailgate
 #endif

@@ -1,8 +1,9 @@
 +Prq:
-cups
+patterns-openSUSE-print_server
 -Prq:
 
 +Prc:
+cups
 cups-backends
 cups-drivers
 foomatic-filters

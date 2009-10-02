@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-yast2_install_wf
+-Prq:
+
++Prq:
 yast2-installation
 yast2-ncurses
 yast2-network

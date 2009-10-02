@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-kde4_imaging
+-Prq:
+
++Prc:
 gwenview
 digikam
 kipi-plugins
@@ -10,7 +14,7 @@ kcolorchooser
 kgamma
 skanlite
 kruler
--Prq:
+-Prc:
 +Psg:
 koffice2-kpresenter
 kolourpaint

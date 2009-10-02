@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-kde4_multimedia
+-Prq:
+
++Prc:
 amarok
 k3b
 kmix
@@ -6,9 +10,6 @@ kscd
 kio_audiocd
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
--Prq:
-
-+Prc:
 kaffeine
 phonon-backend-xine
 -Prc:

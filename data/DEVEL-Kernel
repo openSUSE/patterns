@@ -1,7 +1,9 @@
 +Prq:
-kernel-source
+patterns-openSUSE-devel_kernel
 -Prq:
+
 +Prc:
+kernel-source
 cscope
 diffstat
 git-core

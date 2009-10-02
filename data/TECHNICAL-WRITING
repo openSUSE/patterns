@@ -1,8 +1,10 @@
 +Prq:
+patterns-openSUSE-technical_writing
+-Prq:
+
++Prc:
 nxml-mode
 xmlto
--Prq:
-+Prc:
 docbook-dsssl-stylesheets
 docbook-xsl-stylesheets
 psutils

@@ -1,2 +1,17 @@
-+Prc:
--Prc:
++Prq:
+patterns-openSUSE-games
+-Prq:
+
++Psg:
+frozen-bubble
+#pragma online
+wesnoth
+#pragma online
+wesnoth-data
+armagetron
+circuslinux
+csmash
+solarwolf
+black-box
+-Psg:
+

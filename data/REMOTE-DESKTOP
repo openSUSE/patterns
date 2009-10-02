@@ -1,7 +1,9 @@
 +Prq:
-rdesktop
+patterns-openSUSE-remote_desktop
 -Prq:
+
 +Prc:
+rdesktop
 tsclient
 tightvnc
 -Prc:

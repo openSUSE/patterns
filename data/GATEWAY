@@ -1,7 +1,9 @@
 +Prq:
-wireshark
+patterns-openSUSE-gateway_server
 -Prq:
+
 +Prc:
+wireshark
 ddclient
 fetchmail
 ipsec-tools

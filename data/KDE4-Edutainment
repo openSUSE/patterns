@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-kde4_edutainment
+-Prq:
+
++Prc:
 blinken
 marble
 kalzium
@@ -16,7 +20,7 @@ ktouch
 parley
 kwordquiz
 step
--Prq:
+-Prc:
 
 +Psg:
 kturtle

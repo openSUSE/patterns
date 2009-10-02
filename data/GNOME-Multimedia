@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-gnome_multimedia
+-Prq:
+
++Prc:
 banshee-1
 banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-unix
@@ -12,8 +16,6 @@ gstreamer-0_10-plugins-good
 gstreamer-0_10-schroedinger
 // bnc#445314
 gstreamer-utils
--Prq:
-+Prc:
 banshee-1-extensions-default
 banshee-1-backend-platform-gnome
 -Prc:

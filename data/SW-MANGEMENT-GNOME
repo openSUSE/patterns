@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-sw_management_gnome
+-Prq:
+
++Prc:
 gnome-packagekit
 smolt
--Prq:
+-Prc:

@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-devel_java
+-Prq:
+
++Prc:
 ant
 ant-antlr
 ant-apache-bcel
@@ -24,8 +28,6 @@ xerces-j2
 xml-commons-apis
 xml-commons-resolver
 xml-commons-which
--Prq:
-+Prc:
 java-1_6_0-openjdk
 #if defined(__i386__)
 java-1_6_0-openjdk-plugin

@@ -1,11 +1,12 @@
 +Prq:
+patterns-openSUSE-devel_tcl
+-Prq:
+
++Prc:
 tcl
 tcl-devel
 tk
 tk-devel
--Prq:
-
-+Prc:
 bwidget
 expect
 frink

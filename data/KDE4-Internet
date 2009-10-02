@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-kde4_internet
+-Prq:
+
++Prc:
 kdnssd
 kget
 kopete
@@ -8,8 +12,6 @@ kopete
 // but with just a recommend, it also 
 // pulls in -gnome
 NetworkManager-kde4
--Prq:
-+Prc:
 // 297684 for these 2
 krfb
 krdc

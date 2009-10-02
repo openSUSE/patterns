@@ -1,7 +1,6 @@
 +Prq:
+patterns-openSUSE-sw_management
 zypper
-// workaround for broken Ooo provides
-libicu
 -Prq:
 +Psg:
 pin

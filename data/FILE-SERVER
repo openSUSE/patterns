@@ -1,11 +1,13 @@
 +Prq:
+patterns-openSUSE-file_server
+-Prq:
+
++Prc:
 nfsidmap
 nfs-kernel-server
 samba
 yast2-nfs-server
 yast2-samba-server
--Prq:
-+Prc:
 vsftpd
 samba-client
 samba-winbind

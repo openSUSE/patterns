@@ -1,9 +1,11 @@
 +Prq:
+patterns-openSUSE-devel_mono
+-Prq:
+
++Prc:
 mono-core
 mono-devel
 monodevelop
--Prq:
-+Prc:
 apache2-mod_mono
 boo
 bytefx-data-mysql

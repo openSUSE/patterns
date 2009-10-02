@@ -1,5 +1,9 @@
 +Prq:
+patterns-openSUSE-xgl
+-Prq:
+
++Prc:
 compiz
 compiz-fusion-plugins-main
 compiz-manager
--Prq:
+-Prc:

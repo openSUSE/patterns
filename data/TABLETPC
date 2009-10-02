@@ -1,7 +1,9 @@
 +Prq:
-x11-input-evtouch
+patterns-openSUSE-tabletpc
 -Prq:
+
 +Prc:
+x11-input-evtouch
 cellwriter
 jarnal
 x11-input-fujitsu

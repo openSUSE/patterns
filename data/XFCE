@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-xfce
+-Prq:
+
++Prc:
 thunar
 thunar-volman
 xfce4-settings
@@ -9,8 +13,6 @@ xfce4-session
 xfwm4
 // #393956 + 450220 + 481468(xdm)
 xorg-x11
--Prq:
-+Prc:
 // bnc#537362
 gnome-packagekit
 xfce4-branding-openSUSE

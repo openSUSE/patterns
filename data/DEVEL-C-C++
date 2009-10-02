@@ -1,7 +1,8 @@
 +Prq:
-glibc-info
+patterns-openSUSE-devel_C_C++
 -Prq:
 +Prc:
+glibc-info
 boost-devel
 boost-jam
 ddd

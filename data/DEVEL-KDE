@@ -1,9 +1,10 @@
 +Prq:
-cmake
-kdebase4-workspace-devel
+patterns-openSUSE-devel_kde
 -Prq:
 
 +Prc:
+cmake
+kdebase4-workspace-devel
 alsa-devel
 aspell-devel
 avahi-compat-mDNSResponder-devel
