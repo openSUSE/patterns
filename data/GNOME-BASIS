@@ -10,8 +10,6 @@ gnome-vfs2
 -Prq:
 
 +Prc:
-// SUSE gnome greeter (#302026)
-ggreeter
 // #372514
 PolicyKit-gnome
 // bnc#430161
