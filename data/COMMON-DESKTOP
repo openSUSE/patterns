@@ -5,5 +5,7 @@ desktop-data-openSUSE
 avahi
 // bnc#508120
 xdg-user-dirs
+// give net shares
+samba
 -Prc:
 
