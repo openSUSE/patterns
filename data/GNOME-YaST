@@ -6,6 +6,4 @@ yast2-control-center-gnome
 +Prc:
 // only there for the DVD to have a theme
 yast2-qt
-// move it up once it's there
-yast2-gtk-pkg
 -Prc:

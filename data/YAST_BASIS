@@ -67,7 +67,6 @@ inst-source-utils
 yast2-qt
 yast2-qt-pkg
 yast2-gtk
-yast2-gtk-pkg
 yast2-autofs
 yast2-drbd
 yast2-firstboot
