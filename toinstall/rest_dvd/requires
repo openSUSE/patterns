@@ -50,7 +50,6 @@ gnome_office
 gnome_office_opt
 #endif
 gnome_utilities
-gnome_utilities_opt
 gnome_xgl
 gnome_yast
 imaging

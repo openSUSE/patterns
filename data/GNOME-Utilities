@@ -3,6 +3,8 @@ patterns-openSUSE-gnome_utilities
 -Prq:
 
 +Prc:
+// #544192
+alacarte
 deskbar-applet
 evolution-pilot
 gftp
@@ -18,4 +20,17 @@ dasher
 +Psg:
 gnet
 bluez-gnome
+# 388570
+kerneloops-applet
+libopensync-plugin-evolution2
+libopensync-plugin-gnokii
+libopensync-plugin-gpe 
+libopensync-plugin-irmc
+libopensync-plugin-opie 
+libopensync-plugin-palm 
+libopensync-plugin-sunbird 
+libopensync-plugin-syncml 
+libopensync 
+libopensync-tools
+evolution-webcal
 -Psg:
