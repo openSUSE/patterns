@@ -9,10 +9,7 @@ jarnal
 x11-input-fujitsu
 x11-input-wacom
 x11-input-wacom-tools
-wacom-kmp-default
-#if defined(__i386__)
-wacom-kmp-desktop
-#endif
+wacom-kmp
 xournal
 xstroke
 xvkbd
