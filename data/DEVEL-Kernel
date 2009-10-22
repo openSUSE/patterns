@@ -12,11 +12,11 @@ patchutils
 quilt
 gitk
 git-email
+kernel-syms
 -Prc:
 +Psg:
 #pragma online
 kernel-debug
 gitk
 kernel-docs
-kernel-syms
 -Psg:
