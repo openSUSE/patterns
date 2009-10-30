@@ -8,8 +8,7 @@ java-1_6_0-openjdk-plugin
 #if !defined(__i386__)
 nspluginwrapper
 #endif
-// metalink downloader
-aria2
-preload
+// give net shares
+samba
 -Prc:
 

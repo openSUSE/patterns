@@ -5,7 +5,8 @@ desktop-data-openSUSE
 avahi
 // bnc#508120
 xdg-user-dirs
-// give net shares
-samba
+// metalink downloader
+aria2
+preload
 -Prc:
 
