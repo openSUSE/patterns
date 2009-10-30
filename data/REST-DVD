@@ -159,4 +159,7 @@ libstdc++33
 
 // needed by yast (bnc#527549)
 kinternet
+
+// meanwhile plugin (bnc#549711)
+libpurple-meanwhile 
 -Prc:
