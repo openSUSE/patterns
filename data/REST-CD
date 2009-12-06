@@ -1,11 +1,11 @@
 +Prq:
 #if defined(__x86_64__)
 kernel-desktop
-preload-kmp-desktop
+// OUT for now preload-kmp-desktop
 compcache-kmp-desktop
 #else
 kernel-default
-preload-kmp-default
+// OUT for now preload-kmp-default
 compcache-kmp-default
 #endif
 kernel-firmware
