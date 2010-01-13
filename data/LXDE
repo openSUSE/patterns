@@ -1,0 +1,55 @@
++Prq:
+patterns-openSUSE-lxde
+-Prq:
+
++Prc:
+lxappearance
+lxdm
+lxde-common
+lxde-common-branding-openSUSE
+lxinput
+lxmenu-data
+lxmusic
+lxpanel
+lxrandr
+lxsession
+lxsession-edit
+lxshortcut
+lxtask
+lxterminal
+menu-cache
+nuoveXT2-icon-theme
+openbox
+obconf
+pcmanfm
+gpicview
+beaver
+xarchiver
+galculator
+gmixer
+parcellite
+xscreensaver
+gnome-bluetooth
+pidgin
+transmisson-gtk
+cheese
+// #393956 + 450220 + 481468(xdm)
+xorg-x11
+// bnc#537362
+gnome-packagekit
+// #404447
+gtk2-engine-murrine
+// #440285
+pinentry-gtk2
+avahi
+// #537365
+smolt
+-Prc:
++Psg:
+#pragma online
+// Is that the right place for
+// power manager?
+xfce4-power-manager
+lxlauncher
+leafpad
+-Psg:
