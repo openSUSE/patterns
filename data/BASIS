@@ -30,8 +30,6 @@ grub
 #if defined(__powerpc__)
 lilo
 #endif
-// get it branded
-branding-openSUSE
 // enable NFS installation for minimal
 rpcbind
 PolicyKit
@@ -42,5 +40,9 @@ polkit
 libspe
 spu-tools
 #endif
-
 -Prq:
+
++Prc:
+// get it branded
+branding-openSUSE
+-Prc:
