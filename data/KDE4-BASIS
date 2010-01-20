@@ -7,7 +7,10 @@ dolphin
 kwin
 kwrite
 -Prq:
+
 +Prc:
+// bnc#541820
+susehelp
 polkit-gnome
 NetworkManager-kde4
 plasma-addons
