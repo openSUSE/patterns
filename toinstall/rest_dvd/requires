@@ -100,8 +100,10 @@ x86
 #endif
 // for now xen_server
 xfce
+lxde
 #if defined(__i386__) || defined (__x86_64__)
 xfce_office
+lxde_office
 #endif
 xgl
 yast2_basis
