@@ -55,14 +55,11 @@ alsa-plugins-pulse
 #endif
 // bnc#521177
 yakuake
-kcron
-ksystemlog
 kdepasswd
 kinfocenter
 kvkbd
 -Prc:
 +Psg:
-knode
 kdepim4
 kjots
 kpilot
@@ -78,5 +75,7 @@ phonon-backend-gstreamer-0_10
 rasqal
 redland
 soprano-backend-sesame
+kcron
+ksystemlog
 -Psg:
 

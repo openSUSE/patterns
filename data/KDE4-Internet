@@ -18,7 +18,6 @@ krdc
 konversation
 ktorrent
 choqok
-knode
 // bnc#533580 
 NetworkManager-openvpn-kde4
 NetworkManager-vpnc-kde4
@@ -27,4 +26,5 @@ NetworkManager-pptp-kde4
 +Psg:
 arora
 kppp
+knode
 -Psg:
