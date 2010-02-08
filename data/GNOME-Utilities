@@ -20,7 +20,9 @@ dasher
 +Psg:
 gnet
 bluez-gnome
-# 388570
+// #554954
+gnome-disk-utility
+// #388570
 kerneloops-applet
 libopensync-plugin-evolution2
 libopensync-plugin-gnokii
