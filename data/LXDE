@@ -29,10 +29,13 @@ galculator
 gmixer
 parcellite
 xscreensaver
-gnome-bluetooth
 pidgin
 transmisson-gtk
+epdfview
+xdg-user-dirs-gtk
 cheese
+// #540627
+xdg-utils
 // #393956 + 450220 + 481468(xdm)
 xorg-x11
 // bnc#537362
@@ -45,11 +48,8 @@ avahi
 // #537365
 smolt
 -Prc:
+
 +Psg:
-#pragma online
-// Is that the right place for
-// power manager?
-xfce4-power-manager
 lxlauncher
 leafpad
 -Psg:

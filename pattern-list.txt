@@ -47,6 +47,11 @@ kde_office:		KDE Office
 kde_utilities:		KDE Utilities
 kde_xgl:		KDE Desktop Effects
 
+LXDE Desktop
+============
+lxde_office		LXDE Office
+lxde_laptop		LXDE Laptop
+
 Desktop Functions
 =================
 games:			Games

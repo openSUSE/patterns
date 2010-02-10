@@ -3,7 +3,14 @@ patterns-openSUSE-lxde_office
 -Prq:
 
 +Prc:
+abiword
+gnumeric
+goffice
+claws-mail
+-Prc:
+
++Psg:
 #if defined(__i386__) || defined (__x86_64__)
 OpenOffice_org-gnome
 #endif
--Prc:
+-Psg:
