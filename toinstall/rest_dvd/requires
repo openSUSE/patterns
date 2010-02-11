@@ -105,6 +105,7 @@ lxde
 xfce_office
 lxde_office
 #endif
+lxde_laptop
 xgl
 yast2_basis
 yast2_install_wf
