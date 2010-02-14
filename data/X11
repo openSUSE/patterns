@@ -6,7 +6,6 @@ patterns-openSUSE-x11
 xkeyboard-config
 xorg-x11-server
 yast2-x11
-sax2-gui
 #if defined __x86_64__
 nss-mdns-32bit
 #endif

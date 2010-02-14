@@ -3,6 +3,7 @@ freeglut
 xdmbgrd
 x11-input-wacom
 xtermset
+sax2-gui
 -Prc:
 
 +Psg:
