@@ -13,6 +13,7 @@ gnome-bluetooth
 gnome-user-share
 multisync-gui
 libopensync-plugin-file
+// #545263
 seahorse
 vino
 dasher
