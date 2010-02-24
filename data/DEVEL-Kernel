@@ -4,7 +4,8 @@ patterns-openSUSE-devel_kernel
 
 +Prc:
 kernel-source
-cscope
+// bnc#582415
+ctags
 diffstat
 git-core
 indent
@@ -19,4 +20,5 @@ kernel-syms
 kernel-debug
 gitk
 kernel-docs
+cscope
 -Psg:
