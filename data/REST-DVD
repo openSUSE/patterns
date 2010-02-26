@@ -162,4 +162,9 @@ kinternet
 
 // meanwhile plugin (bnc#549711)
 libpurple-meanwhile 
+
+#if  defined(__x86_64__)
+// bnc#581144
+gtk2-32bit 
+#endif
 -Prc:
