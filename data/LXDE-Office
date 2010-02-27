@@ -4,9 +4,10 @@ patterns-openSUSE-lxde_office
 
 +Prc:
 abiword
+claws-mail
+epdfview
 gnumeric
 goffice
-claws-mail
 -Prc:
 
 +Psg:

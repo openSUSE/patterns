@@ -5,6 +5,7 @@ patterns-openSUSE-lxde
 +Prc:
 lxappearance
 lxdm
+lxdm-conf
 lxde-common
 lxde-common-branding-openSUSE
 lxinput
@@ -31,7 +32,6 @@ parcellite
 xscreensaver
 pidgin
 transmisson-gtk
-epdfview
 xdg-user-dirs-gtk
 cheese
 // #540627
