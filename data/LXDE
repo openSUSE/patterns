@@ -47,6 +47,9 @@ pinentry-gtk2
 avahi
 // #537365
 smolt
+// comment them untill they are into Factory
+//xfburn
+//mtpaint
 -Prc:
 
 +Psg:
