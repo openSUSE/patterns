@@ -33,6 +33,8 @@ xscreensaver
 pidgin
 transmission-gtk
 xdg-user-dirs-gtk
+xfburn
+mtpaint
 cheese
 // #540627
 xdg-utils
@@ -47,8 +49,8 @@ pinentry-gtk2
 avahi
 // #537365
 smolt
-xfburn
-mtpaint
+//pcmanfm2 needs polkit
+polkit-gnome
 -Prc:
 
 +Psg:
