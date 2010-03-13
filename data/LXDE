@@ -31,6 +31,7 @@ gmixer
 parcellite
 xscreensaver
 pidgin
+xchat
 transmission-gtk
 xdg-user-dirs-gtk
 xfburn
@@ -51,6 +52,8 @@ avahi
 smolt
 //pcmanfm2 needs polkit
 polkit-gnome
+// use gnomesu as su wrapper
+libgnomesu
 -Prc:
 
 +Psg:
