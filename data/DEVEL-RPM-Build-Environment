@@ -20,7 +20,7 @@ man
 netcfg
 patch
 rpm
-sysvinit
+sysvinit-tools
 tar
 texinfo
 timezone
