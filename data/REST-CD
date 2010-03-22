@@ -158,4 +158,7 @@ crda
 wireless-regdb
 iw
 jarnal
+
+// bug#589416
+virtualbox-ose-guest-tools 
 -Prc:
