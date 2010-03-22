@@ -43,6 +43,7 @@ spu-tools
 -Prq:
 
 +Prc:
+upstart
 // get it branded
 branding-openSUSE
 -Prc:
