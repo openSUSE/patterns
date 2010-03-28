@@ -32,6 +32,7 @@ parcellite
 xscreensaver
 pidgin
 xchat
+claws-mail
 transmission-gtk
 xdg-user-dirs-gtk
 xfburn
@@ -50,8 +51,6 @@ pinentry-gtk2
 avahi
 // #537365
 smolt
-//pcmanfm2 needs polkit
-polkit-gnome
 // use gnomesu as su wrapper
 libgnomesu
 -Prc:
