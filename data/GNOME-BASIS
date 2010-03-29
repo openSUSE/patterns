@@ -10,6 +10,9 @@ gnome-vfs2
 -Prq:
 
 +Prc:
+// #591535
+glib2-branding-openSUSE
+gtk2-branding-openSUSE
 // #372514
 PolicyKit-gnome
 // bnc#430161
@@ -53,6 +56,7 @@ gnome-keyring
 gnome-mag
 gnome-media
 gnome-menus
+gnome-menus-branding-openSUSE
 gnome-nettool
 gnome-power-manager
 gnome-screensaver
