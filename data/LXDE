@@ -53,6 +53,9 @@ avahi
 smolt
 // use gnomesu as su wrapper
 libgnomesu
+// Default office patter require OO.o
+// Recommends lxde-office pattern instead
+patterns-openSUSE-lxde_office
 -Prc:
 
 +Psg:
