@@ -30,7 +30,10 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-thumbnailers
 xfce4-taskmanager
+xfce4-power-manager
 ristretto
+yast2-gtk
+epdfview
 // #404447
 gtk2-engine-murrine
 // #440285
@@ -41,6 +44,7 @@ smolt
 -Prc:
 +Psg:
 #pragma online
+xfce4-dict
 xfce4-dev-tools
 xfce4-panel-plugin-battery
 xfce4-panel-plugin-cddrive
@@ -78,4 +82,6 @@ xfce4-panel-plugin-xmms
 xfce4-panel-plugin-xfmedia-remote
 xfmedia
 xfwm4-themes
+xfce4-vala
+xfce4-volumed
 -Psg:
