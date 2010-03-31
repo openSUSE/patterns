@@ -16,6 +16,7 @@ gnome:			GNOME Desktop Environment
 kde:			KDE Desktop Environment
 xfce:			XFCE Desktop Environment [only ftp/DVD]
 lxde:			LXDE Desktop Environment [only ftp/DVD]
+moblin:			Moblin User eXperience
 x11:			X Window System
 fonts:			Fonts
 
