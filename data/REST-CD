@@ -161,4 +161,7 @@ jarnal
 
 // bug#589416
 virtualbox-ose-guest-tools 
+
+// bug#591085
+open-vm-tools
 -Prc:
