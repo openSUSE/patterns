@@ -1,6 +1,7 @@
 +Prq:
 patterns-openSUSE-gnome_games
-gnome-games
+gnome-games-recommended
+gbrainy
 -Prq:
 +Prc:
 phalanx
