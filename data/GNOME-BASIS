@@ -26,7 +26,7 @@ gconf-editor
 // #332596
 gnome-keyring-pam
 gnome-mount
-at-spi2-core
+at-spi
 awesfx
 beagle
 beagle-evolution
