@@ -8,5 +8,6 @@ OpenOffice_org-draw-extensions
 OpenOffice_org-impress-extensions
 OpenOffice_org-writer-extensions
 OpenOffice_org-converter
+OpenOffice_org-LanguageTool
 #endif
 -Prc:
