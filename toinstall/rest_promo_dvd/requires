@@ -2,9 +2,16 @@ apparmor
 base
 console
 default
-devel_basis
 devel_C_C++
+devel_basis
+devel_gnome                                                                            
+devel_java                                                                             
+devel_kde
 devel_kernel
+devel_perl
+devel_qt4
+devel_rpm_build
+devel_ruby
 dhcp_dns_server
 directory_server
 enhanced_base
@@ -43,6 +50,9 @@ kde4_xgl
 kde4_yast
 lamp_server
 laptop
+lxde
+lxde_laptop
+lxde_office
 mail_server
 misc_server
 multimedia
