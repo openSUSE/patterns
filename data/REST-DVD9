@@ -19,5 +19,15 @@ texlive-doc
 desktop-data-openSUSE-extra
 xorg-x11-driver-video-radeonhd
 xfce4-dict
-
+netbeans
+neverball
+celestia
+z88
+lilypond-documentation
+kernel-source-vanilla
+openclipart-png
+libqt4-devel-doc-data
+rfc
+fillets-ng-data
+fillets-ng
 -Prc:
