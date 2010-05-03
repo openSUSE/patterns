@@ -18,6 +18,7 @@ lxsession-edit
 lxshortcut
 lxtask
 lxterminal
+lxcc
 menu-cache
 nuoveXT2-icon-theme
 openbox
@@ -56,6 +57,10 @@ libgnomesu
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead
 patterns-openSUSE-lxde_office
+// Recommends patters to improve user experience
+patterns-openSUSE-multimedia
+patterns-openSUSE-imaging
+patterns-openSUSE-remote_desktop
 -Prc:
 
 +Psg:
