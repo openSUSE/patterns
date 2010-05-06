@@ -54,6 +54,11 @@ avahi
 smolt
 // use gnomesu as su wrapper
 libgnomesu
+// Video player and codecs
+// do we need an LXDE_MULTIMEDIA pattern??
+totem
+totem-browser-plugin
+opensuse-codecs-installer
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead
 patterns-openSUSE-lxde_office
