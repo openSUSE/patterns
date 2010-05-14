@@ -59,6 +59,8 @@ libgnomesu
 // do we need an LXDE_MULTIMEDIA pattern??
 totem
 totem-browser-plugin
+// Use gtk UI for YaST
+yast2-gtk
 opensuse-codecs-installer
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead
