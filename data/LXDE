@@ -61,6 +61,9 @@ totem
 totem-browser-plugin
 // Use gtk UI for YaST
 yast2-gtk
+// Use NM by default
+NetworkManager
+NetworkManager-gnome
 opensuse-codecs-installer
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead

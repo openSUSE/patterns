@@ -5,5 +5,4 @@ patterns-openSUSE-lxde_laptop
 +Prc:
 gnome-bluetooth
 xfce4-power-manager
-NetworkManager-gnome
 -Prc:
