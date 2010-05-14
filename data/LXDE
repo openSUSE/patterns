@@ -36,7 +36,8 @@ xchat
 claws-mail
 transmission-gtk
 xdg-user-dirs-gtk
-xfburn
+//xfburn, community asks for brasero
+brasero
 mtpaint
 cheese
 // #540627
