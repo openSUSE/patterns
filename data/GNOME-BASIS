@@ -42,7 +42,6 @@ evince
 evolution
 file-roller
 gtk2
-pidgin
 gcalctool
 gedit
 // open terminal from RMB on desktop
@@ -126,6 +125,14 @@ fifth-leg-font
 gtk2-engine-murrine
 // #509829
 xdg-user-dirs-gtk
+// #594593
+empathy
+telepathy-gabble
+telepathy-haze
+telepathy-salut
+// More telepathy connection managers can be added if there's space
+// telepathy-butterfly
+// telepathy-idle
 -Prc:
 +Psg:
 // #301664 -> suggests due to 380248
