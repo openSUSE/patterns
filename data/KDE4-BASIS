@@ -31,8 +31,6 @@ korganizer
 knotes
 pinentry-qt4
 kcm_gtk
-qtcurve-gtk2
-qtcurve-kde4
 yast2-control-center-qt
 // we want useful bug reports
 gdb
@@ -53,13 +51,20 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
 #endif
-// bnc#521177
-yakuake
 kdepasswd
 kinfocenter
 kvkbd
+// bnc#605509
+oxygen-molecule
+synaptiks
+ksshaskpass
+skanlite
 -Prc:
 +Psg:
+qtcurve-gtk2
+qtcurve-kde4
+// bnc#521177
+yakuake
 kdepim4
 kjots
 kpilot

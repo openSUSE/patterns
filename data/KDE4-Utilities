@@ -5,7 +5,6 @@ patterns-openSUSE-kde4_utilities
 +Prc:
 kdeartwork4-screensaver
 kdebluetooth4
-okteta
 sweeper
 kmag
 kmousetool
@@ -13,6 +12,7 @@ kcharselect
 kompare
 -Prc:
 +Psg:
+okteta
 kweather
 kteatime
 ktux

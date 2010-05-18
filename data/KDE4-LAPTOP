@@ -3,6 +3,10 @@ patterns-openSUSE-kde4_laptop
 -Prq:
 
 +Prc:
+synaptiks
+-Prc:
+
++Psg:
 kscpm
 sumf
--Prc:
+-Psg:
