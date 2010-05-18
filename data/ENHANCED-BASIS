@@ -153,10 +153,10 @@ cryptsetup
 scout
 command-not-found
 lsb-release
-// #594778
-tmpwatch
 -Prc:
 
 +Psg:
 reiserfs
+// #594778
+tmpwatch
 -Psg:
