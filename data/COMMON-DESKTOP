@@ -9,4 +9,7 @@ xdg-user-dirs
 aria2
 preload
 -Prc:
-
++Psg:
+// bnc#598884
+moonlight-plugin
+-Psg:
