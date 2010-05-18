@@ -43,7 +43,7 @@ spu-tools
 -Prq:
 
 +Prc:
-upstart
+sysvinit
 // get it branded
 branding-openSUSE
 -Prc:
