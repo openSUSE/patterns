@@ -105,8 +105,6 @@ guile-devel
 ConsoleKit-devel
 libnl-devel
 accerciser
-PolicyKit-devel
-PolicyKit-gnome-devel
 -Prc:
 +Psg:
 python-cairo-devel

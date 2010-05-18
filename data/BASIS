@@ -32,7 +32,6 @@ lilo
 #endif
 // enable NFS installation for minimal
 rpcbind
-PolicyKit
 polkit-default-privs
 polkit
 #if defined(__powerpc__)
