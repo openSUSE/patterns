@@ -59,7 +59,7 @@ yast2-vm
 yast2-packager-webpin
 -Prc:
 +Psg:
-yast2-registration
+yast2-online-update-configuration
 yast2-product-creator
 autoyast2
 autoyast2-installation
