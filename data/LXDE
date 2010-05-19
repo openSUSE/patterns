@@ -55,6 +55,8 @@ avahi
 smolt
 // use gnomesu as su wrapper
 libgnomesu
+// We need a printer configuration util
+system-config-printer
 // Video player and codecs
 // do we need an LXDE_MULTIMEDIA pattern??
 totem
