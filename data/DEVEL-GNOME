@@ -53,7 +53,6 @@ gucharmap-devel
 intltool
 libart_lgpl-devel
 libavc1394-devel
-libbeagle-devel
 libbonobo-devel
 libbonobo-doc
 libbonoboui-devel
@@ -105,6 +104,7 @@ guile-devel
 ConsoleKit-devel
 libnl-devel
 accerciser
+tracker-devel
 -Prc:
 +Psg:
 python-cairo-devel
