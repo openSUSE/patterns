@@ -36,8 +36,6 @@ yast2-control-center-qt
 gdb
 kdm
 kio_iso
-// #379583
-PolicyKit-kde
 // bnc#430161
 polkit-default-privs
 #if 0

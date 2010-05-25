@@ -13,8 +13,6 @@ gnome-vfs2
 // #591535
 glib2-branding-openSUSE
 gtk2-branding-openSUSE
-// #372514
-PolicyKit-gnome
 // bnc#430161
 polkit-default-privs
 gconf2-branding-openSUSE
