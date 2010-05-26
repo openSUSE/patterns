@@ -2,11 +2,9 @@
 #if defined(__x86_64__)
 kernel-desktop
 preload-kmp-desktop
-// compcache-kmp-desktop
 #else
 kernel-default
 preload-kmp-default
-// compcache-kmp-default
 #endif
 kernel-firmware
 // we need it for the live cds
