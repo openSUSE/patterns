@@ -167,4 +167,8 @@ libpurple-meanwhile
 // bnc#581144
 gtk2-32bit 
 #endif
+
+// bnc#605888
+libvdpau
+
 -Prc:
