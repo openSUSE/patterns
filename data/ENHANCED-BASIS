@@ -86,7 +86,6 @@ glibc-locale
 gpart
 gpg2
 gpm
-hal
 hdparm
 ifplugd
 info
