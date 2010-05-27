@@ -5,7 +5,6 @@ gnome-applets
 gnome-main-menu
 gnome-panel
 gnome-session
-gtk2-themes
 gnome-vfs2
 -Prq:
 
@@ -25,13 +24,11 @@ gconf-editor
 gnome-keyring-pam
 gnome-mount
 at-spi
-awesfx
 bug-buddy
 gnome-control-center
 cups-backends
 dbus-1-x11
 desktop-file-utils
-dirmngr
 eog
 evince
 evolution
@@ -42,7 +39,6 @@ gedit
 // open terminal from RMB on desktop
 nautilus-open-terminal 
 gnome2-user-docs
-gnome-audio
 system-config-printer
 gnome-desktop
 gnome-icon-theme
@@ -54,7 +50,6 @@ gnome-menus-branding-openSUSE
 gnome-nettool
 gnome-power-manager
 gnome-screensaver
-gnome-spell2
 gnome-system-monitor
 gnome-terminal
 gnome-themes

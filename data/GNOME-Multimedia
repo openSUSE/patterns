@@ -9,7 +9,6 @@ banshee-1-backend-platform-unix
 totem
 totem-browser-plugin
 // software.openSUSE.org/codecs      
-opensuse-codecs-installer 
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 // bnc#445312
