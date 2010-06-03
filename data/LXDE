@@ -63,6 +63,7 @@ totem
 totem-browser-plugin
 // Use gtk UI for YaST
 yast2-gtk
+yast2-control-center-gnome
 // Use NM by default
 NetworkManager
 NetworkManager-gnome
