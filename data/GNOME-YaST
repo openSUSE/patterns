@@ -3,7 +3,3 @@ patterns-openSUSE-gnome_yast
 yast2-gtk
 yast2-control-center-gnome
 -Prq:
-+Prc:
-// only there for the DVD to have a theme
-yast2-qt
--Prc:
