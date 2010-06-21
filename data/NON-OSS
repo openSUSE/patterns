@@ -7,8 +7,3 @@ patterns-openSUSE-non_oss
 pullin-flash-player
 #endif
 -Prc:
-+Psg:
-iwl3945-ucode
-iwl4965-ucode
-iwl5000-ucode
--Psg:

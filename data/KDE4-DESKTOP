@@ -9,7 +9,7 @@ kgpg
 ksnapshot
 // not yet ported, but anyway
 kwalletmanager
-mozilla-xulrunner191-kde4
+mozilla-kde4-integration
 -Prc:
 +Psg:
 marble

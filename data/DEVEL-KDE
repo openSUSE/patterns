@@ -26,7 +26,8 @@ libjpeg-devel
 libmal-devel
 libopenssl-devel
 libpisock-devel
-libpng-devel
+libpng14-devel
+libpng14-compat-devel
 libpoppler-devel
 libqimageblitz-devel
 libqt4-devel

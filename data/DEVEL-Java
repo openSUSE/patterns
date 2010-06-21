@@ -61,7 +61,5 @@ java-1_6_0-openjdk-devel
 mx4j
 ant-javamail
 jms
-javamail
-javamail-javadoc
 -Psg:
 

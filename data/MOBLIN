@@ -47,9 +47,6 @@ gtk2-branding-Moblin
 icon-theme-dmz-cursors
 ipw-firmware
 iw
-iwl3945-ucode
-iwl4965-ucode
-iwl5000-ucode
 jana
 laptop-mode-tools
 libclutter-box2d-0_10-0
@@ -61,7 +58,6 @@ moblin-app-installer
 moblin-branding-openSUSE
 moblin-gtk-engine
 moblin-icon-theme
-moblin-menus
 moblin-panel-applications
 moblin-panel-myzone
 moblin-panel-pasteboard

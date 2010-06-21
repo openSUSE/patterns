@@ -159,6 +159,6 @@ gtk2-32bit
 #endif
 
 // bnc#605888
-libvdpau
+libvdpau1
 
 -Prc:

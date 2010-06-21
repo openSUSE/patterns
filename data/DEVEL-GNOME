@@ -33,7 +33,7 @@ gnome-common
 gnome-desktop-devel
 gnome-doc-utils
 gnome-doc-utils-devel
-gnome-keyring-devel
+libgnome-keyring-devel
 libslab-devel
 gnome-media-devel
 gnome-menus-devel

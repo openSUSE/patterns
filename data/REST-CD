@@ -21,8 +21,6 @@ memtest86+
 adaptec-firmware
 mpt-firmware
 atmel-firmware
-// bnc#445383
-ralink-firmware
 
 // DELL laptop support
 libsmbios-bin
