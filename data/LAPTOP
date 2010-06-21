@@ -5,7 +5,6 @@ patterns-openSUSE-laptop
 +Prc:
 irda
 pcmciautils
-scpm
 wpa_supplicant
 xstroke
 // bnc#480879
