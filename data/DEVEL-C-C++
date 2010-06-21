@@ -13,8 +13,6 @@ valgrind
 ltrace
 -Prc:
 +Psg:
-#pragma online
-boost-doc
 // 403368
 dejagnu
 expect

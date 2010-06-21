@@ -1,4 +1,5 @@
 +Prc:
+#pragma non-oss
 AdobeICCProfiles
 gimp-help
 -Prc:
@@ -8,6 +9,4 @@ gimp-ufraw
 pfstools
 pfstmo
 pfscalibration
-// old crap
-xv
 -Psg:

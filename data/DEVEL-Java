@@ -55,7 +55,6 @@ jakarta-commons-validator
 javacc
 jdepend
 mysql-connector-java
-puretls
 // just an editor
 jedit
 java-1_6_0-openjdk-devel
@@ -63,9 +62,6 @@ mx4j
 ant-javamail
 jms
 javamail
-#pragma online
-javamail-demo
 javamail-javadoc
-javamail-monolithic
 -Psg:
 

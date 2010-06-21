@@ -5,7 +5,6 @@ git
 
 // qemu rocks
 qemu
-kqemu-kmp-default
 
 // needed for kiwi creation
 squashfs
@@ -19,7 +18,7 @@ clicfs
 
 //# 306071
 virtualbox-ose
-virtualbox-ose-kmp-default
+virtualbox-ose-guest-kmp-default
 
 // Internet Storage Name Service
 yast2-isns
@@ -62,8 +61,6 @@ yast2-product-creator
 createrepo
 
 // kernel modules
-dazuko-kmp-default
-dazuko-kmp-xen
 drbd-kmp-default
 drbd-kmp-xen
 lirc-kmp-default
@@ -72,14 +69,12 @@ ndiswrapper-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
 
-kqemu-kmp-desktop
-virtualbox-ose-kmp-desktop
-dazuko-kmp-desktop
 drbd-kmp-desktop
 lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop
 vmware-guest-kmp-desktop
+virtualbox-ose-guest-kmp-desktop
 
 // register your hardware
 smolt
@@ -157,8 +152,7 @@ apport-qt
 // supporting lib for non-oss
 libstdc++33
 
-// needed by yast (bnc#527549)
-kinternet
+qinternet
 
 // meanwhile plugin (bnc#549711)
 libpurple-meanwhile 

@@ -45,7 +45,6 @@ yast2-nfs-client
 yast2-nis-client
 yast2-ntp-client
 yast2-printer
-yast2-profile-manager
 yast2-restore
 yast2-slp
 yast2-sudo
@@ -117,10 +116,6 @@ ncpfs              // printing via novell ipx
 // yast2-kdump
 #if defined(__powerpc__)
 kernel-kdump
-#endif
-// yast2-network
-#if defined(__i386__) 
-smartlink-softmodem
 #endif
 yast2-fingerprint-reader
 

@@ -58,7 +58,6 @@ libpulse-devel
 libraw1394-devel
 google-gadgets-devel
 python-devel
-libsensors3-devel
 ConsoleKit-devel
 libical-devel
 libmysqlclient-devel

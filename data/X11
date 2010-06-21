@@ -57,7 +57,6 @@ icewm-default
 icewm-gnome
 wine
 fvwm2
-fvwm2-gtk
 fvwm-themes
 wpa_supplicant-gui
 xchat

@@ -4,10 +4,6 @@ patterns-openSUSE-games
 
 +Psg:
 frozen-bubble
-#pragma online
-wesnoth
-#pragma online
-wesnoth-data
 armagetron
 circuslinux
 csmash

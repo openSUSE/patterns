@@ -41,7 +41,6 @@ perl-Encode-JIS2K
 perl-ExtUtils-F77
 perl-File-MMagic
 perl-File-Tail
-perl-Filter
 perl-Font-AFM
 perl-GD
 perl-GD-Graph3d

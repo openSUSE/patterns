@@ -11,14 +11,12 @@ bisho
 bluez
 bluez-alsa
 bluez-cups
-bluez-frimware
 bluez-gnome
 bluez-gstreamer
 bug-buddy
 ccss
 cheese
 clutter-imcontext
-clutter-sharp
 cups-backends
 dalston
 dbus-1-x11
@@ -34,7 +32,6 @@ gedit
 glib2-brnading-Moblin
 gnome-keyring-pam
 gnome-menus-branding-Moblin
-gnome-mount
 gnome-packagekit
 gnome-terminal
 gpg2
@@ -58,12 +55,10 @@ laptop-mode-tools
 libclutter-box2d-0_10-0
 libmux0
 libnbtk-1_2-0
-librest
 libsmbios-bin
 mobile-broadband-provider-info
 moblin-app-installer
 moblin-branding-openSUSE
-moblin-cursor-theme
 moblin-gtk-engine
 moblin-icon-theme
 moblin-menus
@@ -84,7 +79,6 @@ network-manager-netbook
 neverball
 pcmciautils
 plymouth-lite
-Policykit-gnome
 pulseaudio-esound-compa
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
@@ -98,10 +92,7 @@ pavucontrol
 pavumeter
 seahorse
 smolt
-auapend
 syncevolution
-twitter-glib
 uxlaunch
-wpa-supplicant
 yast2-gtk
 -Prc:

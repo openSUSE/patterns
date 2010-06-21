@@ -24,7 +24,6 @@ libpurple-devel
 gconf2-devel
 ghex
 glade
-glib-devel
 glib2-devel
 glitz-devel
 gvfs-devel
@@ -42,7 +41,6 @@ gnome-pilot-devel
 gnome-speech-devel
 gnome-vfs2-devel
 gnome-vfs2-doc
-gnopernicus-devel
 gob2
 gstreamer-0_10-devel
 gstreamer-0_10-doc
@@ -89,7 +87,6 @@ libxklavier-devel
 libxml2-devel
 libxslt-devel
 metacity-devel
-nautilus-cd-burner-devel
 nautilus-devel
 libneon-devel
 orbit2-devel
