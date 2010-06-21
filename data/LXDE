@@ -55,6 +55,8 @@ avahi
 smolt
 // use gnomesu as su wrapper
 libgnomesu
+// we need a GPG GUI
+seahorse
 // We need a printer configuration util
 system-config-printer
 // Video player and codecs
