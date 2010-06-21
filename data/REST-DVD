@@ -61,15 +61,11 @@ yast2-product-creator
 createrepo
 
 // kernel modules
-drbd-kmp-default
-drbd-kmp-xen
 lirc-kmp-default
 lirc-kmp-xen
-ndiswrapper-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
 
-drbd-kmp-desktop
 lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop

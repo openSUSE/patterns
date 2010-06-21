@@ -29,7 +29,7 @@ file-roller
 frozen-bubble
 gdm
 gedit
-glib2-brnading-Moblin
+glib2-branding-Moblin
 gnome-keyring-pam
 gnome-menus-branding-Moblin
 gnome-packagekit
@@ -79,7 +79,7 @@ network-manager-netbook
 neverball
 pcmciautils
 plymouth-lite
-pulseaudio-esound-compa
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-x11

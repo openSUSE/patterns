@@ -9,7 +9,6 @@ console
 default
 devel_basis
 devel_C_C++
-devel_cell
 devel_gnome
 devel_ide
 devel_java

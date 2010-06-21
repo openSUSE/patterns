@@ -4,9 +4,6 @@ patterns-openSUSE-mail_server
 
 +Prc:
 cyrus-imapd
-#if defined(__i386__)
-avmailgate
-#endif
 amavisd-new
 mailman
 clamav
