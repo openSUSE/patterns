@@ -42,6 +42,8 @@ spu-tools
 -Prq:
 
 +Prc:
+// bnc#612131 - more a bandaid
+hal
 sysvinit
 // get it branded
 branding-openSUSE
