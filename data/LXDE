@@ -70,6 +70,8 @@ yast2-control-center-gnome
 NetworkManager
 NetworkManager-gnome
 opensuse-codecs-installer
+// help users to provide usefull backtrace
+bug-buddy
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead
 patterns-openSUSE-lxde_office
