@@ -62,4 +62,5 @@ wiggle
 oprofile
 libgssglue-devel
 audit-devel
+nasm
 -Psg:
