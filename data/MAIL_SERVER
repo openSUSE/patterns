@@ -16,8 +16,6 @@ vacation
 -Prc:
 +Psg:
 dovecot12
-#pragma ignore
-exim
 mlmmj
 #pragma ignore
 sendmail
