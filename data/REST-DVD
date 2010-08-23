@@ -161,4 +161,6 @@ gtk2-32bit
 // bnc#605888
 libvdpau1
 
+// bnc#626952
+quota-nfs
 -Prc:
