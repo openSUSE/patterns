@@ -23,7 +23,6 @@ input-utils
 polkit-default-privs
 samba
 susehelp
-yast2-sound
 //
 // Branding
 //
@@ -97,7 +96,6 @@ tomboy
 vino
 vte
 xkeyboard-config
-yast2-control-center-gnome
 yelp
 zenity
 // Pulseaudio is the default sound server
