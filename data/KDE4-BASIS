@@ -49,7 +49,6 @@ pulseaudio-utils
 alsa-plugins-pulse
 #endif
 kdepasswd
-kinfocenter
 kvkbd
 // bnc#605509
 oxygen-molecule

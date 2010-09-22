@@ -37,7 +37,6 @@ kiwi-desc-netboot
 kiwi-desc-oemboot
 kiwi-desc-usbboot
 kiwi-desc-vmxboot
-kiwi-desc-xenboot
 kiwi-pxeboot
 kiwi-templates
 // #301029
