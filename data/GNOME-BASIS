@@ -8,13 +8,33 @@ gnome-session
 -Prq:
 
 +Prc:
-// #591535
-glib2-branding-openSUSE
-gtk2-branding-openSUSE
+//
+// Low-level parts that we need
+//
 // bnc#430161
+cups-backends
+dbus-1-x11
+desktop-file-utils
+// we want useful bug reports
+gdb
+gpg2
+gpgme
+input-utils
 polkit-default-privs
+samba
+susehelp
+yast2-sound
+//
+// Branding
+//
+// #591535
 gconf2-branding-openSUSE
+glib2-branding-openSUSE
+gnome-menus-branding-openSUSE
 gtk2-branding-openSUSE
+//
+// Now the real packages
+//
 // #302205
 libgail-gnome
 // gconf-editor by default (#304663)
@@ -24,9 +44,6 @@ gnome-keyring-pam
 at-spi
 bug-buddy
 gnome-control-center
-cups-backends
-dbus-1-x11
-desktop-file-utils
 eog
 evince
 evolution
@@ -44,7 +61,6 @@ gnome-keyring
 gnome-mag
 gnome-media
 gnome-menus
-gnome-menus-branding-openSUSE
 gnome-nettool
 gnome-power-manager
 gnome-screensaver
@@ -54,8 +70,6 @@ gnome-themes
 gnome-utils
 // thumbnailing in nautilus
 gnome-web-photo
-gpg2
-gpgme
 gstreamer-0_10
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
@@ -63,7 +77,6 @@ gtk2-engines
 gtkhtml2
 gtkspell
 gucharmap
-input-utils
 metacity
 nautilus
 // #302492
@@ -77,21 +90,16 @@ orca
 pinentry-gtk2
 python-gnome
 python-gtk
-samba
 shared-mime-info
 startup-notification
-susehelp
 tango-icon-theme
 tomboy
 vino
 vte
 xkeyboard-config
 yast2-control-center-gnome
-yast2-sound
 yelp
 zenity
-// we want useful bug reports
-gdb
 // Pulseaudio is the default sound server
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
