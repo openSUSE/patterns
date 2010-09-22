@@ -1,11 +1,13 @@
 +Prq:
 patterns-openSUSE-gnome_games
-gnome-games-recommended
-gbrainy
 -Prq:
+
 +Prc:
+gbrainy
+gnome-games-recommended
 phalanx
 -Prc:
+
 +Psg:
 gnuchess
 -Psg:
