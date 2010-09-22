@@ -4,4 +4,6 @@ patterns-openSUSE-gnome_ide
 
 +Prc:
 anjuta
+devhelp
+glade3
 -Prc:
