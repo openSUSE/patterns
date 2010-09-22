@@ -5,7 +5,6 @@ gnome-applets
 gnome-main-menu
 gnome-panel
 gnome-session
-gnome-vfs2
 -Prq:
 
 +Prc:

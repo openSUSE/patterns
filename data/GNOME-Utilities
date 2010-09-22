@@ -19,8 +19,6 @@ vino
 dasher
 -Prc:
 +Psg:
-gnet
-bluez-gnome
 // #554954
 gnome-disk-utility
 // #388570
