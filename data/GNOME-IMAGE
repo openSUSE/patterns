@@ -3,6 +3,12 @@ patterns-openSUSE-gnome_imaging
 -Prq:
 
 +Prc:
+//
+// Official upstream
+//
 eog
+//
+// Packages that really make sense
+//
 f-spot
 -Prc:

@@ -3,6 +3,13 @@ patterns-openSUSE-gnome_office
 -Prq:
 
 +Prc:
+//
+// Official upstream
+//
+evolution
+//
+// Packages that really make sense
+//
 OpenOffice_org-gnome
 OpenOffice_org-icon-theme-tango
 -Prc:

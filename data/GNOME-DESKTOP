@@ -2,7 +2,70 @@
 patterns-openSUSE-gnome
 -Prq:
 
++Prc:
+//
+// Official upstream
+//
+// #544192
+alacarte
+// #302492
+brasero
+// bnc#366894
+cheese
+dasher
+deskbar-applet
+// #594593
+empathy
+eog
+evince
+evolution
+file-roller
+gcalctool
+// gconf-editor by default (#304663)
+gconf-editor
+gedit
+gnome-bluetooth
+gnome-media
+gnome-nettool
+gnome-system-monitor
+gnome-themes
+// #447627
+gnome-user-share
+gnome-utils
+gucharmap
+// #399801
+mousetweaks
+nautilus-sendto
+orca
+// #545263
+seahorse
+tomboy
+totem
+totem-browser-plugin
+vino
+zenity
+//
+// Packages that really make sense
+//
+system-config-printer
+// #608156
+tracker
+tracker-gui
+evolution-tracker
+//
+// Telepathy connection managers
+//
+telepathy-gabble
+telepathy-haze
+telepathy-salut
+// More can be added if there's space
+// telepathy-butterfly
+// telepathy-idle
+-Prc:
+
 +Psg:
-xsane
+evolution-webcal
 gnome-backgrounds
+// #554954
+gnome-disk-utility
 -Psg:

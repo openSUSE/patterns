@@ -12,6 +12,7 @@ gnome-session
 // Low-level parts that we need
 //
 // bnc#430161
+NetworkManager
 cups-backends
 dbus-1-x11
 desktop-file-utils
@@ -36,68 +37,37 @@ gtk2-branding-openSUSE
 //
 // #302205
 libgail-gnome
-// gconf-editor by default (#304663)
-gconf-editor
 // #332596
 gnome-keyring-pam
 at-spi
 bug-buddy
 gnome-control-center
-eog
-evince
-evolution
-file-roller
 gtk2
-gcalctool
-gedit
-// open terminal from RMB on desktop
-nautilus-open-terminal 
 gnome-user-docs
-system-config-printer
 gnome-desktop
 gnome-icon-theme
 gnome-keyring
 gnome-mag
-gnome-media
 gnome-menus
-gnome-nettool
 gnome-power-manager
 gnome-screensaver
-gnome-system-monitor
 gnome-terminal
-gnome-themes
-gnome-utils
-// thumbnailing in nautilus
-gnome-web-photo
-gstreamer-0_10
-gstreamer-0_10-plugins-base
-gstreamer-0_10-plugins-good
 gtk2-engines
 gtkhtml2
 gtkspell
-gucharmap
 metacity
 nautilus
-// #302492
-brasero
-nautilus-sendto
-nautilus-share
-NetworkManager
 NetworkManager-gnome
 notification-daemon
-orca
 pinentry-gtk2
 python-gnome
 python-gtk
 shared-mime-info
 startup-notification
 tango-icon-theme
-tomboy
-vino
 vte
 xkeyboard-config
 yelp
-zenity
 // Pulseaudio is the default sound server
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
@@ -106,31 +76,12 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-paprefs
-pavucontrol
-// #379486
-gnome-do
-tasque
-// #399801
-mousetweaks
 // #505211
 gtk2-metatheme-sonar
 fifth-leg-font
 gtk2-engine-murrine
 // #509829
 xdg-user-dirs-gtk
-// #594593
-empathy
-telepathy-gabble
-telepathy-haze
-telepathy-salut
-// More telepathy connection managers can be added if there's space
-// telepathy-butterfly
-// telepathy-idle
-// #608156
-tracker
-tracker-gui
-evolution-tracker
 -Prc:
 +Psg:
 // #301664 -> suggests due to 380248

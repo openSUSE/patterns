@@ -3,24 +3,36 @@ patterns-openSUSE-gnome_utilities
 -Prq:
 
 +Prc:
-// #544192
-alacarte
+//
+// Official upstream
+//
+cheese
+dasher
 deskbar-applet
+file-roller
+gcalctool
+gedit
+gnome-utils
+gucharmap
+nautilus-sendto
+seahorse
+tomboy
+//
+// Packages that really make sense
+//
 evolution-pilot
-gftp
-gnome-bluetooth
-// #447627
-gnome-user-share
+// #379486
+gnome-do
+// thumbnailing in nautilus
+gnome-web-photo
 multisync-gui
 libopensync-plugin-file
-// #545263
-seahorse
-vino
-dasher
+// open terminal from RMB on desktop
+nautilus-open-terminal
+nautilus-share
+tasque
 -Prc:
 +Psg:
-// #554954
-gnome-disk-utility
 // #388570
 kerneloops-applet
 libopensync-plugin-evolution2
@@ -33,5 +45,4 @@ libopensync-plugin-sunbird
 libopensync-plugin-syncml 
 libopensync 
 libopensync-tools
-evolution-webcal
 -Psg:

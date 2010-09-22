@@ -3,23 +3,31 @@ patterns-openSUSE-gnome_internet
 -Prq:
 
 +Prc:
-liferea
-// bnc#381620
-xchat
-// bnc#530416
-transmission-gtk
+//
+// Official upstream
+//
 // bnc#366894
 ekiga
-// bnc#366894
-cheese
+empathy
+evolution
+gnome-nettool
+//
+// Packages that really make sense
+//
+gftp
+liferea
 // bnc#533580
 NetworkManager-openvpn-gnome
-NetworkManager-vpnc-gnome
 NetworkManager-pptp-gnome
+NetworkManager-vpnc-gnome
+// bnc#530416
+transmission-gtk
+// bnc#381620
+xchat
 -Prc:
 +Psg:
+gwibber
 pan
 xchat-gnome
-gwibber
 -Psg:
 
