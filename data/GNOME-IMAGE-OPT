@@ -1,9 +1,11 @@
 +Prc:
-dia
 inkscape
-xsane
+simple-scan
 -Prc:
 
 +Psg:
+dia
 gthumb
+shotwell
+xsane
 -Psg:

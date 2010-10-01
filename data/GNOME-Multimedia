@@ -30,6 +30,9 @@ banshee-1-extensions-default
 paprefs
 pavucontrol
 -Prc:
+
 +Psg:
+pitivi
+rhythmbox
 sound-juicer
 -Psg:

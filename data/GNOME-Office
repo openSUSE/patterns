@@ -13,3 +13,10 @@ evolution
 OpenOffice_org-gnome
 OpenOffice_org-icon-theme-tango
 -Prc:
+
++Psg:
+abiword
+glabels
+gnumeric
+planner
+-Psg:

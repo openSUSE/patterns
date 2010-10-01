@@ -32,6 +32,7 @@ gconf2-branding-openSUSE
 glib2-branding-openSUSE
 gnome-menus-branding-openSUSE
 gtk2-branding-openSUSE
+hicolor-icon-theme-branding-openSUSE
 //
 // Now the real packages
 //
@@ -41,11 +42,14 @@ libgail-gnome
 gnome-keyring-pam
 at-spi
 bug-buddy
+canberra-gtk-play
 gnome-control-center
 gtk2
 gnome-user-docs
 gnome-desktop
 gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
 gnome-keyring
 gnome-mag
 gnome-menus
@@ -77,7 +81,6 @@ gtk2-engine-murrine
 // #509829
 xdg-user-dirs-gtk
 -Prc:
+
 +Psg:
-// #301664 -> suggests due to 380248
-gnome-commander
 -Psg:

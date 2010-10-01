@@ -1,5 +1,9 @@
 +Prc:
 // #394406
-desktop-data-openSUSE-extra-gnome
+openSUSE-dynamic-wallpaper
 -Prc:
 
++Psg:
+// #301664 -> suggests due to 380248
+gnome-commander
+-Psg:

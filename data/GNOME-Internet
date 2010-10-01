@@ -6,15 +6,12 @@ patterns-openSUSE-gnome_internet
 //
 // Official upstream
 //
-// bnc#366894
-ekiga
 empathy
 evolution
 gnome-nettool
 //
 // Packages that really make sense
 //
-gftp
 liferea
 // bnc#533580
 NetworkManager-openvpn-gnome
@@ -25,9 +22,24 @@ transmission-gtk
 // bnc#381620
 xchat
 -Prc:
+
 +Psg:
+//
+// Official upstream
+//
+// bnc#366894
+ekiga
+epiphany
+epiphany-extensions
+//
+// Packages that can make sense
+//
+gftp
 gwibber
+mail-notification
 pan
+pidgin
+pino
 xchat-gnome
 -Psg:
 

@@ -8,41 +8,43 @@ patterns-openSUSE-gnome_utilities
 //
 cheese
 dasher
-deskbar-applet
 file-roller
 gcalctool
 gedit
 gnome-utils
 gucharmap
+hamster-applet
 nautilus-sendto
 seahorse
 tomboy
 //
 // Packages that really make sense
 //
-evolution-pilot
 // #379486
 gnome-do
 // thumbnailing in nautilus
 gnome-web-photo
-multisync-gui
-libopensync-plugin-file
 // open terminal from RMB on desktop
 nautilus-open-terminal
-nautilus-share
 tasque
 -Prc:
+
 +Psg:
+//
+// Official upstream
+//
+deskbar-applet
+eog-plugins
+gedit-plugins
+//
+// Packages that can make sense
+//
+conduit
+deja-dup
+gnome-pilot
+gtg
 // #388570
 kerneloops-applet
-libopensync-plugin-evolution2
-libopensync-plugin-gnokii
-libopensync-plugin-gpe 
-libopensync-plugin-irmc
-libopensync-plugin-opie 
-libopensync-plugin-palm 
-libopensync-plugin-sunbird 
-libopensync-plugin-syncml 
-libopensync 
-libopensync-tools
+nautilus-share
+pdfmod
 -Psg:

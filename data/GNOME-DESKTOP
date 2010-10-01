@@ -13,18 +13,20 @@ brasero
 // bnc#366894
 cheese
 dasher
-deskbar-applet
 // #594593
 empathy
 eog
 evince
 evolution
+evolution-webcal
 file-roller
 gcalctool
 // gconf-editor by default (#304663)
 gconf-editor
 gedit
 gnome-bluetooth
+// #554954
+gnome-disk-utility
 gnome-media
 gnome-nettool
 gnome-system-monitor
@@ -33,6 +35,7 @@ gnome-themes
 gnome-user-share
 gnome-utils
 gucharmap
+hamster-applet
 // #399801
 mousetweaks
 nautilus-sendto
@@ -57,15 +60,14 @@ evolution-tracker
 //
 telepathy-gabble
 telepathy-haze
+telepathy-idle
 telepathy-salut
+telepathy-sofiasip
 // More can be added if there's space
 // telepathy-butterfly
-// telepathy-idle
 -Prc:
 
 +Psg:
-evolution-webcal
+deskbar-applet
 gnome-backgrounds
-// #554954
-gnome-disk-utility
 -Psg:
