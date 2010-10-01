@@ -53,19 +53,13 @@ gnome-power-manager
 gnome-screensaver
 gnome-terminal
 gtk2-engines
-gtkhtml2
-gtkspell
 metacity
 nautilus
 NetworkManager-gnome
 notification-daemon
 pinentry-gtk2
-python-gnome
-python-gtk
 shared-mime-info
-startup-notification
 tango-icon-theme
-vte
 xkeyboard-config
 yelp
 // Pulseaudio is the default sound server
