@@ -16,6 +16,10 @@ initviocons
 #if defined(__powerpc__)
 hfsutils
 #endif
+// Current systems suffer from entropy starvation
+#if defined(__i386__) || defined (__x86_64__)
+haveged
+#endif
 joe
 ksh
 ksymoops
