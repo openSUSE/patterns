@@ -42,8 +42,8 @@ spu-tools
 -Prq:
 
 +Prc:
-// bnc#612131 - more a bandaid
-hal
+// provides init script to load cpufreq modules
+pm-utils
 sysvinit
 // get it branded
 branding-openSUSE
