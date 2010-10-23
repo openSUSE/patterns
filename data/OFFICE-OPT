@@ -1,13 +1,13 @@
 +Prc:
 #if !defined(__s390__) && !defined (__ia64__)
-OpenOffice_org-math
-OpenOffice_org-filters
-OpenOffice_org-base-extensions
-OpenOffice_org-calc-extensions
-OpenOffice_org-draw-extensions
-OpenOffice_org-impress-extensions
-OpenOffice_org-writer-extensions
-OpenOffice_org-converter
-OpenOffice_org-LanguageTool
+libreoffice-math
+libreoffice-filters
+libreoffice-base-extensions
+libreoffice-calc-extensions
+libreoffice-draw-extensions
+libreoffice-impress-extensions
+libreoffice-writer-extensions
+libreoffice-converter
+libreoffice-LanguageTool
 #endif
 -Prc:

@@ -4,10 +4,10 @@ patterns-openSUSE-office
 
 +Prc:
 #if !defined(__s390__) && !defined (__ia64__)
-OpenOffice_org
-OpenOffice_org-calc
-OpenOffice_org-draw
-OpenOffice_org-impress
-OpenOffice_org-writer
+libreoffice
+libreoffice-calc
+libreoffice-draw
+libreoffice-impress
+libreoffice-writer
 #endif
 -Prc:

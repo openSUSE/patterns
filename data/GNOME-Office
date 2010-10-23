@@ -10,8 +10,8 @@ evolution
 //
 // Packages that really make sense
 //
-OpenOffice_org-gnome
-OpenOffice_org-icon-theme-tango
+libreoffice-gnome
+libreoffice-icon-theme-tango
 -Prc:
 
 +Psg:

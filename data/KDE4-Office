@@ -3,11 +3,11 @@ patterns-openSUSE-kde4_office
 -Prq:
 
 +Prc:
-OpenOffice_org-kde4
-OpenOffice_org-icon-theme-oxygen
+libreoffice-kde4
+libreoffice-icon-theme-oxygen
 -Prc:
 +Psg:
-OpenOffice_org-Quickstarter
+libreoffice-Quickstarter
 
 scribus
 scribus-templates
