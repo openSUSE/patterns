@@ -53,7 +53,7 @@ genisoimage
 openssh
 perl-base
 // we rely on cron for daily/hourly 
-cron
+cronie
 // create log file tars
 tar
 wget
