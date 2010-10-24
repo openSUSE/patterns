@@ -6,7 +6,6 @@ patterns-openSUSE-voip
 ekiga
 -Prc:
 +Psg:
-kcall
 kiax
 linphone
 twinkle

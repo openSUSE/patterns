@@ -7,7 +7,7 @@ libreoffice-calc-extensions
 libreoffice-draw-extensions
 libreoffice-impress-extensions
 libreoffice-writer-extensions
-libreoffice-converter
-libreoffice-LanguageTool
+OpenOffice_org-converter
+OpenOffice_org-LanguageTool
 #endif
 -Prc:
