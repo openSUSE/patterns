@@ -20,6 +20,7 @@ yast2_install_wf
 games
 kde4_games
 kde4_pure
+update_test
 office
 kde4_office
 
