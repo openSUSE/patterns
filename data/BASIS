@@ -18,7 +18,7 @@ rpm
 openSUSE-release
 openSUSE-build-key
 sysconfig
-rsyslog
+syslog
 
 #if defined(__ia64__)
 elilo
@@ -47,4 +47,6 @@ pm-utils
 sysvinit
 // get it branded
 branding-openSUSE
+// default syslog daemon
+rsyslog
 -Prc:
