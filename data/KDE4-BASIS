@@ -55,6 +55,8 @@ oxygen-molecule
 synaptiks
 skanlite
 kwebkitpart
+soprano-backend-redland
+soprano-backend-virtuoso
 -Prc:
 +Psg:
 qtcurve-gtk2
@@ -66,9 +68,6 @@ kjots
 kepas
 yakuake
 phonon-backend-gstreamer-0_10
-rasqal
-redland
-soprano-backend-sesame
 kcron
 ksystemlog
 -Psg:
