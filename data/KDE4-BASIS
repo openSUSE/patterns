@@ -37,7 +37,7 @@ kdm
 kio_iso
 // bnc#430161
 polkit-default-privs
-#if 0
+#if 1
 // pulseaudio
 pulseaudio
 pulseaudio-module-bluetooth
