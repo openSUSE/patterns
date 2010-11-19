@@ -11,7 +11,7 @@ kwrite
 +Prc:
 // bnc#541820
 susehelp
-NetworkManager-kde4
+plasmoid-networkmanagement
 plasma-addons
 plasmoid-quickaccess
 keditbookmarks
