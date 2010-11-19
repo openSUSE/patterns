@@ -54,6 +54,7 @@ kvkbd
 oxygen-molecule
 synaptiks
 skanlite
+kwebkitpart
 -Prc:
 +Psg:
 qtcurve-gtk2
@@ -63,7 +64,6 @@ yakuake
 kdepim4
 kjots
 kepas
-kwebkitpart
 yakuake
 phonon-backend-gstreamer-0_10
 rasqal
