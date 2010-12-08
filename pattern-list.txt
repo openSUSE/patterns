@@ -53,6 +53,11 @@ LXDE Desktop
 lxde_office		LXDE Office
 lxde_laptop		LXDE Laptop
 
+XFCE Desktop
+============
+xfce_office		XFCE Office
+xfce_laptop		XFCE Laptop
+
 Desktop Functions
 =================
 games:			Games

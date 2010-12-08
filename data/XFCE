@@ -6,7 +6,8 @@ patterns-openSUSE-xfce
 thunar
 thunar-volman
 xfce4-settings
-xfce4-desktop
+xfdesktop
+xfce-utils
 xfconf
 xfce4-panel
 xfce4-session
@@ -31,9 +32,10 @@ thunar-media-tags-plugin
 thunar-thumbnailers
 xfce4-taskmanager
 xfce4-power-manager
+totem
+totem-browser-plugin
 ristretto
-yast2-gtk
-epdfview
+yast2-control-center-gnome
 // #404447
 gtk2-engine-murrine
 // #440285
@@ -41,6 +43,23 @@ pinentry-gtk2
 avahi
 // #537365
 smolt
+gdm
+// use gnomesu as su wrapper
+libgnomesu
+// #540627
+xdg-utils
+xdg-user-dirs-gtk
+NetworkManager
+NetworkManager-gnome
+xscreensaver
+evince
+xfburn
+xfce4-volumed
+cheese
+empathy
+transmission-gtk
+MozillaThunderbird
+parole
 -Prc:
 +Psg:
 #pragma online
@@ -80,8 +99,6 @@ xfce4-panel-plugin-xfapplet
 xfce4-panel-plugin-xkb
 xfce4-panel-plugin-xmms
 xfce4-panel-plugin-xfmedia-remote
-xfmedia
 xfwm4-themes
 xfce4-vala
-xfce4-volumed
 -Psg:
