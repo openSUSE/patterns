@@ -5,7 +5,9 @@ patterns-openSUSE-print_server
 +Prc:
 cups
 cups-backends
-cups-drivers
+OpenPrinting-PPDs
+m2300w
+splix
 foomatic-filters
 gutenprint
 hplip
