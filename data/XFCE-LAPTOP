@@ -5,4 +5,5 @@ patterns-openSUSE-xfce_laptop
 +Prc:
 gnome-bluetooth
 gsynaptics
+xfce-panel-plugin-brightness
 -Prc:

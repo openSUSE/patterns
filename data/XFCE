@@ -35,8 +35,6 @@ thunar-media-tags-plugin
 thunar-thumbnailers
 xfce4-taskmanager
 xfce4-power-manager
-totem
-totem-browser-plugin
 ristretto
 yast2-control-center-gnome
 // #404447
@@ -55,14 +53,16 @@ xdg-user-dirs-gtk
 NetworkManager
 NetworkManager-gnome
 xscreensaver
+xfce4-screenshooter
+gcalctool
 evince
 xfburn
-xfce4-volumed
 cheese
 empathy
 transmission-gtk
 MozillaThunderbird
 parole
+opensuse-codecs-installer
 -Prc:
 +Psg:
 #pragma online
