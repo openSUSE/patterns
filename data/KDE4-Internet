@@ -6,12 +6,6 @@ patterns-openSUSE-kde4_internet
 kdnssd
 kget
 kopete
-// not KDE4 related
-//kio_slp
-// we really should not require it
-// but with just a recommend, it also 
-// pulls in -gnome
-NetworkManager-kde4
 // 297684 for these 2
 krfb
 krdc

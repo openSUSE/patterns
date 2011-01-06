@@ -5,7 +5,7 @@ bootcycle
 cracklib-dict-full
 // autoconfig new printers
 udev-configure-printer
-cups-drivers
+OpenPrinting-PPDs
 dos2unix
 ed
 finger
