@@ -16,6 +16,7 @@ xorg-x11
 // bnc#537362
 gnome-packagekit
 xfce4-branding-openSUSE
+gconf2-branding-openSUSE
 gtk-xfce-engine
 mousepad
 xfce4-notifyd
@@ -24,8 +25,10 @@ Terminal
 xarchiver
 xfce4-appfinder
 xfce4-mixer
+// provides an applet superior to xfce4-panel-plugin-mixer
+gmixer
 xfce4-volstatus
-xfprint
+system-config-printer
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-thumbnailers
