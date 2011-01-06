@@ -37,6 +37,7 @@ claws-mail
 transmission-gtk
 xdg-user-dirs-gtk
 xfce4-power-manager
+gconf2-branding-openSUSE
 //xfburn, community asks for brasero
 brasero
 mtpaint
