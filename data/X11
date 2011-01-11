@@ -8,12 +8,8 @@ xorg-x11-server
 #if defined __x86_64__
 nss-mdns-32bit
 #endif
-// fetchmsfonts
-pullin-msttf-fonts
 // needed e.g. for nvidia drivers
 x11-tools
-// needed for fetchmsfonts (#327524)
-cabextract
 xterm
 ghostscript-x11
 openssh-askpass
