@@ -93,7 +93,7 @@ pam_fp
 quota
 
 // enhances virtualbox speed (#365562)
-xorg-x11-driver-virtualbox-ose
+virtualbox-guest-x11
 
 gtk2-branding-openSUSE
 
