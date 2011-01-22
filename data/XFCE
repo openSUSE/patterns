@@ -28,7 +28,6 @@ xfce4-appfinder
 xfce4-mixer
 // provides an applet superior to xfce4-panel-plugin-mixer
 gmixer
-xfce4-volstatus
 system-config-printer
 thunar-archive-plugin
 thunar-media-tags-plugin
