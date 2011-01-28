@@ -12,7 +12,12 @@ cracklib-dict-full
 python-base
 // TODO: lnussel
 gfxboot
+// TODO: lnussel
+bootsplash
 desktop-translations
+// supplements into glib
+gsettings-backend-dconf
+glib-networking
 -Pcn:
 
 +Prc:
