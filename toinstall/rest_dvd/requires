@@ -75,6 +75,7 @@ kde4_yast
 lamp_server
 laptop
 mail_server
+minimal_base
 misc_server
 multimedia
 multimedia_opt
