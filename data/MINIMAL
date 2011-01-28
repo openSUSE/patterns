@@ -6,7 +6,9 @@ patterns-openSUSE-minimal_base
 perl-doc
 readline-doc
 netpbm
+// recommended by yast2-printer
 samba-client
+cups-client
 cracklib-dict-full
 // TODO: lnussel
 python-base
