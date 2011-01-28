@@ -46,7 +46,6 @@ rsync
 strace
 sudo
 sysfsutils
-tcpdump
 tcsh
 telnet
 unscd
@@ -58,6 +57,5 @@ wol
 xinetd
 yp-tools
 ypbind
-zsh
 -Prc:
 
