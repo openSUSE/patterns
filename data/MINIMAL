@@ -6,6 +6,13 @@ patterns-openSUSE-minimal
 perl-doc
 readline-doc
 netpbm
+samba-client
+cracklib-dict-full
+// TODO: lnussel
+python-base
+// TODO: lnussel
+gfxboot
+desktop-translations
 -Pcn:
 
 +Prc:
