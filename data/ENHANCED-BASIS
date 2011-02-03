@@ -46,6 +46,8 @@ iproute2
 iputils
 // pager
 less
+// make it bunt
+gfxboot
 parted
 mailx
 genisoimage

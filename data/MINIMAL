@@ -12,10 +12,6 @@ cups-client
 cracklib-dict-full
 // TODO: lnussel
 python-base
-// TODO: lnussel
-gfxboot
-// TODO: lnussel
-bootsplash
 desktop-translations
 // supplements into glib
 gsettings-backend-dconf
