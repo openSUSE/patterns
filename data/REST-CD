@@ -139,7 +139,7 @@ dmidecode
 xz
 zip
 unzip
-unrar
+p7zip
 
 // file system stuff
 xfsdump
