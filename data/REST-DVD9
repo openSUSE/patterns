@@ -3,7 +3,6 @@ kdeartwork4-wallpapers
 kdebase4-wallpapers
 netbeans
 javamail-javadoc                               
-kernel-debug                                 
 IPAMincho                                           
 IPAPGothic                                          
 IPAPMincho                                          
@@ -11,8 +10,6 @@ bitstream-vera
 texlive-cjk
 texlive-xetex
 texlive-context
-texlive-latex-doc
-texlive-doc
 desktop-data-openSUSE-extra
 xorg-x11-driver-video-radeonhd
 xfce4-dict
@@ -21,10 +18,8 @@ neverball
 celestia
 z88
 lilypond-documentation
-kernel-source-vanilla
 openclipart-png
 libqt4-devel-doc-data
-rfc
 fillets-ng-data
 fillets-ng
 -Prc:
