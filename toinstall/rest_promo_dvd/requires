@@ -1,5 +1,4 @@
 apparmor
-apparmor_opt
 base
 console
 default
@@ -9,10 +8,8 @@ devel_gnome
 devel_java                                                                             
 devel_kde
 devel_kernel
-devel_perl
 devel_qt4
 devel_rpm_build
-devel_ruby
 dhcp_dns_server
 directory_server
 enhanced_base
