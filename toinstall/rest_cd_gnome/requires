@@ -20,7 +20,6 @@ yast2_basis
 yast2_install_wf
 games
 gnome_games
-update_test
 office
 gnome_office
 gnome_multimedia
