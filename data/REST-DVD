@@ -218,7 +218,7 @@ libXss.so.1
 libXv.so.1
 libz.so.1
 
-# depencies of acroread
+// depencies of acroread
 libcrypto.so.0.9.8  
 libssl.so.0.9.8  
 libcurl.so.4  
