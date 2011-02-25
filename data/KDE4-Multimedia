@@ -11,7 +11,8 @@ kio_audiocd
 // software.openSUSE.org/codecs      
 opensuse-codecs-installer 
 kaffeine
-phonon-backend-xine
+phonon-backend-gstreamer-0_10
+gstreamer-0_10-plugins-good
 -Prc:
 
 +Psg:

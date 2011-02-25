@@ -37,7 +37,6 @@ kdm
 kio_iso
 // bnc#430161
 polkit-default-privs
-#if 1
 // pulseaudio
 pulseaudio
 pulseaudio-module-bluetooth
@@ -47,7 +46,6 @@ pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
 alsa-plugins-pulse
-#endif
 kdepasswd
 kvkbd
 // bnc#605509
@@ -67,7 +65,6 @@ kdepim4
 kjots
 kepas
 yakuake
-phonon-backend-gstreamer-0_10
 kcron
 ksystemlog
 -Psg:
