@@ -36,6 +36,7 @@ susedoc
 // Text Encoding Initiative
 tei-xsl-stylesheets
 tei-roma
+texlive
 -Prc:
 +Psg:
 lyx
