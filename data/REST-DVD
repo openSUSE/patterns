@@ -19,6 +19,9 @@ clicfs
 //# 306071
 virtualbox-ose
 virtualbox-ose-guest-kmp-default
+vboxgtk
+virtualbox-qt
+
 
 // Internet Storage Name Service
 yast2-isns
