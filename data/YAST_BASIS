@@ -118,6 +118,7 @@ ncpfs              // printing via novell ipx
 kernel-kdump
 #endif
 yast2-fingerprint-reader
+sssd
 
 // FATE 304350
 #pragma online
