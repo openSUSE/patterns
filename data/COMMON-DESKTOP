@@ -5,11 +5,11 @@ desktop-data-openSUSE
 avahi
 // bnc#508120
 xdg-user-dirs
-// metalink downloader
-aria2
 preload
 -Prc:
 +Psg:
 // bnc#598884
 moonlight-plugin
+// metalink downloader
+aria2
 -Psg:
