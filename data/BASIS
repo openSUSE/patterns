@@ -7,7 +7,6 @@ insserv
 #if !defined(__s390__)
 kbd
 #endif
-licenses
 mkinitrd
 module-init-tools
 netcfg
