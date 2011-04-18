@@ -36,6 +36,7 @@ xfce4-taskmanager
 xfce4-power-manager
 ristretto
 yast2-control-center-gnome
+yast2-gtk
 // #404447
 gtk2-engine-murrine
 // #440285
