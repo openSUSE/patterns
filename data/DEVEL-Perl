@@ -4,6 +4,7 @@ patterns-openSUSE-devel_perl
 
 +Prc:
 perlref
+perl-doc
 -Prc:
 +Psg:
 perl-Algorithm-Diff
