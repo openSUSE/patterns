@@ -1,8 +1,10 @@
 +Prq:
 patterns-openSUSE-gnome_basis
 gdm
+#if GNOME3DONE
 gnome-applets
 gnome-main-menu
+#endif
 gnome-panel
 gnome-session
 -Prq:

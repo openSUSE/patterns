@@ -8,14 +8,12 @@ gnome_basis
 gnome_imaging
 gnome_internet
 gnome_laptop
-gnome_xgl
 gnome_yast
 imaging
 multimedia
 sw_management
 sw_management_gnome
 x11
-xgl
 yast2_basis
 yast2_install_wf
 games
@@ -24,3 +22,7 @@ office
 gnome_office
 gnome_multimedia
 gnome_utilities
+#if GNOME3DONE
+xgl
+gnome_xgl
+#endif
