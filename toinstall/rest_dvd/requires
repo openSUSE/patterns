@@ -50,7 +50,10 @@ gnome_office
 gnome_office_opt
 #endif
 gnome_utilities
+#if GNOME3DONE
 gnome_xgl
+xgl
+#endif
 gnome_yast
 imaging
 imaging_opt
@@ -106,6 +109,5 @@ xfce_office
 lxde_office
 #endif
 lxde_laptop
-xgl
 yast2_basis
 yast2_install_wf
