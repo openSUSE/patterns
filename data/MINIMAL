@@ -15,6 +15,7 @@ desktop-translations
 // supplements into glib
 gsettings-backend-dconf
 glib-networking
+vim-data
 -Pcn:
 
 +Prc:
@@ -44,7 +45,7 @@ sysfsutils
 tcsh
 telnet
 unscd
-vim-base
+vim
 w3m
 wget
 wireless-tools
