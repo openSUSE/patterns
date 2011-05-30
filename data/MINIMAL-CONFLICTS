@@ -1,0 +1,19 @@
++Prq:
+patterns-openSUSE-minimal_base-conflicts
+-Prq:
+
++Pcn:
+perl-doc
+readline-doc
+netpbm
+// recommended by yast2-printer
+samba-client
+cups-client
+// TODO: lnussel
+python-base
+desktop-translations
+// supplements into glib
+gsettings-backend-dconf
+glib-networking
+vim-data
+-Pcn:
