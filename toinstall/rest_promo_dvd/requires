@@ -34,7 +34,6 @@ gnome_multimedia_opt
 gnome_office
 gnome_office_opt
 gnome_utilities
-gnome_xgl
 gnome_yast
 imaging
 imaging_opt
@@ -76,6 +75,9 @@ x11
 x11_opt
 xen_server
 xfce
+#if GNOME3DONE
 xgl
+gnome_xgl
+#endif
 yast2_basis
 yast2_install_wf
