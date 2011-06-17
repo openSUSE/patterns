@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-webyast-ws
+-Prq:
+
++Prc:
 webyast-activedirectory-ws
 webyast-base-ws
 webyast-firewall-ws
@@ -9,7 +13,6 @@ webyast-mail-ws
 webyast-network-ws
 webyast-ntp-ws
 webyast-reboot-ws
-webyast-registration-ws
 webyast-roles-ws
 webyast-root-user-ws
 webyast-services-ws
@@ -17,4 +20,4 @@ webyast-software-ws
 webyast-status-ws
 webyast-time-ws
 webyast-users-ws
--Prq:
+-Prc:

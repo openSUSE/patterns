@@ -1,4 +1,8 @@
 +Prq:
+patterns-openSUSE-webyast-ui
+-Prq:
+
++Prc:
 qwebyast
 webyast-activedirectory-ui
 webyast-base-ui
@@ -9,7 +13,6 @@ webyast-licenses-ui
 webyast-mail-ui
 webyast-network-ui
 webyast-reboot-ui
-webyast-registration-ui
 webyast-roles-ui
 webyast-root-user-ui
 webyast-services-ui
@@ -17,4 +20,4 @@ webyast-software-ui
 webyast-status-ui
 webyast-time-ui
 webyast-users-ui
--Prq:
+-Prc:
