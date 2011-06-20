@@ -70,6 +70,7 @@ yast2-firstboot
 yast2-mail-plugins
 yast2-multipath
 yast2-phone-services
+yast2-snapper
 // #381365
 yast2-squid
 // see extra-packages for reasons
@@ -118,6 +119,7 @@ kernel-kdump
 #endif
 yast2-fingerprint-reader
 sssd
+snapper
 
 // FATE 304350
 #pragma online
