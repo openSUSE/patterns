@@ -19,16 +19,6 @@ openSUSE-build-key
 sysconfig
 syslog
 
-#if defined(__ia64__)
-elilo
-efibootmgr
-#endif
-#if defined(__i386__) || defined (__x86_64__)
-grub
-#endif
-#if defined(__powerpc__)
-lilo
-#endif
 // enable NFS installation for minimal
 rpcbind
 polkit-default-privs
@@ -48,4 +38,14 @@ sysvinit
 branding-openSUSE
 // default syslog daemon
 rsyslog
+#if defined(__ia64__)
+elilo
+efibootmgr
+#endif
+#if defined(__i386__) || defined (__x86_64__)
+grub
+#endif
+#if defined(__powerpc__)
+lilo
+#endif
 -Prc:
