@@ -22,7 +22,5 @@ office
 gnome_office
 gnome_multimedia
 gnome_utilities
-#if GNOME3DONE
 xgl
 gnome_xgl
-#endif
