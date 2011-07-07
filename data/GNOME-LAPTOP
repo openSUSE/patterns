@@ -6,9 +6,8 @@ patterns-openSUSE-gnome_laptop
 gnome-bluetooth
 // bnc#372208
 gnome-phone-manager
-// bnc#380390
-gnome-docker
 -Prc:
+
 +Psg:
 xournal
 -Psg:

@@ -16,7 +16,6 @@ gstreamer-utils
 //
 // Official upstream
 //
-gnome-media
 totem
 totem-browser-plugin
 //
@@ -27,11 +26,18 @@ banshee-1-backend-engine-gstreamer
 banshee-1-backend-platform-gnome
 banshee-1-backend-platform-unix
 banshee-1-extensions-default
-paprefs
-pavucontrol
 -Prc:
 
 +Psg:
+//
+// Official upstream
+//
+gnome-media
+//
+// Packages that really make sense
+//
+paprefs
+pavucontrol
 pitivi
 rhythmbox
 sound-juicer

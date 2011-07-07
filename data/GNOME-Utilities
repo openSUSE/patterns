@@ -7,21 +7,18 @@ patterns-openSUSE-gnome_utilities
 // Official upstream
 //
 cheese
-dasher
 file-roller
 gcalctool
 gedit
 gnome-utils
 gucharmap
-hamster-applet
 nautilus-sendto
 seahorse
 tomboy
 //
 // Packages that really make sense
 //
-// #379486
-gnome-do
+gnome-tweak-tool
 // thumbnailing in nautilus
 gnome-web-photo
 // open terminal from RMB on desktop
@@ -33,18 +30,23 @@ tasque
 //
 // Official upstream
 //
-deskbar-applet
+dasher
 eog-plugins
 gedit-plugins
+hamster-applet
 //
 // Packages that can make sense
 //
 conduit
 deja-dup
+gnome-do
 gnome-pilot
 gtg
 // #388570
 kerneloops-applet
+nautilus-actions
 nautilus-share
 pdfmod
+synapse
+the-board
 -Psg:

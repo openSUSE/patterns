@@ -10,5 +10,9 @@ eog
 //
 // Packages that really make sense
 //
-f-spot
+shotwell
 -Prc:
+
++Psg:
+f-spot
+-Psg:

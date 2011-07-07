@@ -34,12 +34,13 @@ epiphany-extensions
 //
 // Packages that can make sense
 //
+frogr
 gftp
 gwibber
 mail-notification
 pan
 pidgin
 pino
+smuxi
 xchat-gnome
 -Psg:
-

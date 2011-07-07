@@ -5,8 +5,10 @@ patterns-openSUSE-voip
 +Prc:
 ekiga
 -Prc:
+
 +Psg:
 kiax
 linphone
+mangler
 twinkle
 -Psg:

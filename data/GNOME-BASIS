@@ -1,12 +1,9 @@
 +Prq:
 patterns-openSUSE-gnome_basis
 gdm
-#if GNOME3DONE
-gnome-applets
-gnome-main-menu
-#endif
-gnome-panel
 gnome-session
+gnome-session-default-session
+gnome-session-fallback-session
 -Prq:
 
 +Prc:
@@ -31,39 +28,35 @@ susehelp
 //
 // #591535
 gconf2-branding-openSUSE
-glib2-branding-openSUSE
+gdm-branding-openSUSE
+gio-branding-openSUSE
 gnome-menus-branding-openSUSE
+gnome-panel-branding-openSUSE
 gtk2-branding-openSUSE
+gtk3-branding-openSUSE
 hicolor-icon-theme-branding-openSUSE
+libsocialweb-branding-openSUSE
 //
 // Now the real packages
 //
-// #302205
-libgail-gnome
 // #332596
 gnome-keyring-pam
-at-spi
+at-spi2-core
 bug-buddy
 canberra-gtk-play
 gnome-control-center
-gtk2
 gnome-user-docs
-gnome-desktop
 gnome-icon-theme
 gnome-icon-theme-extras
 gnome-icon-theme-symbolic
 gnome-keyring
-gnome-mag
 gnome-menus
 gnome-power-manager
 gnome-screensaver
 gnome-terminal
-gtk2-engines
-metacity
 nautilus
 NetworkManager-gnome
 notification-daemon
-pinentry-gtk2
 shared-mime-info
 tango-icon-theme
 xkeyboard-config
@@ -76,13 +69,11 @@ pulseaudio-module-lirc
 pulseaudio-module-x11
 pulseaudio-module-zeroconf
 pulseaudio-utils
-// #505211
-gtk2-metatheme-sonar
-fifth-leg-font
-gtk2-engine-murrine
 // #509829
 xdg-user-dirs-gtk
 -Prc:
 
 +Psg:
+gnome-applets
+gnome-main-menu
 -Psg:
