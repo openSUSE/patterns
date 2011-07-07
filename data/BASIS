@@ -48,4 +48,7 @@ grub
 #if defined(__powerpc__)
 lilo
 #endif
+
+// for easier testing in milestone
+systemd
 -Prc:
