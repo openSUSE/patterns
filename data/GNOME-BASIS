@@ -2,11 +2,26 @@
 patterns-openSUSE-gnome_basis
 gdm
 gnome-session
-gnome-session-default-session
-gnome-session-fallback-session
 -Prq:
 
 +Prc:
+//
+// Default sessions
+// - Put in Recommends for now, to make sure the livecd will always build; but
+//   ideally, should be in Requires
+// - We also we explicitly put the packages required by those sessions, in case
+//   gnome-session-*-session is not installable, to make sure the livecd is
+//   somehow a bit usable
+//
+gnome-session-default-session
+gnome-session-fallback-session
+// default
+gnome-settings-daemon
+gnome-shell
+// fallback
+gnome-panel
+metacity
+notification-daemon
 //
 // Low-level parts that we need
 //
