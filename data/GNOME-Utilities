@@ -23,7 +23,6 @@ gnome-tweak-tool
 gnome-web-photo
 // open terminal from RMB on desktop
 nautilus-open-terminal
-tasque
 -Prc:
 
 +Psg:
@@ -48,5 +47,6 @@ nautilus-actions
 nautilus-share
 pdfmod
 synapse
+tasque
 the-board
 -Psg:
