@@ -61,6 +61,8 @@ libgnomesu
 seahorse
 // We need a printer configuration util
 system-config-printer
+// And scanner one
+simple-scan
 // Video player and codecs
 // do we need an LXDE_MULTIMEDIA pattern??
 totem
