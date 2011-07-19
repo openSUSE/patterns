@@ -71,7 +71,6 @@ gnome-screensaver
 gnome-terminal
 nautilus
 NetworkManager-gnome
-notification-daemon
 shared-mime-info
 tango-icon-theme
 xkeyboard-config
@@ -86,6 +85,8 @@ pulseaudio-module-zeroconf
 pulseaudio-utils
 // #509829
 xdg-user-dirs-gtk
+// we need something for xdg-su
+libgnomesu
 -Prc:
 
 +Psg:
