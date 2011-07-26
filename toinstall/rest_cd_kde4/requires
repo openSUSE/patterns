@@ -19,6 +19,7 @@ yast2_basis
 yast2_install_wf
 games
 kde4_games
+update_test
 office
 kde4_office
 
