@@ -73,7 +73,6 @@ yast2-control-center-gnome
 // Use NM by default
 NetworkManager
 NetworkManager-gnome
-opensuse-codecs-installer
 // help users to provide usefull backtrace
 bug-buddy
 // Default office patter require OO.o
