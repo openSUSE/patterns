@@ -8,7 +8,6 @@ apparmor
 apparmor_opt
 base
 console
-default
 devel_C_C++
 devel_basis
 devel_gnome
