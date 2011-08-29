@@ -7,6 +7,7 @@ git
 qemu
 
 // needed for kiwi creation
+kiwi-media-requires
 squashfs
 yast2-live-installer
 
