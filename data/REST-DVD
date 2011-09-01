@@ -127,6 +127,9 @@ kernel-default
 // bnc#431280 (Japanese fonts)
 ttf-arphic-uming
 
+// bnc#697047
+siga
+
 #if  defined(__x86_64__)  ||  defined(__s390x__)  || defined(__powerpc__)
 pam_krb5-32bit
 pam_ldap-32bit
