@@ -91,7 +91,7 @@ gpm
 hdparm
 ifplugd
 info
-linux-atm-lib
+libatm1
 master-boot-code
 netcat
 nfs-client
