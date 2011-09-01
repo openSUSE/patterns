@@ -9,8 +9,6 @@ netpbm
 // recommended by yast2-printer
 samba-client
 cups-client
-// TODO: lnussel
-python-base
 desktop-translations
 // supplements into glib
 gsettings-backend-dconf
