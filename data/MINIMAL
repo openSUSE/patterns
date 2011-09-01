@@ -37,6 +37,5 @@ wol
 xinetd
 yp-tools
 ypbind
-zypper
 -Prc:
 
