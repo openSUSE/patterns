@@ -5,6 +5,7 @@ patterns-openSUSE-minimal_base-conflicts
 +Pcn:
 perl-doc
 readline-doc
+bash-doc
 netpbm
 // recommended by yast2-printer
 samba-client
@@ -14,4 +15,10 @@ desktop-translations
 gsettings-backend-dconf
 glib-networking
 vim-data
+// required by gio-branding
+desktop-data-openSUSE
+// supplements yast2, not needed for ncurses only
+yast2-branding-openSUSE
+// supplements libgio and wget (TODO)
+libproxy1-config-gnome3
 -Pcn:
