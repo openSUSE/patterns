@@ -74,9 +74,7 @@ x11
 x11_opt
 xen_server
 xfce
-#if GNOME3DONE
 xgl
 gnome_xgl
-#endif
 yast2_basis
 yast2_install_wf
