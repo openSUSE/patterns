@@ -202,6 +202,10 @@ sub rpmentry($)
 my @patterns;
 @want = keys %toinstall unless @want;
 for my $f (@want) {
+	unless (exists $toinstall{$f}) {
+		warn "toinstall/$f does not exist, ignored.";
+		next;
+	}
 	#print STDERR Dumper($toinstall{$f});
 	my $s = '<pattern xmlns="http://novell.com/package/metadata/suse/pattern" xmlns:rpm="http://linux.duke.edu/metadata/rpm" xmlns:suse="http://localhost/">';
 	$s .= tag("name", $f);
@@ -231,7 +235,7 @@ for my $f (@want) {
 	$toinstall{$f}->{'sel'} = [ $toinstall{$f}->{'sel'} ] unless ref $toinstall{$f}->{'sel'} eq 'ARRAY';
 	for my $n (@{$toinstall{$f}->{'sel'}}) {
 		if (!exists $sel{$n}) {
-			warn "data/$n does not exist";
+			warn "data/$n included from $f does not exist, ignored";
 			next;
 		}
 		my %tagmap = (
