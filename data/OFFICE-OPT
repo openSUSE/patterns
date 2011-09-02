@@ -4,7 +4,7 @@ libreoffice-languagetool
 -Psg:
 
 +Prc:
-#if !defined(__s390__) && !defined (__ia64__)
+#if defined (__i386__) || defined(__x86_64__)  ||  defined(__s390x__) || defined(__powerpc__)
 libreoffice-math
 libreoffice-filters
 libreoffice-base-extensions

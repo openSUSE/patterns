@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<test>
+  <setup arch="x86_64">
+    <system file="solver-system.xml.gz"/>
+    <!-- repo2solv.sh /some/where > factory.solv -->
+    <channel file="factory" name="factory"/>
+    <channel file="new" name="new"/>
+  </setup>
+  <trial>
+    <addRequire  name="glibc"/>
+    <install channel="new" kind="pattern" name="minimal_base"/>
+    <install channel="new" kind="pattern" name="minimal_base-conflicts"/>
+  </trial>
+</test>
