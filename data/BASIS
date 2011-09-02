@@ -38,12 +38,11 @@ sysvinit
 branding-openSUSE
 // default syslog daemon
 rsyslog
-#if defined(__ia64__)
 elilo
 efibootmgr
-#endif
 #if defined(__i386__) || defined (__x86_64__)
 grub
+grub2
 #endif
 #if defined(__powerpc__)
 lilo
