@@ -98,4 +98,12 @@ iscsitarget
 biosdevname
 // bnc#388570
 kerneloops
+
+// alternative boot loaders
+elilo
+efibootmgr
+#if defined(__i386__) || defined (__x86_64__)
+grub2
+#endif
+
 -Psg:
