@@ -5,6 +5,8 @@ kernel-desktop
 kernel-default
 #endif
 kernel-firmware
+// default to systemd for now
+systemd-sysvinit
 -Prq:
 
 +Prc:
