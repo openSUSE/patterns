@@ -11,6 +11,7 @@ alacarte
 // #302492
 brasero
 // bnc#366894
+caribou
 cheese
 // #594593
 empathy
@@ -22,6 +23,7 @@ file-roller
 gcalctool
 gedit
 gnome-bluetooth
+gnome-contacts
 // #554954
 gnome-disk-utility
 gnome-nettool
@@ -45,6 +47,7 @@ zenity
 //
 // Packages that really make sense
 //
+system-config-printer-applet
 system-config-printer
 // #608156
 tracker
