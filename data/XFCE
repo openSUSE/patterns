@@ -44,7 +44,9 @@ pinentry-gtk2
 avahi
 // #537365
 smolt
-gdm
+lightdm
+lightdm-branding-openSUSE
+lightdm-greeter-gtk
 // use gnomesu as su wrapper
 libgnomesu
 // #540627
