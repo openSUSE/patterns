@@ -27,7 +27,6 @@ notification-daemon
 //
 // bnc#430161
 NetworkManager
-cups-backends
 dbus-1-x11
 desktop-file-utils
 // we want useful bug reports
