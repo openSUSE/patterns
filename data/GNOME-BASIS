@@ -75,7 +75,6 @@ tango-icon-theme
 xkeyboard-config
 yelp
 // Pulseaudio is the default sound server
-pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-lirc
