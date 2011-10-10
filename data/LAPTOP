@@ -11,8 +11,8 @@ xstroke
 crda
 wireless-regdb
 iw
-jarnal
 xvkbd
+// nowadays provides of xorg-x11-driver-input
 x11-input-wacom-tools
 -Prc:
 +Psg:
