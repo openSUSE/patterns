@@ -28,11 +28,15 @@ polkit
 libspe
 spu-tools
 #endif
+sbin_init
 -Prq:
 
 +Prc:
 // provides init script to load cpufreq modules
 pm-utils
+// default init
+systemd-sysvinit
+// have it available as fallback
 sysvinit
 // get it branded
 branding-openSUSE
@@ -44,7 +48,4 @@ grub
 #if defined(__powerpc__)
 lilo
 #endif
-
-// for easier testing in milestone
-systemd
 -Prc:
