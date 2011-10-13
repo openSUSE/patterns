@@ -55,6 +55,7 @@ lxde_laptop		LXDE Laptop
 
 XFCE Desktop
 ============
+xfce_basis		XFCE Base System
 xfce_office		XFCE Office
 xfce_laptop		XFCE Laptop
 

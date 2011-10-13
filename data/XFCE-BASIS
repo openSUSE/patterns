@@ -1,0 +1,82 @@
++Prq:
+patterns-openSUSE-xfce_basis
+thunar
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce-utils
+xfconf
+xfdesktop
+xfwm4
+-Prq:
+
++Prc:
+// ease debugging
+gdb
+//
+// low level dependencies
+//
+avahi
+// #540627
+xdg-utils
+xdg-user-dirs-gtk
+NetworkManager
+NetworkManager-gnome
+// use gnomesu as su wrapper
+libgnomesu
+system-config-printer
+system-config-printer-applet
+gnome-bluetooth
+// #440285
+pinentry-gtk2
+// bnc#537362
+gnome-packagekit
+pk-update-icon
+// #537365
+smolt
+//
+// core functionality
+//
+lightdm
+lightdm-greeter-gtk
+yast2-control-center-gnome
+yast2-gtk
+xscreensaver
+xfce4-mixer
+xfce4-panel-plugin-mixer
+// provides an applet superior to xfce4-panel-plugin-mixer
+gmixer
+xfce4-notifyd
+xfce4-taskmanager
+thunar-volman
+tumbler
+Terminal
+leafpad
+gcalctool
+ristretto
+MozillaThunderbird
+orage
+file-roller
+evince
+totem
+totem-browser-plugin
+//
+// branding
+//
+exo-branding-openSUSE
+gconf2-branding-openSUSE
+libgarcon-branding-openSUSE
+libxfce4ui-branding-openSUSE
+lightdm-gtk-greeter-branding-openSUSE
+thunar-volman-branding-openSUSE
+wallpaper-branding-openSUSE
+xfce4-notifyd-branding-openSUSE
+xfce4-panel-branding-openSUSE
+xfce4-session-branding-openSUSE
+xfce4-settings-branding-openSUSE
+xfce4-splash-branding-openSUSE
+xfdesktop-branding-openSUSE
+xfwm4-branding-openSUSE
+lightdm-branding-openSUSE
+-Prc:

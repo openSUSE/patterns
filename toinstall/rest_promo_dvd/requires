@@ -74,6 +74,9 @@ x11
 x11_opt
 xen_server
 xfce
+xfce_basis
+xfce_laptop
+xfce_office
 xgl
 gnome_xgl
 yast2_basis

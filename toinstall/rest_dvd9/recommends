@@ -101,6 +101,8 @@ x11_yast
 x86
 xen_server
 xfce
+xfce_basis
+xfce_laptop
 xfce_office
 xgl
 yast2_basis

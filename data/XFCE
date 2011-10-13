@@ -3,96 +3,29 @@ patterns-openSUSE-xfce
 -Prq:
 
 +Prc:
-// ease debugging
-gdb
-thunar
-thunar-volman
-xfce4-settings
-xfdesktop
-xfce-utils
-xfconf
-xfce4-panel
-xfce4-session
-xfwm4
-// bnc#537362
-gnome-packagekit
-pk-update-icon
-// branding
-exo-branding-openSUSE
-gconf2-branding-openSUSE
-libgarcon-branding-openSUSE
-libxfce4ui-branding-openSUSE
-lightdm-gtk-greeter-branding-openSUSE
-thunar-volman-branding-openSUSE
-wallpaper-branding-openSUSE
-xfce4-notifyd-branding-openSUSE
-xfce4-panel-branding-openSUSE
-xfce4-session-branding-openSUSE
-xfce4-settings-branding-openSUSE
-xfce4-splash-branding-openSUSE
-xfdesktop-branding-openSUSE
-xfwm4-branding-openSUSE
-leafpad
-xfce4-notifyd
-orage
-Terminal
-file-roller
-xfce4-appfinder
-xfce4-mixer
-xfce4-panel-plugin-mixer
-// provides an applet superior to xfce4-panel-plugin-mixer
-gmixer
-system-config-printer
-system-config-printer-applet
+alacarte
+seahorse
 thunar-archive-plugin
 thunar-media-tags-plugin
-tumbler
-xfce4-taskmanager
-xfce4-power-manager
-ristretto
-yast2-control-center-gnome
-yast2-gtk
-// #440285
-pinentry-gtk2
-avahi
-// #537365
-smolt
-lightdm
-lightdm-branding-openSUSE
-lightdm-greeter-gtk
-// use gnomesu as su wrapper
-libgnomesu
-// #540627
-xdg-utils
-xdg-user-dirs-gtk
-NetworkManager
-NetworkManager-gnome
-xscreensaver
+xfce4-appfinder
 xfce4-screenshooter
-gcalctool
-evince
-brasero
 cheese
 empathy
-transmission-gtk
-MozillaThunderbird
-totem
-totem-browser-plugin
-rhythmbox
+brasero
 sound-juicer
+rhythmbox
 simple-scan
 gucharmap
 xfce4-dict
 xfce4-panel-plugin-notes
-seahorse
 remmina
 remmina-plugin-xdmcp
 remmina-plugin-rdp
 remmina-plugin-vnc
+transmission-gtk
 gnome-games
-gnome-bluetooth
-alacarte
 -Prc:
+
 +Psg:
 #pragma online
 xfce4-dev-tools
