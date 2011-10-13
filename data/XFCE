@@ -43,6 +43,7 @@ xfce4-mixer
 // provides an applet superior to xfce4-panel-plugin-mixer
 gmixer
 system-config-printer
+system-config-printer-applet
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-thumbnailers
