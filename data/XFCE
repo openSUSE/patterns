@@ -81,6 +81,8 @@ transmission-gtk
 MozillaThunderbird
 totem
 totem-browser-plugin
+rhythmbox
+sound-juicer
 -Prc:
 +Psg:
 #pragma online
