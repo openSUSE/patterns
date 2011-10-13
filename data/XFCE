@@ -84,6 +84,10 @@ totem-browser-plugin
 rhythmbox
 sound-juicer
 simple-scan
+gucharmap
+xfce4-dict
+xfce4-panel-plugin-notes
+seahorse
 -Prc:
 +Psg:
 #pragma online
