@@ -88,6 +88,10 @@ gucharmap
 xfce4-dict
 xfce4-panel-plugin-notes
 seahorse
+remmina
+remmina-plugin-xdmcp
+remmina-plugin-rdp
+remmina-plugin-vnc
 -Prc:
 +Psg:
 #pragma online
