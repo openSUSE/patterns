@@ -16,8 +16,21 @@ xfwm4
 xorg-x11
 // bnc#537362
 gnome-packagekit
-xfce4-branding-openSUSE
+// branding
+exo-branding-openSUSE
 gconf2-branding-openSUSE
+libgarcon-branding-openSUSE
+libxfce4ui-branding-openSUSE
+lightdm-gtk-greeter-branding-openSUSE
+thunar-volman-branding-openSUSE
+wallpaper-branding-openSUSE
+xfce4-notifyd-branding-openSUSE
+xfce4-panel-branding-openSUSE
+xfce4-session-branding-openSUSE
+xfce4-settings-branding-openSUSE
+xfce4-splash-branding-openSUSE
+xfdesktop-branding-openSUSE
+xfwm4-branding-openSUSE
 gtk-xfce-engine
 leafpad
 xfce4-notifyd
