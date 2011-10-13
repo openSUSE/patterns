@@ -18,6 +18,7 @@ openSUSE-release
 openSUSE-build-key
 sysconfig
 syslog
+klogd
 
 // enable NFS installation for minimal
 rpcbind
