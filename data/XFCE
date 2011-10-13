@@ -3,6 +3,8 @@ patterns-openSUSE-xfce
 -Prq:
 
 +Prc:
+// ease debugging
+gdb
 thunar
 thunar-volman
 xfce4-settings
