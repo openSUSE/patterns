@@ -93,6 +93,7 @@ remmina-plugin-xdmcp
 remmina-plugin-rdp
 remmina-plugin-vnc
 gnome-games
+gnome-bluetooth
 -Prc:
 +Psg:
 #pragma online
