@@ -180,7 +180,6 @@ libmsn-devel
 libmusicbrainz3-devel
 libmusicbrainz-devel
 libmygpo-qt-devel
-libmysqld-devel
 libnetcdf-devel
 libnetpbm-devel
 libnl-1_1-devel
@@ -244,16 +243,12 @@ pciutils-devel
 perl-qt4-devel
 postgresql-devel
 python-kde4-devel
-python-numpy-devel
-python-qt4-devel
-python-qt4-utils
 python-sip-devel
 qhull-devel
 qoauth-devel
 qrencode-devel
 QtZeitgeist-devel
 qwt-devel
-R-base-devel
 ruby-qt4-devel
 sane-backends-devel
 scons
