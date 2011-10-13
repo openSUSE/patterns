@@ -94,6 +94,7 @@ remmina-plugin-rdp
 remmina-plugin-vnc
 gnome-games
 gnome-bluetooth
+alacarte
 -Prc:
 +Psg:
 #pragma online
