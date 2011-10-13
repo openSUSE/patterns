@@ -16,6 +16,7 @@ xfwm4
 xorg-x11
 // bnc#537362
 gnome-packagekit
+pk-update-icon
 // branding
 exo-branding-openSUSE
 gconf2-branding-openSUSE
