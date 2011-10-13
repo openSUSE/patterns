@@ -65,7 +65,6 @@ transmission-gtk
 MozillaThunderbird
 totem
 totem-browser-plugin
-opensuse-codecs-installer
 -Prc:
 +Psg:
 #pragma online
