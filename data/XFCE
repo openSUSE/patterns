@@ -92,6 +92,7 @@ remmina
 remmina-plugin-xdmcp
 remmina-plugin-rdp
 remmina-plugin-vnc
+gnome-games
 -Prc:
 +Psg:
 #pragma online
