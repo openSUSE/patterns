@@ -95,7 +95,6 @@ alacarte
 -Prc:
 +Psg:
 #pragma online
-xfce4-dict
 xfce4-dev-tools
 xfce4-panel-plugin-battery
 xfce4-panel-plugin-cddrive
