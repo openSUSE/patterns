@@ -32,7 +32,6 @@ xfce4-settings-branding-openSUSE
 xfce4-splash-branding-openSUSE
 xfdesktop-branding-openSUSE
 xfwm4-branding-openSUSE
-gtk-xfce-engine
 leafpad
 xfce4-notifyd
 orage
@@ -53,8 +52,6 @@ xfce4-power-manager
 ristretto
 yast2-control-center-gnome
 yast2-gtk
-// #404447
-gtk2-engine-murrine
 // #440285
 pinentry-gtk2
 avahi
