@@ -37,7 +37,7 @@ leafpad
 xfce4-notifyd
 orage
 Terminal
-xarchiver
+file-roller
 xfce4-appfinder
 xfce4-mixer
 // provides an applet superior to xfce4-panel-plugin-mixer
