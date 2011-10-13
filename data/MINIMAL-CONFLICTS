@@ -21,4 +21,6 @@ desktop-data-openSUSE
 yast2-branding-openSUSE
 // supplements libgio and wget (TODO)
 libproxy1-config-gnome3
+// requires python
+zypper-log
 -Pcn:
