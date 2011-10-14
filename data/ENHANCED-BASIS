@@ -93,7 +93,7 @@ ifplugd
 info
 libatm1
 master-boot-code
-netcat
+netcat-openbsd
 nfs-client
 nfsidmap
 unscd
@@ -146,7 +146,7 @@ numactl
 irqbalance
 #endif
 // #375103
-cifs-mount
+cifs-utils
 // lsusb is good for debugging USB devices - #401593
 usbutils
 cryptsetup

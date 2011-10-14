@@ -1,6 +1,6 @@
 +Prq:
 patterns-openSUSE-kde4_basis
-kdebase4
+plasmoid-folderview
 kdebase4-session
 kdebase4-workspace
 dolphin

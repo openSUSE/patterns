@@ -9,8 +9,8 @@ ruby-doc-html
 ruby-doc-ri
 ruby-examples
 ruby-fcgi
-ruby-mysql
-ruby-racc
+rubygem-mysql
+rubygem-racc
 ruby-test-suite
 ruby-tk
 -Psg:

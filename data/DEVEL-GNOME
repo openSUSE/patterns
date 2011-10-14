@@ -10,7 +10,7 @@ clutter-gtk-devel
 evolution-data-server-devel
 gdk-pixbuf-devel
 glib2-devel
-gnome-desktop-devel
+libgnome-desktop-3-devel
 gnome-menus-devel
 gnome-online-accounts-devel
 gstreamer-0_10-devel
@@ -29,7 +29,7 @@ libgweather-devel
 libnotify-devel
 librsvg-devel
 libsoup-devel
-libwebkit-devel
+libwebkitgtk-devel
 libwnck-devel
 pango-devel
 tracker-devel

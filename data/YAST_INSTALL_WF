@@ -40,5 +40,5 @@ pam_ldap-64bit
 samba-client-64bit
 samba-winbind-64bit
 #endif
-iscsitarget
+tgt
 -Psg:

@@ -13,10 +13,10 @@ wireless-regdb
 iw
 xvkbd
 // nowadays provides of xorg-x11-driver-input
-x11-input-wacom-tools
+xorg-x11-driver-input
 -Prc:
 +Psg:
-libsmbios-bin
+smbios-utils-python
 powertop
 // fate#303035
 laptop-mode-tools

@@ -16,7 +16,7 @@ less
 linux32
 lsof
 lukemftp
-netcat
+netcat-openbsd
 nfs-client
 ntfs-3g
 ntp

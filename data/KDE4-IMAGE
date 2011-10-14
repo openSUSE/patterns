@@ -7,7 +7,7 @@ gwenview
 digikam
 kipi-plugins
 // kipi-plugins needs /usr/bin/jpegtran
-jpeg
+libjpeg-turbo
 okular
 kio_kamera
 kcolorchooser

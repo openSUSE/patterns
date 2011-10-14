@@ -10,11 +10,11 @@ docbook-xsl-stylesheets
 psutils
 emacs
 emacs-x11
-fop
+xmlgraphics-fop
 svg-schema
 xslide
 // General XML Packages
-batik
+xmlgraphics-batik
 dia
 inkscape
 mxml

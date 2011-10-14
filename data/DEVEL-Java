@@ -18,19 +18,19 @@ ant-jdepend
 ant-jmf
 ant-junit
 ant-manual
-ant-nodeps
+ant
 ant-scripts
 ant-swing
-ant-trax
+ant
 log4j
 xalan-j2
 xerces-j2
 xml-commons-apis
 xml-commons-resolver
-xml-commons-which
+xml-commons-which10
 java-1_6_0-openjdk
 #if defined(__i386__)
-java-1_6_0-openjdk-plugin
+icedtea-web
 #endif
 java-1_5_0-gcj-compat-devel
 -Prc:
@@ -60,6 +60,6 @@ jedit
 java-1_6_0-openjdk-devel
 mx4j
 ant-javamail
-jms
+geronimo-j2ee-1_4-apis
 -Psg:
 

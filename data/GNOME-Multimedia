@@ -10,7 +10,7 @@ patterns-openSUSE-gnome_multimedia
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 // bnc#445312
-gstreamer-0_10-schroedinger
+gstreamer-0_10-plugins-bad
 // bnc#445314
 gstreamer-utils
 //
@@ -21,11 +21,11 @@ totem-browser-plugin
 //
 // Packages that really make sense
 //
-banshee-1
-banshee-1-backend-engine-gstreamer
-banshee-1-backend-platform-gnome
-banshee-1-backend-platform-unix
-banshee-1-extensions-default
+banshee
+banshee-backend-engine-gstreamer
+banshee-backend-platform-gnome
+banshee-backend-platform-unix
+banshee-extensions-default
 -Prc:
 
 +Psg:

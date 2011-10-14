@@ -4,8 +4,8 @@ patterns-openSUSE-tabletpc
 
 +Prc:
 cellwriter
-x11-input-wacom
-x11-input-wacom-tools
+xorg-x11-driver-input
+xorg-x11-driver-input
 wacom-kmp
 xournal
 xstroke

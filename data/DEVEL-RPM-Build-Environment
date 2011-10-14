@@ -30,5 +30,5 @@ util-linux
 +Psg:
 build
 inst-source-utils
-libsatsolver-devel
+libsolv-devel
 -Psg:

@@ -1,7 +1,7 @@
 +Prc:
 freeglut
 xdmbgrd
-x11-input-wacom
+xorg-x11-driver-input
 xtermset
 -Prc:
 

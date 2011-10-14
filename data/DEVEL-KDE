@@ -20,7 +20,7 @@ libattr-devel
 libcurl-devel
 libgpgme-devel
 libidn-devel
-libjpeg-devel
+libjpeg62-devel
 libmal-devel
 libopenssl-devel
 libpisock-devel
@@ -48,7 +48,7 @@ ggz-client-libs-devel
 libqca2-devel
 libavahi-devel
 libavahi-qt4-devel
-OpenEXR-devel
+libopenexr-devel
 enchant-devel
 fam-devel
 libjasper-devel
@@ -95,7 +95,6 @@ mono-kde4
 ruby-kde4
 python-kdebase4
 libkonq-devel
-kdepim4-runtime-devel
 
 antlr-devel
 aqbanking-devel

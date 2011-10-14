@@ -21,14 +21,14 @@ mpt-firmware
 atmel-firmware
 
 // DELL laptop support
-libsmbios-bin
+smbios-utils-python
 
 //lvm2 support (#301382)
 lvm2
 bundle-lang-common-en
 
 aspell-en
-cifs-mount
+cifs-utils
 input-utils
 nss_ldap
 pam_krb5
@@ -78,7 +78,7 @@ bluez-firmware
 dvb
 lomoco
 pcmciautils
-pam_fp
+pam_fprint
 
 // yast can configure quota - if present on medium (#348336)
 quota
@@ -92,7 +92,7 @@ gtk2-branding-openSUSE
 zd1211-firmware
 
 // rescue
-ddrescue
+dd_rescue
 
 // required by yast2-dsl (#377472)
 smpppd

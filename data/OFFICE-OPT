@@ -6,7 +6,6 @@ libreoffice-languagetool
 +Prc:
 #if defined (__i386__) || defined(__x86_64__)  ||  defined(__s390x__) || defined(__powerpc__)
 libreoffice-math
-libreoffice-filters
 libreoffice-base-extensions
 libreoffice-calc-extensions
 libreoffice-draw-extensions

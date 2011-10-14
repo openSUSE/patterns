@@ -61,7 +61,7 @@ salinfo
 xz
 zip
 unzip
-cpufrequtils
+cpupower
 delayacct-utils
 #if !defined(__powerpc__)
 hfsutils
@@ -90,7 +90,7 @@ pam_ssh
 // for old installs
 lilo
 // used by yast2-iscsi-server
-iscsitarget
+tgt
 // DELL computers mainly #403270, but #441079
 biosdevname
 // bnc#388570

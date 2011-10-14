@@ -5,7 +5,7 @@ patterns-openSUSE-lxde
 +Prc:
 lxappearance
 lxdm
-lxdm-conf
+lxdm
 lxde-common
 lxde-common-branding-openSUSE
 lxinput

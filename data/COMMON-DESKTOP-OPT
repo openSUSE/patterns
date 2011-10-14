@@ -4,7 +4,7 @@ gutenprint
 // needs python-qt4
 hplip
 // MAYBE later lsb-graphics
-java-1_6_0-openjdk-plugin
+icedtea-web
 // give net shares
 samba
 -Prc:
