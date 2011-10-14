@@ -8,8 +8,7 @@ k3b
 kmix
 kscd
 kio_audiocd
-// software.openSUSE.org/codecs      
-opensuse-codecs-installer 
+PackageKit-gstreamer-plugin
 kaffeine
 phonon-backend-gstreamer-0_10
 gstreamer-0_10-plugins-good
