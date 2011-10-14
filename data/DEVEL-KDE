@@ -55,7 +55,6 @@ libjasper-devel
 clucene-core-devel
 libpulse-devel
 libraw1394-devel
-google-gadgets-devel
 python-devel
 ConsoleKit-devel
 libical-devel
@@ -96,7 +95,6 @@ mono-kde4
 ruby-kde4
 python-kdebase4
 libkonq-devel
-kdepim4-devel
 kdepim4-runtime-devel
 
 antlr-devel
@@ -255,7 +253,6 @@ scons
 speex-devel
 subversion-devel
 taglib-extras-devel
-unixODBC-devel
 utempter-devel
 valgrind-devel
 xz-devel

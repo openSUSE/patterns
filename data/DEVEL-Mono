@@ -8,7 +8,6 @@ mono-devel
 monodevelop
 apache2-mod_mono
 boo
-bytefx-data-mysql
 dbus-1-mono
 gsf-sharp
 gtk-sharp2-complete
@@ -32,7 +31,6 @@ mono-web
 mono-winforms
 -Prc:
 +Psg:
-ipod-sharp
 mono-debugger
 mono-jscript
 rsvg2-sharp

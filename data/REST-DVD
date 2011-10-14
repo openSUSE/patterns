@@ -39,7 +39,6 @@ kiwi
 kiwi-desc-isoboot
 kiwi-desc-netboot
 kiwi-desc-oemboot
-kiwi-desc-usbboot
 kiwi-desc-vmxboot
 kiwi-pxeboot
 kiwi-templates
@@ -94,9 +93,6 @@ sshfs
 
 // FAX
 capisuite
-
-// Sonja loves Belgium
-eIDconfig-belgium
 
 #if defined(__powerpc__)
 // #381940

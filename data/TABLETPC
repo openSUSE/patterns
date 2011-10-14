@@ -3,10 +3,7 @@ patterns-openSUSE-tabletpc
 -Prq:
 
 +Prc:
-x11-input-evtouch
 cellwriter
-jarnal
-x11-input-fujitsu
 x11-input-wacom
 x11-input-wacom-tools
 wacom-kmp

@@ -5,7 +5,6 @@ bootcycle
 cracklib-dict-full
 // autoconfig new printers
 udev-configure-printer
-OpenPrinting-PPDs
 dos2unix
 ed
 finger
@@ -62,8 +61,6 @@ salinfo
 xz
 zip
 unzip
-unrar
-ash
 cpufrequtils
 delayacct-utils
 #if !defined(__powerpc__)

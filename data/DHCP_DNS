@@ -10,5 +10,4 @@ dhcp-tools
 yast2-dhcp-server
 yast2-dns-server
 bind-doc
-dhcpv6
 -Prc:

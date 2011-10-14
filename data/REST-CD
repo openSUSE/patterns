@@ -75,9 +75,6 @@ ndiswrapper-kmp-desktop
 ndiswrapper-kmp-default
 #endif
 
-// #296387 - tablet PC
-x11-input-fujitsu
-
 // network
 ndiswrapper
 
@@ -131,7 +128,6 @@ pullin-fluendo-mp3
 pullin-flash-player
 
 // #494547 - just testing
-cups-drivers
 manufacturer-PPDs
 
 // needed to detect if a system is the same
@@ -159,7 +155,6 @@ xstroke
 crda
 wireless-regdb
 iw
-jarnal
 
 // bug#589416
 virtualbox-ose-guest-tools 

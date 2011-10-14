@@ -6,6 +6,7 @@ flash-player
 #if defined(__ia64__)
 ia32el
 #endif
+unrar
 -Prc:
 +Psg:
 poppler-data
