@@ -7,8 +7,6 @@ libreoffice-kde4
 libreoffice-icon-theme-oxygen
 -Prc:
 +Psg:
-libreoffice-Quickstarter
-
 scribus
 scribus-templates
 -Psg:

@@ -233,9 +233,6 @@ coreutils
 /bin/sh  
 libGL.so.1  
 libGLU.so.1  
-libJP2K.so  
-libResAccess.so  
-libWRServices.so  
 libX11.so.6  
 libXext.so.6  
 libXt.so.6  
@@ -252,8 +249,6 @@ libcrypto.so.0.9.8
 libdl.so.2  
 libdl.so.2(GLIBC_2.0)  
 libdl.so.2(GLIBC_2.1)  
-libeggtrayicon.so  
-libextendscript.so  
 libfontconfig.so.1  
 libfreetype.so.6  
 libgcc_s.so.1  
@@ -286,7 +281,6 @@ libresolv.so.2
 libresolv.so.2(GLIBC_2.2)  
 librt.so.1  
 librt.so.1(GLIBC_2.2)  
-libsccore.so  
 libssl.so.0.9.8  
 libstdc++.so.6  
 libstdc++.so.6(CXXABI_1.3)  
