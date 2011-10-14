@@ -63,12 +63,9 @@ yast2-product-creator
 createrepo
 
 // kernel modules
-lirc-kmp-default
-lirc-kmp-xen
 omnibook-kmp-default
 omnibook-kmp-xen
 
-lirc-kmp-desktop
 ndiswrapper-kmp-desktop
 omnibook-kmp-desktop
 vmware-guest-kmp-desktop
@@ -234,22 +231,6 @@ coreutils
 /bin/sh  
 /bin/sh  
 /bin/sh  
-libACE.so  
-libACE.so(VERSION)  
-libAGM.so  
-libAGM.so(VERSION)  
-libAXE8SharedExpat.so  
-libAXE8SharedExpat.so(VERSION)  
-libAXSLE.so  
-libAXSLE.so(VERSION)  
-libAdobeXMP.so  
-libAdobeXMP.so(VERSION)  
-libBIB.so  
-libBIB.so(VERSION)  
-libBIBUtils.so  
-libBIBUtils.so(VERSION)  
-libCoolType.so  
-libCoolType.so(VERSION)  
 libGL.so.1  
 libGLU.so.1  
 libJP2K.so  
@@ -258,7 +239,6 @@ libWRServices.so
 libX11.so.6  
 libXext.so.6  
 libXt.so.6  
-libadobelinguistic.so  
 libatk-1.0.so.0  
 libc.so.6  
 libc.so.6(GLIBC_2.0)  

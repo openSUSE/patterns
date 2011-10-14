@@ -5,7 +5,6 @@ desktop-data-openSUSE
 avahi
 // bnc#508120
 xdg-user-dirs
-preload
 -Prc:
 +Psg:
 // bnc#598884

@@ -18,8 +18,6 @@ python-gtk-devel
 python-ldap
 python-qt4
 python-wxGTK
-python-wxGTK-doc
-python-wxGTK-examples
 pyxml
 treeline
 python-dateutil
@@ -31,7 +29,6 @@ python-opensync
 python-pam
 python-pygame
 python-serial
-python-twisted-doc
 python-twisted
 python-zopeinterface
 -Psg:

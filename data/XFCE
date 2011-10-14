@@ -31,7 +31,7 @@ gnome-games
 #pragma online
 xfce4-dev-tools
 xfce4-panel-plugin-battery
-xfce4-panel-plugin-cddrive
+// WHERE? xfce4-panel-plugin-cddrive
 xfce4-panel-plugin-cellmodem
 xfce4-panel-plugin-clipman
 xfce4-panel-plugin-cpufreq

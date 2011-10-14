@@ -16,7 +16,6 @@ xvkbd
 x11-input-wacom-tools
 -Prc:
 +Psg:
-x11-input-fujitsu
 libsmbios-bin
 powertop
 // fate#303035

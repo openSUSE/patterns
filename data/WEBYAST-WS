@@ -12,7 +12,7 @@ webyast-licenses-ws
 webyast-mail-ws
 webyast-network-ws
 webyast-ntp-ws
-webyast-reboot-ws
+// REQUIRES hal webyast-reboot-ws
 webyast-roles-ws
 webyast-root-user-ws
 webyast-services-ws

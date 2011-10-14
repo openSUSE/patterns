@@ -39,7 +39,7 @@ smolt
 // core functionality
 //
 lightdm
-lightdm-greeter-gtk
+lightdm-gtk-greeter
 yast2-control-center-gnome
 yast2-gtk
 xscreensaver
@@ -70,7 +70,7 @@ gconf2-branding-openSUSE
 libgarcon-branding-openSUSE
 libxfce4ui-branding-openSUSE
 lightdm-gtk-greeter-branding-openSUSE
-thunar-volman-branding-openSUSE
+// NOT YET thunar-volman-branding-openSUSE
 wallpaper-branding-openSUSE
 xfce4-notifyd-branding-openSUSE
 xfce4-panel-branding-openSUSE
@@ -79,5 +79,5 @@ xfce4-settings-branding-openSUSE
 xfce4-splash-branding-openSUSE
 xfdesktop-branding-openSUSE
 xfwm4-branding-openSUSE
-lightdm-branding-openSUSE
+// WHERE? lightdm-branding-openSUSE
 -Prc:

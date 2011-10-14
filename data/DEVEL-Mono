@@ -17,11 +17,9 @@ gtksourceview-sharp2
 ikvm
 mono-basic
 mono-data
-mono-data-firebird
 mono-data-oracle
 mono-data-postgresql
 mono-data-sqlite
-mono-data-sybase
 monodoc-core
 mono-extras
 mono-locale-extras
@@ -32,7 +30,6 @@ mono-winforms
 -Prc:
 +Psg:
 mono-debugger
-mono-jscript
 rsvg2-sharp
 vte016-sharp
 -Psg:

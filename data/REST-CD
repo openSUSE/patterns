@@ -11,14 +11,6 @@ systemd-sysvinit
 
 +Prc:
 
-#if defined(__x86_64__)
-preload-kmp-desktop
-#else
-preload-kmp-default
-#endif
-// we need it for the live cds
-preload
-
 // #327506
 b43-fwcutter
 // #304219
