@@ -237,9 +237,6 @@ openldap2-client
 coreutils  
 /bin/sh  
 /bin/sh  
-rpmlib(PartialHardlinkSets) <= 4.0.4-1
-rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-rpmlib(CompressedFileNames) <= 3.0.4-1
 /bin/sh  
 libACE.so  
 libACE.so(VERSION)  
