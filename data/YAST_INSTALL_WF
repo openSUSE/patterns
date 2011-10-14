@@ -9,6 +9,8 @@ yast2-network
 yast2-users
 // bnc#535101
 yast2-bootloader
+// required to write ntp.conf (bnc#723018)
+yast2-ntp-client
 -Prq:
 +Psg:
 autoyast2-installation
@@ -18,7 +20,6 @@ yast2-ldap
 yast2-ldap-client
 yast2-nfs-client
 yast2-nis-client
-yast2-ntp-client
 yast2-printer
 yast2-samba-client
 yast2-slp
