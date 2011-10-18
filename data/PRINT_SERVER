@@ -5,6 +5,7 @@ patterns-openSUSE-print_server
 +Prc:
 cups
 cups-backends
+OpenPrintingPPDs
 m2300w
 splix
 foomatic-filters
