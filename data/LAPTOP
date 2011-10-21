@@ -3,19 +3,16 @@ patterns-openSUSE-laptop
 -Prq:
 
 +Prc:
-irda
 pcmciautils
 wpa_supplicant
-xstroke
 // bnc#480879
 crda
 wireless-regdb
 iw
 xvkbd
-// nowadays provides of xorg-x11-driver-input
-xorg-x11-driver-input
 -Prc:
 +Psg:
+irda
 smbios-utils-python
 powertop
 // fate#303035
