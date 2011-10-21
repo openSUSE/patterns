@@ -18,9 +18,11 @@ vim-data
 // required by gio-branding
 desktop-data-openSUSE
 // supplements yast2, not needed for ncurses only
-yast2-branding-openSUSE
+yast2-branding
 // supplements libgio and wget (TODO)
 libproxy1-config-gnome3
 // requires python
 zypper-log
+// systemd recommends dbus-1-python
+python
 -Pcn:
