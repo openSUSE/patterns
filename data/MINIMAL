@@ -5,6 +5,7 @@ patterns-openSUSE-minimal_base
 +Prc:
 SuSEfirewall2
 autofs
+acpid
 bc
 deltarpm
 eject
