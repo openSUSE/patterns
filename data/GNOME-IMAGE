@@ -11,6 +11,7 @@ eog
 // Packages that really make sense
 //
 shotwell
+simple-scan
 -Prc:
 
 +Psg:
