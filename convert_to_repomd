@@ -140,7 +140,10 @@ sub slurp($) {
 for my $f (keys %toinstall) {
 	for my $tag (qw/category icon order role sel visible/) {
 		my $fn = "toinstall/$f/$tag";
-		next unless -r $fn;
+		unless (-r $fn) {
+			warn "$f lacks tag '$tag'";
+			next;
+		}
 		$toinstall{$f}->{$tag} = slurp($fn);
 	}
 	for my $tag (qw/conflicts extends freshens obsoletes provides recommends requires supplements/) {
@@ -232,6 +235,7 @@ for my $f (@want) {
 		$deps{$tag} = $dep;
 	}
 
+	$toinstall{$f}->{'sel'} = [] unless exists $toinstall{$f}->{'sel'};
 	$toinstall{$f}->{'sel'} = [ $toinstall{$f}->{'sel'} ] unless ref $toinstall{$f}->{'sel'} eq 'ARRAY';
 	for my $n (@{$toinstall{$f}->{'sel'}}) {
 		if (!exists $sel{$n}) {
