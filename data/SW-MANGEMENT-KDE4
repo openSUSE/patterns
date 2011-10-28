@@ -3,7 +3,7 @@ patterns-openSUSE-sw_management_kde4
 -Prq:
 
 +Prc:
-kpackagekit
+apper
 smolt
 smolt-gui
 -Prc:
