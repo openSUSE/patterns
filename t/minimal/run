@@ -93,7 +93,13 @@ sub sortbysize
 {
 	my $sa = $a->attr_values("solvable:installsize") || 0;
 	my $sb = $b->attr_values("solvable:installsize") || 0;
-	$sa <=> $sb;
+	my $ret = $sa <=> $sb;
+	unless ($ret) {
+		$sa = $a->attr_values("solvable:name") || "";
+		$sb = $b->attr_values("solvable:name") || "";
+		$ret = $sa cmp $sb;
+	}
+	return $ret;
 }
 
 sub sortbyname
