@@ -1,6 +1,4 @@
 +Prc:
-kdeartwork4-wallpapers
-kdebase4-wallpapers
 netbeans
 javamail-javadoc                               
 IPAMincho                                           
@@ -12,14 +10,9 @@ texlive-xetex
 texlive-context
 desktop-data-openSUSE-extra
 xorg-x11-driver-video-radeonhd
-xfce4-dict
 netbeans
-neverball
-kde3-celestia
 z88
 lilypond-documentation
 openclipart-png
 libqt4-devel-doc-data
-fillets-ng-data
-fillets-ng
 -Prc:
