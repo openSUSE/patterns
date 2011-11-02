@@ -23,7 +23,6 @@ file-roller
 gcalctool
 gedit
 gnome-bluetooth
-gnome-color-manager
 gnome-contacts
 gnome-documents
 // #554954
@@ -76,4 +75,6 @@ gconf-editor
 gnome-backgrounds
 gnome-media
 hamster-applet
+// bnc#698250
+gnome-color-manager
 -Psg:
