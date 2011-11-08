@@ -155,4 +155,11 @@ virtualbox-guest-tools
 open-vm-tools
 
 sssd
+
+// bnc#728529
+elilo
+#if defined(__x86_64__)
+efibootmgr
+#endif
+
 -Prc:
