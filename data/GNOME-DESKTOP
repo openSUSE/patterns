@@ -8,6 +8,7 @@ patterns-openSUSE-gnome
 //
 // #544192
 alacarte
+baobab
 // #302492
 brasero
 // bnc#366894
@@ -24,14 +25,16 @@ gcalctool
 gedit
 gnome-bluetooth
 gnome-contacts
+gnome-dictionary
 gnome-documents
 // #554954
 gnome-disk-utility
+gnome-font-viewer
 gnome-nettool
+gnome-screenshot
 gnome-system-monitor
 // #447627
 gnome-user-share
-gnome-utils
 gucharmap
 // #399801
 mousetweaks

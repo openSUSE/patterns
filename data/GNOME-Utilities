@@ -6,12 +6,16 @@ patterns-openSUSE-gnome_utilities
 //
 // Official upstream
 //
+baobab
 cheese
 file-roller
 gcalctool
 gedit
-gnome-utils
+gnome-dictionary
+gnome-font-viewer
+gnome-screenshot
 gucharmap
+nautilus-extension-seahorse
 nautilus-sendto
 seahorse
 tomboy
