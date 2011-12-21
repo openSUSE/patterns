@@ -25,6 +25,7 @@ tomboy
 gnome-tweak-tool
 // thumbnailing in nautilus
 gnome-web-photo
+gsf-office-thumbnailer
 // open terminal from RMB on desktop
 nautilus-open-terminal
 -Prc:
