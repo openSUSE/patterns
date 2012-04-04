@@ -49,8 +49,6 @@ gnome_office
 gnome_office_opt
 #endif
 gnome_utilities
-gnome_xgl
-xgl
 gnome_yast
 imaging
 imaging_opt
@@ -70,7 +68,6 @@ kde4_office
 #endif
 kde4_utilities
 kde4_utilities_opt
-kde4_xgl
 kde4_yast
 lamp_server
 laptop

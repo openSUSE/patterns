@@ -50,7 +50,6 @@ kde4_multimedia
 kde4_office
 kde4_utilities
 kde4_utilities_opt
-kde4_xgl
 kde4_yast
 lamp_server
 laptop
@@ -77,7 +76,5 @@ xfce
 xfce_basis
 xfce_laptop
 xfce_office
-xgl
-gnome_xgl
 yast2_basis
 yast2_install_wf
