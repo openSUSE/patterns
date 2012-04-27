@@ -27,7 +27,6 @@ NetworkManager-gnome
 libgnomesu
 system-config-printer
 system-config-printer-applet
-gnome-bluetooth
 // #440285
 pinentry-gtk2
 // bnc#537362
