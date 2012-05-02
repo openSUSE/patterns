@@ -14,10 +14,10 @@ xfwm4
 // ease debugging
 gdb
 //
-// low level dependencies
+// low level functionality
 //
 avahi
-// #540627
+// bnc#540627
 xdg-utils
 xdg-user-dirs-gtk
 NetworkManager
@@ -26,17 +26,17 @@ NetworkManager-gnome
 libgnomesu
 system-config-printer
 system-config-printer-applet
-// #440285
+// bnc#440285
 pinentry-gtk2
 // bnc#537362
 gnome-packagekit
 pk-update-icon
-// #537365
+// bnc#537365
 smolt
 gnome-keyring
 gnome-keyring-pam
 //
-// core functionality
+// core desktop functionality
 //
 lightdm
 lightdm-gtk-greeter
