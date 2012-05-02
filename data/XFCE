@@ -58,7 +58,6 @@ xfce4-panel-plugin-timer
 xfce4-panel-plugin-verve
 xfce4-panel-plugin-wavelan
 // broken (bnc#735590): xfce4-panel-plugin-weather
-xfce4-panel-plugin-xkb
 xfwm4-themes
 xfce4-vala
 -Psg:
