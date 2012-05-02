@@ -33,6 +33,8 @@ gnome-packagekit
 pk-update-icon
 // #537365
 smolt
+gnome-keyring
+gnome-keyring-pam
 //
 // core functionality
 //
