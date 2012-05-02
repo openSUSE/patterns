@@ -60,6 +60,7 @@ file-roller
 evince
 totem
 totem-browser-plugin
+libxfce4ui-tools
 xfce4-panel-plugin-datetime
 //
 // branding
@@ -69,6 +70,7 @@ gconf2-branding-openSUSE
 libgarcon-branding-openSUSE
 libxfce4ui-branding-openSUSE
 lightdm-gtk-greeter-branding-openSUSE
+midori-branding-openSUSE
 thunar-volman-branding-openSUSE
 wallpaper-branding-openSUSE
 xfce4-notifyd-branding-openSUSE
