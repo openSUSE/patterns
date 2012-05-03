@@ -19,6 +19,8 @@ shotwell
 gucharmap
 xfce4-dict
 xfce4-panel-plugin-notes
+tracker
+tracker-gui
 remmina
 remmina-plugin-xdmcp
 remmina-plugin-rdp
@@ -35,6 +37,8 @@ xfce4-panel-plugin-cellmodem
 xfce4-panel-plugin-clipman
 xfce4-panel-plugin-cpufreq
 xfce4-panel-plugin-cpugraph
+xfce4-panel-plugin-datetime
+xfce4-panel-plugin-dict
 xfce4-panel-plugin-diskperf
 xfce4-panel-plugin-eyes
 xfce4-panel-plugin-fsguard
@@ -44,8 +48,10 @@ xfce4-panel-plugin-mount
 xfce4-panel-plugin-mpc
 xfce4-panel-plugin-netload
 xfce4-panel-plugin-notes
+xfce4-panel-plugin-places
 xfce4-panel-plugin-quicklauncher
 xfce4-panel-plugin-radio
+xfce4-panel-plugin-screenshooter
 xfce4-panel-plugin-sensors
 xfce4-panel-plugin-smartbookmark
 xfce4-panel-plugin-systemload
@@ -53,9 +59,7 @@ xfce4-panel-plugin-timeout
 xfce4-panel-plugin-timer
 xfce4-panel-plugin-verve
 xfce4-panel-plugin-wavelan
-xfce4-panel-plugin-weather
-xfce4-panel-plugin-xkb
-xfce4-panel-plugin-xmms
+// broken (bnc#735590): xfce4-panel-plugin-weather
 xfwm4-themes
 xfce4-vala
 -Psg:
