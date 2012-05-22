@@ -61,8 +61,8 @@ tar
 wget
 // split out of ncurses
 ncurses-utils
-// we want a branded boot (bnc#385502)
-bootsplash-branding-openSUSE
+// we want a branded boot
+plymouth-branding-openSUSE
 // #302569
 alsa-plugins
 // useful for debugging
@@ -79,7 +79,8 @@ deltarpm
 acpid
 autofs
 bind-utils
-bootsplash
+// Make plymouth the new default bootsplash
+plymouth
 cyrus-sasl
 dosfstools
 gawk
