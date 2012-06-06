@@ -103,5 +103,4 @@ xfce_laptop
 xfce_office
 yast2_basis
 yast2_install_wf
-webyast-ui
-webyast-ws
+webyast
