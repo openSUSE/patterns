@@ -29,6 +29,8 @@ polkit
 // #467330 (ps3)
 libspe
 spu-tools
+// #739878 - install pdisk by default
+pdisk
 #endif
 sbin_init
 -Prq:
