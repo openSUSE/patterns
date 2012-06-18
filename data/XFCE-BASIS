@@ -38,8 +38,6 @@ gnome-keyring-pam
 //
 // core desktop functionality
 //
-lightdm
-lightdm-gtk-greeter
 yast2-control-center-gnome
 yast2-gtk
 xscreensaver
@@ -48,19 +46,11 @@ xfce4-panel-plugin-mixer
 // provides an applet superior to xfce4-panel-plugin-mixer
 gmixer
 xfce4-notifyd
+xfce4-appfinder
 xfce4-taskmanager
 thunar-volman
 tumbler
 Terminal
-leafpad
-gcalctool
-ristretto
-MozillaThunderbird
-orage
-file-roller
-evince
-totem
-totem-browser-plugin
 libxfce4ui-tools
 xfce4-panel-plugin-xkb
 //
