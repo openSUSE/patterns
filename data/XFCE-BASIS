@@ -17,9 +17,12 @@ gdb
 // low level functionality
 //
 avahi
+dbus-1-x11
 // bnc#540627
 xdg-utils
 xdg-user-dirs-gtk
+desktop-file-utils
+shared-mime-info
 NetworkManager
 NetworkManager-gnome
 // use gnomesu as su wrapper
