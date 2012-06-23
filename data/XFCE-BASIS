@@ -46,8 +46,6 @@ yast2-gtk
 xscreensaver
 xfce4-mixer
 xfce4-panel-plugin-mixer
-// provides an applet superior to xfce4-panel-plugin-mixer
-gmixer
 xfce4-notifyd
 xfce4-appfinder
 xfce4-taskmanager
