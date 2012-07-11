@@ -20,6 +20,10 @@ hfsutils
 #if defined(__i386__) || defined (__x86_64__)
 haveged
 #endif
+// 754959
+#if defined(__i386__) || defined (__x86_64__)
+hyper-v
+#endif
 irqbalance
 joe
 ksh
