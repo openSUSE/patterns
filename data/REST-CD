@@ -161,7 +161,6 @@ mc
 irda
 pcmciautils
 wpa_supplicant
-xstroke
 // bnc#480879
 crda
 wireless-regdb
