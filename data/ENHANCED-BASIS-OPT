@@ -97,6 +97,10 @@ tgt
 biosdevname
 // bnc#388570
 kerneloops
+// #754959
+#if defined(__i386__) || defined (__x86_64__)
+hyper-v
+#endif
 
 // alternative boot loaders
 elilo
