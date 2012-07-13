@@ -63,6 +63,8 @@ wget
 ncurses-utils
 // we want a branded boot
 plymouth-branding-openSUSE
+// we want a branded grub2 too #757683
+grub2-branding-openSUSE
 // #302569
 alsa-plugins
 // useful for debugging
