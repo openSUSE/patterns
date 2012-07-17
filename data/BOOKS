@@ -28,7 +28,6 @@ gnome-user-docs
 gnucash-docs
 kernel-docs
 kiwi-doc
-kmymoney-doc
 man-pages
 man-pages-fr
 man-pages-it
@@ -48,23 +47,34 @@ ruby-doc-ri
 samba-doc
 selinux-doc
 subversion-doc
+#pragma online
 texlive-doc
+#pragma online
 texlive-latex-doc
 xorg-x11-doc
 yast2-devel-doc
+#pragma online
 opensuse-kvm_de-pdf
+#pragma online
 opensuse-kvm_ru-pdf
 opensuse-manuals_de
 opensuse-manuals_hu
 opensuse-manuals_ru
+#pragma online
 opensuse-reference_de-pdf
+#pragma online
 opensuse-reference_hu-pdf
+#pragma online
 opensuse-reference_ru-pdf
+#pragma online
 opensuse-security_de-pdf
+#pragma online
 opensuse-security_ru-pdf
 opensuse-startup_de-pdf
 opensuse-startup_ru-pdf
+#pragma online
 opensuse-tuning_de-pdf
+#pragma online
 opensuse-tuning_ru-pdf
 -Psg:
 
