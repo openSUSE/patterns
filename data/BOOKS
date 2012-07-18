@@ -27,6 +27,7 @@ gnome-devel-docs
 gnome-user-docs
 gnucash-docs
 kernel-docs
+#pragma online
 kiwi-doc
 man-pages
 man-pages-fr
@@ -42,8 +43,9 @@ php-doc
 postfix-doc
 postgresql-docs
 python-doc
+#pragma online
 python-doc-pdf
-ruby-doc-ri
+#pragma online
 samba-doc
 selinux-doc
 subversion-doc
@@ -52,6 +54,7 @@ texlive-doc
 #pragma online
 texlive-latex-doc
 xorg-x11-doc
+#pragma online
 yast2-devel-doc
 #pragma online
 opensuse-kvm_de-pdf
@@ -70,7 +73,9 @@ opensuse-reference_ru-pdf
 opensuse-security_de-pdf
 #pragma online
 opensuse-security_ru-pdf
+#pragma online
 opensuse-startup_de-pdf
+#pragma online
 opensuse-startup_ru-pdf
 #pragma online
 opensuse-tuning_de-pdf

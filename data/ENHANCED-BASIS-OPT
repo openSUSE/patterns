@@ -75,7 +75,6 @@ xfsprogs
 smpppd
 lynx
 w3m-el
-w3m-el-xemacs
 // #373195
 checkinstall
 pwgen
