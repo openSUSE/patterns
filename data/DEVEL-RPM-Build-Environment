@@ -1,23 +1,14 @@
 +Prq:
 patterns-openSUSE-devel_rpm_build
-binutils
-cpp
-gawk
-gcc
-gettext-tools
-glibc-devel
-make
+rpm-build
 man
 netcfg
 patch
-rpm
 tar
 -Prq:
 
 +Prc:
 libtool
-sysvinit-tools
-texinfo
 -Prc:
 
 +Psg:

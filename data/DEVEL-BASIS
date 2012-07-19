@@ -16,8 +16,7 @@ m4
 make
 ncurses-devel
 patch
-rcs
-texinfo
+makeinfo
 zlib-devel
 -Prq:
 

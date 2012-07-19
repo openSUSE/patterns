@@ -8,7 +8,6 @@ boost-jam
 ddd
 posix_cc
 swig
-texinfo
 valgrind
 ltrace
 -Prc:
