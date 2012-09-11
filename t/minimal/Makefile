@@ -14,7 +14,7 @@ test_minimal: patterns.solv factory.solv
 		--packs "$(YAST_PACKS)" \
 		$(ARGS)
 
-patterns.solv:
+patterns.solv: repodata/patterns.xml
 	repo2solv.sh . > patterns.solv
 
 .PHONY: all test1
