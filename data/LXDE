@@ -73,8 +73,6 @@ yast2-control-center-gnome
 // Use NM by default
 NetworkManager
 NetworkManager-gnome
-// help users to provide usefull backtrace
-bug-buddy
 // Default office patter require OO.o
 // Recommends lxde-office pattern instead
 patterns-openSUSE-lxde_office
