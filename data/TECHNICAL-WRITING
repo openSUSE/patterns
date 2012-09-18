@@ -42,14 +42,11 @@ texlive
 lyx
 #pragma online
 texlive-cjk
-texlive-dvilj
 texlive-metapost
 texlive-omega
 #pragma online
 texlive-xetex
 texlive-context
-texlive-dvilj
-texlive-metapost
 texlive-omega
 texlive-xetex
 texlive-tools
