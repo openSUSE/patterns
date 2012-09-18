@@ -19,7 +19,6 @@ empathy
 eog
 evince
 evolution
-evolution-webcal
 file-roller
 gcalctool
 gcr-viewer
@@ -69,8 +68,6 @@ telepathy-haze
 telepathy-idle
 telepathy-salut
 telepathy-sofiasip
-// More can be added if there's space
-// telepathy-butterfly
 -Prc:
 
 +Psg:
