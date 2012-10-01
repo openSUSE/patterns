@@ -3,8 +3,8 @@ patterns-openSUSE-kde4_yast
 -Prq:
 
 +Prq:
-yast2-qt
-yast2-qt-pkg
+libyui-qt4
+libyui-qt-pkg4
 yast2-control-center-qt
 yast2-theme-openSUSE-Oxygen
 -Prq:

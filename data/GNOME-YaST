@@ -1,5 +1,5 @@
 +Prq:
 patterns-openSUSE-gnome_yast
-yast2-gtk
+libyui-gtk-pkg4
 yast2-control-center-gnome
 -Prq:

@@ -68,7 +68,7 @@ simple-scan
 totem
 totem-browser-plugin
 // Use gtk UI for YaST
-yast2-gtk
+libyui-gtk-pkg4
 yast2-control-center-gnome
 // Use NM by default
 NetworkManager

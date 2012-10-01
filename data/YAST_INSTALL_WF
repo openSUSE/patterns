@@ -4,7 +4,7 @@ patterns-openSUSE-yast2_install_wf
 
 +Prq:
 yast2-installation
-yast2-ncurses
+libyui-ncurses4
 yast2-network
 yast2-users
 // bnc#535101
