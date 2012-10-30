@@ -54,7 +54,7 @@ gtk2-engine-murrine
 pinentry-gtk2
 avahi
 // #537365
-smolt
+
 // use gnomesu as su wrapper
 libgnomesu
 // we need a GPG GUI

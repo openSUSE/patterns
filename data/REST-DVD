@@ -72,7 +72,7 @@ vmware-guest-kmp-desktop
 virtualbox-guest-kmp-desktop
 
 // register your hardware
-smolt
+
 
 // no sync pattern
 bluez-hcidump
