@@ -78,7 +78,6 @@ ntfs-3g
 cups
 // delta rpms are considered cool for updates
 deltarpm
-acpid
 autofs
 bind-utils
 // Make plymouth the new default bootsplash
