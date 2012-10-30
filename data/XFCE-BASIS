@@ -35,7 +35,7 @@ pinentry-gtk2
 gnome-packagekit
 pk-update-icon
 // bnc#537365
-smolt
+
 gnome-keyring
 gnome-keyring-pam
 //
