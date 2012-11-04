@@ -39,7 +39,6 @@ eject
 file
 fillup
 findutils
-insserv
 // /bin/ip considered useful
 iproute2
 // ping is required for network tests

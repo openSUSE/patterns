@@ -3,8 +3,6 @@ patterns-openSUSE-devel_rpm_build
 rpm-build
 man
 netcfg
-patch
-tar
 -Prq:
 
 +Prc:

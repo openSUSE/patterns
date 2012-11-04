@@ -3,7 +3,6 @@ patterns-openSUSE-base
 aaa_base
 dhcpcd
 hwinfo
-insserv
 #if !defined(__s390__)
 kbd
 #endif
@@ -40,8 +39,6 @@ sbin_init
 pm-utils
 // default init
 systemd-sysvinit
-// have it available as fallback
-sysvinit
 // get it branded
 branding-openSUSE
 // default syslog daemon
