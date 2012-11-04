@@ -1,5 +1,4 @@
 +Prc:
-acpid
 at
 bc
 bootcycle
@@ -61,6 +60,7 @@ salinfo
 -Prc:
 
 +Psg:
+acpid
 xz
 zip
 unzip
