@@ -17,7 +17,6 @@ rpm
 openSUSE-release
 openSUSE-build-key
 sysconfig
-syslog
 klogd
 
 // enable NFS installation for minimal
@@ -41,8 +40,6 @@ pm-utils
 systemd-sysvinit
 // get it branded
 branding-openSUSE
-// default syslog daemon
-rsyslog
 #if defined(__i386__) || defined (__x86_64__)
 grub
 grub2
@@ -51,3 +48,8 @@ grub2
 lilo
 #endif
 -Prc:
+
+-Psg:
+// default old syslog daemon
+rsyslog
++Psg:
