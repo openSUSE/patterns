@@ -49,7 +49,7 @@ lilo
 #endif
 -Prc:
 
--Psg:
++Psg:
 // default old syslog daemon
 rsyslog
-+Psg:
+-Psg:
