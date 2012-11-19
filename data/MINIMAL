@@ -3,7 +3,6 @@ patterns-openSUSE-minimal_base
 -Prq:
 
 +Prc:
-postfix
 SuSEfirewall2
 autofs
 bc

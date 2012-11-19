@@ -3,6 +3,7 @@ patterns-openSUSE-minimal_base-conflicts
 -Prq:
 
 +Pcn:
+smtp_daemon
 perl-doc
 readline-doc
 bash-doc
