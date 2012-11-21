@@ -8,6 +8,7 @@ autofs
 bc
 deltarpm
 eject
+glibc-locale
 haveged
 hdparm
 iputils
