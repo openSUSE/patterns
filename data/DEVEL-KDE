@@ -56,7 +56,6 @@ clucene-core-devel
 libpulse-devel
 libraw1394-devel
 python-devel
-ConsoleKit-devel
 libical-devel
 libmysqlclient-devel
 libraptor-devel
