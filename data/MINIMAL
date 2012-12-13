@@ -35,8 +35,5 @@ w3m
 wget
 wireless-tools
 wol
-xinetd
-yp-tools
-ypbind
 -Prc:
 
