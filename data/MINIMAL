@@ -6,6 +6,7 @@ patterns-openSUSE-minimal_base
 SuSEfirewall2
 autofs
 bc
+cracklib-dict-small
 deltarpm
 eject
 glibc-locale
