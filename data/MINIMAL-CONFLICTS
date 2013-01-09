@@ -26,4 +26,17 @@ libproxy1-config-gnome3
 zypper-log
 // systemd recommends dbus-1-python
 python
+// gtk3
+gtk3-branding
+gtk3-immodule-amharic
+gtk3-immodule-inuktitut
+gtk3-immodule-thai
+gtk3-immodule-tigrigna
+gtk3-immodule-vietnamese
+gvfs
+bundle-lang-gnome-extras-en
+// requires X11
+openssh-askpass
+// requires all kinds of perl modules
+xdg-utils
 -Pcn:

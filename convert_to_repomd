@@ -18,7 +18,7 @@ use strict;
 #use YAML qw/Dump Load DumpFile LoadFile/;
 #use Data::Dumper;
 
-my $version = "12.1";
+my $version = "12.3";
 my $release = "99";
 my $arch = 'x86_64';
 
