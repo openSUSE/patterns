@@ -11,6 +11,7 @@ GetOptions (
 	"explain",
 	"list",
 	"size",
+	"no-recommends",
 	"arch=s",
 	"packs=s@",
 	"repo=s@",
@@ -50,6 +51,7 @@ for my $p (@{$options{'packs'}}) {
 	$job->install($pat);
 }
 
+$solver->set_dont_install_recommended(1) if $options{'no-recommends'};
 # Solve the jobs
 $solver->solve($job);
 
