@@ -56,7 +56,6 @@ clucene-core-devel
 libpulse-devel
 libraw1394-devel
 python-devel
-ConsoleKit-devel
 libical-devel
 libmysqlclient-devel
 libraptor-devel
@@ -84,6 +83,8 @@ graphviz
 icecream-monitor
 kdebase4-workspace-devel
 libkdepimlibs4-devel
+libkdegames-devel
+libkmahjongg-devel
 libvisual-devel
 meanwhile-devel
 net-snmp-devel
