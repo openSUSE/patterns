@@ -95,7 +95,7 @@ master-boot-code
 netcat-openbsd
 nfs-client
 nfsidmap
-unscd
+nscd
 ntfsprogs
 openldap2-client
 openslp

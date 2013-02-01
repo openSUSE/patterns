@@ -33,7 +33,7 @@ sudo
 sysfsutils
 tcsh
 telnet
-unscd
+nscd
 vim
 w3m
 wget
