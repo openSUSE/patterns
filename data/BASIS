@@ -41,8 +41,8 @@ systemd-sysvinit
 // get it branded
 branding-openSUSE
 #if defined(__i386__) || defined (__x86_64__)
-grub
 grub2
+grub2-efi
 #endif
 #if defined(__powerpc__)
 lilo
@@ -50,6 +50,7 @@ lilo
 -Prc:
 
 +Psg:
+grub
 // default old syslog daemon
 rsyslog
 -Psg:

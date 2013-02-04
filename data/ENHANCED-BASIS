@@ -92,6 +92,7 @@ ifplugd
 info
 libatm1
 master-boot-code
+syslinux
 netcat-openbsd
 nfs-client
 nfsidmap
