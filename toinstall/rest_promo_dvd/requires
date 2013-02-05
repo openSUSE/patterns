@@ -4,7 +4,6 @@ console
 devel_basis
 devel_C_C++
 devel_gnome                                                                            
-devel_java                                                                             
 devel_kde
 devel_kernel
 devel_qt4
@@ -29,9 +28,7 @@ gnome_imaging_opt
 gnome_internet
 gnome_laptop
 gnome_multimedia
-gnome_multimedia_opt
 gnome_office
-gnome_office_opt
 gnome_utilities
 gnome_yast
 imaging
@@ -49,13 +46,11 @@ kde4_laptop
 kde4_multimedia
 kde4_office
 kde4_utilities
-kde4_utilities_opt
 kde4_yast
 lamp_server
 laptop
 lxde
 lxde_laptop
-lxde_office
 mail_server
 misc_server
 multimedia

@@ -102,7 +102,6 @@ xfce_laptop
 lxde
 #if defined(__i386__) || defined (__x86_64__)
 xfce_office
-lxde_office
 #endif
 lxde_laptop
 yast2_basis

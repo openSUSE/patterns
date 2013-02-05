@@ -7,6 +7,7 @@ opensuse-kvm_en-pdf
 opensuse-manuals_en
 opensuse-reference_en-pdf
 opensuse-security_en-pdf
+#pragma online
 opensuse-startup_en-pdf
 opensuse-tuning_en-pdf
 -Prc:
@@ -23,6 +24,7 @@ dhcp-doc
 docbook-tdg
 gcc-info
 gcc46-info
+#pragma online
 gnome-devel-docs
 gnome-user-docs
 gnucash-docs
