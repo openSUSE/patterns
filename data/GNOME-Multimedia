@@ -21,11 +21,7 @@ totem-browser-plugin
 //
 // Packages that really make sense
 //
-banshee
-banshee-backend-engine-gstreamer
-banshee-backend-platform-gnome
-banshee-backend-platform-unix
-banshee-extensions-default
+rhythmbox
 -Prc:
 
 +Psg:
