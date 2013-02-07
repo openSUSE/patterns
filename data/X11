@@ -40,8 +40,6 @@ yast2-scanner
 yast2-tv
 #endif
 
-// split of ConsoleKit
-ConsoleKit-x11
 // chooce icewm-lite if you have a choice
 icewm-lite
 xorg-x11-xauth
