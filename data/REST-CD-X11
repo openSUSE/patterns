@@ -9,4 +9,16 @@ yast2-bootloader
 yast2-proxy
 yast2-network
 yast2-hardware-detection
+
+patterns-openSUSE-xfce
+fileroller
+leafpad
+midori
+// For screenlocking to work in xfce
+xscreensaver
+
+// For reading pdf manuals
+epdfview
+
+gparted
 -Prc:
