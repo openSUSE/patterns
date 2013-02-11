@@ -9,6 +9,7 @@ kgpg
 ksnapshot
 kwalletmanager
 mozilla-kde4-integration
+kio_mtp
 -Prc:
 +Psg:
 marble
