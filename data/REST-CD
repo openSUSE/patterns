@@ -25,7 +25,6 @@ smbios-utils-python
 
 //lvm2 support (#301382)
 lvm2
-bundle-lang-common-en
 
 aspell-en
 cifs-utils
@@ -33,27 +32,6 @@ input-utils
 nss_ldap
 pam_krb5
 pam_ldap
-
-susehelp_en
-
-yast2-trans-cs
-yast2-trans-da
-yast2-trans-de
-yast2-trans-en_GB
-yast2-trans-en_US
-yast2-trans-es
-yast2-trans-fr
-yast2-trans-hu
-yast2-trans-it
-yast2-trans-ja
-yast2-trans-pl
-yast2-trans-pt
-yast2-trans-pt_BR
-yast2-trans-ru
-yast2-trans-stats
-yast2-trans-sv
-yast2-trans-zh_CN
-yast2-trans-zh_TW
 
 krb5-client
 
@@ -113,9 +91,6 @@ zd1211-firmware
 // rescue
 dd_rescue
 
-// required by yast2-dsl (#377472)
-smpppd
-
 // #396109
 alsa-firmware
 awesfx
@@ -171,11 +146,6 @@ virtualbox-guest-tools
 
 // bug#591085
 open-vm-tools
-
-sssd
-#if defined(__x86_64__)
-sssd-32bit
-#endif
 
 // parted GUI
 gparted
