@@ -1,3 +1,6 @@
 +Prc:
 ImageMagick
+
+lightdm
+lightdm-gtk-greeter
 -Prc:
