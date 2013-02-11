@@ -6,6 +6,7 @@ lightdm-gtk-greeter
 
 libgnomesu
 libyui-gtk4
+libyui-gtk-pkg4
 yast2-control-center-gnome
 yast2-storage
 yast2-bootloader
