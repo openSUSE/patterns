@@ -30,4 +30,6 @@ sssd
 sssd-32bit
 #endif
 
+gtk2-branding-openSUSE
+
 -Prc:
