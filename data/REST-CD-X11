@@ -10,7 +10,6 @@ yast2-proxy
 yast2-network
 yast2-hardware-detection
 
-patterns-openSUSE-xfce
 fileroller
 leafpad
 midori
