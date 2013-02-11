@@ -3,4 +3,10 @@ ImageMagick
 
 lightdm
 lightdm-gtk-greeter
+
+yast2-storage
+yast2-bootloader
+yast2-proxy
+yast2-network
+yast2-hardware-detection
 -Prc:
