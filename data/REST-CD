@@ -173,6 +173,12 @@ virtualbox-guest-tools
 open-vm-tools
 
 sssd
+#if defined(__x86_64__)
+sssd-32bit
+#endif
+
+// parted GUI
+gparted
 
 // bnc#728529
 elilo

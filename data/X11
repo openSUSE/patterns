@@ -34,12 +34,6 @@ translation-update
 suspend
 #endif
 
-// yast modules for the desktop
-yast2-scanner
-#if !defined(__s390__)
-yast2-tv
-#endif
-
 // chooce icewm-lite if you have a choice
 icewm-lite
 xorg-x11-xauth
