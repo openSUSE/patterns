@@ -20,7 +20,6 @@ gnome-keyring-pam
 //
 // core desktop functionality
 //
-yast2-control-center-gnome
 xfce4-mixer
 xfce4-panel-plugin-mixer
 xfce4-appfinder

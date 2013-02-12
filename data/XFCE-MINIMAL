@@ -32,6 +32,11 @@ xfce4-notifyd
 xfce4-terminal
 libxfce4ui-tools
 xfce4-panel-plugin-xkb
+
+//
+// core desktop functionality
+//
+yast2-control-center-gnome
 -Prc:
 
 +Psg:
