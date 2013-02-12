@@ -37,6 +37,11 @@ xfce4-panel-plugin-xkb
 // core desktop functionality
 //
 yast2-control-center-gnome
+
+//
+// additional desktop utilities
+//
+file-roller
 -Prc:
 
 +Psg:
