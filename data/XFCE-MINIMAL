@@ -42,6 +42,7 @@ yast2-control-center-gnome
 // additional desktop utilities
 //
 file-roller
+ristretto
 -Prc:
 
 +Psg:
