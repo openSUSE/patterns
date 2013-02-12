@@ -1,6 +1,4 @@
 +Prc:
-ImageMagick
-
 lightdm
 lightdm-gtk-greeter
 
@@ -10,7 +8,7 @@ yast2-proxy
 yast2-network
 yast2-hardware-detection
 
-fileroller
+file-roller
 leafpad
 midori
 // For screenlocking to work in xfce

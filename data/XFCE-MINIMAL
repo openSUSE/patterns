@@ -1,5 +1,6 @@
 +Prq:
 thunar
+xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
 xfce4-session
@@ -42,6 +43,7 @@ yast2-control-center-gnome
 // additional desktop utilities
 //
 file-roller
+ristretto
 -Prc:
 
 +Psg:
