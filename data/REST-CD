@@ -154,4 +154,8 @@ elilo
 efibootmgr
 #endif
 
+// Backup and Copying utilites
+gnu_ddrescue
+lftp
+grsync
 -Prc:
