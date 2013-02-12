@@ -1,0 +1,56 @@
++Prq:
+thunar
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfconf
+xfdesktop
+xfwm4
+-Prq:
+
++Prc:
+//
+// low level functionality
+//
+avahi
+dbus-1-x11
+// bnc#540627
+xdg-utils
+xdg-user-dirs-gtk
+desktop-file-utils
+shared-mime-info
+NetworkManager
+NetworkManager-gnome
+// use gnomesu as su wrapper
+libgnomesu
+// bnc#440285
+pinentry-gtk2
+libyui-gtk-pkg4
+xscreensaver
+xfce4-notifyd
+xfce4-terminal
+libxfce4ui-tools
+xfce4-panel-plugin-xkb
+-Prc:
+
++Psg:
+//
+// branding
+//
+exo-branding-openSUSE
+gconf2-branding-openSUSE
+libgarcon-branding-openSUSE
+libxfce4ui-branding-openSUSE
+lightdm-gtk-greeter-branding-openSUSE
+midori-branding-openSUSE
+thunar-volman-branding-openSUSE
+wallpaper-branding-openSUSE
+xfce4-notifyd-branding-openSUSE
+xfce4-panel-branding-openSUSE
+xfce4-session-branding-openSUSE
+xfce4-settings-branding-openSUSE
+xfce4-splash-branding-openSUSE
+xfdesktop-branding-openSUSE
+xfwm4-branding-openSUSE
+-Psg:

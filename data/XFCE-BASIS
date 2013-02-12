@@ -1,36 +1,15 @@
+// Please note: most is in XFCE-MINIMAL, which defines the bare minimum for a xfce desktop
+// (to be used on rescue CD without much comfort)
+
 +Prq:
 patterns-openSUSE-xfce_basis
-thunar
-xfce4-panel
-xfce4-power-manager
-xfce4-session
-xfce4-settings
-xfconf
-xfdesktop
-xfwm4
 -Prq:
 
 +Prc:
 // ease debugging
 gdb
-//
-// low level functionality
-//
-avahi
-dbus-1-x11
-// bnc#540627
-xdg-utils
-xdg-user-dirs-gtk
-desktop-file-utils
-shared-mime-info
-NetworkManager
-NetworkManager-gnome
-// use gnomesu as su wrapper
-libgnomesu
 system-config-printer
 system-config-printer-applet
-// bnc#440285
-pinentry-gtk2
 // bnc#537362
 gnome-packagekit
 pk-update-icon
@@ -42,34 +21,10 @@ gnome-keyring-pam
 // core desktop functionality
 //
 yast2-control-center-gnome
-libyui-gtk-pkg4
-xscreensaver
 xfce4-mixer
 xfce4-panel-plugin-mixer
-xfce4-notifyd
 xfce4-appfinder
 xfce4-taskmanager
 thunar-volman
 tumbler
-xfce4-terminal
-libxfce4ui-tools
-xfce4-panel-plugin-xkb
-//
-// branding
-//
-exo-branding-openSUSE
-gconf2-branding-openSUSE
-libgarcon-branding-openSUSE
-libxfce4ui-branding-openSUSE
-lightdm-gtk-greeter-branding-openSUSE
-midori-branding-openSUSE
-thunar-volman-branding-openSUSE
-wallpaper-branding-openSUSE
-xfce4-notifyd-branding-openSUSE
-xfce4-panel-branding-openSUSE
-xfce4-session-branding-openSUSE
-xfce4-settings-branding-openSUSE
-xfce4-splash-branding-openSUSE
-xfdesktop-branding-openSUSE
-xfwm4-branding-openSUSE
 -Prc:
