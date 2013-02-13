@@ -1,4 +1,5 @@
-// This defines a bare minimum Xfce desktop used as base for openSUSE Rescue CD
+// This defines a bare minimum Xfce desktop used, for example, as
+// base for the openSUSE Rescue CD
 
 +Prq:
 patterns-openSUSE-xfce_basis
