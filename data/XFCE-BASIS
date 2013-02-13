@@ -1,29 +1,71 @@
-// Please note: most is in XFCE-MINIMAL, which defines the bare minimum for a xfce desktop
-// (to be used on rescue CD without much comfort)
+// This defines a bare minimum Xfce desktop used, for example, as
+// base for the openSUSE Rescue CD
 
 +Prq:
 patterns-openSUSE-xfce_basis
+thunar
+xfce4-appfinder
+xfce4-mixer
+xfce4-notifyd
+xfce4-panel-plugin-mixer
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfconf
+xfdesktop
+xfwm4
+thunar-volman
 -Prq:
 
 +Prc:
-// ease debugging
-gdb
-system-config-printer
-system-config-printer-applet
-// bnc#537362
-gnome-packagekit
-pk-update-icon
-// bnc#537365
+//
+// low level functionality
+//
+avahi
+dbus-1-x11
+// bnc#540627
+xdg-utils
+xdg-user-dirs-gtk
+desktop-file-utils
+shared-mime-info
+NetworkManager
+NetworkManager-gnome
+// use gnomesu as su wrapper
+libgnomesu
+// bnc#440285
+pinentry-gtk2
+// For screenlocking to work in xfce
+xscreensaver
+xfce4-terminal
+libxfce4ui-tools
+xfce4-panel-plugin-xkb
 
-gnome-keyring
-gnome-keyring-pam
 //
 // core desktop functionality
 //
-xfce4-mixer
-xfce4-panel-plugin-mixer
-xfce4-appfinder
-xfce4-taskmanager
-thunar-volman
-tumbler
+libyui-gtk-pkg4
+yast2-control-center-gnome
+
 -Prc:
+
++Psg:
+//
+// branding
+//
+exo-branding-openSUSE
+gconf2-branding-openSUSE
+libgarcon-branding-openSUSE
+libxfce4ui-branding-openSUSE
+lightdm-gtk-greeter-branding-openSUSE
+midori-branding-openSUSE
+thunar-volman-branding-openSUSE
+wallpaper-branding-openSUSE
+xfce4-notifyd-branding-openSUSE
+xfce4-panel-branding-openSUSE
+xfce4-session-branding-openSUSE
+xfce4-settings-branding-openSUSE
+xfce4-splash-branding-openSUSE
+xfdesktop-branding-openSUSE
+xfwm4-branding-openSUSE
+-Psg:
