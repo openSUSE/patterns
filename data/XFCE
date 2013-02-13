@@ -36,6 +36,26 @@ remmina-plugin-rdp
 remmina-plugin-vnc
 transmission-gtk
 gnome-games
+
+// Additional applications
+// ease debugging
+//
+gdb
+system-config-printer
+system-config-printer-applet
+// bnc#537362
+gnome-packagekit
+pk-update-icon
+// bnc#537365
+
+gnome-keyring
+gnome-keyring-pam
+//
+// core desktop functionality
+//
+xfce4-taskmanager
+thunar-volman
+tumbler
 -Prc:
 
 +Psg:
