@@ -153,6 +153,8 @@ elilo
 #if defined(__x86_64__)
 efibootmgr
 #endif
+// yast2-bootloader still suggests it (bnc#803401)
+grub
 
 // Backup and Copying utilites
 gnu_ddrescue
