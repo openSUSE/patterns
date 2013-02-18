@@ -1,4 +1,7 @@
 +Prc:
+// lightdm requires libmozjs185-1_0 for the
+// shutdown/restart menu in the greeter to work
+libmozjs185-1_0
 lightdm
 lightdm-gtk-greeter
 
