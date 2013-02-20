@@ -50,6 +50,8 @@ libosip2-devel
 
 +Psg:
 build
+// bnc#804006
+osc
 gcc-fortran
 gcc-objc
 // Matz thinks people want that
