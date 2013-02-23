@@ -6,3 +6,7 @@ patterns-openSUSE-sw_management_kde4
 apper
 -Prc:
 
++Psg:
+libyui-qt4
+libyui-qt-pkg4
+-Psg:
