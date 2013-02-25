@@ -44,6 +44,13 @@ branding-openSUSE
 grub2
 grub2-efi
 #endif
+#if defined(__i386__) 
+grub2-i386-efi
+#endif
+#if defined (__x86_64__)
+grub2-x86_64-efi
+shim
+#endif
 #if defined(__powerpc__)
 lilo
 #endif
