@@ -1,7 +1,12 @@
 +Prc:
+// bnc#798769: lightdm requires libmozjs185-1_0 for
+// the shutdown/restart menu in the greeter to work
+libmozjs185-1_0
 lightdm
 lightdm-gtk-greeter
 
+yast2-country
+yast2-trans-stats
 yast2-storage
 yast2-bootloader
 yast2-proxy
