@@ -4,5 +4,8 @@ patterns-openSUSE-sw_management_gnome
 
 +Prc:
 gnome-packagekit
-
 -Prc:
+
++Psg:
+libyui-gtk-pkg4
+-Psg:
