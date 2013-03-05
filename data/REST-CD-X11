@@ -5,6 +5,8 @@ libmozjs185-1_0
 lightdm
 lightdm-gtk-greeter
 
+yast2-country
+yast2-trans-stats
 yast2-storage
 yast2-bootloader
 yast2-proxy
