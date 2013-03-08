@@ -91,7 +91,7 @@ v4l-tools
 install-initrd
 // for yast2-scanner
 sane-backends             // mandatory
-hplip                     // optionally, this should be already installed by default
+hplip                     // optionally
 iscan-free                // optionally, open source, derived from iscan
 // themeing for hardcore KDE lovers
 yast2-theme-openSUSE-Crystal
