@@ -42,7 +42,6 @@ systemd-sysvinit
 branding-openSUSE
 #if defined(__i386__) || defined (__x86_64__)
 grub2
-grub2-efi
 #endif
 #if defined(__i386__) 
 grub2-i386-efi
