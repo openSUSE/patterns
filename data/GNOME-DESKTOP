@@ -75,7 +75,6 @@ dasher
 gconf-editor
 gnome-backgrounds
 gnome-media
-hamster-applet
 // bnc#698250
 gnome-color-manager
 -Psg:
