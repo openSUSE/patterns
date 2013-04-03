@@ -8,5 +8,5 @@ xorg-x11-driver-input
 wacom-kmp
 xournal
 xstroke
-xvkbd
+eekboard
 -Prc:
