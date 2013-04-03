@@ -31,6 +31,14 @@ spu-tools
 pdisk
 #endif
 sbin_init
+
+util-linux
+// which, time, adjtimex have been part of util-linux upto 12.3
+// needs to be installed or packages fixed first
+adjtimex
+time
+which
+
 -Prq:
 
 +Prc:
