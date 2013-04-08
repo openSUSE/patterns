@@ -9,7 +9,6 @@ wpa_supplicant
 crda
 wireless-regdb
 iw
-xvkbd
 -Prc:
 +Psg:
 irda
