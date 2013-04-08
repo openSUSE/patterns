@@ -20,10 +20,10 @@ eog
 evince
 evolution
 file-roller
-gcalctool
 gcr-viewer
 gedit
 gnome-bluetooth
+gnome-calculator
 gnome-contacts
 gnome-dictionary
 gnome-documents
@@ -52,7 +52,7 @@ zenity
 // Packages that really make sense
 //
 // Extension so users can shutdown/hibernate
-gnome-shell-extension-alt-status-menu
+gnome-shell-extension-alternative-status-menu
 // Tool for advanced configuration of printers
 system-config-printer-applet
 system-config-printer
@@ -75,7 +75,6 @@ dasher
 gconf-editor
 gnome-backgrounds
 gnome-media
-hamster-applet
 // bnc#698250
 gnome-color-manager
 -Psg:
