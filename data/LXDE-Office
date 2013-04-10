@@ -4,7 +4,7 @@ patterns-openSUSE-lxde_office
 
 +Prc:
 abiword
-epdfview
+mupdf
 gnumeric
 goffice
 -Prc:
