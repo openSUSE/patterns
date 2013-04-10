@@ -16,7 +16,7 @@ yast2-hardware-detection
 file-roller
 leafpad
 midori
-epdfview
+mupdf
 gparted
 photorec
 ristretto
