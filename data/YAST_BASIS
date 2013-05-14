@@ -13,8 +13,7 @@ yast2-irda
 yast2-ldap
 yast2-mail
 yast2-mouse
-libyui-ncurses4
-libyui-ncurses-pkg4
+libyui-ncurses-pkg5
 yast2-network
 yast2-online-update
 yast2-online-update-frontend
@@ -61,10 +60,8 @@ yast2-product-creator
 autoyast2
 autoyast2-installation
 inst-source-utils
-libyui-qt4
-libyui-qt-pkg4
-libyui-gtk4
-libyui-gtk-pkg4
+libyui-qt-pkg5
+libyui-gtk-pkg5
 yast2-autofs
 yast2-drbd
 yast2-firstboot
