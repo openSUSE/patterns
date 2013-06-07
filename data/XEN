@@ -17,6 +17,7 @@ xen-doc-pdf
 xterm
 yast2-vm
 virt-viewer
+libvirt-daemon-xen
 -Prc:
 +Psg:
 // #382423
