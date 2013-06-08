@@ -3,6 +3,7 @@ patterns-openSUSE-update_test
 -Prq:
 
 +Prc:
+aaa_base-malloccheck
 update-test-trival
 update-test-affects-package-manager
 update-test-security
