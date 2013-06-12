@@ -12,13 +12,13 @@ vorbis-tools
 -Prc:
 +Psg:
 bsd-games
-findutils-locate
 grepmail
 irssi
 links
 nano
 ncftp
 minicom
+mlocate
 mutt
 slrn
 pinfo
