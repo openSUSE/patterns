@@ -3,7 +3,6 @@ patterns-openSUSE-yast2_basis
 -Prq:
 
 +Prq:
-limal-perl
 yast2
 yast2-country
 yast2-firewall
