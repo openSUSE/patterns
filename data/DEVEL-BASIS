@@ -22,7 +22,7 @@ zlib-devel
 
 +Prc:
 bin86
-libdb-4_5-devel
+db-devel
 gcc-c++
 gcc-info
 glibc-info
