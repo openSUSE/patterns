@@ -72,6 +72,7 @@ dhcp_dns_server:	DHCP and DNS Server
 directory_server:	Directory Server (LDAP)
 file_server:		File Server
 gateway_server:		Internet Gateway
+kvm_server:             KVM Virtual Machine Host Server
 lamp_server:		Web and LAMP Server
 mail_server:		Mail and News Server
 misc_server:		Misc. Server
