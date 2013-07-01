@@ -13,7 +13,6 @@ kernel-xen
 #endif
 virt-manager
 xen-doc-html
-xen-doc-pdf
 xterm
 yast2-vm
 virt-viewer
