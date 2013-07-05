@@ -1,0 +1,52 @@
++Prq:
+#if defined(__x86_64__)
+kernel-desktop
+#else
+kernel-default
+#endif
+kernel-firmware
+-Prq:
+
++Prc:
+//lvm2 support (#301382)
+lvm2
+
+// prefer the full version for installation
+cracklib-dict-full
+
+// filesystem(minix)
+util-linux
+// filesystem(ext2)
+e2fsprogs
+// filesystem(reiserfs)
+reiserfs
+// filesystem(jfs)
+jfsutils
+// filesystem(ntfs-3g)
+ntfs-3g
+// filesystem(xfs)
+xfsprogs
+// filesystem(vfat)
+dosfstools
+// crypto partitions
+cryptsetup
+// filesystem(btrfs)
+btrfsprogs
+
+#if defined(__x86_64__)
+efibootmgr
+#endif
+
+xf86-video-ati
+xf86-video-cirrus
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-modesetting
+xf86-video-neomagic
+xf86-video-nv
+xf86-video-qxl
+xf86-video-v4l
+xf86-video-vesa
+xf86-video-vmware
+
+-Prc:
