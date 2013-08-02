@@ -18,7 +18,7 @@ xorg-x11-driver-input
 xorg-x11-driver-video
 xorg-x11-libX11-ccache
 // provides e.g. xdm
-xorg-x11
+xorg-x11-essentials
 xorg-x11-Xvnc
 // people love having numlock configurable
 numlockx
