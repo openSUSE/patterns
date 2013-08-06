@@ -1,4 +1,14 @@
-+Prc:
++Prq:
+// minimal set of yast modules
+yast2-country
+yast2-trans-stats
+yast2-storage
+yast2-bootloader
+yast2-proxy
+yast2-network
+yast2-hardware-detection
+yast2-x11
+
 bundle-lang-common-en
  
 susehelp_en
@@ -32,4 +42,4 @@ sssd-32bit
 
 gtk2-branding-openSUSE
 
--Prc:
+-Prq:
