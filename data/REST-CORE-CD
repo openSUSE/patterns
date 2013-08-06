@@ -49,4 +49,7 @@ xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
 
+// yast2 gui installation
+yast2-x11
+
 -Prc:

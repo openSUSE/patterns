@@ -65,4 +65,6 @@ yast2-trans-xh
 yast2-trans-zh_CN
 yast2-trans-zh_TW
 yast2-trans-zu
+// yast2 gui installation
+yast2-x11
 -Prq:

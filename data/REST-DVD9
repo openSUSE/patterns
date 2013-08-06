@@ -1,10 +1,10 @@
 +Prc:
 netbeans
-javamail-javadoc                               
-IPAMincho                                           
-IPAPGothic                                          
-IPAPMincho                                          
-bitstream-vera                                      
+javamail-javadoc
+IPAMincho
+IPAPGothic
+IPAPMincho
+bitstream-vera
 texlive-cjk
 texlive-xetex
 texlive-context
@@ -15,4 +15,6 @@ z88
 lilypond-documentation
 openclipart-png
 libqt4-devel-doc-data
+// yast2 gui installation
+yast2-x11
 -Prc:

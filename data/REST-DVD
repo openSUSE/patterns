@@ -45,7 +45,9 @@ yast2-python-bindings
 // kdump+tools
 kdump
 kexec-tools
-yast2-kdump 
+yast2-kdump
+// yast2 gui installation
+yast2-x11
 
 // #296387
 xournal
@@ -102,7 +104,7 @@ powerprefs
 
 // minimal korean support (bnc#390099)
 unfonts
-scim-hangul 
+scim-hangul
 
 // #390825
 kvm
@@ -148,11 +150,11 @@ libstdc++33
 qinternet
 
 // meanwhile plugin (bnc#549711)
-libpurple-meanwhile 
+libpurple-meanwhile
 
 #if defined(__x86_64__)
 // bnc#581144
-gtk2-32bit 
+gtk2-32bit
 #endif
 
 // bnc#605888
