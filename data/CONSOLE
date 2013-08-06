@@ -12,7 +12,7 @@ vorbis-tools
 -Prc:
 +Psg:
 bsd-games
-findutils-locate
+mlocate
 grepmail
 irssi
 links

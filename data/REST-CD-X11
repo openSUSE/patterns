@@ -9,6 +9,7 @@ yast2-bootloader
 yast2-proxy
 yast2-network
 yast2-hardware-detection
+// yast2 gui installation
 yast2-x11
 
 //

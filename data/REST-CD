@@ -126,7 +126,7 @@ xfsdump
 reiserfs
 
 // fate#306643
-mc 
+mc
 
 // laptop stuff
 irda
@@ -138,7 +138,7 @@ wireless-regdb
 iw
 
 // bug#589416
-virtualbox-guest-tools 
+virtualbox-guest-tools
 
 // bug#591085
 open-vm-tools
@@ -187,5 +187,8 @@ xf86-video-v4l
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
+
+// yast2 gui installation
+yast2-x11
 
 -Prc:
