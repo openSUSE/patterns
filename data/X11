@@ -3,6 +3,9 @@ patterns-openSUSE-x11
 -Prq:
 
 +Prc:
+// we need to have this for now as it triggers all kind of yast functionality if installed
+xorg-x11
+
 xkeyboard-config
 xorg-x11-server
 #if defined __x86_64__
