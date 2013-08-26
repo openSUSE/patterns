@@ -1,5 +1,6 @@
 x11_yast
 xen_server
+kvm_server
 32bit
 64bit
 apparmor
