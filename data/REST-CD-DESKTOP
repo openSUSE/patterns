@@ -8,7 +8,9 @@ yast2-proxy
 yast2-network
 yast2-hardware-detection
 yast2-x11
+-Prq:
 
++Prc:
 bundle-lang-common-en
  
 susehelp_en
@@ -42,4 +44,4 @@ sssd-32bit
 
 gtk2-branding-openSUSE
 
--Prq:
+-Prc:
