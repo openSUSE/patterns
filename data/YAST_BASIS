@@ -10,7 +10,6 @@ yast2-hardware-detection
 yast2-installation
 yast2-ldap
 yast2-mail
-yast2-mouse
 libyui-ncurses-pkg5
 yast2-network
 yast2-online-update
