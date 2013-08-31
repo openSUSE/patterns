@@ -6,9 +6,8 @@ patterns-openSUSE-gnome
 //
 // Official upstream
 //
-// #544192
-alacarte
 baobab
+bijiben
 // #302492
 brasero
 // bnc#366894
@@ -43,7 +42,6 @@ orca
 // #545263
 seahorse
 sushi
-tomboy
 totem
 totem-browser-plugin
 vino
@@ -51,8 +49,7 @@ zenity
 //
 // Packages that really make sense
 //
-// Extension so users can shutdown/hibernate
-gnome-shell-extension-alternative-status-menu
+deja-dup
 // Tool for advanced configuration of printers
 system-config-printer-applet
 system-config-printer
