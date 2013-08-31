@@ -9,6 +9,7 @@ patterns-openSUSE-gnome
 // #544192
 alacarte
 baobab
+bijiben
 // #302492
 brasero
 // bnc#366894
@@ -43,7 +44,6 @@ orca
 // #545263
 seahorse
 sushi
-tomboy
 totem
 totem-browser-plugin
 vino
