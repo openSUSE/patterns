@@ -5,13 +5,13 @@ patterns-openSUSE-devel_C_C++
 glibc-info
 boost-devel
 boost-jam
-ddd
 posix_cc
 swig
 valgrind
 ltrace
 -Prc:
 +Psg:
+ddd
 // 403368
 dejagnu
 expect
