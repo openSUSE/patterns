@@ -7,10 +7,15 @@ patterns-openSUSE-gnome_multimedia
 // GStreamer magic
 //
 // software.openSUSE.org/codecs      
+gstreamer-plugins-base
+gstreamer-plugins-bad
+gstreamer-plugins-good
+gstreamer-plugins-ugly
 gstreamer-0_10-plugins-base
 gstreamer-0_10-plugins-good
 // bnc#445312
 gstreamer-0_10-plugins-bad
+gstreamer-0_10-plugins-ugly
 // bnc#445314
 gstreamer-utils
 //
