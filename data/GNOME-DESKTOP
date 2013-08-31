@@ -51,6 +51,7 @@ zenity
 //
 // Packages that really make sense
 //
+deja-dup
 // Tool for advanced configuration of printers
 system-config-printer-applet
 system-config-printer
