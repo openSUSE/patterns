@@ -51,8 +51,6 @@ zenity
 //
 // Packages that really make sense
 //
-// Extension so users can shutdown/hibernate
-gnome-shell-extension-alternative-status-menu
 // Tool for advanced configuration of printers
 system-config-printer-applet
 system-config-printer
