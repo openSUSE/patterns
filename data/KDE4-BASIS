@@ -55,6 +55,7 @@ skanlite
 kwebkitpart
 soprano-backend-redland
 soprano-backend-virtuoso
+desktop-branding
 -Prc:
 +Psg:
 qtcurve-gtk2
