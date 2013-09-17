@@ -3,13 +3,9 @@ patterns-openSUSE-books
 -Prq:
 
 +Prc:
-opensuse-kvm_en-pdf
 opensuse-manuals_en
-opensuse-reference_en-pdf
-opensuse-security_en-pdf
 #pragma online
 opensuse-startup_en-pdf
-opensuse-tuning_en-pdf
 -Prc:
 
 +Psg:
@@ -59,29 +55,12 @@ xorg-x11-doc
 #pragma online
 yast2-devel-doc
 #pragma online
-opensuse-kvm_de-pdf
-#pragma online
-opensuse-kvm_ru-pdf
 opensuse-manuals_de
 opensuse-manuals_hu
 opensuse-manuals_ru
 #pragma online
-opensuse-reference_de-pdf
-#pragma online
-opensuse-reference_hu-pdf
-#pragma online
-opensuse-reference_ru-pdf
-#pragma online
-opensuse-security_de-pdf
-#pragma online
-opensuse-security_ru-pdf
-#pragma online
 opensuse-startup_de-pdf
 #pragma online
 opensuse-startup_ru-pdf
-#pragma online
-opensuse-tuning_de-pdf
-#pragma online
-opensuse-tuning_ru-pdf
 -Psg:
 
