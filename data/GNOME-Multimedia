@@ -26,6 +26,7 @@ totem-browser-plugin
 //
 // Packages that really make sense
 //
+gnome-music
 rhythmbox
 -Prc:
 

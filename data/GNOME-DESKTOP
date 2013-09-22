@@ -26,11 +26,13 @@ gedit
 gnome-bluetooth
 gnome-calculator
 gnome-contacts
+gnome-calculator
 gnome-dictionary
 gnome-documents
 // #554954
 gnome-disk-utility
 gnome-font-viewer
+gnome-maps
 gnome-nettool
 gnome-screenshot
 gnome-system-monitor
