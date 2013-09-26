@@ -75,7 +75,6 @@ telepathy-sofiasip
 dasher
 gconf-editor
 gnome-backgrounds
-gnome-media
 // bnc#698250
 gnome-color-manager
 -Psg:

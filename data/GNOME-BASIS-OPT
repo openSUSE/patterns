@@ -1,10 +1,7 @@
 +Prc:
-gnome-applets
 // #394406
 dynamic-wallpaper-branding-openSUSE
 -Prc:
 
 +Psg:
-// #301664 -> suggests due to 380248
-gnome-commander
 -Psg:

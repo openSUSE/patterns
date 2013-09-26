@@ -32,15 +32,10 @@ rhythmbox
 
 +Psg:
 //
-// Official upstream
-//
-gnome-media
-//
 // Packages that really make sense
 //
 paprefs
 pavucontrol
 pitivi
-rhythmbox
 sound-juicer
 -Psg:
