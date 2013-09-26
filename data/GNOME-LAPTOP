@@ -4,8 +4,6 @@ patterns-openSUSE-gnome_laptop
 
 +Prc:
 gnome-bluetooth
-// bnc#372208
-gnome-phone-manager
 -Prc:
 
 +Psg:
