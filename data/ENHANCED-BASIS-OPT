@@ -3,8 +3,6 @@ at
 bc
 bootcycle
 cracklib-dict-full
-// autoconfig new printers
-udev-configure-printer
 OpenPrintingPPDs
 dos2unix
 ed

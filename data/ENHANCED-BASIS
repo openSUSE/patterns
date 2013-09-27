@@ -153,6 +153,8 @@ cryptsetup
 scout
 command-not-found
 lsb-release
+// autoconfig new printers - bnc#808014
+udev-configure-printer
 -Prc:
 
 +Psg:
