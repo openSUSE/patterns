@@ -18,5 +18,6 @@ efont-unicode
 xorg-x11-fonts
 virt-viewer
 virt-manager
+libvirt
 libvirt-daemon-qemu
 -Prc:
