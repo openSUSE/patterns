@@ -16,10 +16,10 @@ xen-doc-html
 xterm
 yast2-vm
 virt-viewer
-libvirt
 libvirt-daemon-xen
 -Prc:
 +Psg:
 // #382423
 install-initrd
+libvirt
 -Psg:
