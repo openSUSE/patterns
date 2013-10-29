@@ -65,6 +65,5 @@ lilo
 
 +Psg:
 grub
-// default old syslog daemon
-rsyslog
+systemd-logger
 -Psg:
