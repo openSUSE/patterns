@@ -13,12 +13,11 @@ konversation
 ktorrent
 choqok
 // bnc#533580 
-NetworkManager-openvpn-kde4
-NetworkManager-vpnc-kde4
-NetworkManager-pptp-kde4
+plasma-nm-openvpn
+plasma-nm-vpnc
+plasma-nm-pptp
 -Prc:
 +Psg:
-arora
 kppp
 knode
 rekonq
