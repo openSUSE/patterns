@@ -8,7 +8,7 @@ kbd
 #endif
 kernel
 mkinitrd
-module-init-tools
+kmod-compat
 netcfg
 openssh
 procps
