@@ -30,7 +30,6 @@ yast2-users
 yast2-xml
 -Prq:
 +Prc:
-yast2-backup
 yast2-inetd
 yast2-iscsi-client
 yast2-kerberos-client
@@ -40,7 +39,6 @@ yast2-nfs-client
 yast2-nis-client
 yast2-ntp-client
 yast2-printer
-yast2-restore
 yast2-slp
 yast2-sudo
 // see the discussion in #386473
