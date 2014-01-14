@@ -44,7 +44,7 @@ xfce4-panel-plugin-xkb
 //
 // core desktop functionality
 //
-libyui-gtk-pkg5
+libyui-gtk-pkg
 yast2-control-center-gnome
 
 -Prc:

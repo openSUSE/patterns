@@ -3,7 +3,7 @@ patterns-openSUSE-x11_yast
 -Prq:
 
 +Prc:
-libyui-qt-pkg5
+libyui-qt-pkg
 yast2-control-center-qt
 
 // yast modules for the desktop

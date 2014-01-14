@@ -10,7 +10,7 @@ yast2-hardware-detection
 yast2-installation
 yast2-ldap
 yast2-mail
-libyui-ncurses-pkg5
+libyui-ncurses-pkg
 yast2-network
 yast2-online-update
 yast2-online-update-frontend
@@ -55,8 +55,8 @@ yast2-product-creator
 autoyast2
 autoyast2-installation
 inst-source-utils
-libyui-qt-pkg5
-libyui-gtk-pkg5
+libyui-qt-pkg
+libyui-gtk-pkg
 yast2-autofs
 yast2-drbd
 yast2-firstboot
