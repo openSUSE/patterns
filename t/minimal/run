@@ -5,10 +5,12 @@ use solv;
 use Data::Dump;
 
 use Getopt::Long;
+my $exit_status;
 my %options;
 Getopt::Long::Configure("no_ignore_case");
 GetOptions (
 	\%options,
+	"lock=s@",
 	"explain=s",
 	"list",
 	"size",
@@ -18,6 +20,7 @@ GetOptions (
 	"repo=s@",
 ) or die "invalid arguments\n";
 
+$options{'lock'} = [ split(/,/, join(',', @{$options{'lock'}})) ] if $options{'lock'};
 $options{'repo'} = [ split(/,/, join(',', @{$options{'repo'}})) ] if $options{'repo'};
 $options{'packs'} = [ split(/,/, join(',', @{$options{'packs'}})) ] if $options{'packs'};
 $options{'size'} = 1 unless ($options{'explain'} || $options{'list'});
@@ -29,7 +32,7 @@ unless ($options{'arch'}) {
 }
 
 my $pool = solv::Pool->new();
-$pool->set_debuglevel(1);
+#$pool->set_debuglevel(1);
 $pool->setarch ($options{'arch'});
 
 my %repos;
@@ -38,8 +41,6 @@ for my $name (@{$options{'repo'}}) {
 	$repo->add_solv ($name.'.solv');
 	$repos{$name} = $repo;
 }
-
-dd \%repos;
 
 $pool->addfileprovides();
 # will segfault if you don't do that!
@@ -54,55 +55,41 @@ my @jobs;
 
 for my $p (@{$options{'packs'}}) {
 	my ($n, $r) = split(/@/, $p, 2);
-	print "select $p $n $r\n";
 	my $sel = $pool->select($n, $solv::Selection::SELECTION_NAME);
 	$sel->filter($repos{$r}->Selection()) if $r;
 	die "can't find $p\n" if $sel->isempty();
-	for my $s ($sel->solvables()) {
-		dd $s->str;
-	}
 	my @jj = $sel->jobs($solv::Job::SOLVER_INSTALL);
 	for my $j (@jj) {
-		dd $j->str;
+		push @jobs, $j;
+	}
+}
+for my $p (@{$options{'lock'}}) {
+	my $sel = $pool->select($p, $solv::Selection::SELECTION_NAME);
+	my @jj = $sel->jobs($solv::Job::SOLVER_LOCK);
+	for my $j (@jj) {
 		push @jobs, $j;
 	}
 }
 
-#$solver->set_dont_install_recommended(1) if $options{'no-recommends'};
 # Solve the jobs
 $solver->set_flag($solv::Solver::SOLVER_FLAG_IGNORE_RECOMMENDED, 1) if $options{'no-recommends'};
 my @problems = $solver->solve(\@jobs);
 
-dd \@problems;
+if (@problems) {
+	print "+++ PROBLEMS: +++\n";
+	for my $p (@problems) {
+		print $p->str, "\n";
+		for my $sol ($p->solutions) {
+			print "  + solution\n";
+			for my $elem ($sol->elements) {
+				print "    - ", $elem->str, "\n";
+			}
+		}
+	}
+	$exit_status = 1;
+}
 
 my $trans = $solver->transaction();
-
-#if ($options{'explain'}) {
-#	for my $d ($solver->decisions()) {
-#		printf "%s %s\n", $d->op_s(), $d->solvable()->attr_values("solvable:name");;
-#		my $ri = $d->ruleinfo($job);
-#		if ($ri) {
-#			printf "  %s\n", $ri->string();
-#		}
-#	}
-#}
-#
-## Problems
-#my $pc = $solver->problems_count();
-#if ($pc) {
-#    print "Found $pc problems\n";
-#	my @problems = $solver->problems ($job);
-#	for my $p (@problems) {
-#	        my $ps = $p->string();
-#		print "Problem $ps\n";
-#	        my @solutions = $p->solutions();
-#	        for my $s (@solutions) {
-#		    my $ss = $s->string();
-#		    print "  Solution $ss\n";
-#		}
-#	}
-#	exit(1);
-#}
 
 sub sortbysize
 {
@@ -159,3 +146,5 @@ if ($options{'size'}) {
 # my $transaction = $solver->transaction();
 # my $sizechange = $transaction->sizechange();
 # print "SIZE CHANGE: $sizechange kB\n";
+
+exit($exit_status);
