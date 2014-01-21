@@ -11,8 +11,6 @@ yast2-users
 yast2-bootloader
 // required to write ntp.conf (bnc#723018)
 yast2-ntp-client
-// yast2 gui installation
-yast2-x11
 -Prq:
 +Psg:
 autoyast2-installation
