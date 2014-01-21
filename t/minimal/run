@@ -9,7 +9,7 @@ my %options;
 Getopt::Long::Configure("no_ignore_case");
 GetOptions (
 	\%options,
-	"explain",
+	"explain=s",
 	"list",
 	"size",
 	"no-recommends",
@@ -54,9 +54,6 @@ my @jobs;
 
 for my $p (@{$options{'packs'}}) {
 	my ($n, $r) = split(/@/, $p, 2);
-#	$r = $pool->find_repo($r) if $r;
-#	my $pat = $pool->find($n, $r) || die "Failed to push job: $p";
-#	$job->install($pat);
 	print "select $p $n $r\n";
 	my $sel = $pool->select($n, $solv::Selection::SELECTION_NAME);
 	$sel->filter($repos{$r}->Selection()) if $r;
@@ -130,7 +127,13 @@ sub sortbyname
 # Print packages to install
 my @a = $trans->newsolvables();
 
-if ($options{'list'}) {
+if ($options{'explain'}) {
+	for my $s (@a) {
+		next unless $s->{'name'} eq $options{'explain'};
+		my ($type, $rule) = $solver->describe_decision($s);
+		dd $type, $rule->info()->problemstr();
+	}
+} elsif ($options{'list'}) {
 	for my $solvable (sort sortbyname @a) {
 		my $name = $solvable->{"name"};
 		printf "%s\n", $name;
