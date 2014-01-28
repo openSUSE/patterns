@@ -23,7 +23,7 @@ klogd
 rpcbind
 polkit-default-privs
 polkit
-#if defined(__powerpc__)
+#if defined(__powerpc__) && defined(__BIG_ENDIAN__)
 // #467330 (ps3)
 libspe
 spu-tools
