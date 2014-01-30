@@ -326,28 +326,28 @@ Requires: openSUSE-release
 Requires: openSUSE-build-key
 Requires: sysconfig
 Requires: klogd
-// enable NFS installation for minimal
+# enable NFS installation for minimal
 Requires: rpcbind
 Requires: polkit-default-privs
 Requires: polkit
 Requires: sbin_init
 Requires: util-linux
-// which, time, adjtimex have been part of util-linux upto 12.3
-// needs to be installed or packages fixed first
+# which, time, adjtimex have been part of util-linux upto 12.3
+# needs to be installed or packages fixed first
 Requires: adjtimex
 Requires: time
 Requires: which
 %ifarch ppc
 Recommends: libbspe
 Recommends: spu-tools
-// #739878 - install pdisk by default
+# #739878 - install pdisk by default
 Recommends: pdisk
 %endif
-// provides init script to load cpufreq modules
+# provides init script to load cpufreq modules
 Recommends: pm-utils
-// default init
+# default init
 Recommends: systemd-sysvinit
-// get it branded
+# get it branded
 Recommends: branding-openSUSE
 %ifarch %ix86 x86_64
 Recommends: grub2
@@ -470,7 +470,7 @@ Suggests: lftp
 Suggests: dar
 Suggests: par
 Suggests: makedev
-// #378747
+# #378747
 Suggests: cryptconfig
 Suggests: cnetworkmanager
 
@@ -525,20 +525,20 @@ Recommends: subversion
 %ifarch ppc
 Recommends: itrace
 %endif
-// most of our packages use this tool
+# most of our packages use this tool
 Recommends: fdupes
-// applying patches
+# applying patches
 Recommends: patch
 Recommends: binutils-devel
 Recommends: e2fsprogs-devel
 Recommends: libapparmor-devel
 Recommends: libosip2-devel
 Suggests: build
-// bnc#804006
+# bnc#804006
 Suggests: osc
 Suggests: gcc-fortran
 Suggests: gcc-objc
-// Matz thinks people want that
+# Matz thinks people want that
 Suggests: mpfr-devel
 Suggests: ccache
 Suggests: icecream
@@ -573,7 +573,7 @@ Recommends: swig
 Recommends: valgrind
 Recommends: ltrace
 Suggests: ddd
-// 403368
+# 403368
 Suggests: dejagnu
 Suggests: expect
 
@@ -625,7 +625,7 @@ Recommends: libwnck-devel
 Recommends: pango-devel
 Recommends: tracker-devel
 Recommends: vte-devel
-// Build tools
+# Build tools
 Recommends: gnome-common
 Recommends: gnome-doc-utils-devel
 Recommends: gobject-introspection-devel
@@ -720,7 +720,7 @@ Suggests: jakarta-commons-validator
 Suggests: javacc
 Suggests: jdepend
 Suggests: mysql-connector-java
-// just an editor
+# just an editor
 Suggests: jedit
 Suggests: java-1_7_0-openjdk-devel
 Suggests: mx4j
@@ -1007,7 +1007,7 @@ Provides: pattern-icon() = pattern-basis-devel
 Requires: pattern() = devel_basis
 # from data/DEVEL-Kernel
 Recommends: kernel-source
-// bnc#582415
+# bnc#582415
 Recommends: ctags
 Recommends: diffstat
 Recommends: git-core
@@ -1278,7 +1278,7 @@ Recommends: libQtWebKit-devel
 Suggests: libqt4-sql-mysql
 Suggests: libqt4-sql-postgresql
 Suggests: libqt4-sql-unixODBC
-// bnc#515160
+# bnc#515160
 Suggests: qt-creator
 
 
@@ -1366,11 +1366,11 @@ Recommends: tkcon
 Recommends: tkimg
 Recommends: tktable
 Recommends: tls
-// #387771
+# #387771
 Recommends: itcl-devel
 Recommends: itk
 Recommends: expect-devel
-// #387771
+# #387771
 Recommends: tclplug
 Suggests: PgTcl
 Suggests: scotty
@@ -1476,7 +1476,7 @@ Provides: pattern-icon() = pattern-basis-devel
 # from data/DEVEL-YaST
 Recommends: yast2-devtools
 Recommends: yast2-testsuite
-// Bug 304645 gives the list below:
+# Bug 304645 gives the list below:
 Recommends: yast2-pkg-bindings-devel-doc
 Recommends: yast2-core-devel
 Recommends: yast2-devel-doc
@@ -1571,13 +1571,13 @@ Recommends: terminology
 Recommends: desktop-branding
 
 # from data/COMMON-DESKTOP-OPT
-// packages a GTK application
+# packages a GTK application
 Recommends: gutenprint
-// MAYBE later lsb-graphics
+# MAYBE later lsb-graphics
 Recommends: icedtea-web
-// give net shares
+# give net shares
 Recommends: samba
-// needs python-qt4, see#649280#14
+# needs python-qt4, see#649280#14
 Suggests: hplip
 
 
@@ -1600,34 +1600,34 @@ Recommends: pattern() = yast2_basis
 Recommends: pattern() = enhanced_base_opt
 Recommends: pattern() = sw_management
 # from data/ENHANCED-BASIS
-// having a ftp command line client is good for moving log files
+# having a ftp command line client is good for moving log files
 Recommends: lukemftp
-// needed for detecting software raid - required by yast2-storage too
+# needed for detecting software raid - required by yast2-storage too
 Recommends: mdadm
-// #303857
+# #303857
 Recommends: kpartx
 Recommends: dmraid
-// man by default (#304687)
+# man by default (#304687)
 Recommends: man
-// fuser (psmisc) by default (#304694)
+# fuser (psmisc) by default (#304694)
 Recommends: psmisc
-// firewall by default
+# firewall by default
 Recommends: SuSEfirewall2
-// getfacl and setfacl
+# getfacl and setfacl
 Recommends: acl
-// getattr and setattr
+# getattr and setattr
 Recommends: attr
-// compressor is interesting
+# compressor is interesting
 Recommends: bzip2
-// printing considered cool
+# printing considered cool
 Recommends: cups-client
 Recommends: curl
 Recommends: cyrus-sasl-gssapi
 Recommends: cyrus-sasl-crammd5
 Recommends: cyrus-sasl-digestmd5
 Recommends: cyrus-sasl-plain
-// bnc#430895
-// cyrus-sasl-saslauthd
+# bnc#430895
+# cyrus-sasl-saslauthd
 Recommends: db-utils
 Recommends: diffutils
 Recommends: ethtool
@@ -1636,45 +1636,45 @@ Recommends: eject
 Recommends: file
 Recommends: fillup
 Recommends: findutils
-// /bin/ip considered useful
+# /bin/ip considered useful
 Recommends: iproute2
-// ping is required for network tests
+# ping is required for network tests
 Recommends: iputils
-// pager
+# pager
 Recommends: less
-// make it bunt
+# make it bunt
 Recommends: gfxboot
 Recommends: parted
 Recommends: mailx
 Recommends: genisoimage
-// we want a ssh server to be available
+# we want a ssh server to be available
 Recommends: openssh
 Recommends: perl-base
-// we rely on cron for daily/hourly 
+# we rely on cron for daily/hourly 
 Recommends: cronie
-// create log file tars
+# create log file tars
 Recommends: tar
 Recommends: wget
-// split out of ncurses
+# split out of ncurses
 Recommends: ncurses-utils
-// we want a branded boot
+# we want a branded boot
 Recommends: plymouth-branding-openSUSE
-// we want a branded grub2 too #757683
+# we want a branded grub2 too #757683
 Recommends: grub2-branding-openSUSE
-// #302569
+# #302569
 Recommends: alsa-plugins
-// useful for debugging
+# useful for debugging
 Recommends: strace
 Recommends: lsof
-// mount NTFS rw
+# mount NTFS rw
 Recommends: ntfs-3g
-// cups server for remote printing queues
+# cups server for remote printing queues
 Recommends: cups
-// delta rpms are considered cool for updates
+# delta rpms are considered cool for updates
 Recommends: deltarpm
 Recommends: autofs
 Recommends: bind-utils
-// Make plymouth the new default bootsplash
+# Make plymouth the new default bootsplash
 Recommends: plymouth
 Recommends: cyrus-sasl
 Recommends: dosfstools
@@ -1720,7 +1720,7 @@ Recommends: timezone
 Recommends: udev
 Recommends: utempter
 Recommends: wireless-tools
-// Our editor of choice
+# Our editor of choice
 Recommends: vim
 Recommends: xinetd
 Recommends: ntp
@@ -1730,7 +1730,7 @@ Recommends: ypbind
 Recommends: lilo
 Recommends: pdisk
 Recommends: powerpc32
-// #303737
+# #303737
 Recommends: mouseemu
 %endif
 %ifarch x86_64
@@ -1741,19 +1741,19 @@ Recommends: glibc-32bit
 Recommends: glibc-locale-32bit
 Recommends: numactl
 %endif
-// #375103
+# #375103
 Recommends: cifs-utils
-// lsusb is good for debugging USB devices - #401593
+# lsusb is good for debugging USB devices - #401593
 Recommends: usbutils
 Recommends: cryptsetup
-// Bug 424707 - Feature "Command not found" for openSUSE by default
+# Bug 424707 - Feature "Command not found" for openSUSE by default
 Recommends: scout
 Recommends: command-not-found
 Recommends: lsb-release
-// autoconfig new printers - bnc#808014
+# autoconfig new printers - bnc#808014
 Recommends: udev-configure-printer
 Suggests: reiserfs
-// #594778
+# #594778
 Suggests: tmpwatch
 
 
@@ -1780,14 +1780,14 @@ Recommends: OpenPrintingPPDs
 Recommends: dos2unix
 Recommends: ed
 Recommends: finger
-// 304995
-// fbset
+# 304995
+# fbset
 Recommends: groff
 Recommends: initviocons
 %ifarch ppc
 Recommends: hfsutils
 %endif
-// Current systems suffer from entropy starvation
+# Current systems suffer from entropy starvation
 %ifarch %ix86 x86_64
 Recommends: haveged
 %endif
@@ -1838,35 +1838,35 @@ Suggests: xfsprogs
 Suggests: smpppd
 Suggests: lynx
 Suggests: w3m-el
-// #373195
+# #373195
 Suggests: checkinstall
 Suggests: pwgen
-// delta apply
+# delta apply
 Suggests: xdelta
-// needed as soon as you want to do kerberos authentication
+# needed as soon as you want to do kerberos authentication
 Suggests: cyrus-sasl-gssapi
-// tool for xfs
+# tool for xfs
 Suggests: xfsdump
-// #393589
+# #393589
 Suggests: open-iscsi
-// #437252
+# #437252
 Suggests: pam_ssh
-// for old installs
+# for old installs
 Suggests: lilo
-// used by yast2-iscsi-server
+# used by yast2-iscsi-server
 Suggests: tgt
-// DELL computers mainly #403270, but #441079
+# DELL computers mainly #403270, but #441079
 Suggests: biosdevname
-// bnc#388570
+# bnc#388570
 Suggests: kerneloops
-// #754959
+# #754959
 %ifarch %ix86 x86_64
 Suggests: hyper-v
 %endif
-// alternative boot loaders
+# alternative boot loaders
 Suggests: elilo
 Suggests: efibootmgr
-// debugging boot
+# debugging boot
 Suggests: systemd-analyze
 
 
@@ -1919,12 +1919,12 @@ Recommends: xorg-x11-fonts-core
 Recommends: dejavu
 Recommends: ifnteuro
 Recommends: liberation-fonts
-// needed for instsys
+# needed for instsys
 Suggests: IPAGothic
 Suggests: IPAMincho
 Suggests: IPAPGothic
 Suggests: IPAPMincho
-//IPAUIGothic
+#IPAUIGothic
 Suggests: bitstream-vera
 
 
@@ -2023,19 +2023,19 @@ Recommends: pattern() = multimedia
 Recommends: pattern() = office
 Recommends: pattern() = gnome_utilities
 # from data/GNOME-DESKTOP
-//
-// Official upstream
-//
-// #544192
+#
+# Official upstream
+#
+# #544192
 Recommends: alacarte
 Recommends: baobab
 Recommends: bijiben
-// #302492
+# #302492
 Recommends: brasero
-// bnc#366894
+# bnc#366894
 Recommends: caribou
 Recommends: cheese
-// #594593
+# #594593
 Recommends: empathy
 Recommends: eog
 Recommends: evince
@@ -2049,41 +2049,41 @@ Recommends: gnome-contacts
 Recommends: gnome-calculator
 Recommends: gnome-dictionary
 Recommends: gnome-documents
-// #554954
+# #554954
 Recommends: gnome-disk-utility
 Recommends: gnome-font-viewer
 Recommends: gnome-maps
 Recommends: gnome-nettool
 Recommends: gnome-screenshot
 Recommends: gnome-system-monitor
-// #447627
+# #447627
 Recommends: gnome-user-share
 Recommends: gucharmap
-// #399801
+# #399801
 Recommends: mousetweaks
 Recommends: nautilus-sendto
 Recommends: orca
-// #545263
+# #545263
 Recommends: seahorse
 Recommends: sushi
 Recommends: totem
 Recommends: totem-browser-plugin
 Recommends: vino
 Recommends: zenity
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: deja-dup
-// Tool for advanced configuration of printers
+# Tool for advanced configuration of printers
 Recommends: system-config-printer-applet
 Recommends: system-config-printer
-// #608156
+# #608156
 Recommends: tracker
 Recommends: tracker-gui
 Recommends: tracker-miner-evolution
-//
-// Telepathy connection managers
-//
+#
+# Telepathy connection managers
+#
 Recommends: telepathy-gabble
 Recommends: telepathy-haze
 Recommends: telepathy-idle
@@ -2092,7 +2092,7 @@ Recommends: telepathy-sofiasip
 Suggests: dasher
 Suggests: gconf-editor
 Suggests: gnome-backgrounds
-// bnc#698250
+# bnc#698250
 Suggests: gnome-color-manager
 
 
@@ -2114,7 +2114,7 @@ Requires: pattern() = x11
 Requires: pattern() = basesystem
 # from data/GNOME-ADMIN
 Recommends: alacarte
-// bnc#372207
+# bnc#372207
 Recommends: vinagre
 
 
@@ -2137,27 +2137,27 @@ Recommends: pattern() = gnome_basis_opt
 # from data/GNOME-BASIS
 Requires: gdm
 Requires: gnome-session
-//
-// Default sessions
-// - Put in Recommends for now, to make sure the livecd will always build; but
-//   ideally, should be in Requires
-// - We also we explicitly put the packages required by those sessions, in case
-//   gnome-session-*-session is not installable, to make sure the livecd is
-//   somehow a bit usable
-//
+#
+# Default sessions
+# - Put in Recommends for now, to make sure the livecd will always build; but
+#   ideally, should be in Requires
+# - We also we explicitly put the packages required by those sessions, in case
+#   gnome-session-*-session is not installable, to make sure the livecd is
+#   somehow a bit usable
+#
 Recommends: gnome-session-default-session
 Recommends: gnome-session-fallback-session
-// default
+# default
 Recommends: gnome-settings-daemon
 Recommends: gnome-shell
-//
-// Low-level parts that we need
-//
-// bnc#430161
+#
+# Low-level parts that we need
+#
+# bnc#430161
 Recommends: NetworkManager
 Recommends: dbus-1-x11
 Recommends: desktop-file-utils
-// we want useful bug reports
+# we want useful bug reports
 Recommends: gdb
 Recommends: gpg2
 Recommends: gpgme
@@ -2165,10 +2165,10 @@ Recommends: input-utils
 Recommends: polkit-default-privs
 Recommends: samba
 Recommends: susehelp
-//
-// Branding
-//
-// #591535
+#
+# Branding
+#
+# #591535
 Recommends: gconf2-branding-openSUSE
 Recommends: gdm-branding-openSUSE
 Recommends: gio-branding-openSUSE
@@ -2180,10 +2180,10 @@ Recommends: gtk3-branding-openSUSE
 Recommends: hicolor-icon-theme-branding-openSUSE
 Recommends: libsocialweb-branding-openSUSE
 Recommends: desktop-branding
-//
-// Now the real packages
-//
-// #332596
+#
+# Now the real packages
+#
+# #332596
 Recommends: gnome-keyring-pam
 Recommends: at-spi2-core
 Recommends: canberra-gtk-play
@@ -2203,16 +2203,16 @@ Recommends: shared-mime-info
 Recommends: tango-icon-theme
 Recommends: xkeyboard-config
 Recommends: yelp
-// Pulseaudio is the default sound server
+# Pulseaudio is the default sound server
 Recommends: pulseaudio-module-bluetooth
 Recommends: pulseaudio-module-gconf
 Recommends: pulseaudio-module-lirc
 Recommends: pulseaudio-module-x11
 Recommends: pulseaudio-module-zeroconf
 Recommends: pulseaudio-utils
-// #509829
+# #509829
 Recommends: xdg-user-dirs-gtk
-// we need something for xdg-su
+# we need something for xdg-su
 Recommends: libgnomesu
 
 # from data/COMMON-DESKTOP
@@ -2220,11 +2220,11 @@ Recommends: droid-fonts
 Recommends: MozillaFirefox
 Recommends: desktop-data-openSUSE
 Recommends: avahi
-// bnc#508120
+# bnc#508120
 Recommends: xdg-user-dirs
-// bnc#598884
+# bnc#598884
 Suggests: moonlight-plugin
-// metalink downloader
+# metalink downloader
 Suggests: aria2
 
 
@@ -2245,17 +2245,17 @@ Provides: pattern-extends() = gnome_basis
 Requires: pattern() = x11
 Requires: pattern() = basesystem
 # from data/GNOME-BASIS-OPT
-// #394406
+# #394406
 Recommends: dynamic-wallpaper-branding-openSUSE
 
 # from data/COMMON-DESKTOP-OPT
-// packages a GTK application
+# packages a GTK application
 Recommends: gutenprint
-// MAYBE later lsb-graphics
+# MAYBE later lsb-graphics
 Recommends: icedtea-web
-// give net shares
+# give net shares
 Recommends: samba
-// needs python-qt4, see#649280#14
+# needs python-qt4, see#649280#14
 Suggests: hplip
 
 
@@ -2329,13 +2329,13 @@ Supplements: packageand(patterns-openSUSE-gnome:patterns-openSUSE-imaging)
 Requires: pattern() = gnome_basis
 Recommends: pattern() = gnome_imaging_opt
 # from data/GNOME-IMAGE
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Recommends: eog
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: shotwell
 Recommends: simple-scan
 Suggests: f-spot
@@ -2380,33 +2380,33 @@ Provides: pattern-icon() = package_network
 %pattern_gnomedesktop
 Provides: pattern-extends() = gnome
 # from data/GNOME-Internet
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Recommends: empathy
 Recommends: evolution
 Recommends: gnome-nettool
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: liferea
-// bnc#533580
+# bnc#533580
 Recommends: NetworkManager-openvpn-gnome
 Recommends: NetworkManager-pptp-gnome
 Recommends: NetworkManager-vpnc-gnome
-// bnc#530416
+# bnc#530416
 Recommends: transmission-gtk
-// bnc#381620
+# bnc#381620
 Recommends: xchat
-//
-// Official upstream
-//
-// bnc#366894
+#
+# Official upstream
+#
+# bnc#366894
 Suggests: ekiga
 Suggests: epiphany
-//
-// Packages that can make sense
-//
+#
+# Packages that can make sense
+#
 Suggests: frogr
 Suggests: gftp
 Suggests: gwibber
@@ -2454,34 +2454,34 @@ Provides: pattern-extends() = multimedia
 Supplements: packageand(patterns-openSUSE-gnome:patterns-openSUSE-multimedia)
 Recommends: pattern() = gnome_multimedia_opt
 # from data/GNOME-Multimedia
-//
-// GStreamer magic
-//
-// software.openSUSE.org/codecs      
+#
+# GStreamer magic
+#
+# software.openSUSE.org/codecs      
 Recommends: gstreamer-plugins-base
 Recommends: gstreamer-plugins-bad
 Recommends: gstreamer-plugins-good
 Recommends: gstreamer-plugins-ugly
 Recommends: gstreamer-0_10-plugins-base
 Recommends: gstreamer-0_10-plugins-good
-// bnc#445312
+# bnc#445312
 Recommends: gstreamer-0_10-plugins-bad
 Recommends: gstreamer-0_10-plugins-ugly
-// bnc#445314
+# bnc#445314
 Recommends: gstreamer-utils
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Recommends: totem
 Recommends: totem-browser-plugin
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: gnome-music
 Recommends: rhythmbox
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Suggests: paprefs
 Suggests: pavucontrol
 Suggests: pitivi
@@ -2524,13 +2524,13 @@ Supplements: packageand(patterns-openSUSE-gnome:patterns-openSUSE-office)
 Requires: pattern() = gnome_basis
 Recommends: pattern() = gnome_office_opt
 # from data/GNOME-Office
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Recommends: evolution
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: libreoffice-gnome
 Recommends: libreoffice-icon-theme-tango
 Suggests: abiword
@@ -2578,9 +2578,9 @@ Provides: pattern-icon() = pattern-gnome
 Provides: pattern-extends() = gnome
 Requires: pattern() = gnome_basis
 # from data/GNOME-Utilities
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Recommends: baobab
 Recommends: cheese
 Recommends: file-roller
@@ -2594,28 +2594,28 @@ Recommends: nautilus-extension-seahorse
 Recommends: nautilus-sendto
 Recommends: seahorse
 Recommends: bijiben
-//
-// Packages that really make sense
-//
+#
+# Packages that really make sense
+#
 Recommends: gnome-tweak-tool
-// thumbnailing in nautilus
+# thumbnailing in nautilus
 Recommends: gnome-web-photo
 Recommends: gsf-office-thumbnailer
-//
-// Official upstream
-//
+#
+# Official upstream
+#
 Suggests: dasher
 Suggests: eog-plugins
 Suggests: gedit-plugins
 Suggests: hamster-applet
-//
-// Packages that can make sense
-//
+#
+# Packages that can make sense
+#
 Suggests: conduit
 Suggests: deja-dup
 Suggests: gnome-do
 Suggests: gtg
-// #388570
+# #388570
 Suggests: kerneloops-applet
 Suggests: nautilus-share
 Suggests: pdfmod
@@ -2642,7 +2642,7 @@ Supplements: packageand(patterns-openSUSE-gnome:patterns-openSUSE-yast2_basis)
 # from data/GNOME-YaST
 Requires: libyui-gtk-pkg
 Requires: yast2-control-center-gnome
-// yast modules for the desktop
+# yast modules for the desktop
 Recommends: yast2-scanner
 Recommends: yast2-tv
 
@@ -2791,7 +2791,7 @@ Requires: kdebase4-workspace
 Requires: dolphin
 Requires: kwin
 Requires: kwrite
-// bnc#541820
+# bnc#541820
 Recommends: susehelp
 Recommends: plasma-nm
 Recommends: plasma-addons
@@ -2811,13 +2811,13 @@ Recommends: knotes
 Recommends: pinentry-qt4
 Recommends: kcm_gtk
 Recommends: yast2-control-center-qt
-// we want useful bug reports
+# we want useful bug reports
 Recommends: gdb
 Recommends: kdm
 Recommends: kio_iso
-// bnc#430161
+# bnc#430161
 Recommends: polkit-default-privs
-// pulseaudio
+# pulseaudio
 Recommends: pulseaudio
 Recommends: pulseaudio-module-bluetooth
 Recommends: pulseaudio-module-jack
@@ -2828,7 +2828,7 @@ Recommends: pulseaudio-utils
 Recommends: alsa-plugins-pulse
 Recommends: kdepasswd
 Recommends: kvkbd
-// bnc#605509
+# bnc#605509
 Recommends: oxygen-gtk
 Recommends: synaptiks
 Recommends: skanlite
@@ -2838,7 +2838,7 @@ Recommends: soprano-backend-virtuoso
 Recommends: desktop-branding
 Suggests: qtcurve-gtk2
 Suggests: qtcurve-kde4
-// bnc#521177
+# bnc#521177
 Suggests: yakuake
 Suggests: kdepim4
 Suggests: kjots
@@ -2852,11 +2852,11 @@ Recommends: droid-fonts
 Recommends: MozillaFirefox
 Recommends: desktop-data-openSUSE
 Recommends: avahi
-// bnc#508120
+# bnc#508120
 Recommends: xdg-user-dirs
-// bnc#598884
+# bnc#598884
 Suggests: moonlight-plugin
-// metalink downloader
+# metalink downloader
 Suggests: aria2
 
 
@@ -2935,7 +2935,7 @@ Suggests: kshisen
 Suggests: ksirk
 Suggests: kspaceduel
 Suggests: ksquares
-// COME BACK PLEASE!! ktuberling
+# COME BACK PLEASE!! ktuberling
 Suggests: kubrick
 Suggests: lskat
 
@@ -2990,7 +2990,7 @@ Requires: pattern() = kde4_basis
 Recommends: gwenview
 Recommends: digikam
 Recommends: kipi-plugins
-// kipi-plugins needs /usr/bin/jpegtran
+# kipi-plugins needs /usr/bin/jpegtran
 Recommends: libjpeg-turbo
 Recommends: okular
 Recommends: kio_kamera
@@ -3021,13 +3021,13 @@ Provides: pattern-extends() = kde4
 Recommends: kdnssd
 Recommends: kget
 Recommends: kopete
-// 297684 for these 2
+# 297684 for these 2
 Recommends: krfb
 Recommends: krdc
 Recommends: konversation
 Recommends: ktorrent
 Recommends: choqok
-// bnc#533580 
+# bnc#533580 
 Recommends: plasma-nm-openvpn
 Recommends: plasma-nm-vpnc
 Recommends: plasma-nm-pptp
@@ -3185,13 +3185,13 @@ Suggests: krusader
 Suggests: smb4k
 
 # from data/COMMON-DESKTOP-OPT
-// packages a GTK application
+# packages a GTK application
 Recommends: gutenprint
-// MAYBE later lsb-graphics
+# MAYBE later lsb-graphics
 Recommends: icedtea-web
-// give net shares
+# give net shares
 Recommends: samba
-// needs python-qt4, see#649280#14
+# needs python-qt4, see#649280#14
 Suggests: hplip
 
 
@@ -3214,7 +3214,7 @@ Supplements: packageand(patterns-openSUSE-kde4:patterns-openSUSE-yast2_basis)
 Requires: libyui-qt-pkg
 Requires: yast2-control-center-qt
 Requires: yast2-theme-openSUSE-Oxygen
-// yast modules for the desktop
+# yast modules for the desktop
 Recommends: yast2-scanner
 Recommends: yast2-tv
 
@@ -3285,7 +3285,7 @@ Suggests: php5-gd
 Suggests: php5-mbstring
 Suggests: php5-zlib
 Suggests: php5-zip
-// slightly out of place I admit
+# slightly out of place I admit
 Suggests: postgresql
 Suggests: postgresql-contrib
 Suggests: postgresql-server
@@ -3308,14 +3308,14 @@ Requires: pattern() = basesystem
 # from data/LAPTOP
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
 Suggests: irda
 Suggests: smbios-utils-python
 Suggests: powertop
-// fate#303035
+# fate#303035
 Suggests: laptop-mode-tools
 
 
@@ -3373,39 +3373,39 @@ Recommends: transmission-gtk
 Recommends: xdg-user-dirs-gtk
 Recommends: xfce4-power-manager
 Recommends: gconf2-branding-openSUSE
-//xfburn, community asks for brasero
+#xfburn, community asks for brasero
 Recommends: brasero
 Recommends: mtpaint
 Recommends: cheese
-// #540627
+# #540627
 Recommends: xdg-utils
-// #393956 + 450220 + 481468(xdm)
+# #393956 + 450220 + 481468(xdm)
 Recommends: xorg-x11-essentials
 Recommends: xdm
-// bnc#537362
+# bnc#537362
 Recommends: gnome-packagekit
-// #404447
+# #404447
 Recommends: gtk2-engine-murrine
-// #440285
+# #440285
 Recommends: pinentry-gtk2
 Recommends: avahi
-// #537365
-// use gnomesu as su wrapper
+# #537365
+# use gnomesu as su wrapper
 Recommends: libgnomesu
-// we need a GPG GUI
+# we need a GPG GUI
 Recommends: seahorse
-// We need a printer configuration util
+# We need a printer configuration util
 Recommends: system-config-printer
-// And scanner one
+# And scanner one
 Recommends: simple-scan
-// Video player and codecs
-// do we need an LXDE_MULTIMEDIA pattern??
+# Video player and codecs
+# do we need an LXDE_MULTIMEDIA pattern??
 Recommends: totem
 Recommends: totem-browser-plugin
-// Use gtk UI for YaST
+# Use gtk UI for YaST
 Recommends: libyui-gtk-pkg
 Recommends: yast2-control-center-gnome
-// Use NM by default
+# Use NM by default
 Recommends: NetworkManager
 Recommends: NetworkManager-gnome
 Recommends: desktop-branding
@@ -3417,21 +3417,21 @@ Recommends: droid-fonts
 Recommends: MozillaFirefox
 Recommends: desktop-data-openSUSE
 Recommends: avahi
-// bnc#508120
+# bnc#508120
 Recommends: xdg-user-dirs
-// bnc#598884
+# bnc#598884
 Suggests: moonlight-plugin
-// metalink downloader
+# metalink downloader
 Suggests: aria2
 
 # from data/COMMON-DESKTOP-OPT
-// packages a GTK application
+# packages a GTK application
 Recommends: gutenprint
-// MAYBE later lsb-graphics
+# MAYBE later lsb-graphics
 Recommends: icedtea-web
-// give net shares
+# give net shares
 Recommends: samba
-// needs python-qt4, see#649280#14
+# needs python-qt4, see#649280#14
 Suggests: hplip
 
 
@@ -3590,25 +3590,25 @@ Conflicts: perl-doc
 Conflicts: readline-doc
 Conflicts: bash-doc
 Conflicts: netpbm
-// recommended by yast2-printer
+# recommended by yast2-printer
 Conflicts: samba-client
 Conflicts: cups-client
 Conflicts: desktop-translations
-// supplements into glib
+# supplements into glib
 Conflicts: gsettings-backend-dconf
 Conflicts: glib-networking
 Conflicts: vim-data
-// required by gio-branding
+# required by gio-branding
 Conflicts: desktop-data-openSUSE
-// supplements yast2, not needed for ncurses only
+# supplements yast2, not needed for ncurses only
 Conflicts: yast2-branding
-// supplements libgio and wget (TODO)
+# supplements libgio and wget (TODO)
 Conflicts: libproxy1-config-gnome3
-// requires python
+# requires python
 Conflicts: zypper-log
-// systemd recommends dbus-1-python
+# systemd recommends dbus-1-python
 Conflicts: python
-// gtk3
+# gtk3
 Conflicts: gtk3-branding
 Conflicts: gtk3-immodule-amharic
 Conflicts: gtk3-immodule-inuktitut
@@ -3617,9 +3617,9 @@ Conflicts: gtk3-immodule-tigrigna
 Conflicts: gtk3-immodule-vietnamese
 Conflicts: gvfs
 Conflicts: bundle-lang-gnome-extras-en
-// requires X11
+# requires X11
 Conflicts: openssh-askpass
-// requires all kinds of perl modules
+# requires all kinds of perl modules
 Conflicts: xdg-utils
 
 
@@ -3665,7 +3665,7 @@ Recommends: yast2-sound
 Recommends: dvd+rw-tools
 Recommends: vorbis-tools
 Suggests: ripit
-// maintained by coolo - must be good
+# maintained by coolo - must be good
 Suggests: abcde
 Suggests: gstreamer-0_10-plugins-good-extra
 Suggests: audacity
@@ -3792,7 +3792,7 @@ Suggests: FZHeiTi
 Suggests: FZKaiTi
 Suggests: FZKaiTiB
 Suggests: FZMingTiB
-// needed for instsys
+# needed for instsys
 Suggests: FZSongTi
 
 
@@ -3833,7 +3833,7 @@ Provides: pattern-icon() = yast-keyboard
 %pattern_desktopfunctions
 Provides: pattern-extends() = office
 # from data/OFFICE-OPT
-// bug 592752
+# bug 592752
 Suggests: libreoffice-languagetool
 Recommends: libreoffice-math
 Recommends: libreoffice-base-extensions
@@ -3871,7 +3871,7 @@ Recommends: manufacturer-PPDs
 Recommends: samba
 Suggests: udev-configure-printer
 Suggests: poster
-// print to bluetooth
+# print to bluetooth
 Suggests: bluez-cups
 Suggests: pbm2l7k
 
@@ -3940,17 +3940,17 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-// #327506
+# #327506
 Recommends: b43-fwcutter
-// #304219
+# #304219
 Recommends: memtest86+
-// adaptec-firmware (#298726)
+# adaptec-firmware (#298726)
 Recommends: adaptec-firmware
 Recommends: mpt-firmware
 Recommends: atmel-firmware
-// DELL laptop support
+# DELL laptop support
 Recommends: smbios-utils-python
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
 Recommends: aspell-en
 Recommends: cifs-utils
@@ -3959,106 +3959,106 @@ Recommends: nss_ldap
 Recommends: pam_krb5
 Recommends: pam_ldap
 Recommends: krb5-client
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
-// kernel modules
+# kernel modules
 Recommends: ndiswrapper-kmp-desktop
 #else
 Recommends: ndiswrapper-kmp-default
 %endif
-// network
+# network
 Recommends: ndiswrapper
-// bnc#548325
+# bnc#548325
 Recommends: ipw-firmware
-// supplements by modaliases
+# supplements by modaliases
 Recommends: bluez-firmware
 Recommends: dvb
 Recommends: lomoco
 Recommends: pcmciautils
 Recommends: pam_fprint
-// yast can configure quota - if present on medium (#348336)
+# yast can configure quota - if present on medium (#348336)
 Recommends: quota
-// enhances virtualbox speed (#365562)
+# enhances virtualbox speed (#365562)
 Recommends: virtualbox-guest-x11
-// Firmware for ZD1211 based WLAN sticks
+# Firmware for ZD1211 based WLAN sticks
 Recommends: zd1211-firmware
-// rescue
+# rescue
 Recommends: dd_rescue
-// #396109
+# #396109
 Recommends: alsa-firmware
 Recommends: awesfx
-// needed by yast2-storage for crypt partitions
+# needed by yast2-storage for crypt partitions
 Recommends: pam_mount
-// adding to LiveCD (bnc#419201)
+# adding to LiveCD (bnc#419201)
 Recommends: rsync
 Recommends: smartmontools
-// LiveCD accessible? (bnc#391327)
+# LiveCD accessible? (bnc#391327)
 Recommends: sbl
 Recommends: espeak
-// give vim hates an editor
+# give vim hates an editor
 Recommends: nano
-// pull flash and mp3 also on livecd installs
+# pull flash and mp3 also on livecd installs
 Recommends: pullin-fluendo-mp3
 Recommends: pullin-flash-player
-// #494547 - just testing
+# #494547 - just testing
 Recommends: manufacturer-PPDs
-// needed to detect if a system is the same
+# needed to detect if a system is the same
 Recommends: dmidecode
-// decompression to recover something
+# decompression to recover something
 Recommends: xz
 Recommends: zip
 Recommends: unzip
 Recommends: p7zip
-// file system stuff
+# file system stuff
 Recommends: xfsdump
 Recommends: reiserfs
-// fate#306643
+# fate#306643
 Recommends: mc 
-// laptop stuff
+# laptop stuff
 Recommends: irda
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
-// bug#589416
+# bug#589416
 Recommends: virtualbox-guest-tools 
-// bug#591085
+# bug#591085
 Recommends: open-vm-tools
-// parted GUI
+# parted GUI
 Recommends: gparted
-// bnc#728529
+# bnc#728529
 Recommends: elilo
 %ifarch x86_64
 Recommends: efibootmgr
 %endif
-// yast2-bootloader still suggests it (bnc#803401)
+# yast2-bootloader still suggests it (bnc#803401)
 Recommends: grub
-// Backup and Copying utilites
+# Backup and Copying utilites
 Recommends: gnu_ddrescue
 Recommends: lftp
 Recommends: grsync
-// all xf86 drivers
+# all xf86 drivers
 Recommends: xf86-video-ark
 Recommends: xf86-video-ast
 Recommends: xf86-video-ati
@@ -4088,7 +4088,7 @@ Recommends: xf86-video-vmware
 Recommends: xf86-video-voodoo
 
 # from data/REST-CD-DESKTOP
-// minimal set of yast modules
+# minimal set of yast modules
 Requires: yast2-country
 Requires: yast2-trans-stats
 Requires: yast2-storage
@@ -4117,7 +4117,7 @@ Recommends: yast2-trans-stats
 Recommends: yast2-trans-sv
 Recommends: yast2-trans-zh_CN
 Recommends: yast2-trans-zh_TW
-// required by yast2-dsl (#377472)
+# required by yast2-dsl (#377472)
 Recommends: smpppd
 Recommends: sssd
 %ifarch x86_64
@@ -4172,17 +4172,17 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-// #327506
+# #327506
 Recommends: b43-fwcutter
-// #304219
+# #304219
 Recommends: memtest86+
-// adaptec-firmware (#298726)
+# adaptec-firmware (#298726)
 Recommends: adaptec-firmware
 Recommends: mpt-firmware
 Recommends: atmel-firmware
-// DELL laptop support
+# DELL laptop support
 Recommends: smbios-utils-python
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
 Recommends: aspell-en
 Recommends: cifs-utils
@@ -4191,106 +4191,106 @@ Recommends: nss_ldap
 Recommends: pam_krb5
 Recommends: pam_ldap
 Recommends: krb5-client
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
-// kernel modules
+# kernel modules
 Recommends: ndiswrapper-kmp-desktop
 #else
 Recommends: ndiswrapper-kmp-default
 %endif
-// network
+# network
 Recommends: ndiswrapper
-// bnc#548325
+# bnc#548325
 Recommends: ipw-firmware
-// supplements by modaliases
+# supplements by modaliases
 Recommends: bluez-firmware
 Recommends: dvb
 Recommends: lomoco
 Recommends: pcmciautils
 Recommends: pam_fprint
-// yast can configure quota - if present on medium (#348336)
+# yast can configure quota - if present on medium (#348336)
 Recommends: quota
-// enhances virtualbox speed (#365562)
+# enhances virtualbox speed (#365562)
 Recommends: virtualbox-guest-x11
-// Firmware for ZD1211 based WLAN sticks
+# Firmware for ZD1211 based WLAN sticks
 Recommends: zd1211-firmware
-// rescue
+# rescue
 Recommends: dd_rescue
-// #396109
+# #396109
 Recommends: alsa-firmware
 Recommends: awesfx
-// needed by yast2-storage for crypt partitions
+# needed by yast2-storage for crypt partitions
 Recommends: pam_mount
-// adding to LiveCD (bnc#419201)
+# adding to LiveCD (bnc#419201)
 Recommends: rsync
 Recommends: smartmontools
-// LiveCD accessible? (bnc#391327)
+# LiveCD accessible? (bnc#391327)
 Recommends: sbl
 Recommends: espeak
-// give vim hates an editor
+# give vim hates an editor
 Recommends: nano
-// pull flash and mp3 also on livecd installs
+# pull flash and mp3 also on livecd installs
 Recommends: pullin-fluendo-mp3
 Recommends: pullin-flash-player
-// #494547 - just testing
+# #494547 - just testing
 Recommends: manufacturer-PPDs
-// needed to detect if a system is the same
+# needed to detect if a system is the same
 Recommends: dmidecode
-// decompression to recover something
+# decompression to recover something
 Recommends: xz
 Recommends: zip
 Recommends: unzip
 Recommends: p7zip
-// file system stuff
+# file system stuff
 Recommends: xfsdump
 Recommends: reiserfs
-// fate#306643
+# fate#306643
 Recommends: mc 
-// laptop stuff
+# laptop stuff
 Recommends: irda
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
-// bug#589416
+# bug#589416
 Recommends: virtualbox-guest-tools 
-// bug#591085
+# bug#591085
 Recommends: open-vm-tools
-// parted GUI
+# parted GUI
 Recommends: gparted
-// bnc#728529
+# bnc#728529
 Recommends: elilo
 %ifarch x86_64
 Recommends: efibootmgr
 %endif
-// yast2-bootloader still suggests it (bnc#803401)
+# yast2-bootloader still suggests it (bnc#803401)
 Recommends: grub
-// Backup and Copying utilites
+# Backup and Copying utilites
 Recommends: gnu_ddrescue
 Recommends: lftp
 Recommends: grsync
-// all xf86 drivers
+# all xf86 drivers
 Recommends: xf86-video-ark
 Recommends: xf86-video-ast
 Recommends: xf86-video-ati
@@ -4320,7 +4320,7 @@ Recommends: xf86-video-vmware
 Recommends: xf86-video-voodoo
 
 # from data/REST-CD-DESKTOP
-// minimal set of yast modules
+# minimal set of yast modules
 Requires: yast2-country
 Requires: yast2-trans-stats
 Requires: yast2-storage
@@ -4349,7 +4349,7 @@ Recommends: yast2-trans-stats
 Recommends: yast2-trans-sv
 Recommends: yast2-trans-zh_CN
 Recommends: yast2-trans-zh_TW
-// required by yast2-dsl (#377472)
+# required by yast2-dsl (#377472)
 Recommends: smpppd
 Recommends: sssd
 %ifarch x86_64
@@ -4386,17 +4386,17 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-// #327506
+# #327506
 Recommends: b43-fwcutter
-// #304219
+# #304219
 Recommends: memtest86+
-// adaptec-firmware (#298726)
+# adaptec-firmware (#298726)
 Recommends: adaptec-firmware
 Recommends: mpt-firmware
 Recommends: atmel-firmware
-// DELL laptop support
+# DELL laptop support
 Recommends: smbios-utils-python
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
 Recommends: aspell-en
 Recommends: cifs-utils
@@ -4405,106 +4405,106 @@ Recommends: nss_ldap
 Recommends: pam_krb5
 Recommends: pam_ldap
 Recommends: krb5-client
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
-// kernel modules
+# kernel modules
 Recommends: ndiswrapper-kmp-desktop
 #else
 Recommends: ndiswrapper-kmp-default
 %endif
-// network
+# network
 Recommends: ndiswrapper
-// bnc#548325
+# bnc#548325
 Recommends: ipw-firmware
-// supplements by modaliases
+# supplements by modaliases
 Recommends: bluez-firmware
 Recommends: dvb
 Recommends: lomoco
 Recommends: pcmciautils
 Recommends: pam_fprint
-// yast can configure quota - if present on medium (#348336)
+# yast can configure quota - if present on medium (#348336)
 Recommends: quota
-// enhances virtualbox speed (#365562)
+# enhances virtualbox speed (#365562)
 Recommends: virtualbox-guest-x11
-// Firmware for ZD1211 based WLAN sticks
+# Firmware for ZD1211 based WLAN sticks
 Recommends: zd1211-firmware
-// rescue
+# rescue
 Recommends: dd_rescue
-// #396109
+# #396109
 Recommends: alsa-firmware
 Recommends: awesfx
-// needed by yast2-storage for crypt partitions
+# needed by yast2-storage for crypt partitions
 Recommends: pam_mount
-// adding to LiveCD (bnc#419201)
+# adding to LiveCD (bnc#419201)
 Recommends: rsync
 Recommends: smartmontools
-// LiveCD accessible? (bnc#391327)
+# LiveCD accessible? (bnc#391327)
 Recommends: sbl
 Recommends: espeak
-// give vim hates an editor
+# give vim hates an editor
 Recommends: nano
-// pull flash and mp3 also on livecd installs
+# pull flash and mp3 also on livecd installs
 Recommends: pullin-fluendo-mp3
 Recommends: pullin-flash-player
-// #494547 - just testing
+# #494547 - just testing
 Recommends: manufacturer-PPDs
-// needed to detect if a system is the same
+# needed to detect if a system is the same
 Recommends: dmidecode
-// decompression to recover something
+# decompression to recover something
 Recommends: xz
 Recommends: zip
 Recommends: unzip
 Recommends: p7zip
-// file system stuff
+# file system stuff
 Recommends: xfsdump
 Recommends: reiserfs
-// fate#306643
+# fate#306643
 Recommends: mc 
-// laptop stuff
+# laptop stuff
 Recommends: irda
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
-// bug#589416
+# bug#589416
 Recommends: virtualbox-guest-tools 
-// bug#591085
+# bug#591085
 Recommends: open-vm-tools
-// parted GUI
+# parted GUI
 Recommends: gparted
-// bnc#728529
+# bnc#728529
 Recommends: elilo
 %ifarch x86_64
 Recommends: efibootmgr
 %endif
-// yast2-bootloader still suggests it (bnc#803401)
+# yast2-bootloader still suggests it (bnc#803401)
 Recommends: grub
-// Backup and Copying utilites
+# Backup and Copying utilites
 Recommends: gnu_ddrescue
 Recommends: lftp
 Recommends: grsync
-// all xf86 drivers
+# all xf86 drivers
 Recommends: xf86-video-ark
 Recommends: xf86-video-ast
 Recommends: xf86-video-ati
@@ -4544,9 +4544,9 @@ Requires: yast2-proxy
 Requires: yast2-network
 Requires: yast2-hardware-detection
 Requires: yast2-x11
-//
-// Additional applications for rescue CD
-//
+#
+# Additional applications for rescue CD
+#
 Requires: file-roller
 Requires: leafpad
 Requires: midori
@@ -4557,8 +4557,8 @@ Requires: ristretto
 Requires: xchat
 
 # from data/XFCE-BASIS
-// This defines a bare minimum Xfce desktop used, for example, as
-// base for the openSUSE Rescue CD
+# This defines a bare minimum Xfce desktop used, for example, as
+# base for the openSUSE Rescue CD
 Requires: patterns-openSUSE-xfce_basis
 Requires: thunar
 Requires: xfce4-appfinder
@@ -4573,35 +4573,35 @@ Requires: xfconf
 Requires: xfdesktop
 Requires: xfwm4
 Requires: thunar-volman
-//
-// low level functionality
-//
+#
+# low level functionality
+#
 Recommends: avahi
 Recommends: dbus-1-x11
-// bnc#540627
+# bnc#540627
 Recommends: xdg-utils
 Recommends: xdg-user-dirs-gtk
 Recommends: desktop-file-utils
 Recommends: shared-mime-info
 Recommends: NetworkManager
 Recommends: NetworkManager-gnome
-// use gnomesu as su wrapper
+# use gnomesu as su wrapper
 Recommends: libgnomesu
-// bnc#440285
+# bnc#440285
 Recommends: pinentry-gtk2
-// For screenlocking to work in xfce
+# For screenlocking to work in xfce
 Recommends: xscreensaver
 Recommends: xfce4-terminal
 Recommends: libxfce4ui-tools
 Recommends: xfce4-panel-plugin-xkb
-//
-// core desktop functionality
-//
+#
+# core desktop functionality
+#
 Recommends: libyui-gtk-pkg
 Recommends: yast2-control-center-gnome
-//
-// branding
-//
+#
+# branding
+#
 Suggests: exo-branding-openSUSE
 Suggests: gconf2-branding-openSUSE
 Suggests: libgarcon-branding-openSUSE
@@ -4649,27 +4649,27 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
 Recommends: efibootmgr
@@ -4812,11 +4812,11 @@ Recommends: pattern() = minimal_base
 Recommends: pattern() = minimal_base-conflicts
 Recommends: pattern() = books
 # from data/REST-DVD
-// git hype (is a meta package dragging in everything else)
+# git hype (is a meta package dragging in everything else)
 Recommends: git
-// qemu rocks
+# qemu rocks
 Recommends: qemu
-// needed for kiwi creation
+# needed for kiwi creation
 Recommends: kiwi-media-requires
 Recommends: squashfs
 Recommends: yast2-live-installer
@@ -4825,19 +4825,19 @@ Recommends: nbd
 Recommends: nbd-doc
 Recommends: kiwi-config-openSUSE
 Recommends: clicfs
-//# 306071
+## 306071
 Recommends: virtualbox
 Recommends: virtualbox-guest-kmp-default
 Recommends: vboxgtk
 Recommends: virtualbox-qt
-// Internet Storage Name Service
+# Internet Storage Name Service
 Recommends: yast2-isns
 Recommends: isns
-// hylafax as requested by kkeil
+# hylafax as requested by kkeil
 Recommends: hylafax
 Recommends: hylafax-client
 Recommends: capi4hylafax
-// kiwi as requested by ms
+# kiwi as requested by ms
 Recommends: kiwi
 Recommends: kiwi-desc-isoboot
 Recommends: kiwi-desc-netboot
@@ -4845,32 +4845,32 @@ Recommends: kiwi-desc-oemboot
 Recommends: kiwi-desc-vmxboot
 Recommends: kiwi-pxeboot
 Recommends: kiwi-templates
-// #301029
+# #301029
 Recommends: yast2-python-bindings
-// kdump+tools
+# kdump+tools
 Recommends: kdump
 Recommends: kexec-tools
 Recommends: yast2-kdump 
-// #296387
+# #296387
 Recommends: xournal
-// #297414, #304221
+# #297414, #304221
 Recommends: seamonkey
 Recommends: seamonkey-dom-inspector
 Recommends: seamonkey-irc
 Recommends: seamonkey-venkman
-// feature 301945
+# feature 301945
 Recommends: yast2-add-on-creator
 Recommends: yast2-product-creator
 Recommends: createrepo
-// kernel modules
+# kernel modules
 Recommends: omnibook-kmp-default
 Recommends: omnibook-kmp-xen
 Recommends: ndiswrapper-kmp-desktop
 Recommends: omnibook-kmp-desktop
 Recommends: vmware-guest-kmp-desktop
 Recommends: virtualbox-guest-kmp-desktop
-// register your hardware
-// no sync pattern
+# register your hardware
+# no sync pattern
 Recommends: bluez-hcidump
 Recommends: libopensync-plugin-google-calendar
 Recommends: libopensync-plugin-moto
@@ -4878,36 +4878,36 @@ Recommends: libopensync-plugin-python-module
 Recommends: libsyncml-tools
 Recommends: msynctool
 Recommends: unison
-// could not find a better pattern
+# could not find a better pattern
 Recommends: subversion-server
 Recommends: subversion-tools
 Recommends: sshfs
-// FAX
+# FAX
 Recommends: capisuite
 %ifarch ppc
-// #381940
+# #381940
 Recommends: kernel-ppc64
-// #387170
+# #387170
 Recommends: ps3-utils
 Recommends: gtkpbbuttons
 Recommends: pbbuttonsd
 Recommends: petitboot
 Recommends: powerprefs
 %endif
-// minimal korean support (bnc#390099)
+# minimal korean support (bnc#390099)
 Recommends: unfonts
 Recommends: scim-hangul 
-// #390825
+# #390825
 Recommends: kvm
-// #391434
+# #391434
 Recommends: open-vm-tools
 Recommends: vmware-guest-kmp-default
-// all kernel flavors we want to have
+# all kernel flavors we want to have
 Recommends: kernel-desktop
 Recommends: kernel-default
-// bnc#431280 (Japanese fonts)
+# bnc#431280 (Japanese fonts)
 Recommends: ttf-arphic-uming
-// bnc#697047
+# bnc#697047
 Recommends: siga
 %ifarch x86_64 ppc
 Recommends: pam_krb5-32bit
@@ -4919,24 +4919,24 @@ Recommends: pam_krb5-64bit
 Recommends: pam_ldap-64bit
 Recommends: nss_ldap-64bit
 %endif
-// bluncks 2nd baby
+# bluncks 2nd baby
 Recommends: apport-gtk
 Recommends: apport-qt
-// very special case - 442295
-// supporting lib for non-oss
+# very special case - 442295
+# supporting lib for non-oss
 Recommends: libstdc++33
 Recommends: qinternet
-// meanwhile plugin (bnc#549711)
+# meanwhile plugin (bnc#549711)
 Recommends: libpurple-meanwhile 
 %ifarch x86_64
-// bnc#581144
+# bnc#581144
 Recommends: gtk2-32bit 
 %endif
-// bnc#605888
+# bnc#605888
 Recommends: libvdpau1
-// bnc#626952
+# bnc#626952
 Recommends: quota-nfs
-// dependencies of skype.rpm
+# dependencies of skype.rpm
 Recommends: libasound.so.2
 Recommends: libasound.so.2(ALSA_0.9)
 Recommends: libasound.so.2(ALSA_0.9.0rc4)
@@ -4998,17 +4998,17 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-// #327506
+# #327506
 Recommends: b43-fwcutter
-// #304219
+# #304219
 Recommends: memtest86+
-// adaptec-firmware (#298726)
+# adaptec-firmware (#298726)
 Recommends: adaptec-firmware
 Recommends: mpt-firmware
 Recommends: atmel-firmware
-// DELL laptop support
+# DELL laptop support
 Recommends: smbios-utils-python
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
 Recommends: aspell-en
 Recommends: cifs-utils
@@ -5017,106 +5017,106 @@ Recommends: nss_ldap
 Recommends: pam_krb5
 Recommends: pam_ldap
 Recommends: krb5-client
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
-// kernel modules
+# kernel modules
 Recommends: ndiswrapper-kmp-desktop
 #else
 Recommends: ndiswrapper-kmp-default
 %endif
-// network
+# network
 Recommends: ndiswrapper
-// bnc#548325
+# bnc#548325
 Recommends: ipw-firmware
-// supplements by modaliases
+# supplements by modaliases
 Recommends: bluez-firmware
 Recommends: dvb
 Recommends: lomoco
 Recommends: pcmciautils
 Recommends: pam_fprint
-// yast can configure quota - if present on medium (#348336)
+# yast can configure quota - if present on medium (#348336)
 Recommends: quota
-// enhances virtualbox speed (#365562)
+# enhances virtualbox speed (#365562)
 Recommends: virtualbox-guest-x11
-// Firmware for ZD1211 based WLAN sticks
+# Firmware for ZD1211 based WLAN sticks
 Recommends: zd1211-firmware
-// rescue
+# rescue
 Recommends: dd_rescue
-// #396109
+# #396109
 Recommends: alsa-firmware
 Recommends: awesfx
-// needed by yast2-storage for crypt partitions
+# needed by yast2-storage for crypt partitions
 Recommends: pam_mount
-// adding to LiveCD (bnc#419201)
+# adding to LiveCD (bnc#419201)
 Recommends: rsync
 Recommends: smartmontools
-// LiveCD accessible? (bnc#391327)
+# LiveCD accessible? (bnc#391327)
 Recommends: sbl
 Recommends: espeak
-// give vim hates an editor
+# give vim hates an editor
 Recommends: nano
-// pull flash and mp3 also on livecd installs
+# pull flash and mp3 also on livecd installs
 Recommends: pullin-fluendo-mp3
 Recommends: pullin-flash-player
-// #494547 - just testing
+# #494547 - just testing
 Recommends: manufacturer-PPDs
-// needed to detect if a system is the same
+# needed to detect if a system is the same
 Recommends: dmidecode
-// decompression to recover something
+# decompression to recover something
 Recommends: xz
 Recommends: zip
 Recommends: unzip
 Recommends: p7zip
-// file system stuff
+# file system stuff
 Recommends: xfsdump
 Recommends: reiserfs
-// fate#306643
+# fate#306643
 Recommends: mc 
-// laptop stuff
+# laptop stuff
 Recommends: irda
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
-// bug#589416
+# bug#589416
 Recommends: virtualbox-guest-tools 
-// bug#591085
+# bug#591085
 Recommends: open-vm-tools
-// parted GUI
+# parted GUI
 Recommends: gparted
-// bnc#728529
+# bnc#728529
 Recommends: elilo
 %ifarch x86_64
 Recommends: efibootmgr
 %endif
-// yast2-bootloader still suggests it (bnc#803401)
+# yast2-bootloader still suggests it (bnc#803401)
 Recommends: grub
-// Backup and Copying utilites
+# Backup and Copying utilites
 Recommends: gnu_ddrescue
 Recommends: lftp
 Recommends: grsync
-// all xf86 drivers
+# all xf86 drivers
 Recommends: xf86-video-ark
 Recommends: xf86-video-ast
 Recommends: xf86-video-ati
@@ -5146,7 +5146,7 @@ Recommends: xf86-video-vmware
 Recommends: xf86-video-voodoo
 
 # from data/REST-DVD-SUGGESTS
-// generated in the spec file
+# generated in the spec file
 
 # from data/REST-DVD-RPMLIST
 Requires: cracklib-dict-full
@@ -5435,11 +5435,11 @@ Requires: pattern() = yast2_install_wf
 Recommends: pattern() = voip
 Recommends: pattern() = x11_yast
 # from data/REST-DVD
-// git hype (is a meta package dragging in everything else)
+# git hype (is a meta package dragging in everything else)
 Recommends: git
-// qemu rocks
+# qemu rocks
 Recommends: qemu
-// needed for kiwi creation
+# needed for kiwi creation
 Recommends: kiwi-media-requires
 Recommends: squashfs
 Recommends: yast2-live-installer
@@ -5448,19 +5448,19 @@ Recommends: nbd
 Recommends: nbd-doc
 Recommends: kiwi-config-openSUSE
 Recommends: clicfs
-//# 306071
+## 306071
 Recommends: virtualbox
 Recommends: virtualbox-guest-kmp-default
 Recommends: vboxgtk
 Recommends: virtualbox-qt
-// Internet Storage Name Service
+# Internet Storage Name Service
 Recommends: yast2-isns
 Recommends: isns
-// hylafax as requested by kkeil
+# hylafax as requested by kkeil
 Recommends: hylafax
 Recommends: hylafax-client
 Recommends: capi4hylafax
-// kiwi as requested by ms
+# kiwi as requested by ms
 Recommends: kiwi
 Recommends: kiwi-desc-isoboot
 Recommends: kiwi-desc-netboot
@@ -5468,32 +5468,32 @@ Recommends: kiwi-desc-oemboot
 Recommends: kiwi-desc-vmxboot
 Recommends: kiwi-pxeboot
 Recommends: kiwi-templates
-// #301029
+# #301029
 Recommends: yast2-python-bindings
-// kdump+tools
+# kdump+tools
 Recommends: kdump
 Recommends: kexec-tools
 Recommends: yast2-kdump 
-// #296387
+# #296387
 Recommends: xournal
-// #297414, #304221
+# #297414, #304221
 Recommends: seamonkey
 Recommends: seamonkey-dom-inspector
 Recommends: seamonkey-irc
 Recommends: seamonkey-venkman
-// feature 301945
+# feature 301945
 Recommends: yast2-add-on-creator
 Recommends: yast2-product-creator
 Recommends: createrepo
-// kernel modules
+# kernel modules
 Recommends: omnibook-kmp-default
 Recommends: omnibook-kmp-xen
 Recommends: ndiswrapper-kmp-desktop
 Recommends: omnibook-kmp-desktop
 Recommends: vmware-guest-kmp-desktop
 Recommends: virtualbox-guest-kmp-desktop
-// register your hardware
-// no sync pattern
+# register your hardware
+# no sync pattern
 Recommends: bluez-hcidump
 Recommends: libopensync-plugin-google-calendar
 Recommends: libopensync-plugin-moto
@@ -5501,36 +5501,36 @@ Recommends: libopensync-plugin-python-module
 Recommends: libsyncml-tools
 Recommends: msynctool
 Recommends: unison
-// could not find a better pattern
+# could not find a better pattern
 Recommends: subversion-server
 Recommends: subversion-tools
 Recommends: sshfs
-// FAX
+# FAX
 Recommends: capisuite
 %ifarch ppc
-// #381940
+# #381940
 Recommends: kernel-ppc64
-// #387170
+# #387170
 Recommends: ps3-utils
 Recommends: gtkpbbuttons
 Recommends: pbbuttonsd
 Recommends: petitboot
 Recommends: powerprefs
 %endif
-// minimal korean support (bnc#390099)
+# minimal korean support (bnc#390099)
 Recommends: unfonts
 Recommends: scim-hangul 
-// #390825
+# #390825
 Recommends: kvm
-// #391434
+# #391434
 Recommends: open-vm-tools
 Recommends: vmware-guest-kmp-default
-// all kernel flavors we want to have
+# all kernel flavors we want to have
 Recommends: kernel-desktop
 Recommends: kernel-default
-// bnc#431280 (Japanese fonts)
+# bnc#431280 (Japanese fonts)
 Recommends: ttf-arphic-uming
-// bnc#697047
+# bnc#697047
 Recommends: siga
 %ifarch x86_64 ppc
 Recommends: pam_krb5-32bit
@@ -5542,24 +5542,24 @@ Recommends: pam_krb5-64bit
 Recommends: pam_ldap-64bit
 Recommends: nss_ldap-64bit
 %endif
-// bluncks 2nd baby
+# bluncks 2nd baby
 Recommends: apport-gtk
 Recommends: apport-qt
-// very special case - 442295
-// supporting lib for non-oss
+# very special case - 442295
+# supporting lib for non-oss
 Recommends: libstdc++33
 Recommends: qinternet
-// meanwhile plugin (bnc#549711)
+# meanwhile plugin (bnc#549711)
 Recommends: libpurple-meanwhile 
 %ifarch x86_64
-// bnc#581144
+# bnc#581144
 Recommends: gtk2-32bit 
 %endif
-// bnc#605888
+# bnc#605888
 Recommends: libvdpau1
-// bnc#626952
+# bnc#626952
 Recommends: quota-nfs
-// dependencies of skype.rpm
+# dependencies of skype.rpm
 Recommends: libasound.so.2
 Recommends: libasound.so.2(ALSA_0.9)
 Recommends: libasound.so.2(ALSA_0.9.0rc4)
@@ -5621,17 +5621,17 @@ Requires: kernel-desktop
 Requires: kernel-default
 %endif
 Requires: kernel-firmware
-// #327506
+# #327506
 Recommends: b43-fwcutter
-// #304219
+# #304219
 Recommends: memtest86+
-// adaptec-firmware (#298726)
+# adaptec-firmware (#298726)
 Recommends: adaptec-firmware
 Recommends: mpt-firmware
 Recommends: atmel-firmware
-// DELL laptop support
+# DELL laptop support
 Recommends: smbios-utils-python
-//lvm2 support (#301382)
+#lvm2 support (#301382)
 Recommends: lvm2
 Recommends: aspell-en
 Recommends: cifs-utils
@@ -5640,106 +5640,106 @@ Recommends: nss_ldap
 Recommends: pam_krb5
 Recommends: pam_ldap
 Recommends: krb5-client
-// prefer the full version for installation
+# prefer the full version for installation
 Recommends: cracklib-dict-full
-// filesystem(minix)
+# filesystem(minix)
 Recommends: util-linux
-// filesystem(ext2)
+# filesystem(ext2)
 Recommends: e2fsprogs
-// filesystem(reiserfs)
+# filesystem(reiserfs)
 Recommends: reiserfs
-// filesystem(jfs)
+# filesystem(jfs)
 Recommends: jfsutils
-// filesystem(ntfs-3g)
+# filesystem(ntfs-3g)
 Recommends: ntfs-3g
-// filesystem(xfs)
+# filesystem(xfs)
 Recommends: xfsprogs
-// filesystem(vfat)
+# filesystem(vfat)
 Recommends: dosfstools
-// crypto partitions
+# crypto partitions
 Recommends: cryptsetup
-// filesystem(btrfs)
+# filesystem(btrfs)
 Recommends: btrfsprogs
 %ifarch x86_64
-// kernel modules
+# kernel modules
 Recommends: ndiswrapper-kmp-desktop
 #else
 Recommends: ndiswrapper-kmp-default
 %endif
-// network
+# network
 Recommends: ndiswrapper
-// bnc#548325
+# bnc#548325
 Recommends: ipw-firmware
-// supplements by modaliases
+# supplements by modaliases
 Recommends: bluez-firmware
 Recommends: dvb
 Recommends: lomoco
 Recommends: pcmciautils
 Recommends: pam_fprint
-// yast can configure quota - if present on medium (#348336)
+# yast can configure quota - if present on medium (#348336)
 Recommends: quota
-// enhances virtualbox speed (#365562)
+# enhances virtualbox speed (#365562)
 Recommends: virtualbox-guest-x11
-// Firmware for ZD1211 based WLAN sticks
+# Firmware for ZD1211 based WLAN sticks
 Recommends: zd1211-firmware
-// rescue
+# rescue
 Recommends: dd_rescue
-// #396109
+# #396109
 Recommends: alsa-firmware
 Recommends: awesfx
-// needed by yast2-storage for crypt partitions
+# needed by yast2-storage for crypt partitions
 Recommends: pam_mount
-// adding to LiveCD (bnc#419201)
+# adding to LiveCD (bnc#419201)
 Recommends: rsync
 Recommends: smartmontools
-// LiveCD accessible? (bnc#391327)
+# LiveCD accessible? (bnc#391327)
 Recommends: sbl
 Recommends: espeak
-// give vim hates an editor
+# give vim hates an editor
 Recommends: nano
-// pull flash and mp3 also on livecd installs
+# pull flash and mp3 also on livecd installs
 Recommends: pullin-fluendo-mp3
 Recommends: pullin-flash-player
-// #494547 - just testing
+# #494547 - just testing
 Recommends: manufacturer-PPDs
-// needed to detect if a system is the same
+# needed to detect if a system is the same
 Recommends: dmidecode
-// decompression to recover something
+# decompression to recover something
 Recommends: xz
 Recommends: zip
 Recommends: unzip
 Recommends: p7zip
-// file system stuff
+# file system stuff
 Recommends: xfsdump
 Recommends: reiserfs
-// fate#306643
+# fate#306643
 Recommends: mc 
-// laptop stuff
+# laptop stuff
 Recommends: irda
 Recommends: pcmciautils
 Recommends: wpa_supplicant
-// bnc#480879
+# bnc#480879
 Recommends: crda
 Recommends: wireless-regdb
 Recommends: iw
-// bug#589416
+# bug#589416
 Recommends: virtualbox-guest-tools 
-// bug#591085
+# bug#591085
 Recommends: open-vm-tools
-// parted GUI
+# parted GUI
 Recommends: gparted
-// bnc#728529
+# bnc#728529
 Recommends: elilo
 %ifarch x86_64
 Recommends: efibootmgr
 %endif
-// yast2-bootloader still suggests it (bnc#803401)
+# yast2-bootloader still suggests it (bnc#803401)
 Recommends: grub
-// Backup and Copying utilites
+# Backup and Copying utilites
 Recommends: gnu_ddrescue
 Recommends: lftp
 Recommends: grsync
-// all xf86 drivers
+# all xf86 drivers
 Recommends: xf86-video-ark
 Recommends: xf86-video-ast
 Recommends: xf86-video-ati
@@ -5956,27 +5956,27 @@ Recommends: emacs-x11
 Recommends: xmlgraphics-fop
 Recommends: svg-schema
 Recommends: xslide
-// General XML Packages
+# General XML Packages
 Recommends: xmlgraphics-batik
 Recommends: dia
 Recommends: inkscape
 Recommends: mxml
 Recommends: sablot
 Recommends: saxon
-//LATER xmlroff
+#LATER xmlroff
 Recommends: xmlformat
 Recommends: xmlstarlet
-// Packages Specific to DocBook
+# Packages Specific to DocBook
 Recommends: dbsplit-tools
-//LATER docbook2odf
+#LATER docbook2odf
 Recommends: docbook_5
 Recommends: docbook5-xsl-stylesheets
 Recommends: docbook-xml-website
-//LATER doclifter
+#LATER doclifter
 Recommends: susedoc
-//LATER texi2db
-//LATER wt2db
-// Text Encoding Initiative
+#LATER texi2db
+#LATER wt2db
+# Text Encoding Initiative
 Recommends: tei-xsl-stylesheets
 Recommends: tei-roma
 Recommends: texlive-scheme-tetex
@@ -5991,7 +5991,7 @@ Suggests: texlive-xetex
 Suggests: texlive-tools
 Suggests: texlive-latex-doc
 Suggests: texlive-doc
-// 441536
+# 441536
 Suggests: djvulibre
 
 
@@ -6064,7 +6064,7 @@ Recommends: xorg-x11-server
 %ifarch x86_64
 Recommends: nss-mdns-32bit
 %endif
-// needed e.g. for nvidia drivers
+# needed e.g. for nvidia drivers
 Recommends: x11-tools
 Recommends: xterm
 Recommends: ghostscript-x11
@@ -6073,25 +6073,25 @@ Recommends: tightvnc
 Recommends: xorg-x11-driver-input
 Recommends: xorg-x11-driver-video
 Recommends: xorg-x11-libX11-ccache
-// provides e.g. xdm
+# provides e.g. xdm
 Recommends: xorg-x11-essentials
 Recommends: xorg-x11-Xvnc
-// people love having numlock configurable
+# people love having numlock configurable
 Recommends: numlockx
-// improve glxinfo output (#301647)
+# improve glxinfo output (#301647)
 Recommends: freeglut
-// #302566
+# #302566
 Recommends: x11-tools
-// #353229 - drag in empty replacements
+# #353229 - drag in empty replacements
 Recommends: translation-update
-// interesting for workstations too
+# interesting for workstations too
 %ifarch %ix86 x86_64
 Recommends: suspend
 %endif
-// chooce icewm-lite if you have a choice
+# chooce icewm-lite if you have a choice
 Recommends: icewm-lite
 Recommends: xorg-x11-xauth
-// required by others
+# required by others
 Suggests: icewm-default
 Suggests: icewm-gnome
 Suggests: wine
@@ -6105,10 +6105,10 @@ Suggests: mmv
 Suggests: pmidi
 Suggests: xine-ui
 Suggests: xosview
-// on security probation
+# on security probation
 Suggests: xpdf-poppler
 Suggests: xosd
-// #394406
+# #394406
 Suggests: desktop-data-openSUSE-extra
 Suggests: xorg-x11-driver-video-radeonhd
 Suggests: xorg-x11-driver-video-unichrome
@@ -6142,7 +6142,7 @@ Suggests: WindowMaker
 Suggests: WindowMaker-applets
 Suggests: WindowMaker-themes
 Suggests: MozillaThunderbird
-// #389816
+# #389816
 Suggests: xorg-x11-server-sdk
 
 
@@ -6166,7 +6166,7 @@ Conflicts: pattern() = kde4
 # from data/X11-YaST
 Recommends: libyui-qt-pkg
 Recommends: yast2-control-center-qt
-// yast modules for the desktop
+# yast modules for the desktop
 Recommends: yast2-scanner
 Recommends: yast2-tv
 
@@ -6214,7 +6214,7 @@ Recommends: xterm
 Recommends: yast2-vm
 Recommends: virt-viewer
 Recommends: libvirt-daemon-xen
-// #382423
+# #382423
 Suggests: install-initrd
 Suggests: libvirt
 
@@ -6271,21 +6271,21 @@ Recommends: remmina-plugin-rdp
 Recommends: remmina-plugin-vnc
 Recommends: transmission-gtk
 Recommends: gnome-games
-// Additional applications
-// ease debugging
-//
+# Additional applications
+# ease debugging
+#
 Recommends: gdb
 Recommends: system-config-printer
 Recommends: system-config-printer-applet
-// bnc#537362
+# bnc#537362
 Recommends: gnome-packagekit
 Recommends: pk-update-icon
-// bnc#537365
+# bnc#537365
 Recommends: gnome-keyring
 Recommends: gnome-keyring-pam
-//
-// core desktop functionality
-//
+#
+# core desktop functionality
+#
 Recommends: xfce4-taskmanager
 Recommends: thunar-volman
 Recommends: tumbler
@@ -6322,13 +6322,13 @@ Suggests: xfwm4-themes
 Suggests: xfce4-vala
 
 # from data/COMMON-DESKTOP-OPT
-// packages a GTK application
+# packages a GTK application
 Recommends: gutenprint
-// MAYBE later lsb-graphics
+# MAYBE later lsb-graphics
 Recommends: icedtea-web
-// give net shares
+# give net shares
 Recommends: samba
-// needs python-qt4, see#649280#14
+# needs python-qt4, see#649280#14
 Suggests: hplip
 
 
@@ -6349,8 +6349,8 @@ Provides: pattern-extends() = xfce
 Requires: pattern() = x11
 Requires: pattern() = basesystem
 # from data/XFCE-BASIS
-// This defines a bare minimum Xfce desktop used, for example, as
-// base for the openSUSE Rescue CD
+# This defines a bare minimum Xfce desktop used, for example, as
+# base for the openSUSE Rescue CD
 Requires: thunar
 Requires: xfce4-appfinder
 Requires: xfce4-mixer
@@ -6364,35 +6364,35 @@ Requires: xfconf
 Requires: xfdesktop
 Requires: xfwm4
 Requires: thunar-volman
-//
-// low level functionality
-//
+#
+# low level functionality
+#
 Recommends: avahi
 Recommends: dbus-1-x11
-// bnc#540627
+# bnc#540627
 Recommends: xdg-utils
 Recommends: xdg-user-dirs-gtk
 Recommends: desktop-file-utils
 Recommends: shared-mime-info
 Recommends: NetworkManager
 Recommends: NetworkManager-gnome
-// use gnomesu as su wrapper
+# use gnomesu as su wrapper
 Recommends: libgnomesu
-// bnc#440285
+# bnc#440285
 Recommends: pinentry-gtk2
-// For screenlocking to work in xfce
+# For screenlocking to work in xfce
 Recommends: xscreensaver
 Recommends: xfce4-terminal
 Recommends: libxfce4ui-tools
 Recommends: xfce4-panel-plugin-xkb
-//
-// core desktop functionality
-//
+#
+# core desktop functionality
+#
 Recommends: libyui-gtk-pkg
 Recommends: yast2-control-center-gnome
-//
-// branding
-//
+#
+# branding
+#
 Suggests: exo-branding-openSUSE
 Suggests: gconf2-branding-openSUSE
 Suggests: libgarcon-branding-openSUSE
@@ -6415,11 +6415,11 @@ Recommends: droid-fonts
 Recommends: MozillaFirefox
 Recommends: desktop-data-openSUSE
 Recommends: avahi
-// bnc#508120
+# bnc#508120
 Recommends: xdg-user-dirs
-// bnc#598884
+# bnc#598884
 Suggests: moonlight-plugin
-// metalink downloader
+# metalink downloader
 Suggests: aria2
 
 
@@ -6518,12 +6518,12 @@ Recommends: yast2-ntp-client
 Recommends: yast2-printer
 Recommends: yast2-slp
 Recommends: yast2-sudo
-// see the discussion in #386473
+# see the discussion in #386473
 Recommends: yast2-samba-client
 Recommends: yast2-samba-server
-// #388892
+# #388892
 Recommends: yast2-vm
-// #542936
+# #542936
 Recommends: yast2-packager-webpin
 Suggests: yast2-online-update-configuration
 Suggests: yast2-product-creator
@@ -6539,9 +6539,9 @@ Suggests: yast2-mail-plugins
 Suggests: yast2-multipath
 Suggests: yast2-phone-services
 Suggests: yast2-snapper
-// #381365
+# #381365
 Suggests: yast2-squid
-// see extra-packages for reasons
+# see extra-packages for reasons
 Suggests: star
 Suggests: sbl
 Suggests: Mesa
@@ -6556,16 +6556,16 @@ Suggests: motv
 Suggests: nxtvepg
 Suggests: v4l-tools
 Suggests: install-initrd
-// for yast2-scanner
+# for yast2-scanner
 Suggests: sane-backends             // mandatory
 Suggests: hplip                     // optionally
 Suggests: iscan-free                // optionally, open source, derived from iscan
-// themeing for hardcore KDE lovers
+# themeing for hardcore KDE lovers
 Suggests: yast2-theme-openSUSE-Crystal
 Suggests: yast2-theme-openSUSE-Oxygen
 Suggests: ivtv
 Suggests: ivtv-firmware
-// required by yast2-storage
+# required by yast2-storage
 Suggests: pam_mount
 %ifarch x86_64
 Suggests: pam_fp-32bit
@@ -6573,19 +6573,19 @@ Suggests: pam_fp-32bit
 %ifarch ppc64
 Suggests: pam_fp-64bit
 %endif
-// yast2-sound
+# yast2-sound
 Suggests: alsa-firmware 
 Suggests: alsa-tools
-// yast2-printer
+# yast2-printer
 Suggests: ncpfs              // printing via novell ipx
-// yast2-kdump
+# yast2-kdump
 %ifarch ppc
 Suggests: kernel-kdump
 %endif
 Suggests: yast2-fingerprint-reader
 Suggests: sssd
 Suggests: snapper
-// FATE 304350
+# FATE 304350
 Suggests: sblim-sfcb
 Suggests: cim-schema
 
@@ -6608,9 +6608,9 @@ Requires: yast2-installation
 Requires: libyui-ncurses-pkg
 Requires: yast2-network
 Requires: yast2-users
-// bnc#535101
+# bnc#535101
 Requires: yast2-bootloader
-// required to write ntp.conf (bnc#723018)
+# required to write ntp.conf (bnc#723018)
 Requires: yast2-ntp-client
 Suggests: autoyast2-installation
 Suggests: yast2-firewall

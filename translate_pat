@@ -37,7 +37,7 @@ sub translate_sel($$)
 	chomp $line;
 
 	next if ($line =~ m/#pragma online/);
-
+	
 	if ($line =~ m/^#if/) {
 	  $line =~ s,^#if *,,;
 	  my @archs = split(/\|\|/, $line);
@@ -68,6 +68,7 @@ sub translate_sel($$)
 	}
 
 	if ($line =~ m/^#/ || $line =~ m,^//,) {
+	  $line =~ s,^//,#,;
 	  print "$line\n";
 	  next;
 	}
