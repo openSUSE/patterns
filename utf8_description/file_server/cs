@@ -1,0 +1,3 @@
++Des.cs:
+Souborové služby umožňující přístup k souborům z ostatních počítačů v síti. Obsahuje FTP, SMB a NFS protokoly.
+-Des.cs:

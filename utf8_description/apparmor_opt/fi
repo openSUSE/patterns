@@ -1,0 +1,3 @@
++Des.fi:
+AppArmor on tietoturvasovelluskehys, joka mahdollistaa ohjelmien pakollisen käytönvalvonnan. Se suojaa ohjelmistovioilta ja järjestelmään murtautumiselta. AppArmor suojaa (myös pääkäyttäjänä suoritettavat) ohjelmat tuhoa aiheuttavilta koodeilta ja jopa nollapäivähyökkäyksiltä. Sen monipuoliset työkalut parantavat eri ohjelmien turvallisuutta ilman, että käyttäjän tarvitsee hankkia lisätietoja.
+-Des.fi:

@@ -1,0 +1,3 @@
++Des.es:
+Este patrón define los paquetes de software base de OpenFabrics Enterprise Distribution (OFED). Incluye los paquetes necesitados para tener el adaptador Infiniband operacional, que son el IB módulos del kernel y bibliotecas básicas de nivel de usuario.
+-Des.es:

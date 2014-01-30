@@ -1,0 +1,3 @@
++Des.gl:
+Este patrón define os paquetes de software básicos de OpenFabrics Enterprise Distribution (OFED). O patrón básico inclúe os paquetes necesarios para que o adaptador de Infiniband funcione, os módulos IB do kernel e bibliotecas de nivel de usuario básicas.
+-Des.gl:

@@ -1,0 +1,3 @@
++Des.sk:
+Softvér pre správu servera, ktorý bude slúžiť ako webový server, ktorý dokáže poskytovať statické, dynamické a interaktívne stránky (napr. webový obchod). Je postavený na HTTP serveri Apache, na systéme správy databází MySQL a na skriptovacích jazykoch akými sú PHP, Python, Ruby on Rails, alebo Perl.
+-Des.sk:

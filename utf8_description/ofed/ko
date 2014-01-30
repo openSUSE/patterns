@@ -1,0 +1,3 @@
++Des.ko:
+이 패턴은 OpenFabrics 엔터프라이즈 배포판 (OFED) 소프트웨어 기초 꾸러미입니다. 여기에는 사용자의 Infiniband 어뎁터 운용에 필요한 IB kernel 모듈과 기초 사용자 레벨 라이브러리 꾸러미가 포함되어 있습니다. 
+-Des.ko:

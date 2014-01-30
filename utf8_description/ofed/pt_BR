@@ -1,0 +1,3 @@
++Des.pt_BR:
+Este padrão define os pacotes básicos da OpenFabrics Enterprise Distribution (OFED). O padrão básico inclui pacotes necessários para tornar seu adaptador InfiniBand operacional, que são módulos IB para o núcleo e bibliotecas básicas no nível de usuário.
+-Des.pt_BR:

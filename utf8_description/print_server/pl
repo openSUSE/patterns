@@ -1,0 +1,3 @@
++Des.pl:
+Oprogramowanie do obsługi kolejek wydruku, które mogą być udostępnione innym komputerom w sieci. Obsługiwane kolejki i serwery wydruku to LPD, CUPS i SMB.
+-Des.pl:

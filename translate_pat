@@ -1,0 +1,164 @@
+#! /usr/bin/perl
+
+use feature "switch";
+no if $] >= 5.018, warnings => "experimental::smartmatch";
+
+use URI::Escape;
+
+my $currentsection = '';
+
+my $product = 'openSUSE';
+my @lines;
+my $pat;
+my $summary;
+my @description;
+my %patterns_arch;
+
+sub translate_sel($$)
+{
+    my $filename = shift;
+    my $pat = shift;
+
+    print "# from $filename\n";
+
+    open(FILE, $filename);
+
+    while ( <FILE> )
+    {
+        chomp;
+        next if ($_ =~ m/^#/ || $_ =~ m/^\s*$/ || $_ =~ m/^=(.*) Nada$/ || $_ =~ m,^//, );
+        if ( $_ =~ m/^\+(.*):/ ) { $currentsection = $1; next; }
+        if ( $_ =~ m/^\-(.*):/ ) { $currentsection = ''; next; }
+
+        if ( $_ =~ m/^=/ ) {
+	  $currentsection = $_;
+	  $currentsection =~ s,=(\S+):.*,\1,;
+        }
+        my $line = $_;
+
+        given($currentsection) {
+            when (/Psg/) { print "Suggests: $line\n"; }
+            when (/Prq/) { 
+	      next if ($line eq "patterns-$product-$pat");
+	      print "Requires: $line\n"; 
+	    }
+            when (/Prc/) { print "Recommends: $line\n"; }
+            when (/Pcn/) { print "Conflicts: $line\n"; }
+        }
+
+    }
+
+    print "\n";
+
+    close(FILE);
+}
+
+my $pat = $ARGV[0];
+
+sub read_file($) {
+  my $file = shift;
+
+  open(FILE, $file);
+  my $c = <FILE>;
+  close(FILE);
+  chomp $c;
+  return $c;
+}
+
+print "%package $pat\n";
+print "Group: Metapackages\n";
+open(SUM, "utf8_summary/$pat/default");
+my $summary = <SUM>;
+close(SUM);
+chomp $summary;
+$summary =~ s,^=Sum: *,,;
+print "Summary: $summary\n";
+print "Provides: pattern() = $pat\n";
+print "Provides: pattern-order() = " . uri_escape(read_file("toinstall/$pat/order")) . "\n";
+print "Provides: pattern-icon() = " . uri_escape(read_file("toinstall/$pat/icon")) . "\n";
+my $cat = lc(read_file("toinstall/$pat/role"));
+$cat =~ s, ,,g;
+print "%pattern_$cat\n";
+if (read_file("toinstall/$pat/visibible") eq 'true') {
+  print "Provides: pattern-visible()\n";
+}
+my $ext = read_file("toinstall/$pat/extends");
+if ($ext) {
+  print "Provides: pattern-extends() = " . uri_escape($ext) . "\n";
+}
+
+my $supplements = read_file("toinstall/$pat/supplements");
+my $freshens = read_file("toinstall/$pat/freshens");
+if ($supplements) {
+  if ($freshens) {
+    print "Supplements: packageand(patterns-$product-$freshens:patterns-$product-$supplements)\n";
+  } else {
+    print "Supplements: patterns-$product-$supplements\n";
+  }
+}
+
+open(REQ, "toinstall/$pat/requires");
+while ( <REQ> ) {
+  chomp;
+  print "Requires: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/recommends");
+while ( <REQ> ) {
+  chomp;
+  print "Recommends: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/provides");
+while ( <REQ> ) {
+  chomp;
+  print "Provides: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/obsoletes");
+while ( <REQ> ) {
+  chomp;
+  print "Obsoletes: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/conflicts");
+while ( <REQ> ) {
+  chomp;
+  print "Conflicts: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/suggests");
+while ( <REQ> ) {
+  chomp;
+  print "Suggests: pattern() = $_\n";
+}
+close(REQ);
+
+open(REQ, "toinstall/$pat/sel");
+while ( <REQ> ) {
+  chomp;
+  translate_sel("data/$_", $pat);
+}
+close(REQ);
+
+print "\n";
+
+print "%description $pat\n";
+open(SUM, "utf8_description/$pat/default");
+while ( <SUM> ) {
+  chomp;
+  next if ($_ eq '+Des:' || $_ eq '-Des:');
+  print "$_\n";
+}
+print "\n";
+
+print "%files $pat\n";
+#print "%defattr(-,root,root)\n";
+print "/usr/share/doc/packages/patterns-$pat\n";
+print "\n";
+

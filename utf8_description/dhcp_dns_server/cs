@@ -1,0 +1,3 @@
++Des.cs:
+Nastavení DHCP serveru, který se postará o automatické síťové nastavení pracovních stanic ve vaší síti. Součásti je také DNS server, který se postará o správné rozpoznávání jmen staniv síti.
+-Des.cs:

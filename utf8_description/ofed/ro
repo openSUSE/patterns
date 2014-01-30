@@ -1,0 +1,3 @@
++Des.ro:
+Acest model definește pachetele de bază pentru OpenFabrics Enterprise Distribution (OFED). Modelul de bază include pachetele necesare pentru a face adaptorul Infiniband operațional: modulele de kernel IB și biblioteci de nivel utilizator primare.
+-Des.ro:

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+set -e
+
+export RPM_SOURCE_DIR=$PWD
+#cd patterns-$1
+if [ ! -e patterns-$1.spec.in ]; then
+       echo "patterns-$1.spec.in not found"
+       exit 1
+fi
+
+rm -rf mydata
+cp -a patterns-$1-data mydata
+cp -a utf8* mydata
+cd mydata
+export RPM_BUILD_ROOT=tmpdir
+
+#rm -rf toinstall/rest_*
+
+# create_pattern.sh  version release target_cpu  RPM_BUILD_ROOT pat_ext
+#EXPLICIT_UNAME=i386 sh $RPM_SOURCE_DIR/create_pattern.sh 12.0 1 i586 $RPM_BUILD_ROOT ""
+
+specpart=`mktemp`
+sed -n -e '1,/#BEGIN1/p' $RPM_SOURCE_DIR/patterns-$1.spec.in > $specpart
+
+for i in `ls -1 toinstall/`; do
+    perl $RPM_SOURCE_DIR/translate_pat $i >> $specpart
+done
+
+sed -n -e '/#END1/,$p' $RPM_SOURCE_DIR/patterns-$1.spec.in >> $specpart
+mv $specpart $RPM_SOURCE_DIR/patterns-$1.spec
+
+cd $RPM_SOURCE_DIR/mydata/toinstall
+echo mkdir -p \$RPM_BUILD_ROOT/usr/share/doc/packages/patterns-$1/ > $specpart
+for i in *; do
+   echo "echo 'This file marks the pattern $i to be installed.' > \$RPM_BUILD_ROOT/usr/share/doc/packages/patterns-$1/$i.txt" >> $specpart
+done
+
+sed -n -e '1,/#BEGIN2/p' $RPM_SOURCE_DIR/patterns-$1.spec > $specpart.2
+cat $specpart >> $specpart.2
+sed -n -e '/#END2/,$p' $RPM_SOURCE_DIR/patterns-$1.spec >> $specpart.2
+mv $specpart.2 $RPM_SOURCE_DIR/patterns-$1.spec
+
+#rm $specpart
+rm -rf $RPM_BUILD_ROOT

@@ -1,0 +1,3 @@
++Des.nb:
+Programvare for å sette opp en webserver som kan levere statisk, dynamisk og interaktivt innhold (f.eks. en nettbutikk). Løsningen er basert på HTTP-serveren Apache, databaseadministrasjonssystemet MySQL og et skriptingspråk, f.eks. PHP, Python, Ruby on Rails eller Perl.
+-Des.nb:
