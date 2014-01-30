@@ -24,7 +24,7 @@ License:        MIT
 Group:          Metapackages
 Url:            https://github.com/openSUSE/patterns
 Source0:        %{name}-rpmlintrc
-Source1:        createmacros
+Source1:        create_macros
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
@@ -32,27 +32,7 @@ This is an internal package that is used to create the patterns as part
 of the installation source setup.  Installation of this package does
 not make sense.
 
-%expand %(shell perl createmacros)
-
-%package Promo
-Summary:        Patterns for Installation (Promo DVD)
-Group:          Metapackages
-Conflicts:      patterns-openSUSE-dvd5 patterns-openSUSE-dvd9 patterns-openSUSE-cd patterns-openSUSE-addon-non-oss patterns-openSUSE patterns-openSUSE-KDE-cd patterns-openSUSE-GNOME-cd
-
-%description Promo
-This is an internal package that is used to create the patterns as part
-of the installation source setup.  Installation of this package does
-not make sense.
-
-%package dvd
-Summary:        Patterns for Installation (DVD media)
-Group:          Metapackages
-Conflicts:      patterns-openSUSE-dvd5 patterns-openSUSE-dvd9 patterns-openSUSE-cd patterns-openSUSE-addon-non-oss patterns-openSUSE patterns-openSUSE-KDE-cd patterns-openSUSE-GNOME-cd
-
-%description dvd
-This is an internal package that is used to create the patterns as part
-of the installation source setup.  Installation of this package does
-not make sense.
+%{expand:%(perl %{S:1})}
 
 #BEGIN1
 %package 32bit
@@ -1092,7 +1072,7 @@ Tools and libraries for software development using the Python programming langua
 
 %package devel_python3
 %pattern_development
-Summary:        
+Summary:        devel_python3
 Group:          Metapackages
 Provides:       pattern() = devel_python3
 Provides:       pattern-icon() = pattern-basis-devel
@@ -3184,7 +3164,7 @@ Tools designed specifically for laptop computers.
 
 %package leechcraft
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft
 Group:          Metapackages
 Provides:       pattern() = leechcraft
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3208,7 +3188,7 @@ Requires:       leechcraft-cstp
 
 %package leechcraft_browser
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_browser
 Group:          Metapackages
 Provides:       pattern() = leechcraft_browser
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3249,7 +3229,7 @@ Recommends:     leechcraft-tabsessionmanager
 
 %package leechcraft_media
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_media
 Group:          Metapackages
 Provides:       pattern() = leechcraft_media
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3286,7 +3266,7 @@ Suggests:       leechcraft-summary
 
 %package leechcraft_messenger
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_messenger
 Group:          Metapackages
 Provides:       pattern() = leechcraft_messenger
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3350,7 +3330,7 @@ Recommends:     leechcraft-tabsessionmanager
 
 %package leechcraft_netutils
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_netutils
 Group:          Metapackages
 Provides:       pattern() = leechcraft_netutils
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3383,7 +3363,7 @@ Recommends:     leechcraft-summary
 
 %package leechcraft_office
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_office
 Group:          Metapackages
 Provides:       pattern() = leechcraft_office
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -3415,7 +3395,7 @@ Recommends:     leechcraft-summary
 
 %package leechcraft_utilities
 %pattern_desktopfunctions
-Summary:        
+Summary:        leechcraft_utilities
 Group:          Metapackages
 Provides:       pattern() = leechcraft_utilities
 Provides:       pattern-icon() = package_internet_webbrowser
@@ -6779,7 +6759,6 @@ YaST tools for installing your system.
 #END1
 
 %prep
-%setup -q -n patterns-openSUSE-data
 
 %build
 

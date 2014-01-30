@@ -32,144 +32,17 @@ This is an internal package that is used to create the patterns as part
 of the installation source setup.  Installation of this package does
 not make sense.
 
-%expand %(shell perl %{S:1})
-
-%package Promo
-Summary:        Patterns for Installation (Promo DVD)
-Group:          Metapackages
-Conflicts:      patterns-openSUSE-dvd5 patterns-openSUSE-dvd9 patterns-openSUSE-cd patterns-openSUSE-addon-non-oss patterns-openSUSE patterns-openSUSE-KDE-cd patterns-openSUSE-GNOME-cd
-
-%description Promo
-This is an internal package that is used to create the patterns as part
-of the installation source setup.  Installation of this package does
-not make sense.
-
-%package dvd
-Summary:        Patterns for Installation (DVD media)
-Group:          Metapackages
-Conflicts:      patterns-openSUSE-dvd5 patterns-openSUSE-dvd9 patterns-openSUSE-cd patterns-openSUSE-addon-non-oss patterns-openSUSE patterns-openSUSE-KDE-cd patterns-openSUSE-GNOME-cd
-
-%description dvd
-This is an internal package that is used to create the patterns as part
-of the installation source setup.  Installation of this package does
-not make sense.
+%{expand:%(perl %{S:1})}
 
 #BEGIN1
 #END1
 
 %prep
-%setup -q -n patterns-openSUSE-data
 
 %build
 
 %install
 #BEGIN2
-mkdir -p $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/
-echo 'This file marks the pattern 32bit to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/32bit.txt
-echo 'This file marks the pattern 64bit to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/64bit.txt
-echo 'This file marks the pattern apparmor to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/apparmor.txt
-echo 'This file marks the pattern apparmor_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/apparmor_opt.txt
-echo 'This file marks the pattern base to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/base.txt
-echo 'This file marks the pattern books to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/books.txt
-echo 'This file marks the pattern console to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/console.txt
-echo 'This file marks the pattern devel_basis to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_basis.txt
-echo 'This file marks the pattern devel_C_C++ to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_C_C++.txt
-echo 'This file marks the pattern devel_gnome to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_gnome.txt
-echo 'This file marks the pattern devel_ide to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_ide.txt
-echo 'This file marks the pattern devel_java to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_java.txt
-echo 'This file marks the pattern devel_kde to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_kde.txt
-echo 'This file marks the pattern devel_kernel to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_kernel.txt
-echo 'This file marks the pattern devel_mono to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_mono.txt
-echo 'This file marks the pattern devel_perl to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_perl.txt
-echo 'This file marks the pattern devel_python to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_python.txt
-echo 'This file marks the pattern devel_qt4 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_qt4.txt
-echo 'This file marks the pattern devel_rpm_build to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_rpm_build.txt
-echo 'This file marks the pattern devel_ruby to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_ruby.txt
-echo 'This file marks the pattern devel_tcl to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_tcl.txt
-echo 'This file marks the pattern devel_web to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_web.txt
-echo 'This file marks the pattern devel_yast to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_yast.txt
-echo 'This file marks the pattern dhcp_dns_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/dhcp_dns_server.txt
-echo 'This file marks the pattern directory_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/directory_server.txt
-echo 'This file marks the pattern e17 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/e17.txt
-echo 'This file marks the pattern enhanced_base to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/enhanced_base.txt
-echo 'This file marks the pattern enhanced_base_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/enhanced_base_opt.txt
-echo 'This file marks the pattern file_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/file_server.txt
-echo 'This file marks the pattern fonts to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/fonts.txt
-echo 'This file marks the pattern fonts_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/fonts_opt.txt
-echo 'This file marks the pattern games to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/games.txt
-echo 'This file marks the pattern gateway_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gateway_server.txt
-echo 'This file marks the pattern gnome to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome.txt
-echo 'This file marks the pattern gnome_admin to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_admin.txt
-echo 'This file marks the pattern gnome_basis to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_basis.txt
-echo 'This file marks the pattern gnome_basis_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_basis_opt.txt
-echo 'This file marks the pattern gnome_games to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_games.txt
-echo 'This file marks the pattern gnome_ide to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_ide.txt
-echo 'This file marks the pattern gnome_imaging to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_imaging.txt
-echo 'This file marks the pattern gnome_imaging_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_imaging_opt.txt
-echo 'This file marks the pattern gnome_internet to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_internet.txt
-echo 'This file marks the pattern gnome_laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_laptop.txt
-echo 'This file marks the pattern gnome_multimedia to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_multimedia.txt
-echo 'This file marks the pattern gnome_multimedia_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_multimedia_opt.txt
-echo 'This file marks the pattern gnome_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_office.txt
-echo 'This file marks the pattern gnome_office_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_office_opt.txt
-echo 'This file marks the pattern gnome_utilities to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_utilities.txt
-echo 'This file marks the pattern gnome_yast to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/gnome_yast.txt
-echo 'This file marks the pattern imaging to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/imaging.txt
-echo 'This file marks the pattern imaging_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/imaging_opt.txt
-echo 'This file marks the pattern kde to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde.txt
-echo 'This file marks the pattern kde4 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4.txt
-echo 'This file marks the pattern kde4_admin to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_admin.txt
-echo 'This file marks the pattern kde4_basis to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_basis.txt
-echo 'This file marks the pattern kde4_edutainment to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_edutainment.txt
-echo 'This file marks the pattern kde4_games to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_games.txt
-echo 'This file marks the pattern kde4_ide to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_ide.txt
-echo 'This file marks the pattern kde4_imaging to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_imaging.txt
-echo 'This file marks the pattern kde4_internet to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_internet.txt
-echo 'This file marks the pattern kde4_laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_laptop.txt
-echo 'This file marks the pattern kde4_multimedia to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_multimedia.txt
-echo 'This file marks the pattern kde4_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_office.txt
-echo 'This file marks the pattern kde4_pure to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_pure.txt
-echo 'This file marks the pattern kde4_utilities to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_utilities.txt
-echo 'This file marks the pattern kde4_utilities_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_utilities_opt.txt
-echo 'This file marks the pattern kde4_yast to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kde4_yast.txt
-echo 'This file marks the pattern kvm_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kvm_server.txt
-echo 'This file marks the pattern lamp_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lamp_server.txt
-echo 'This file marks the pattern laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/laptop.txt
-echo 'This file marks the pattern lxde to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde.txt
-echo 'This file marks the pattern lxde_laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde_laptop.txt
-echo 'This file marks the pattern lxde_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde_office.txt
-echo 'This file marks the pattern mail_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/mail_server.txt
-echo 'This file marks the pattern minimal_base to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/minimal_base.txt
-echo 'This file marks the pattern minimal_base-conflicts to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/minimal_base-conflicts.txt
-echo 'This file marks the pattern misc_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/misc_server.txt
-echo 'This file marks the pattern multimedia to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/multimedia.txt
-echo 'This file marks the pattern multimedia_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/multimedia_opt.txt
-echo 'This file marks the pattern network_admin to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/network_admin.txt
-echo 'This file marks the pattern non_oss to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/non_oss.txt
-echo 'This file marks the pattern non_oss_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/non_oss_opt.txt
-echo 'This file marks the pattern office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/office.txt
-echo 'This file marks the pattern office_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/office_opt.txt
-echo 'This file marks the pattern print_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/print_server.txt
-echo 'This file marks the pattern remote_desktop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/remote_desktop.txt
-echo 'This file marks the pattern sw_management to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/sw_management.txt
-echo 'This file marks the pattern sw_management_gnome to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/sw_management_gnome.txt
-echo 'This file marks the pattern sw_management_kde4 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/sw_management_kde4.txt
-echo 'This file marks the pattern tabletpc to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/tabletpc.txt
-echo 'This file marks the pattern technical_writing to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/technical_writing.txt
-echo 'This file marks the pattern update_test to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/update_test.txt
-echo 'This file marks the pattern voip to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/voip.txt
-echo 'This file marks the pattern webyast to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/webyast.txt
-echo 'This file marks the pattern x11 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/x11.txt
-echo 'This file marks the pattern x11_opt to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/x11_opt.txt
-echo 'This file marks the pattern x11_yast to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/x11_yast.txt
-echo 'This file marks the pattern x86 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/x86.txt
-echo 'This file marks the pattern xen_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/xen_server.txt
-echo 'This file marks the pattern xfce to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/xfce.txt
-echo 'This file marks the pattern xfce_basis to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/xfce_basis.txt
-echo 'This file marks the pattern xfce_laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/xfce_laptop.txt
-echo 'This file marks the pattern xfce_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/xfce_office.txt
-echo 'This file marks the pattern yast2_basis to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/yast2_basis.txt
-echo 'This file marks the pattern yast2_install_wf to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/yast2_install_wf.txt
 #END2
 
 %changelog
