@@ -92,11 +92,8 @@ ivtv
 ivtv-firmware
 // required by yast2-storage
 pam_mount
-#if defined(__x86_64__) ||  defined(__s390x__)
+#if defined(__x86_64__)
 pam_fp-32bit
-#endif
-#if defined(__ia64__)
-pam_fp-x86
 #endif
 #if defined(__powerpc64__)
 pam_fp-64bit

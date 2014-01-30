@@ -23,9 +23,7 @@ yast2-nis-client
 yast2-printer
 yast2-samba-client
 yast2-slp
-#if !defined(__s390__)
 yast2-tv
-#endif
 yast2-update
 autoyast2
 #if defined(__x86_64__)

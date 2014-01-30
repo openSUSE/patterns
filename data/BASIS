@@ -3,9 +3,7 @@ patterns-openSUSE-base
 aaa_base
 dhcpcd
 hwinfo
-#if !defined(__s390__)
 kbd
-#endif
 kernel
 mkinitrd
 kmod-compat
@@ -23,13 +21,6 @@ klogd
 rpcbind
 polkit-default-privs
 polkit
-#if defined(__powerpc__) && defined(__BIG_ENDIAN__)
-// #467330 (ps3)
-libspe
-spu-tools
-// #739878 - install pdisk by default
-pdisk
-#endif
 sbin_init
 
 util-linux
@@ -42,6 +33,12 @@ which
 -Prq:
 
 +Prc:
+#if defined(__powerpc__)
+libbspe
+spu-tools
+// #739878 - install pdisk by default
+pdisk
+#endif
 // provides init script to load cpufreq modules
 pm-utils
 // default init

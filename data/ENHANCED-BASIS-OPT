@@ -51,10 +51,6 @@ w3m
 wol
 zisofs-tools
 zsh
-#if defined(__ia64__)
-pfmon
-salinfo
-#endif
 -Prc:
 
 +Psg:
@@ -64,9 +60,7 @@ zip
 unzip
 cpupower
 delayacct-utils
-#if !defined(__powerpc__)
 hfsutils
-#endif
 jfsutils
 ocfs2-tools
 rsh

@@ -8,7 +8,5 @@ yast2-control-center-qt
 
 // yast modules for the desktop
 yast2-scanner
-#if !defined(__s390__)
 yast2-tv
-#endif
 -Prc:

@@ -101,11 +101,11 @@ ntfsprogs
 openldap2-client
 openslp
 pciutils
-#if defined __i386__ || defined __x86_64 || defined __ia64__
+#if defined(__i386__) || defined(__x86_64__)
 dmidecode
 acpica
 #endif
-#if defined(__i386__) || defined (__x86_64__)
+#if defined(__i386__) || defined(__x86_64__)
 microcode_ctl
 #endif
 pm-utils

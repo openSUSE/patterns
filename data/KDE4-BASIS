@@ -17,9 +17,7 @@ plasmoid-quickaccess
 keditbookmarks
 konqueror
 konsole
-#if !defined(__s390__)
 kdebase4-nsplugin
-#endif
 kdepim4-wizards
 kdenetwork4-filesharing
 akregator
