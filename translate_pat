@@ -25,8 +25,7 @@ sub translate_sel($$)
 
     while ( <FILE> )
     {
-        chomp;
-        next if ($_ =~ m/^#/ || $_ =~ m/^\s*$/ || $_ =~ m/^=(.*) Nada$/ || $_ =~ m,^//, );
+        next if ($_ =~ m/^\s*$/);
         if ( $_ =~ m/^\+(.*):/ ) { $currentsection = $1; next; }
         if ( $_ =~ m/^\-(.*):/ ) { $currentsection = ''; next; }
 
@@ -35,10 +34,47 @@ sub translate_sel($$)
 	  $currentsection =~ s,=(\S+):.*,\1,;
         }
         my $line = $_;
+	chomp $line;
+
+	next if ($line =~ m/#pragma online/);
+
+	if ($line =~ m/^#if/) {
+	  $line =~ s,^#if *,,;
+	  my @archs = split(/\|\|/, $line);
+	  my @narchs = ();
+	  print "%ifarch ";
+	  for my $arch (@archs) {
+	    $arch =~ s,\s+,,g;
+	    $arch =~ s,defined,,;
+	    $arch =~ s,[()],,g;
+	    if ($arch eq '__i386__') {
+	      push(@narchs, '%ix86');
+	    } elsif ($arch eq '__x86_64__') {
+	      push(@narchs, 'x86_64')
+	    } elsif ($arch eq '__powerpc__') {
+	      push(@narchs, 'ppc')
+	    } elsif ($arch eq '__powerpc64__') {
+	      push(@narchs, 'ppc64')
+	    } else {
+	      push(@narchs, "-$arch-");
+	    }
+	  }
+	  print join(' ', @narchs) . "\n";
+	  next;
+	}
+	if ($line =~ m/^#endif$/) {
+	  print "%endif\n";
+	  next;
+	}
+
+	if ($line =~ m/^#/ || $line =~ m,^//,) {
+	  print "$line\n";
+	  next;
+	}
 
         given($currentsection) {
             when (/Psg/) { print "Suggests: $line\n"; }
-            when (/Prq/) { 
+            when (/Prq/) {
 	      next if ($line eq "patterns-$product-$pat");
 	      print "Requires: $line\n"; 
 	    }
