@@ -24,6 +24,7 @@ License:        MIT
 Group:          Metapackages
 Url:            https://github.com/openSUSE/patterns
 Source0:        %{name}-rpmlintrc
+Source1:        createmacros
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
@@ -31,182 +32,7 @@ This is an internal package that is used to create the patterns as part
 of the installation source setup.  Installation of this package does
 not make sense.
 
-%define pattern_basetechnologies \
-Provides: pattern-category() = Base%20Technologies \
-Provides: pattern-category(ar) = %D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9 \
-Provides: pattern-category(ca) = Tecnologies%20de%20base \
-Provides: pattern-category(cs) = Z%C3%A1kladn%C3%AD%20technologie \
-Provides: pattern-category(da) = Basisteknologier \
-Provides: pattern-category(de) = Basistechnologien \
-Provides: pattern-category(el) = %CE%92%CE%B1%CF%83%CE%B9%CE%BA%CE%AD%CF%82%20%CE%A4%CE%B5%CF%87%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B5%CF%82 \
-Provides: pattern-category(en_GB) = Base%20Technologies \
-Provides: pattern-category(es) = Tecnolog%C3%ADas%20de%20base \
-Provides: pattern-category(et) = Baastehnoloogiad \
-Provides: pattern-category(fi) = Perusteknologiat \
-Provides: pattern-category(fr) = Technologies%20de%20base \
-Provides: pattern-category(gl) = Tecnolox%C3%ADas%20de%20base \
-Provides: pattern-category(hr) = Osnovne%20tehnologije \
-Provides: pattern-category(hu) = Alapkomponensek \
-Provides: pattern-category(id) = Teknolasi%20Dasar \
-Provides: pattern-category(it) = Tecnologie%20di%20base \
-Provides: pattern-category(ja) = %E5%9F%BA%E6%9C%AC%E6%8A%80%E8%A1%93 \
-Provides: pattern-category(km) = %E1%9E%94%E1%9E%85%E1%9F%92%E1%9E%85%E1%9F%81%E1%9E%80%E1%9E%9C%E1%9E%B7%E1%9E%87%E1%9F%92%E1%9E%87%E1%9E%B6%E2%80%8B%E1%9E%82%E1%9F%84%E1%9E%9B \
-Provides: pattern-category(ko) = %EA%B8%B0%EC%B4%88%20%EA%B8%B0%EC%88%A0 \
-Provides: pattern-category(lt) = Pagrindin%C4%97s%20technologijos \
-Provides: pattern-category(nb) = Grunnteknologier \
-Provides: pattern-category(nl) = Basistechnologie%C3%ABn \
-Provides: pattern-category(pa) = %E0%A8%AC%E0%A9%87%E0%A8%B8%20%E0%A8%A4%E0%A8%95%E0%A8%A8%E0%A8%BE%E0%A8%B2%E0%A9%8B%E0%A8%9C%E0%A9%80%E0%A8%86%E0%A8%82 \
-Provides: pattern-category(pl) = Technologie%20podstawowe \
-Provides: pattern-category(pt) = Tecnologias%20de%20Base \
-Provides: pattern-category(pt_BR) = Tecnologias%20de%20base \
-Provides: pattern-category(ro) = Tehnologii%20de%20Baz%C4%83 \
-Provides: pattern-category(ru) = %D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8 \
-Provides: pattern-category(sk) = Z%C3%A1kladn%C3%A9%20technol%C3%B3gie \
-Provides: pattern-category(sv) = Grundl%C3%A4ggande%20teknologier \
-Provides: pattern-category(uk) = %D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%96%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%97 \
-Provides: pattern-category(zh_CN) = %E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF \
-Provides: pattern-category(zh_TW) = %E5%9F%BA%E6%9C%AC%E6%8A%80%E8%A1%93 \
-
-%define pattern_development \
-Provides: pattern-category() = Development \
-Provides: pattern-category(ar) = %D8%AA%D8%B7%D9%88%D9%8A%D8%B1 \
-Provides: pattern-category(bg) = %D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0 \
-Provides: pattern-category(ca) = Desenvolupament \
-Provides: pattern-category(cs) = V%C3%BDvoj \
-Provides: pattern-category(da) = Udvikling \
-Provides: pattern-category(de) = Entwicklung \
-Provides: pattern-category(el) = %CE%95%CF%81%CE%B3%CE%B1%CE%BB%CE%B5%CE%AF%CE%B1%20%CE%91%CE%BD%CE%AC%CF%80%CF%84%CF%85%CE%BE%CE%B7%CF%82 \
-Provides: pattern-category(en_GB) = Development \
-Provides: pattern-category(es) = Desarrollo \
-Provides: pattern-category(et) = Arendus \
-Provides: pattern-category(fi) = Kehitys \
-Provides: pattern-category(fr) = D%C3%A9veloppement \
-Provides: pattern-category(gl) = Desenvolvemento \
-Provides: pattern-category(hi) = %E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8 \
-Provides: pattern-category(hr) = Razvoj \
-Provides: pattern-category(hu) = Fejleszt%C3%A9s \
-Provides: pattern-category(id) = Pengembangan \
-Provides: pattern-category(it) = Sviluppo \
-Provides: pattern-category(ja) = %E9%96%8B%E7%99%BA \
-Provides: pattern-category(km) = %E1%9E%A2%E1%9E%97%E1%9E%B7%E1%9E%9C%E1%9E%8C%E1%9F%92%E1%9E%8D%E1%9E%93%E1%9F%8D \
-Provides: pattern-category(ko) = %EA%B0%9C%EB%B0%9C \
-Provides: pattern-category(lt) = Programavimas \
-Provides: pattern-category(nb) = Utvikling \
-Provides: pattern-category(nl) = Ontwikkeling \
-Provides: pattern-category(pa) = %E0%A8%A1%E0%A8%BF%E0%A8%B5%E0%A9%88%E0%A8%B2%E0%A8%AA%E0%A8%AE%E0%A8%BF%E0%A9%B0%E0%A8%9F \
-Provides: pattern-category(pl) = Programowanie \
-Provides: pattern-category(pt) = Desenvolvimento \
-Provides: pattern-category(pt_BR) = Desenvolvimento \
-Provides: pattern-category(ro) = Dezvoltare \
-Provides: pattern-category(ru) = %D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0 \
-Provides: pattern-category(sk) = V%C3%BDvoj \
-Provides: pattern-category(sv) = Utveckling \
-Provides: pattern-category(uk) = %D0%A0%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0 \
-Provides: pattern-category(zh_CN) = %E5%BC%80%E5%8F%91 \
-Provides: pattern-category(zh_TW) = %E9%96%8B%E7%99%BC
-
-%define pattern_serverfunctions \
-Provides: pattern-category() = Server%20Functions \
-Provides: pattern-category(ar) = %D9%88%D8%B8%D8%A7%D8%A6%D9%81%20%D8%A7%D9%84%D8%AE%D8%A7%D8%AF%D9%85 \
-Provides: pattern-category(bg) = %D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D1%81%D1%8A%D1%80%D0%B2%D1%8A%D1%80%D0%B0 \
-Provides: pattern-category(cs) = Server \
-Provides: pattern-category(da) = Serverfunktioner \
-Provides: pattern-category(de) = Serverfunktionen \
-Provides: pattern-category(el) = %CE%9B%CE%B5%CE%B9%CF%84%CE%BF%CF%85%CF%81%CE%B3%CE%AF%CE%B5%CF%82%20%CE%95%CE%BE%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%84%CE%B7%CF%84%CE%AE \
-Provides: pattern-category(en_GB) = Server%20Functions \
-Provides: pattern-category(es) = Funciones%20de%20servidor \
-Provides: pattern-category(et) = Serveri%20funktsioonid \
-Provides: pattern-category(fi) = Palvelintoiminnot \
-Provides: pattern-category(fr) = Fonctions%20de%20serveur \
-Provides: pattern-category(gl) = Funci%C3%B3ns%20de%20servidor \
-Provides: pattern-category(hu) = Kiszolg%C3%A1l%C3%B3 \
-Provides: pattern-category(it) = Funzioni%20server \
-Provides: pattern-category(ja) = %E3%82%B5%E3%83%BC%E3%83%90%E6%A9%9F%E8%83%BD \
-Provides: pattern-category(km) = %E1%9E%98%E1%9E%BB%E1%9E%81%E1%9E%84%E1%9E%B6%E1%9E%9A%E2%80%8B%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E2%80%8B%E1%9E%98%E1%9F%89%E1%9E%B6%E1%9E%9F%E1%9F%8A%E1%9E%B8%E1%9E%93%E2%80%8B%E1%9E%94%E1%9E%98%E1%9F%92%E1%9E%9A%E1%9E%BE \
-Provides: pattern-category(ko) = %EC%84%9C%EB%B2%84%20%EA%B8%B0%EB%8A%A5 \
-Provides: pattern-category(lt) = Serverio%20funkcijos \
-Provides: pattern-category(nb) = Serverfunksjoner \
-Provides: pattern-category(nl) = Serverfuncties \
-Provides: pattern-category(pa) = %E0%A8%B8%E0%A8%B0%E0%A8%B5%E0%A8%B0%20%E0%A8%AB%E0%A9%B0%E0%A8%95%E0%A8%B8%E0%A8%BC%E0%A8%A8 \
-Provides: pattern-category(pl) = Funkcje%20serwera \
-Provides: pattern-category(pt) = Fun%C3%A7%C3%B5es%20Servidor \
-Provides: pattern-category(pt_BR) = Fun%C3%A7%C3%B5es%20do%20servidor \
-Provides: pattern-category(ro) = Func%C8%9Bionalit%C4%83%C8%9Bi%20Server \
-Provides: pattern-category(ru) = %D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0 \
-Provides: pattern-category(sk) = Funkcie%20serveru \
-Provides: pattern-category(sv) = Serverfunktioner \
-Provides: pattern-category(uk) = %D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D1%96%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97 \
-Provides: pattern-category(zh_CN) = %E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8A%9F%E8%83%BD \
-Provides: pattern-category(zh_TW) = %E4%BC%BA%E6%9C%8D%E5%99%A8%E5%8A%9F%E8%83%BD
-
-%define pattern_graphicalenvironments \
-Provides: pattern-category() = Graphical%20Environments \
-Provides: pattern-category(ar) = %D8%A8%D9%8A%D8%A6%D8%A9%20%D8%B1%D8%B3%D9%88%D9%85%D9%8A%D8%A9 \
-Provides: pattern-category(cs) = Grafick%C3%A1%20rozhran%C3%AD \
-Provides: pattern-category(da) = Grafiske%20milj%C3%B8er \
-Provides: pattern-category(de) = Grafische%20Umgebungen \
-Provides: pattern-category(el) = %CE%93%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CE%AC%20%CE%A0%CE%B5%CF%81%CE%B9%CE%B2%CE%AC%CE%BB%CE%BB%CE%BF%CE%BD%CF%84%CE%B1 \
-Provides: pattern-category(en_GB) = Graphical%20Environments \
-Provides: pattern-category(es) = Entornos%20gr%C3%A1ficos \
-Provides: pattern-category(et) = Graafilised%20keskkonnad \
-Provides: pattern-category(fi) = Graafinen%20ymp%C3%A4rist%C3%B6 \
-Provides: pattern-category(fr) = Environnements%20graphiques \
-Provides: pattern-category(gl) = Ambientes%20gr%C3%A1ficos \
-Provides: pattern-category(hr) = Grafi%C4%8Dko%20okru%C5%BEenje \
-Provides: pattern-category(hu) = Grafikus%20k%C3%B6rnyezet \
-Provides: pattern-category(id) = Lingkungan%20Grafis \
-Provides: pattern-category(it) = Ambienti%20grafici \
-Provides: pattern-category(ja) = %E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%82%AB%E3%83%AB%E3%81%AA%E7%92%B0%E5%A2%83 \
-Provides: pattern-category(km) = %E1%9E%94%E1%9E%9A%E1%9E%B7%E1%9E%9F%E1%9F%92%E1%9E%90%E1%9E%B6%E1%9E%93%E2%80%8B%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%A0%E1%9F%92%E1%9E%9C%E1%9E%B7%E1%9E%80 \
-Provides: pattern-category(ko) = %ED%99%94%EC%83%81%20%ED%99%98%EA%B2%BD \
-Provides: pattern-category(lt) = Grafin%C4%97s%20aplinkos \
-Provides: pattern-category(nb) = Grafisk%20milj%C3%B8 \
-Provides: pattern-category(nl) = Grafische%20omgevingen \
-Provides: pattern-category(pa) = %E0%A8%97%E0%A8%B0%E0%A8%BE%E0%A8%AB%E0%A8%BF%E0%A8%95%E0%A8%B2%20%E0%A8%87%E0%A9%B0%E0%A8%B5%E0%A8%BE%E0%A8%87%E0%A8%B0%E0%A8%A8%E0%A8%AE%E0%A9%88%E0%A8%82%E0%A8%9F \
-Provides: pattern-category(pl) = %C5%9Arodowiska%20graficzne \
-Provides: pattern-category(pt) = Ambientes%20Gr%C3%A1ficos \
-Provides: pattern-category(pt_BR) = Ambientes%20gr%C3%A1ficos \
-Provides: pattern-category(ro) = Medii%20Grafice \
-Provides: pattern-category(ru) = %D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%8B \
-Provides: pattern-category(sk) = Grafick%C3%A9%20prostredia \
-Provides: pattern-category(sv) = Grafiska%20milj%C3%B6er \
-Provides: pattern-category(uk) = %D0%93%D1%80%D0%B0%D1%84%D1%96%D1%87%D0%BD%D1%96%20%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B0 \
-Provides: pattern-category(zh_CN) = %E5%9B%BE%E5%BD%A2%E7%8E%AF%E5%A2%83 \
-Provides: pattern-category(zh_TW) = %E5%9C%96%E5%BD%A2%E7%92%B0%E5%A2%83
-
-%define pattern_propriertarysoftware \
-Provides: pattern-category() = Proprietary%20Software \
-Provides: pattern-category(ar) = %D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%83%D8%A7%D8%B1%D9%8A%D8%A9 \
-Provides: pattern-category(cs) = Propriet%C3%A1rn%C3%AD%20software \
-Provides: pattern-category(da) = Popriet%C3%A6r%20software \
-Provides: pattern-category(de) = Propriet%C3%A4re%20Software \
-Provides: pattern-category(el) = %CE%95%CE%BC%CF%80%CE%BF%CF%81%CE%B9%CE%BA%CF%8C%20%CE%9B%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CE%B9%CE%BA%CF%8C \
-Provides: pattern-category(en_GB) = Proprietary%20Software \
-Provides: pattern-category(es) = Software%20privativo \
-Provides: pattern-category(et) = Suletud%20l%C3%A4htekoodiga%20tarkvara \
-Provides: pattern-category(fi) = Suljetun%20koodin%20ohjelmistot \
-Provides: pattern-category(fr) = Logiciels%20propri%C3%A9taires \
-Provides: pattern-category(gl) = Software%20propietario \
-Provides: pattern-category(hr) = Vlasni%C4%8Dki%20programi \
-Provides: pattern-category(hu) = Szabadalom%20al%C3%A1%20es%C5%91%20term%C3%A9kek \
-Provides: pattern-category(it) = Programmi%20proprietari \
-Provides: pattern-category(ja) = %E3%83%97%E3%83%AD%E3%83%97%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%BF%E3%83%AA%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A8%E3%82%A2 \
-Provides: pattern-category(km) = %E1%9E%80%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%9C%E1%9E%B7%E1%9E%92%E1%9E%B8%E2%80%8B%E1%9E%80%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%9F%E1%9E%B7%E1%9E%91%E1%9F%92%E1%9E%92%E1%9E%B7 \
-Provides: pattern-category(ko) = %EB%8F%85%EC%A0%90%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4 \
-Provides: pattern-category(lt) = Nuosavybin%C4%97%20programin%C4%97%20%C4%AFranga \
-Provides: pattern-category(nb) = Propriet%C3%A6r%20programvare \
-Provides: pattern-category(nl) = Niet-opensource%20software \
-Provides: pattern-category(pa) = %E0%A8%AA%E0%A9%8D%E0%A8%B0%E0%A9%8B%E0%A8%AA%E0%A9%88%E0%A8%82%E0%A8%9F%E0%A8%B0%E0%A9%80%20%E0%A8%B8%E0%A8%BE%E0%A8%AB%E0%A8%9F%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0 \
-Provides: pattern-category(pl) = Oprogramowanie%20zastrze%C5%BCone \
-Provides: pattern-category(pt) = Software%20Propriet%C3%A1rio \
-Provides: pattern-category(pt_BR) = Software%20propriet%C3%A1rio \
-Provides: pattern-category(ro) = Software%20Proprietar \
-Provides: pattern-category(ru) = %D0%9F%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D0%B5%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5 \
-Provides: pattern-category(sk) = Softv%C3%A9r%20s%20uzavret%C3%BDm%20zdrojov%C3%BDm%20k%C3%B3dom \
-Provides: pattern-category(sv) = Program%20med%20icke%20%C3%B6ppen%20k%C3%A4llkod \
-Provides: pattern-category(uk) = %D0%97%D0%B0%D0%BA%D1%80%D0%B8%D1%82%D0%B5%20%D0%9F%D0%97 \
-Provides: pattern-category(zh_CN) = %E7%A7%81%E6%9C%89%E8%BD%AF%E4%BB%B6 \
-Provides: pattern-category(zh_TW) = %E5%B0%88%E5%88%A9%E8%BB%9F%E9%AB%94
+%expand %(shell perl createmacros)
 
 %package Promo
 Summary:        Patterns for Installation (Promo DVD)
@@ -411,7 +237,9 @@ Suggests:       php-doc
 Suggests:       postfix-doc
 Suggests:       postgresql-docs
 Suggests:       python-doc
+Suggests:       python3-doc
 Suggests:       python-doc-pdf
+Suggests:       python3-doc-pdf
 Suggests:       samba-doc
 Suggests:       selinux-doc
 Suggests:       subversion-doc
@@ -1261,6 +1089,36 @@ Tools and libraries for software development using the Python programming langua
 
 %files devel_python
 /usr/share/doc/packages/patterns-devel_python
+
+%package devel_python3
+%pattern_development
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = devel_python3
+Provides:       pattern-icon() = pattern-basis-devel
+Provides:       pattern-order() = 3359
+# from data/DEVEL-Python3
+Recommends:     python3
+Recommends:     python3-devel
+Suggests:       python3-lxml
+Suggests:       python3-pip
+Suggests:       python3-Cython
+Suggests:       python3-setuptools
+Suggests:       python3-requests
+Suggests:       python3-pyOpenSSL
+Suggests:       python3-pycrypto
+Suggests:       python3-simplejson
+Suggests:       python3-Sphinx
+Suggests:       python3-docutils
+Suggests:       python3-Jinja2
+Suggests:       python3-coverage
+Suggests:       python3-nose
+
+
+%description devel_python3
+
+%files devel_python3
+/usr/share/doc/packages/patterns-devel_python3
 
 %package devel_qt4
 %pattern_development
@@ -3324,6 +3182,278 @@ Tools designed specifically for laptop computers.
 %files laptop
 /usr/share/doc/packages/patterns-laptop
 
+%package leechcraft
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1248
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_browser
+Recommends:     pattern() = leechcraft_media
+Recommends:     pattern() = leechcraft_messenger
+Recommends:     pattern() = leechcraft_office
+Recommends:     pattern() = leechcraft_utilities
+Recommends:     pattern() = leechcraft_netutils
+# from data/LC
+Requires:       leechcraft-cstp
+
+
+%description leechcraft
+
+%files leechcraft
+/usr/share/doc/packages/patterns-leechcraft
+
+%package leechcraft_browser
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_browser
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1246
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_utilities
+# from data/LC-Browser
+Requires:       leechcraft-cstp
+Requires:       leechcraft-poshuku
+Requires:       leechcraft-xproxy
+Recommends:     leechcraft-anhero
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-lackman
+Recommends:     leechcraft-newlife
+Recommends:     leechcraft-pintab
+Recommends:     leechcraft-pogooglue
+Recommends:     leechcraft-poshuku-autosearch
+Recommends:     leechcraft-poshuku-cleanweb
+Recommends:     leechcraft-poshuku-fatape
+Recommends:     leechcraft-poshuku-filescheme
+Recommends:     leechcraft-poshuku-fua
+Recommends:     leechcraft-poshuku-keywords
+Recommends:     leechcraft-poshuku-onlinebookmarks-delicious
+Recommends:     leechcraft-poshuku-onlinebookmarks-readitlater
+Recommends:     leechcraft-seekthru
+Recommends:     leechcraft-summary
+Recommends:     leechcraft-tabsessionmanager
+
+
+%description leechcraft_browser
+
+%files leechcraft_browser
+/usr/share/doc/packages/patterns-leechcraft_browser
+
+%package leechcraft_media
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_media
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1252
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_utilities
+# from data/LC-Media
+Requires:       leechcraft-lmp
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-cstp
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-deadlyrics
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-gacts
+Recommends:     leechcraft-hotstreams
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-lastfmscrobble
+Recommends:     leechcraft-lmp-dumbsync
+Recommends:     leechcraft-lmp-graffiti
+Recommends:     leechcraft-lmp-mp3tunes
+Recommends:     leechcraft-musiczombie
+Recommends:     leechcraft-vgrabber
+Recommends:     leechcraft-xproxy
+Suggests:       leechcraft-anhero
+Suggests:       leechcraft-kinotify
+Suggests:       leechcraft-summary
+
+
+%description leechcraft_media
+
+%files leechcraft_media
+/usr/share/doc/packages/patterns-leechcraft_media
+
+%package leechcraft_messenger
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_messenger
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1256
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_utilities
+# from data/LC-Messenger
+Requires:       leechcraft-azoth
+Requires:       leechcraft-xproxy
+Recommends:     leechcraft-anhero
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-azoth-acetamide
+Recommends:     leechcraft-azoth-adiumstyles
+Recommends:     leechcraft-azoth-autoidler
+Recommends:     leechcraft-azoth-autopaste
+Recommends:     leechcraft-azoth-birthdaynotifier
+Recommends:     leechcraft-azoth-chathistory
+Recommends:     leechcraft-azoth-depester
+Recommends:     leechcraft-azoth-embedmedia
+Recommends:     leechcraft-azoth-herbicide
+Recommends:     leechcraft-azoth-hili
+Recommends:     leechcraft-azoth-isterique
+Recommends:     leechcraft-azoth-juick
+Recommends:     leechcraft-azoth-keeso
+Recommends:     leechcraft-azoth-lastseen
+Recommends:     leechcraft-azoth-metacontacts
+Recommends:     leechcraft-azoth-modnok
+Recommends:     leechcraft-azoth-nativeemoticons
+Recommends:     leechcraft-azoth-p100q
+Recommends:     leechcraft-azoth-rosenthal
+Recommends:     leechcraft-azoth-shx
+Recommends:     leechcraft-azoth-standardstyles
+Recommends:     leechcraft-azoth-vader
+Recommends:     leechcraft-azoth-velvetbird
+Recommends:     leechcraft-azoth-xoox
+Recommends:     leechcraft-azoth-xtazy
+Recommends:     leechcraft-azoth-zheet
+Recommends:     leechcraft-cstp
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-dumbeep
+Recommends:     leechcraft-gacts
+Recommends:     leechcraft-kinotify
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-lackman
+Recommends:     leechcraft-newlife
+Recommends:     leechcraft-netstoremanager-googledrive
+Recommends:     leechcraft-pintab
+Recommends:     leechcraft-pogooglue
+Recommends:     leechcraft-secman-simplestorage
+Recommends:     leechcraft-seekthru
+Recommends:     leechcraft-summary
+Recommends:     leechcraft-tabsessionmanager
+
+
+%description leechcraft_messenger
+
+%files leechcraft_messenger
+/usr/share/doc/packages/patterns-leechcraft_messenger
+
+%package leechcraft_netutils
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_netutils
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1254
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_utilities
+# from data/LC-NetUtils
+Requires:       leechcraft-cstp
+Requires:       leechcraft-xproxy
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-aggregator-bodyfetch
+Recommends:     leechcraft-anhero
+Recommends:     leechcraft-bittorrent
+Recommends:     leechcraft-blogique-metida
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-netstoremanager-googledrive
+Recommends:     leechcraft-newlife
+Recommends:     leechcraft-pogooglue
+Recommends:     leechcraft-seekthru
+Recommends:     leechcraft-summary
+
+
+%description leechcraft_netutils
+
+%files leechcraft_netutils
+/usr/share/doc/packages/patterns-leechcraft_netutils
+
+%package leechcraft_office
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_office
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1250
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+Recommends:     pattern() = leechcraft_utilities
+# from data/LC-Office
+Requires:       leechcraft
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-anhero
+Recommends:     leechcraft-blogique-hestia
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-monocle-fxb
+Recommends:     leechcraft-monocle-pdf
+Recommends:     leechcraft-monocle-postrus
+Recommends:     leechcraft-monocle-seen
+Recommends:     leechcraft-otlozhu
+Recommends:     leechcraft-popishu
+Recommends:     leechcraft-summary
+
+
+%description leechcraft_office
+
+%files leechcraft_office
+/usr/share/doc/packages/patterns-leechcraft_office
+
+%package leechcraft_utilities
+%pattern_desktopfunctions
+Summary:        
+Group:          Metapackages
+Provides:       pattern() = leechcraft_utilities
+Provides:       pattern-icon() = package_internet_webbrowser
+Provides:       pattern-order() = 1244
+Requires:       pattern() = x11
+Requires:       pattern() = basesystem
+# from data/LC-Utilities
+Requires:       leechcraft
+Recommends:     leechcraft-advancednotifications
+Recommends:     leechcraft-anhero
+Recommends:     leechcraft-auscrie
+Recommends:     leechcraft-cstp
+Recommends:     leechcraft-dbusmanager
+Recommends:     leechcraft-dolozhee
+Recommends:     leechcraft-dumbeep
+Recommends:     leechcraft-gacts
+Recommends:     leechcraft-glance
+Recommends:     leechcraft-historyholder
+Recommends:     leechcraft-kinotify
+Recommends:     leechcraft-knowhow
+Recommends:     leechcraft-lackman
+Recommends:     leechcraft-networkmonitor
+Recommends:     leechcraft-newlife
+Recommends:     leechcraft-pintab
+Recommends:     leechcraft-pogooglue
+Recommends:     leechcraft-secman-simplestorage
+Recommends:     leechcraft-seekthru
+Recommends:     leechcraft-summary
+Recommends:     leechcraft-tabsessionmanager
+Recommends:     leechcraft-tabslist
+Recommends:     leechcraft-xproxy
+
+
+%description leechcraft_utilities
+
+%files leechcraft_utilities
+/usr/share/doc/packages/patterns-leechcraft_utilities
+
 %package lxde
 %pattern_graphicalenvironments
 Summary:        LXDE Desktop Environment
@@ -5249,6 +5379,7 @@ Recommends:     pattern() = devel_kernel
 Recommends:     pattern() = devel_mono
 Recommends:     pattern() = devel_perl
 Recommends:     pattern() = devel_python
+Recommends:     pattern() = devel_python3
 Recommends:     pattern() = devel_qt4
 Recommends:     pattern() = devel_rpm_build
 Recommends:     pattern() = devel_ruby
@@ -5851,7 +5982,7 @@ Provides:       pattern-icon() = yast-sw_single
 Provides:       pattern-order() = 1360
 Recommends:     pattern() = sw_management_x11
 Provides:       pattern() = zmd = 11.1
-Obsoletes       :pattern() = zmd < 11.0
+Obsoletes:       pattern() = zmd < 11.0
 # from data/SW-MANGEMENT
 Requires:       zypper
 Suggests:       pin
@@ -5875,8 +6006,8 @@ Supplements:    packageand(patterns-openSUSE-gnome_basis:patterns-openSUSE-sw_ma
 Requires:       pattern() = sw_management
 Requires:       pattern() = x11
 Provides:       pattern() = zmd_x11 = 10.3
-Obsoletes       :pattern() = zmd_x11 <= 10.2
-Obsoletes       :pattern() = sw_management_x11 <= 10.2
+Obsoletes:       pattern() = zmd_x11 <= 10.2
+Obsoletes:       pattern() = sw_management_x11 <= 10.2
 # from data/SW-MANGEMENT-GNOME
 Recommends:     gnome-packagekit
 Suggests:       libyui-gtk-pkg
@@ -5900,8 +6031,8 @@ Supplements:    packageand(patterns-openSUSE-kde4_basis:patterns-openSUSE-sw_man
 Requires:       pattern() = sw_management
 Requires:       pattern() = x11
 Provides:       pattern() = zmd_x11 = 10.3
-Obsoletes       :pattern() = zmd_x11 <= 10.2
-Obsoletes       :pattern() = sw_management_x11 <= 10.2
+Obsoletes:       pattern() = zmd_x11 <= 10.2
+Obsoletes:       pattern() = sw_management_x11 <= 10.2
 # from data/SW-MANGEMENT-KDE4
 Recommends:     apper
 Suggests:       libyui-qt-pkg
@@ -5943,7 +6074,7 @@ Group:          Metapackages
 Provides:       pattern() = technical_writing
 Provides:       pattern-icon() = yast-messages
 Provides:       pattern-order() = 2000
-Obsoletes       :pattern() = xml <= 10.3
+Obsoletes:       pattern() = xml <= 10.3
 # from data/TECHNICAL-WRITING
 Recommends:     nxml-mode
 Recommends:     xmlto
@@ -6672,6 +6803,7 @@ echo 'This file marks the pattern devel_kernel to be installed.' > $RPM_BUILD_RO
 echo 'This file marks the pattern devel_mono to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_mono.txt
 echo 'This file marks the pattern devel_perl to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_perl.txt
 echo 'This file marks the pattern devel_python to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_python.txt
+echo 'This file marks the pattern devel_python3 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_python3.txt
 echo 'This file marks the pattern devel_qt4 to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_qt4.txt
 echo 'This file marks the pattern devel_rpm_build to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_rpm_build.txt
 echo 'This file marks the pattern devel_ruby to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/devel_ruby.txt
@@ -6725,6 +6857,13 @@ echo 'This file marks the pattern kde4_yast to be installed.' > $RPM_BUILD_ROOT/
 echo 'This file marks the pattern kvm_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/kvm_server.txt
 echo 'This file marks the pattern lamp_server to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lamp_server.txt
 echo 'This file marks the pattern laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/laptop.txt
+echo 'This file marks the pattern leechcraft to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft.txt
+echo 'This file marks the pattern leechcraft_browser to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_browser.txt
+echo 'This file marks the pattern leechcraft_media to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_media.txt
+echo 'This file marks the pattern leechcraft_messenger to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_messenger.txt
+echo 'This file marks the pattern leechcraft_netutils to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_netutils.txt
+echo 'This file marks the pattern leechcraft_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_office.txt
+echo 'This file marks the pattern leechcraft_utilities to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/leechcraft_utilities.txt
 echo 'This file marks the pattern lxde to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde.txt
 echo 'This file marks the pattern lxde_laptop to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde_laptop.txt
 echo 'This file marks the pattern lxde_office to be installed.' > $RPM_BUILD_ROOT/usr/share/doc/packages/patterns-openSUSE/lxde_office.txt
