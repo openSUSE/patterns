@@ -19,6 +19,7 @@ lxde:			LXDE Desktop Environment [only ftp/DVD]
 moblin:			Moblin User eXperience
 x11:			X Window System
 fonts:			Fonts
+leechcraft		LeechCraft Live Environment [not on iso]
 
 GNOME Desktop
 =============
@@ -103,3 +104,11 @@ devel_ruby:		Ruby on Rails Development [not on CDs]
 devel_web:		Web Development
 devel_yast:		YaST Development
 
+LeechCraft Live Environment
+============
+leechcraft_browser	LeechCraft Poshuku Web Browser [not on iso]
+leechcraft_media	LeechCraft Social Audio Player [not on iso]
+leechcraft_messenger	LeechCraft Azoth Instant Messenger [not on iso]
+leechcraft_netutils	LeechCraft Blogs, Feeds and Torrents [not on iso]
+leechcraft_office	LeechCraft Office [not on iso]
+leechcraft_utilities	LeechCraft Utilities [not on iso]
