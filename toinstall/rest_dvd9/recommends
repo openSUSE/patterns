@@ -17,6 +17,7 @@ devel_kernel
 devel_mono
 devel_perl
 devel_python
+devel_python3
 devel_qt4
 devel_rpm_build
 devel_ruby

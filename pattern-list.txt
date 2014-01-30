@@ -97,6 +97,7 @@ devel_kde:		KDE Development
 devel_mono:		.NET Development [not on CDs]
 devel_perl:		Perl Development
 devel_python:		Python Development
+devel_python3:		Python3 Development
 devel_qt4:              Qt4 Development 
 devel_rails:		Rails Development [not on CDs]
 devel_rpm_build:	RPM Build Environment

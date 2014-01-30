@@ -41,8 +41,10 @@ php-doc
 postfix-doc
 postgresql-docs
 python-doc
+python3-doc
 #pragma online
 python-doc-pdf
+python3-doc-pdf
 #pragma online
 samba-doc
 selinux-doc
