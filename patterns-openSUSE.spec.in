@@ -24,7 +24,6 @@ License:        MIT
 Group:          Metapackages
 Url:            https://github.com/openSUSE/patterns
 Source0:        %{name}-rpmlintrc
-Source1:        patterns-openSUSE.spec.in
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
