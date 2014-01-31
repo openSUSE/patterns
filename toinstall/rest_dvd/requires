@@ -1,6 +1,3 @@
-#if defined(__powerpc__)
-64bit
-#endif
 apparmor
 apparmor_opt
 base
@@ -41,10 +38,8 @@ gnome_internet
 gnome_laptop
 gnome_multimedia
 gnome_multimedia_opt
-#if defined(__i386__) || defined (__x86_64__)
 gnome_office
 gnome_office_opt
-#endif
 gnome_utilities
 gnome_yast
 imaging
@@ -60,9 +55,7 @@ kde4_imaging
 kde4_internet
 kde4_laptop
 kde4_multimedia
-#if defined(__i386__) || defined (__x86_64__)
 kde4_office
-#endif
 kde4_utilities
 kde4_utilities_opt
 kde4_yast
@@ -74,32 +67,23 @@ multimedia
 multimedia_opt
 network_admin
 non_oss
-#if defined(__i386__) || defined (__x86_64__)
 office
 office_opt
-#endif
 print_server
 remote_desktop
 sw_management
 sw_management_gnome
 sw_management_kde4
 tabletpc
-//#if !defined(__x86_64__)
 technical_writing
-//#endif
 x11
 x11_opt
-#if defined(__ia64__)
-x86
-#endif
 // for now xen_server
 xfce
 xfce_basis
 xfce_laptop
 lxde
-#if defined(__i386__) || defined (__x86_64__)
 xfce_office
-#endif
 lxde_laptop
 yast2_basis
 yast2_install_wf
