@@ -48,7 +48,8 @@ Provides:       pattern-order() = 1140
 This pattern installs the 32-bit variant of all selected patterns, allowing you to execute 32-bit software.
 
 %files 32bit
-/usr/share/doc/packages/patterns-32bit
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/32bit.txt
 
 %package 64bit
 %pattern_basetechnologies
@@ -62,7 +63,8 @@ Provides:       pattern-order() = 1160
 This pattern installs the 64-bit variant of all selected patterns, allowing you to execute 64-bit software.
 
 %files 64bit
-/usr/share/doc/packages/patterns-64bit
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/64bit.txt
 
 %package apparmor
 %pattern_basetechnologies
@@ -86,7 +88,8 @@ Suggests:       pam_apparmor
 AppArmor is an application security framework that provides mandatory access control for programs. It protects from exploitation of software flaws and compromised systems. It offers an advanced tool set that automates the development of per-program application security without requiring additional knowledge.
 
 %files apparmor
-/usr/share/doc/packages/patterns-apparmor
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/apparmor.txt
 
 %package apparmor_opt
 %pattern_basetechnologies
@@ -105,7 +108,8 @@ Requires:       apparmor-docs
 AppArmor is an application security framework that provides mandatory access control for programs. It protects from exploitation of software flaws and compromised systems. It offers an advanced tool set that automates the development of per-program application security without requiring additional knowledge.
 
 %files apparmor_opt
-/usr/share/doc/packages/patterns-apparmor_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/apparmor_opt.txt
 
 %package base
 %pattern_basetechnologies
@@ -176,7 +180,8 @@ Suggests:       systemd-logger
 This is the base runtime system.  It contains only a minimal multiuser booting system. For running on real hardware, you need to add additional packages and pattern to make this pattern useful on its own.
 
 %files base
-/usr/share/doc/packages/patterns-base
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/base.txt
 
 %package books
 %pattern_documentation
@@ -239,7 +244,8 @@ Suggests:       opensuse-startup_ru-pdf
 Help and Documentation, various books
 
 %files books
-/usr/share/doc/packages/patterns-books
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/books.txt
 
 %package console
 %pattern_basetechnologies
@@ -287,7 +293,8 @@ Suggests:       cnetworkmanager
 Applications useful for those using the console and no graphical desktop environment.
 
 %files console
-/usr/share/doc/packages/patterns-console
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/console.txt
 
 %package devel_basis
 %pattern_development
@@ -362,7 +369,8 @@ Suggests:       nasm
 Minimal set of tools for compiling and linking applications.
 
 %files devel_basis
-/usr/share/doc/packages/patterns-devel_basis
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_basis.txt
 
 %package devel_C_C++
 %pattern_development
@@ -390,7 +398,8 @@ Suggests:       expect
 Tools and libraries for software development using C/C++ and other derivative of the C programming language.
 
 %files devel_C_C++
-/usr/share/doc/packages/patterns-devel_C_C++
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_C_C++.txt
 
 %package devel_gnome
 %pattern_development
@@ -449,7 +458,8 @@ Suggests:       python-gobject-devel
 GNOME development packages.
 
 %files devel_gnome
-/usr/share/doc/packages/patterns-devel_gnome
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_gnome.txt
 
 %package devel_ide
 %pattern_development
@@ -468,7 +478,8 @@ Suggests:       anjuta
 Integrated Development Environments.
 
 %files devel_ide
-/usr/share/doc/packages/patterns-devel_ide
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_ide.txt
 
 %package devel_java
 %pattern_development
@@ -540,7 +551,8 @@ Suggests:       geronimo-j2ee-1_4-apis
 Tools and libraries for software development using the Java programming language.
 
 %files devel_java
-/usr/share/doc/packages/patterns-devel_java
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_java.txt
 
 %package devel_kde
 %pattern_development
@@ -803,7 +815,8 @@ Suggests:       xz-devel
 KDE development packages.
 
 %files devel_kde
-/usr/share/doc/packages/patterns-devel_kde
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_kde.txt
 
 %package devel_kernel
 %pattern_development
@@ -835,7 +848,8 @@ Suggests:       cscope
 Tools for Linux kernel development.
 
 %files devel_kernel
-/usr/share/doc/packages/patterns-devel_kernel
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_kernel.txt
 
 %package devel_mono
 %pattern_development
@@ -878,7 +892,8 @@ Suggests:       vte016-sharp
 Tools and libraries for .NET development using Mono.
 
 %files devel_mono
-/usr/share/doc/packages/patterns-devel_mono
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_mono.txt
 
 %package devel_perl
 %pattern_development
@@ -1027,7 +1042,8 @@ Suggests:       perl-XML-LibXSLT
 Tools and libraries for software development using the Perl programming language.
 
 %files devel_perl
-/usr/share/doc/packages/patterns-devel_perl
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_perl.txt
 
 %package devel_python
 %pattern_development
@@ -1069,7 +1085,8 @@ Suggests:       python-zope.interface
 Tools and libraries for software development using the Python programming language.
 
 %files devel_python
-/usr/share/doc/packages/patterns-devel_python
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_python.txt
 
 %package devel_python3
 %pattern_development
@@ -1099,7 +1116,8 @@ Suggests:       python3-nose
 %description devel_python3
 
 %files devel_python3
-/usr/share/doc/packages/patterns-devel_python3
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_python3.txt
 
 %package devel_qt4
 %pattern_development
@@ -1124,7 +1142,8 @@ Suggests:       qt-creator
 Tools and libraries for software development using Qt 4, the latest version of the Qt toolkit.
 
 %files devel_qt4
-/usr/share/doc/packages/patterns-devel_qt4
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_qt4.txt
 
 %package devel_rpm_build
 %pattern_development
@@ -1148,7 +1167,8 @@ Suggests:       libsolv-devel
 Minimal set of tools and libraries for building packages using the RPM package manager.
 
 %files devel_rpm_build
-/usr/share/doc/packages/patterns-devel_rpm_build
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_rpm_build.txt
 
 %package devel_ruby
 %pattern_development
@@ -1175,7 +1195,8 @@ Suggests:       ruby-tk
 Tools and libraries for software development using the Ruby programming language.
 
 %files devel_ruby
-/usr/share/doc/packages/patterns-devel_ruby
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_ruby.txt
 
 %package devel_tcl
 %pattern_development
@@ -1220,7 +1241,8 @@ Suggests:       vtcl
 Tools and libraries for development using Tcl and Tk.
 
 %files devel_tcl
-/usr/share/doc/packages/patterns-devel_tcl
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_tcl.txt
 
 %package devel_web
 %pattern_development
@@ -1302,7 +1324,8 @@ Suggests:       html2text
 Tools and libraries for Web application development.
 
 %files devel_web
-/usr/share/doc/packages/patterns-devel_web
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_web.txt
 
 %package devel_yast
 %pattern_development
@@ -1340,7 +1363,8 @@ Suggests:       createrepo
 Tools and libraries for developing YaST modules, the setup and configuration tool for openSUSE.
 
 %files devel_yast
-/usr/share/doc/packages/patterns-devel_yast
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/devel_yast.txt
 
 %package dhcp_dns_server
 %pattern_serverfunctions
@@ -1364,7 +1388,8 @@ Recommends:     bind-doc
 Software to set up a server for the Dynamic Host Configuration Protocol (DHCP) and the Domain Name System (DNS) services. DHCP provides configuration parameters to client computers to integrate them into a network, whereas DNS delivers information associated with domain names, in particular, the IP address.
 
 %files dhcp_dns_server
-/usr/share/doc/packages/patterns-dhcp_dns_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/dhcp_dns_server.txt
 
 %package directory_server
 %pattern_serverfunctions
@@ -1389,7 +1414,8 @@ Recommends:     pam_ldap-32bit
 Software to set up a directory server with OpenLDAP. The Lightweight Directory Access Protocol (LDAP) is used to access online directory services. 
 
 %files directory_server
-/usr/share/doc/packages/patterns-directory_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/directory_server.txt
 
 %package e17
 %pattern_graphicalenvironments
@@ -1423,7 +1449,8 @@ Suggests:       hplip
 Enlightment Window Manager and applications
 
 %files e17
-/usr/share/doc/packages/patterns-e17
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/e17.txt
 
 %package enhanced_base
 %pattern_basetechnologies
@@ -1599,7 +1626,8 @@ Suggests:       tmpwatch
 This is the enhanced base runtime system with lots of convenience packages.
 
 %files enhanced_base
-/usr/share/doc/packages/patterns-enhanced_base
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/enhanced_base.txt
 
 %package enhanced_base_opt
 %pattern_basetechnologies
@@ -1712,7 +1740,8 @@ Suggests:       systemd-analyze
 This is the enhanced base runtime system with lots of convenience packages.
 
 %files enhanced_base_opt
-/usr/share/doc/packages/patterns-enhanced_base_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/enhanced_base_opt.txt
 
 %package file_server
 %pattern_serverfunctions
@@ -1741,7 +1770,8 @@ Suggests:       atftp
 File services to host files so that they may be accessed or retrieved by other computers on the same network. This includes the FTP, SMB, and NFS protocols.
 
 %files file_server
-/usr/share/doc/packages/patterns-file_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/file_server.txt
 
 %package fonts
 %pattern_graphicalenvironments
@@ -1770,7 +1800,8 @@ Suggests:       bitstream-vera
 Base fonts and font configuration.
 
 %files fonts
-/usr/share/doc/packages/patterns-fonts
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/fonts.txt
 
 %package fonts_opt
 %pattern_graphicalenvironments
@@ -1792,7 +1823,8 @@ Recommends:     droid-fonts
 Base fonts and font configuration.
 
 %files fonts_opt
-/usr/share/doc/packages/patterns-fonts_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/fonts_opt.txt
 
 %package games
 %pattern_desktopfunctions
@@ -1814,7 +1846,8 @@ Suggests:       solarwolf
 A collection of games.
 
 %files games
-/usr/share/doc/packages/patterns-games
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/games.txt
 
 %package gateway_server
 %pattern_serverfunctions
@@ -1842,7 +1875,8 @@ Suggests:       mirror
 Software to set up a proxy, firewall, and gateway server, including a virtual private network (VPN) gateway.
 
 %files gateway_server
-/usr/share/doc/packages/patterns-gateway_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gateway_server.txt
 
 %package gnome
 %pattern_graphicalenvironments
@@ -1938,7 +1972,8 @@ Suggests:       gnome-color-manager
 The GNOME desktop environment is an intuitive and attractive desktop for users.
 
 %files gnome
-/usr/share/doc/packages/patterns-gnome
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome.txt
 
 %package gnome_admin
 %pattern_gnomedesktop
@@ -1960,7 +1995,8 @@ Recommends:     vinagre
 Administration Tools e.g. for desktop lockdown
 
 %files gnome_admin
-/usr/share/doc/packages/patterns-gnome_admin
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_admin.txt
 
 %package gnome_basis
 %pattern_graphicalenvironments
@@ -2070,7 +2106,8 @@ Suggests:       aria2
 Base packages for the GNOME desktop environment.
 
 %files gnome_basis
-/usr/share/doc/packages/patterns-gnome_basis
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_basis.txt
 
 %package gnome_basis_opt
 %pattern_graphicalenvironments
@@ -2101,7 +2138,8 @@ Suggests:       hplip
 Base packages for the GNOME desktop environment.
 
 %files gnome_basis_opt
-/usr/share/doc/packages/patterns-gnome_basis_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_basis_opt.txt
 
 %package gnome_games
 %pattern_gnomedesktop
@@ -2124,7 +2162,8 @@ Suggests:       gnuchess
 GNOME Games
 
 %files gnome_games
-/usr/share/doc/packages/patterns-gnome_games
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_games.txt
 
 %package gnome_ide
 %pattern_gnomedesktop
@@ -2153,7 +2192,8 @@ Suggests:       nemiver
 Development under GNOME
 
 %files gnome_ide
-/usr/share/doc/packages/patterns-gnome_ide
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_ide.txt
 
 %package gnome_imaging
 %pattern_gnomedesktop
@@ -2184,7 +2224,8 @@ Suggests:       gnome-photos
 Handling of digital photos and graphics
 
 %files gnome_imaging
-/usr/share/doc/packages/patterns-gnome_imaging
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_imaging.txt
 
 %package gnome_imaging_opt
 %pattern_gnomedesktop
@@ -2207,7 +2248,8 @@ Suggests:       xsane
 Handling of digital photos and graphics
 
 %files gnome_imaging_opt
-/usr/share/doc/packages/patterns-gnome_imaging_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_imaging_opt.txt
 
 %package gnome_internet
 %pattern_gnomedesktop
@@ -2258,7 +2300,8 @@ Suggests:       xchat-gnome
 GNOME Internet Applications
 
 %files gnome_internet
-/usr/share/doc/packages/patterns-gnome_internet
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_internet.txt
 
 %package gnome_laptop
 %pattern_gnomedesktop
@@ -2279,7 +2322,8 @@ Suggests:       xournal
 GNOME Tools designed specifically for use with laptop computers.
 
 %files gnome_laptop
-/usr/share/doc/packages/patterns-gnome_laptop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_laptop.txt
 
 %package gnome_multimedia
 %pattern_gnomedesktop
@@ -2330,7 +2374,8 @@ Suggests:       sound-juicer
 GNOME Multimedia
 
 %files gnome_multimedia
-/usr/share/doc/packages/patterns-gnome_multimedia
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_multimedia.txt
 
 %package gnome_multimedia_opt
 %pattern_gnomedesktop
@@ -2348,7 +2393,8 @@ Supplements:    packageand(patterns-openSUSE-gnome:patterns-openSUSE-multimedia)
 GNOME Multimedia
 
 %files gnome_multimedia_opt
-/usr/share/doc/packages/patterns-gnome_multimedia_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_multimedia_opt.txt
 
 %package gnome_office
 %pattern_gnomedesktop
@@ -2383,7 +2429,8 @@ Suggests:       planner
 GNOME Office
 
 %files gnome_office
-/usr/share/doc/packages/patterns-gnome_office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_office.txt
 
 %package gnome_office_opt
 %pattern_gnomedesktop
@@ -2404,7 +2451,8 @@ Suggests:       grisbi
 GNOME Office
 
 %files gnome_office_opt
-/usr/share/doc/packages/patterns-gnome_office_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_office_opt.txt
 
 %package gnome_utilities
 %pattern_gnomedesktop
@@ -2466,7 +2514,8 @@ Suggests:       the-board
 GNOME Utilities
 
 %files gnome_utilities
-/usr/share/doc/packages/patterns-gnome_utilities
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_utilities.txt
 
 %package gnome_yast
 %pattern_basetechnologies
@@ -2489,7 +2538,8 @@ Recommends:     yast2-tv
 Graphical YaST user interfaces for the GNOME desktop.
 
 %files gnome_yast
-/usr/share/doc/packages/patterns-gnome_yast
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/gnome_yast.txt
 
 %package imaging
 %pattern_desktopfunctions
@@ -2509,7 +2559,8 @@ Suggests:       exiftool
 Handling of digital photos and graphics.
 
 %files imaging
-/usr/share/doc/packages/patterns-imaging
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/imaging.txt
 
 %package imaging_opt
 %pattern_desktopfunctions
@@ -2535,7 +2586,8 @@ Suggests:       calibre
 Handling of digital photos and graphics.
 
 %files imaging_opt
-/usr/share/doc/packages/patterns-imaging_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/imaging_opt.txt
 
 %package kde
 %pattern_graphicalenvironments
@@ -2550,7 +2602,8 @@ Requires:       pattern() = kde4
 KDE is a powerful free software graphical desktop environment for Linux workstations. It combines ease of use, contemporary functionality, and outstanding graphical design with the technology of the Linux operating system.
 
 %files kde
-/usr/share/doc/packages/patterns-kde
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde.txt
 
 %package kde4
 %pattern_graphicalenvironments
@@ -2593,7 +2646,8 @@ Suggests:       kdeartwork4-decorations
 KDE is a powerful free software graphical desktop environment for Linux workstations. It combines ease of use, contemporary functionality, and outstanding graphical design with the technology of the Linux operating system.
 
 %files kde4
-/usr/share/doc/packages/patterns-kde4
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4.txt
 
 %package kde4_admin
 %pattern_kdedesktop
@@ -2611,7 +2665,8 @@ Recommends:     kiosktool
 Administration Tools e.g. for desktop lockdown
 
 %files kde4_admin
-/usr/share/doc/packages/patterns-kde4_admin
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_admin.txt
 
 %package kde4_basis
 %pattern_graphicalenvironments
@@ -2702,7 +2757,8 @@ Suggests:       aria2
 Base packages for the KDE4 desktop environment. KDE4 is the next major KDE release.
 
 %files kde4_basis
-/usr/share/doc/packages/patterns-kde4_basis
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_basis.txt
 
 %package kde4_edutainment
 %pattern_kdedesktop
@@ -2736,7 +2792,8 @@ Suggests:       kturtle
 Tools to teach kids with computers
 
 %files kde4_edutainment
-/usr/share/doc/packages/patterns-kde4_edutainment
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_edutainment.txt
 
 %package kde4_games
 %pattern_kdedesktop
@@ -2782,7 +2839,8 @@ Suggests:       lskat
 KDE4 Games
 
 %files kde4_games
-/usr/share/doc/packages/patterns-kde4_games
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_games.txt
 
 %package kde4_ide
 %pattern_kdedesktop
@@ -2812,7 +2870,8 @@ Suggests:       kdevelop4-plugins-php
 Development under KDE4
 
 %files kde4_ide
-/usr/share/doc/packages/patterns-kde4_ide
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_ide.txt
 
 %package kde4_imaging
 %pattern_kdedesktop
@@ -2845,7 +2904,8 @@ Suggests:       kolourpaint
 Handling of digital photos and graphics
 
 %files kde4_imaging
-/usr/share/doc/packages/patterns-kde4_imaging
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_imaging.txt
 
 %package kde4_internet
 %pattern_kdedesktop
@@ -2878,7 +2938,8 @@ Suggests:       rekonq
 KDE Internet Applications
 
 %files kde4_internet
-/usr/share/doc/packages/patterns-kde4_internet
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_internet.txt
 
 %package kde4_laptop
 %pattern_kdedesktop
@@ -2898,7 +2959,8 @@ Recommends:     synaptiks
 KDE Tools designed specifically for use with laptop computers.
 
 %files kde4_laptop
-/usr/share/doc/packages/patterns-kde4_laptop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_laptop.txt
 
 %package kde4_multimedia
 %pattern_kdedesktop
@@ -2929,7 +2991,8 @@ Suggests:       juk
 KDE Multimedia
 
 %files kde4_multimedia
-/usr/share/doc/packages/patterns-kde4_multimedia
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_multimedia.txt
 
 %package kde4_office
 %pattern_kdedesktop
@@ -2950,7 +3013,8 @@ Suggests:       scribus
 KDE Office
 
 %files kde4_office
-/usr/share/doc/packages/patterns-kde4_office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_office.txt
 
 %package kde4_pure
 %pattern_basetechnologies
@@ -2969,7 +3033,8 @@ Conflicts:      pattern() = gnome
 KDE System
 
 %files kde4_pure
-/usr/share/doc/packages/patterns-kde4_pure
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_pure.txt
 
 %package kde4_utilities
 %pattern_kdedesktop
@@ -2999,7 +3064,8 @@ Suggests:       kdirstat
 KDE Utilities
 
 %files kde4_utilities
-/usr/share/doc/packages/patterns-kde4_utilities
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_utilities.txt
 
 %package kde4_utilities_opt
 %pattern_kdedesktop
@@ -3037,7 +3103,8 @@ Suggests:       hplip
 KDE Utilities
 
 %files kde4_utilities_opt
-/usr/share/doc/packages/patterns-kde4_utilities_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_utilities_opt.txt
 
 %package kde4_yast
 %pattern_basetechnologies
@@ -3061,7 +3128,8 @@ Recommends:     yast2-tv
 Graphical YaST user interfaces for the KDE desktop.
 
 %files kde4_yast
-/usr/share/doc/packages/patterns-kde4_yast
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kde4_yast.txt
 
 %package kvm_server
 %pattern_serverfunctions
@@ -3095,7 +3163,8 @@ Suggests:       libvirt
 Software to set up a server for configuring, managing, and monitoring virtual machines on a single physical machine.
 
 %files kvm_server
-/usr/share/doc/packages/patterns-kvm_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/kvm_server.txt
 
 %package lamp_server
 %pattern_serverfunctions
@@ -3133,7 +3202,8 @@ Suggests:       postgresql-server
 Software to set up a Web server that is able to serve static, dynamic, and interactive content (like a Web shop). This includes Apache HTTP Server, the database management system MySQL, and scripting languages such as PHP, Python, Ruby on Rails, or Perl.
 
 %files lamp_server
-/usr/share/doc/packages/patterns-lamp_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/lamp_server.txt
 
 %package laptop
 %pattern_basetechnologies
@@ -3161,7 +3231,8 @@ Suggests:       laptop-mode-tools
 Tools designed specifically for laptop computers.
 
 %files laptop
-/usr/share/doc/packages/patterns-laptop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/laptop.txt
 
 %package leechcraft
 %pattern_desktopfunctions
@@ -3185,7 +3256,8 @@ Requires:       leechcraft-cstp
 %description leechcraft
 
 %files leechcraft
-/usr/share/doc/packages/patterns-leechcraft
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft.txt
 
 %package leechcraft_browser
 %pattern_desktopfunctions
@@ -3226,7 +3298,8 @@ Recommends:     leechcraft-tabsessionmanager
 %description leechcraft_browser
 
 %files leechcraft_browser
-/usr/share/doc/packages/patterns-leechcraft_browser
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_browser.txt
 
 %package leechcraft_media
 %pattern_desktopfunctions
@@ -3263,7 +3336,8 @@ Suggests:       leechcraft-summary
 %description leechcraft_media
 
 %files leechcraft_media
-/usr/share/doc/packages/patterns-leechcraft_media
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_media.txt
 
 %package leechcraft_messenger
 %pattern_desktopfunctions
@@ -3327,7 +3401,8 @@ Recommends:     leechcraft-tabsessionmanager
 %description leechcraft_messenger
 
 %files leechcraft_messenger
-/usr/share/doc/packages/patterns-leechcraft_messenger
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_messenger.txt
 
 %package leechcraft_netutils
 %pattern_desktopfunctions
@@ -3360,7 +3435,8 @@ Recommends:     leechcraft-summary
 %description leechcraft_netutils
 
 %files leechcraft_netutils
-/usr/share/doc/packages/patterns-leechcraft_netutils
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_netutils.txt
 
 %package leechcraft_office
 %pattern_desktopfunctions
@@ -3392,7 +3468,8 @@ Recommends:     leechcraft-summary
 %description leechcraft_office
 
 %files leechcraft_office
-/usr/share/doc/packages/patterns-leechcraft_office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_office.txt
 
 %package leechcraft_utilities
 %pattern_desktopfunctions
@@ -3433,7 +3510,8 @@ Recommends:     leechcraft-xproxy
 %description leechcraft_utilities
 
 %files leechcraft_utilities
-/usr/share/doc/packages/patterns-leechcraft_utilities
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/leechcraft_utilities.txt
 
 %package lxde
 %pattern_graphicalenvironments
@@ -3549,7 +3627,8 @@ Suggests:       hplip
 LXDE is a lightweight X11 desktop environment similiar to XFCE in its nature.
 
 %files lxde
-/usr/share/doc/packages/patterns-lxde
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/lxde.txt
 
 %package lxde_laptop
 %pattern_lxdedesktop
@@ -3570,7 +3649,8 @@ Recommends:     gsynaptics
 LXDE Tools designed specifically for use with laptop computers.
 
 %files lxde_laptop
-/usr/share/doc/packages/patterns-lxde_laptop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/lxde_laptop.txt
 
 %package lxde_office
 %pattern_graphicalenvironments
@@ -3596,7 +3676,8 @@ Suggests:       libreoffice-gnome
 LXDE Office
 
 %files lxde_office
-/usr/share/doc/packages/patterns-lxde_office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/lxde_office.txt
 
 %package mail_server
 %pattern_serverfunctions
@@ -3628,7 +3709,8 @@ Suggests:       bogofilter
 Software to set up electronic mail and message services to handle e-mail, mailing, and news lists, including a virus scanner to scan messages at the server level.
 
 %files mail_server
-/usr/share/doc/packages/patterns-mail_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/mail_server.txt
 
 %package minimal_base
 %pattern_basetechnologies
@@ -3684,7 +3766,8 @@ Recommends:     wol
 This is the base runtime system.  It contains only a minimal multiuser booting system. For running on real hardware, you need to add additional packages and pattern to make this pattern useful on its own.
 
 %files minimal_base
-/usr/share/doc/packages/patterns-minimal_base
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/minimal_base.txt
 
 %package minimal_base-conflicts
 %pattern_basetechnologies
@@ -3737,7 +3820,8 @@ Conflicts:      xdg-utils
 This is the base runtime system.  It contains only a minimal multiuser booting system. For running on real hardware, you need to add additional packages and pattern to make this pattern useful on its own.
 
 %files minimal_base-conflicts
-/usr/share/doc/packages/patterns-minimal_base-conflicts
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/minimal_base-conflicts.txt
 
 %package misc_server
 %pattern_serverfunctions
@@ -3760,7 +3844,8 @@ Recommends:     yast2-slp-server
 Miscellaneous Server.
 
 %files misc_server
-/usr/share/doc/packages/patterns-misc_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/misc_server.txt
 
 %package multimedia
 %pattern_desktopfunctions
@@ -3789,7 +3874,8 @@ Suggests:       flac
 Multimedia players, sound editing tools , video and image manipulation applications.
 
 %files multimedia
-/usr/share/doc/packages/patterns-multimedia
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/multimedia.txt
 
 %package multimedia_opt
 %pattern_desktopfunctions
@@ -3809,7 +3895,8 @@ Suggests:       blender
 Multimedia players, sound editing tools , video and image manipulation applications.
 
 %files multimedia_opt
-/usr/share/doc/packages/patterns-multimedia_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/multimedia_opt.txt
 
 %package network_admin
 %pattern_serverfunctions
@@ -3845,7 +3932,8 @@ Suggests:       qinternet
 Tools for administering and debugging networks.
 
 %files network_admin
-/usr/share/doc/packages/patterns-network_admin
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/network_admin.txt
 
 %package non_oss
 %pattern_proprietarysoftware
@@ -3866,7 +3954,8 @@ Recommends:     pullin-flash-player
 Packages that are proprietary and not under an Open Source license.
 
 %files non_oss
-/usr/share/doc/packages/patterns-non_oss
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/non_oss.txt
 
 %package non_oss_opt
 %pattern_proprietarysoftware
@@ -3910,7 +3999,8 @@ Suggests:       FZSongTi
 Packages that are proprietary and not under an Open Source license.
 
 %files non_oss_opt
-/usr/share/doc/packages/patterns-non_oss_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/non_oss_opt.txt
 
 %package office
 %pattern_desktopfunctions
@@ -3932,7 +4022,8 @@ Recommends:     libreoffice-writer
 Office software for your desktop environment including LibreOffice.
 
 %files office
-/usr/share/doc/packages/patterns-office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/office.txt
 
 %package office_opt
 %pattern_desktopfunctions
@@ -3958,7 +4049,8 @@ Recommends:     libreoffice-converter
 Office software for your desktop environment including LibreOffice.
 
 %files office_opt
-/usr/share/doc/packages/patterns-office_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/office_opt.txt
 
 %package print_server
 %pattern_serverfunctions
@@ -3990,7 +4082,8 @@ Suggests:       pbm2l7k
 Software used to host print queues so that they may be accessed by other computers on the same network. LPD, CUPS, and SMB print servers and queues are supported.
 
 %files print_server
-/usr/share/doc/packages/patterns-print_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/print_server.txt
 
 %package remote_desktop
 %pattern_desktopfunctions
@@ -4011,7 +4104,8 @@ Suggests:       krdc
 Tools to access a remote desktop.
 
 %files remote_desktop
-/usr/share/doc/packages/patterns-remote_desktop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/remote_desktop.txt
 
 %package rest_cd_gnome
 %pattern_desktopfunctions
@@ -4243,7 +4337,8 @@ Recommends:     bundle-lang-gnome-en
 Packages that are on CD but not in other patterns.
 
 %files rest_cd_gnome
-/usr/share/doc/packages/patterns-rest_cd_gnome
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_cd_gnome.txt
 
 %package rest_cd_kde4
 %pattern_desktopfunctions
@@ -4474,7 +4569,8 @@ Recommends:     bundle-lang-kde-en
 Packages that are on CD but not in other patterns.
 
 %files rest_cd_kde4
-/usr/share/doc/packages/patterns-rest_cd_kde4
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_cd_kde4.txt
 
 %package rest_cd_x11
 %pattern_desktopfunctions
@@ -4733,7 +4829,8 @@ Suggests:       desktop-branding
 Packages that are on CD but not in other patterns.
 
 %files rest_cd_x11
-/usr/share/doc/packages/patterns-rest_cd_x11
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_cd_x11.txt
 
 %package rest_core_dvd
 %pattern_desktopfunctions
@@ -4800,7 +4897,8 @@ Recommends:     xf86-video-vmware
 Packages that are on CD but not in other patterns.
 
 %files rest_core_dvd
-/usr/share/doc/packages/patterns-rest_core_dvd
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_core_dvd.txt
 
 %package rest_dvd
 %pattern_desktopfunctions
@@ -5314,7 +5412,8 @@ Requires:       yast2-trans-zu
 Packages that are on CD but not in other patterns.
 
 %files rest_dvd
-/usr/share/doc/packages/patterns-rest_dvd
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_dvd.txt
 
 %package rest_dvd9
 %pattern_desktopfunctions
@@ -5454,7 +5553,8 @@ Recommends:     libqt4-devel-doc-data
 Packages that are on CD but not in other patterns.
 
 %files rest_dvd9
-/usr/share/doc/packages/patterns-rest_dvd9
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_dvd9.txt
 
 %package rest_promo_dvd
 %pattern_desktopfunctions
@@ -5935,7 +6035,8 @@ Requires:       yast2-trans-zu
 Packages that are on CD but not in other patterns.
 
 %files rest_promo_dvd
-/usr/share/doc/packages/patterns-rest_promo_dvd
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/rest_promo_dvd.txt
 
 %package sw_management
 %pattern_basetechnologies
@@ -5954,7 +6055,8 @@ Suggests:       pin
 This pattern provides a graphical application and a command line tool for keeping your system up to date.
 
 %files sw_management
-/usr/share/doc/packages/patterns-sw_management
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/sw_management.txt
 
 %package sw_management_gnome
 %pattern_basetechnologies
@@ -5976,7 +6078,8 @@ Suggests:       libyui-gtk-pkg
 Package Management - Graphical Tools
 
 %files sw_management_gnome
-/usr/share/doc/packages/patterns-sw_management_gnome
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/sw_management_gnome.txt
 
 %package sw_management_kde4
 %pattern_basetechnologies
@@ -5998,7 +6101,8 @@ Suggests:       libyui-qt-pkg
 Package Management - Graphical Tools
 
 %files sw_management_kde4
-/usr/share/doc/packages/patterns-sw_management_kde4
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/sw_management_kde4.txt
 
 %package tabletpc
 %pattern_basetechnologies
@@ -6021,7 +6125,8 @@ Recommends:     eekboard
 Tools designed specifically for use with TabletPCs.
 
 %files tabletpc
-/usr/share/doc/packages/patterns-tabletpc
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/tabletpc.txt
 
 %package technical_writing
 %pattern_desktopfunctions
@@ -6084,7 +6189,8 @@ Suggests:       djvulibre
 Authoring tools and editors for creating technical documentation.
 
 %files technical_writing
-/usr/share/doc/packages/patterns-technical_writing
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/technical_writing.txt
 
 %package update_test
 %pattern_basetechnologies
@@ -6106,7 +6212,8 @@ Recommends:     update-test-reboot-needed
 Packages used for testing that the update stack works.  These tiny packages do not have any functionality themselves.
 
 %files update_test
-/usr/share/doc/packages/patterns-update_test
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/update_test.txt
 
 %package voip
 %pattern_desktopfunctions
@@ -6128,7 +6235,8 @@ Suggests:       twinkle
 Client applications for Internet telephony.
 
 %files voip
-/usr/share/doc/packages/patterns-voip
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/voip.txt
 
 %package x11
 %pattern_graphicalenvironments
@@ -6203,7 +6311,8 @@ Suggests:       xorg-x11-driver-video-unichrome
 The X Window System provides the only standard platform-independent networked graphical window system bridging the heterogeneous platforms in today's enterprise: from network servers to desktops, thin clients, laptops, and handhelds, independent of operating system and hardware.
 
 %files x11
-/usr/share/doc/packages/patterns-x11
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/x11.txt
 
 %package x11_opt
 %pattern_graphicalenvironments
@@ -6235,7 +6344,8 @@ Suggests:       xorg-x11-server-sdk
 The X Window System provides the only standard platform-independent networked graphical window system bridging the heterogeneous platforms in today's enterprise: from network servers to desktops, thin clients, laptops, and handhelds, independent of operating system and hardware.
 
 %files x11_opt
-/usr/share/doc/packages/patterns-x11_opt
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/x11_opt.txt
 
 %package x11_yast
 %pattern_basetechnologies
@@ -6260,7 +6370,8 @@ Recommends:     yast2-tv
 Graphical YaST user interfaces for minimal X desktop.
 
 %files x11_yast
-/usr/share/doc/packages/patterns-x11_yast
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/x11_yast.txt
 
 %package x86
 %pattern_basetechnologies
@@ -6274,7 +6385,8 @@ Provides:       pattern-order() = 1180
 This will install the 32-bit variant of all selected patterns. This allows to execute 32-bit software.
 
 %files x86
-/usr/share/doc/packages/patterns-x86
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/x86.txt
 
 %package xen_server
 %pattern_serverfunctions
@@ -6308,7 +6420,8 @@ Suggests:       libvirt
 Software to set up a server for configuring, managing, and monitoring virtual machines on a single physical machine.
 
 %files xen_server
-/usr/share/doc/packages/patterns-xen_server
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/xen_server.txt
 
 %package xfce
 %pattern_graphicalenvironments
@@ -6421,7 +6534,8 @@ Suggests:       hplip
 Xfce is a lightweight desktop environment for various *NIX systems.
 
 %files xfce
-/usr/share/doc/packages/patterns-xfce
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/xfce.txt
 
 %package xfce_basis
 %pattern_graphicalenvironments
@@ -6512,7 +6626,8 @@ Suggests:       aria2
 Base packages for the XFCE Desktop Environment
 
 %files xfce_basis
-/usr/share/doc/packages/patterns-xfce_basis
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/xfce_basis.txt
 
 %package xfce_laptop
 %pattern_xfcedesktop
@@ -6534,7 +6649,8 @@ Recommends:     xfce4-panel-plugin-brightness
 XFCE Laptop
 
 %files xfce_laptop
-/usr/share/doc/packages/patterns-xfce_laptop
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/xfce_laptop.txt
 
 %package xfce_office
 %pattern_graphicalenvironments
@@ -6557,7 +6673,8 @@ Recommends:     libreoffice-gnome
 XFCE Office
 
 %files xfce_office
-/usr/share/doc/packages/patterns-xfce_office
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/xfce_office.txt
 
 %package yast2_basis
 %pattern_basetechnologies
@@ -6679,7 +6796,8 @@ Suggests:       cim-schema
 YaST tools for basic system administration.
 
 %files yast2_basis
-/usr/share/doc/packages/patterns-yast2_basis
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/yast2_basis.txt
 
 %package yast2_install_wf
 %pattern_basetechnologies
@@ -6729,7 +6847,8 @@ Suggests:       tgt
 YaST tools for installing your system.
 
 %files yast2_install_wf
-/usr/share/doc/packages/patterns-yast2_install_wf
+%dir /usr/share/doc/packages/patterns-openSUSE
+/usr/share/doc/packages/patterns-openSUSE/yast2_install_wf.txt
 
 #END1
 

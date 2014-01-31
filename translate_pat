@@ -383,6 +383,7 @@ print "\n";
 
 print "%files $pat\n";
 #print "%defattr(-,root,root)\n";
-print "/usr/share/doc/packages/patterns-$pat\n";
+print "%dir /usr/share/doc/packages/patterns-$product\n";
+print "/usr/share/doc/packages/patterns-$product/$pat.txt\n";
 print "\n";
 
