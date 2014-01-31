@@ -2961,7 +2961,7 @@ Provides:       pattern-icon() = pattern-generic
 Provides:       pattern-order() = 3490
 Provides:       pattern-extends() = kde4_basis
 Supplements:    packageand(patterns-openSUSE-kde4:patterns-openSUSE-kde4_basis)
-Conflicts:       pattern() = gnome
+Conflicts:      pattern() = gnome
 # from data/KDE4-PURE
 
 
@@ -6246,8 +6246,8 @@ Provides:       pattern-icon() = pattern-generic
 Provides:       pattern-order() = 1320
 Provides:       pattern-extends() = yast2_basis
 Supplements:    packageand(patterns-openSUSE-x11:patterns-openSUSE-yast2_basis)
-Conflicts:       pattern() = gnome
-Conflicts:       pattern() = kde4
+Conflicts:      pattern() = gnome
+Conflicts:      pattern() = kde4
 # from data/X11-YaST
 Recommends:     libyui-qt-pkg
 Recommends:     yast2-control-center-qt

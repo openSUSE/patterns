@@ -337,47 +337,25 @@ if ($supplements) {
   }
 }
 
-open(REQ, "toinstall/$pat/requires");
-while ( <REQ> ) {
-  chomp;
-  print "Requires:       pattern() = $_\n";
-}
-close(REQ);
+sub translate_file($$) {
 
-open(REQ, "toinstall/$pat/recommends");
-while ( <REQ> ) {
-  chomp;
-  print "Recommends:     pattern() = $_\n";
-}
-close(REQ);
+  my $filename = shift;
+  my $tag = shift;
 
-open(REQ, "toinstall/$pat/provides");
-while ( <REQ> ) {
-  chomp;
-  print "Provides:       pattern() = $_\n";
+  open(REQ, $filename);
+  while ( <REQ> ) {
+    chomp;
+    printf("%-16s%s", $tag . ":", "pattern() = $_\n");
+  }
+  close(REQ);
 }
-close(REQ);
 
-open(REQ, "toinstall/$pat/obsoletes");
-while ( <REQ> ) {
-  chomp;
-  print "Obsoletes:      pattern() = $_\n";
-}
-close(REQ);
-
-open(REQ, "toinstall/$pat/conflicts");
-while ( <REQ> ) {
-  chomp;
-  print "Conflicts:       pattern() = $_\n";
-}
-close(REQ);
-
-open(REQ, "toinstall/$pat/suggests");
-while ( <REQ> ) {
-  chomp;
-  print "Suggests:       pattern() = $_\n";
-}
-close(REQ);
+translate_file("toinstall/$pat/requires", "Requires");
+translate_file("toinstall/$pat/recommends", "Recommends");
+translate_file("toinstall/$pat/provides", "Provides");
+translate_file("toinstall/$pat/obsoletes", "Obsoletes");
+translate_file("toinstall/$pat/conflicts", "Conflicts");
+translate_file("toinstall/$pat/suggests", "Suggests");
 
 open(REQ, "toinstall/$pat/sel");
 while ( <REQ> ) {
