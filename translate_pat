@@ -345,7 +345,13 @@ sub translate_file($$) {
   open(REQ, $filename);
   while ( <REQ> ) {
     chomp;
-    printf("%-16s%s", $tag . ":", "pattern() = $_\n");
+    my $line = $_;
+    $line =~ s,//,#,;
+    if ($line =~ m,^#,) {
+      print "$line\n";
+      next;
+    }
+    printf("%-16s%s", $tag . ":", "pattern() = $line\n");
   }
   close(REQ);
 }

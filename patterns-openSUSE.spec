@@ -4889,7 +4889,7 @@ Requires:       pattern() = tabletpc
 Requires:       pattern() = technical_writing
 Requires:       pattern() = x11
 Requires:       pattern() = x11_opt
-Requires:       pattern() = // for now xen_server
+# for now xen_server
 Requires:       pattern() = xfce
 Requires:       pattern() = xfce_basis
 Requires:       pattern() = xfce_laptop
