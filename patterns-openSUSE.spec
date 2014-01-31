@@ -2567,7 +2567,7 @@ Recommends:     pattern() = kde4_utilities
 Recommends:     pattern() = imaging
 Recommends:     pattern() = games
 Recommends:     pattern() = non_oss
-Provides:       pattern() = kde4 = 11.1
+Provides:       pattern() = kde4
 # from data/KDE4-DESKTOP
 Recommends:     ark
 Recommends:     kcalc
