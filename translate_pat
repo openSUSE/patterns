@@ -361,7 +361,7 @@ close(REQ);
 open(REQ, "toinstall/$pat/obsoletes");
 while ( <REQ> ) {
   chomp;
-  print "Obsoletes:       pattern() = $_\n";
+  print "Obsoletes:      pattern() = $_\n";
 }
 close(REQ);
 

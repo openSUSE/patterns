@@ -5961,8 +5961,6 @@ Provides:       pattern() = sw_management
 Provides:       pattern-icon() = yast-sw_single
 Provides:       pattern-order() = 1360
 Recommends:     pattern() = sw_management_x11
-Provides:       pattern() = zmd = 11.1
-Obsoletes:       pattern() = zmd < 11.0
 # from data/SW-MANGEMENT
 Requires:       zypper
 Suggests:       pin
@@ -5985,9 +5983,6 @@ Provides:       pattern-extends() = sw_management
 Supplements:    packageand(patterns-openSUSE-gnome_basis:patterns-openSUSE-sw_management)
 Requires:       pattern() = sw_management
 Requires:       pattern() = x11
-Provides:       pattern() = zmd_x11 = 10.3
-Obsoletes:       pattern() = zmd_x11 <= 10.2
-Obsoletes:       pattern() = sw_management_x11 <= 10.2
 # from data/SW-MANGEMENT-GNOME
 Recommends:     gnome-packagekit
 Suggests:       libyui-gtk-pkg
@@ -6010,9 +6005,6 @@ Provides:       pattern-extends() = sw_management
 Supplements:    packageand(patterns-openSUSE-kde4_basis:patterns-openSUSE-sw_management)
 Requires:       pattern() = sw_management
 Requires:       pattern() = x11
-Provides:       pattern() = zmd_x11 = 10.3
-Obsoletes:       pattern() = zmd_x11 <= 10.2
-Obsoletes:       pattern() = sw_management_x11 <= 10.2
 # from data/SW-MANGEMENT-KDE4
 Recommends:     apper
 Suggests:       libyui-qt-pkg
@@ -6054,7 +6046,6 @@ Group:          Metapackages
 Provides:       pattern() = technical_writing
 Provides:       pattern-icon() = yast-messages
 Provides:       pattern-order() = 2000
-Obsoletes:       pattern() = xml <= 10.3
 # from data/TECHNICAL-WRITING
 Recommends:     nxml-mode
 Recommends:     xmlto
