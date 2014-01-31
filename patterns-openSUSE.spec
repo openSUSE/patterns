@@ -4274,7 +4274,6 @@ Requires:       pattern() = games
 Requires:       pattern() = kde4_games
 Requires:       pattern() = office
 Requires:       pattern() = kde4_office
-Requires:       pattern() = 
 # from data/REST-CD
 %ifarch x86_64
 Requires:       kernel-desktop
