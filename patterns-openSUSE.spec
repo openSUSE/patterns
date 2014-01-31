@@ -26,6 +26,7 @@ Url:            https://github.com/openSUSE/patterns
 Source0:        %{name}-rpmlintrc
 Source1:        create_macros
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+BuildRequires:  perl(URI::Escape)
 
 %description
 This is an internal package that is used to create the patterns as part
