@@ -319,7 +319,7 @@ print "Provides:       pattern() = $pat\n";
 print "Provides:       pattern-icon() = " . uri_escape(read_file("toinstall/$pat/icon")) . "\n";
 print "Provides:       pattern-order() = " . uri_escape(read_file("toinstall/$pat/order")) . "\n";
 
-if (read_file("toinstall/$pat/visibible") eq 'true') {
+if (read_file("toinstall/$pat/visible") eq 'true') {
   print "Provides:       pattern-visible()\n";
 }
 my $ext = read_file("toinstall/$pat/extends");

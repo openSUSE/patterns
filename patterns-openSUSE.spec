@@ -58,6 +58,7 @@ Group:          Metapackages
 Provides:       pattern() = 64bit
 Provides:       pattern-icon() = yast-misc
 Provides:       pattern-order() = 1160
+Provides:       pattern-visible()
 
 %description 64bit
 This pattern installs the 64-bit variant of all selected patterns, allowing you to execute 64-bit software.
@@ -73,6 +74,7 @@ Group:          Metapackages
 Provides:       pattern() = apparmor
 Provides:       pattern-icon() = pattern-apparmor
 Provides:       pattern-order() = 1100
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 Recommends:     pattern() = apparmor_opt
 # from data/APPARMOR
@@ -118,6 +120,7 @@ Group:          Metapackages
 Provides:       pattern() = base
 Provides:       pattern-icon() = pattern-basis
 Provides:       pattern-order() = 1020
+Provides:       pattern-visible()
 Provides:       pattern() = basesystem
 # from data/BASIS
 Requires:       aaa_base
@@ -190,6 +193,7 @@ Group:          Metapackages
 Provides:       pattern() = books
 Provides:       pattern-icon() = pattern-documentation
 Provides:       pattern-order() = 5200
+Provides:       pattern-visible()
 # from data/BOOKS
 Recommends:     opensuse-manuals_en
 Recommends:     opensuse-startup_en-pdf
@@ -254,6 +258,7 @@ Group:          Metapackages
 Provides:       pattern() = console
 Provides:       pattern-icon() = yast-system
 Provides:       pattern-order() = 1120
+Provides:       pattern-visible()
 # from data/CONSOLE
 Requires:       mc
 Requires:       w3m
@@ -303,6 +308,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_basis
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3140
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/DEVEL-BASIS
 Requires:       autoconf
@@ -379,6 +385,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_C_C++
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3240
+Provides:       pattern-visible()
 Requires:       pattern() = devel_basis
 # from data/DEVEL-C-C++
 Recommends:     glibc-info
@@ -408,6 +415,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_gnome
 Provides:       pattern-icon() = pattern-gnome-devel
 Provides:       pattern-order() = 3160
+Provides:       pattern-visible()
 Requires:       pattern() = devel_C_C++
 Requires:       pattern() = gnome_basis
 # from data/DEVEL-GNOME
@@ -468,6 +476,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_ide
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3260
+Provides:       pattern-visible()
 Requires:       pattern() = devel_basis
 # from data/DEVEL-IDE
 Recommends:     monodevelop
@@ -488,6 +497,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_java
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3300
+Provides:       pattern-visible()
 # from data/DEVEL-Java
 Recommends:     ant
 Recommends:     ant-antlr
@@ -561,6 +571,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_kde
 Provides:       pattern-icon() = pattern-kde-devel
 Provides:       pattern-order() = 3180
+Provides:       pattern-visible()
 Requires:       pattern() = devel_C_C++
 Recommends:     pattern() = devel_qt4
 # from data/DEVEL-KDE
@@ -825,6 +836,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_kernel
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3320
+Provides:       pattern-visible()
 Requires:       pattern() = devel_basis
 # from data/DEVEL-Kernel
 Recommends:     kernel-source
@@ -858,6 +870,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_mono
 Provides:       pattern-icon() = pattern-mono
 Provides:       pattern-order() = 3220
+Provides:       pattern-visible()
 # from data/DEVEL-Mono
 Recommends:     mono-core
 Recommends:     mono-devel
@@ -902,6 +915,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_perl
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3340
+Provides:       pattern-visible()
 # from data/DEVEL-Perl
 Recommends:     perlref
 Recommends:     perl-doc
@@ -1052,6 +1066,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_python
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3360
+Provides:       pattern-visible()
 # from data/DEVEL-Python
 Recommends:     pychecker
 Recommends:     python
@@ -1095,6 +1110,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_python3
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3359
+Provides:       pattern-visible()
 # from data/DEVEL-Python3
 Recommends:     python3
 Recommends:     python3-devel
@@ -1126,6 +1142,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_qt4
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3380
+Provides:       pattern-visible()
 # from data/DEVEL-QT4
 Recommends:     libqt4-devel
 Recommends:     libqt4-devel-doc
@@ -1152,6 +1169,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_rpm_build
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3280
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/DEVEL-RPM-Build-Environment
 Requires:       rpm-build
@@ -1177,6 +1195,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_ruby
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3420
+Provides:       pattern-visible()
 # from data/DEVEL-Ruby
 Requires:       ruby
 Requires:       rubygems
@@ -1205,6 +1224,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_tcl
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3480
+Provides:       pattern-visible()
 # from data/DEVEL-Tcl
 Recommends:     tcl
 Recommends:     tcl-devel
@@ -1251,6 +1271,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_web
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3440
+Provides:       pattern-visible()
 Requires:       pattern() = lamp_server
 # from data/DEVEL-Web
 Recommends:     apache2-devel
@@ -1334,6 +1355,7 @@ Group:          Metapackages
 Provides:       pattern() = devel_yast
 Provides:       pattern-icon() = pattern-basis-devel
 Provides:       pattern-order() = 3460
+Provides:       pattern-visible()
 # from data/DEVEL-YaST
 Recommends:     yast2-devtools
 Recommends:     yast2-testsuite
@@ -1373,6 +1395,7 @@ Group:          Metapackages
 Provides:       pattern() = dhcp_dns_server
 Provides:       pattern-icon() = yast-dns-server
 Provides:       pattern-order() = 3040
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/DHCP_DNS
 Recommends:     bind
@@ -1398,6 +1421,7 @@ Group:          Metapackages
 Provides:       pattern() = directory_server
 Provides:       pattern-icon() = yast-ldap-server
 Provides:       pattern-order() = 3060
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/LDAP_SERVER
 Recommends:     nss_ldap
@@ -1424,6 +1448,7 @@ Group:          Metapackages
 Provides:       pattern() = e17
 Provides:       pattern-icon() = pattern-e17
 Provides:       pattern-order() = 1350
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Recommends:     pattern() = multimedia
 Recommends:     pattern() = imaging
@@ -1459,6 +1484,7 @@ Group:          Metapackages
 Provides:       pattern() = enhanced_base
 Provides:       pattern-icon() = pattern-basis
 Provides:       pattern-order() = 1060
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 Recommends:     pattern() = apparmor
 Recommends:     pattern() = yast2_basis
@@ -1750,6 +1776,7 @@ Group:          Metapackages
 Provides:       pattern() = file_server
 Provides:       pattern-icon() = yast-nfs_server
 Provides:       pattern-order() = 2900
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/FILE-SERVER
 Recommends:     nfsidmap
@@ -1780,6 +1807,7 @@ Group:          Metapackages
 Provides:       pattern() = fonts
 Provides:       pattern-icon() = yast-x11
 Provides:       pattern-order() = 1740
+Provides:       pattern-visible()
 Recommends:     pattern() = fonts_opt
 # from data/FONTS
 Recommends:     ghostscript-fonts-std
@@ -1833,6 +1861,7 @@ Group:          Metapackages
 Provides:       pattern() = games
 Provides:       pattern-icon() = yast-joystick
 Provides:       pattern-order() = 1900
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 # from data/GAMES
 Suggests:       frozen-bubble
@@ -1856,6 +1885,7 @@ Group:          Metapackages
 Provides:       pattern() = gateway_server
 Provides:       pattern-icon() = yast-dsl
 Provides:       pattern-order() = 3020
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/GATEWAY
 Recommends:     wireshark
@@ -1885,6 +1915,7 @@ Group:          Metapackages
 Provides:       pattern() = gnome
 Provides:       pattern-icon() = pattern-gnome
 Provides:       pattern-order() = 1400
+Provides:       pattern-visible()
 Requires:       pattern() = gnome_basis
 Recommends:     pattern() = games
 Recommends:     pattern() = imaging
@@ -2005,6 +2036,7 @@ Group:          Metapackages
 Provides:       pattern() = gnome_basis
 Provides:       pattern-icon() = pattern-gnome
 Provides:       pattern-order() = 1440
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Requires:       pattern() = basesystem
 Recommends:     pattern() = gnome_basis_opt
@@ -2548,6 +2580,7 @@ Group:          Metapackages
 Provides:       pattern() = imaging
 Provides:       pattern-icon() = yast-x11
 Provides:       pattern-order() = 1860
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Recommends:     pattern() = imaging_opt
 # from data/IMAGE
@@ -2612,6 +2645,7 @@ Group:          Metapackages
 Provides:       pattern() = kde4
 Provides:       pattern-icon() = pattern-kde4
 Provides:       pattern-order() = 1520
+Provides:       pattern-visible()
 Requires:       pattern() = kde4_basis
 Recommends:     pattern() = kde4_internet
 Recommends:     pattern() = multimedia
@@ -2675,6 +2709,7 @@ Group:          Metapackages
 Provides:       pattern() = kde4_basis
 Provides:       pattern-icon() = pattern-kde4
 Provides:       pattern-order() = 1600
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Requires:       pattern() = basesystem
 # from data/KDE4-BASIS
@@ -3138,6 +3173,7 @@ Group:          Metapackages
 Provides:       pattern() = kvm_server
 Provides:       pattern-icon() = yast-uml
 Provides:       pattern-order() = 3099
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/KVM
 Recommends:     kvm
@@ -3173,6 +3209,7 @@ Group:          Metapackages
 Provides:       pattern() = lamp_server
 Provides:       pattern-icon() = yast-http-server
 Provides:       pattern-order() = 3000
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/LAMP
 Recommends:     apache2
@@ -3212,6 +3249,7 @@ Group:          Metapackages
 Provides:       pattern() = laptop
 Provides:       pattern-icon() = yast-bluetooth
 Provides:       pattern-order() = 1200
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/LAPTOP
 Recommends:     pcmciautils
@@ -3520,6 +3558,7 @@ Group:          Metapackages
 Provides:       pattern() = lxde
 Provides:       pattern-icon() = pattern-lxde
 Provides:       pattern-order() = 1280
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Recommends:     pattern() = lxde_office
 Recommends:     pattern() = multimedia
@@ -3686,6 +3725,7 @@ Group:          Metapackages
 Provides:       pattern() = mail_server
 Provides:       pattern-icon() = yast-mail-server
 Provides:       pattern-order() = 2980
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/MAIL_SERVER
 Recommends:     cyrus-imapd
@@ -3830,6 +3870,7 @@ Group:          Metapackages
 Provides:       pattern() = misc_server
 Provides:       pattern-icon() = yast-nfs_server
 Provides:       pattern-order() = 2920
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/MISC_SERVER
 Recommends:     yast2-nis-server
@@ -3854,6 +3895,7 @@ Group:          Metapackages
 Provides:       pattern() = multimedia
 Provides:       pattern-icon() = yast-tv
 Provides:       pattern-order() = 1580
+Provides:       pattern-visible()
 Recommends:     pattern() = multimedia_opt
 # from data/MULTIMEDIA
 Recommends:     yast2-sound
@@ -3905,6 +3947,7 @@ Group:          Metapackages
 Provides:       pattern() = network_admin
 Provides:       pattern-icon() = yast-network
 Provides:       pattern-order() = 2940
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/NETWORK-ADMIN
 Recommends:     nmap
@@ -3942,6 +3985,7 @@ Group:          Metapackages
 Provides:       pattern() = non_oss
 Provides:       pattern-icon() = yast-addon
 Provides:       pattern-order() = 3120
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Recommends:     pattern() = non_oss_opt
 # from data/NON-OSS
@@ -4009,6 +4053,7 @@ Group:          Metapackages
 Provides:       pattern() = office
 Provides:       pattern-icon() = yast-keyboard
 Provides:       pattern-order() = 1640
+Provides:       pattern-visible()
 Recommends:     pattern() = office_opt
 # from data/OFFICE
 Recommends:     libreoffice
@@ -4059,6 +4104,7 @@ Group:          Metapackages
 Provides:       pattern() = print_server
 Provides:       pattern-icon() = yast-printer
 Provides:       pattern-order() = 2960
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/PRINT_SERVER
 Recommends:     cups
@@ -4092,6 +4138,7 @@ Group:          Metapackages
 Provides:       pattern() = remote_desktop
 Provides:       pattern-icon() = yast-x11
 Provides:       pattern-order() = 1920
+Provides:       pattern-visible()
 # from data/REMOTE-DESKTOP
 Recommends:     rdesktop
 Recommends:     tsclient
@@ -6045,6 +6092,7 @@ Group:          Metapackages
 Provides:       pattern() = sw_management
 Provides:       pattern-icon() = yast-sw_single
 Provides:       pattern-order() = 1360
+Provides:       pattern-visible()
 Recommends:     pattern() = sw_management_x11
 # from data/SW-MANGEMENT
 Requires:       zypper
@@ -6111,6 +6159,7 @@ Group:          Metapackages
 Provides:       pattern() = tabletpc
 Provides:       pattern-icon() = pattern-laptop
 Provides:       pattern-order() = 2043
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/TABLETPC
 Recommends:     cellwriter
@@ -6135,6 +6184,7 @@ Group:          Metapackages
 Provides:       pattern() = technical_writing
 Provides:       pattern-icon() = yast-messages
 Provides:       pattern-order() = 2000
+Provides:       pattern-visible()
 # from data/TECHNICAL-WRITING
 Recommends:     nxml-mode
 Recommends:     xmlto
@@ -6199,6 +6249,7 @@ Group:          Metapackages
 Provides:       pattern() = update_test
 Provides:       pattern-icon() = yast-update
 Provides:       pattern-order() = 1380
+Provides:       pattern-visible()
 # from data/UPDATE-TEST
 Recommends:     update-test-trival
 Recommends:     update-test-affects-package-manager
@@ -6222,6 +6273,7 @@ Group:          Metapackages
 Provides:       pattern() = voip
 Provides:       pattern-icon() = yast-isdn
 Provides:       pattern-order() = 2020
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 # from data/VOIP
 Recommends:     ekiga
@@ -6245,6 +6297,7 @@ Group:          Metapackages
 Provides:       pattern() = x11
 Provides:       pattern-icon() = yast-x11
 Provides:       pattern-order() = 1700
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 Requires:       pattern() = enhanced_base
 Requires:       pattern() = fonts
@@ -6380,6 +6433,7 @@ Group:          Metapackages
 Provides:       pattern() = x86
 Provides:       pattern-icon() = yast-misc
 Provides:       pattern-order() = 1180
+Provides:       pattern-visible()
 
 %description x86
 This will install the 32-bit variant of all selected patterns. This allows to execute 32-bit software.
@@ -6395,6 +6449,7 @@ Group:          Metapackages
 Provides:       pattern() = xen_server
 Provides:       pattern-icon() = yast-uml
 Provides:       pattern-order() = 3080
+Provides:       pattern-visible()
 Requires:       pattern() = basesystem
 # from data/XEN
 Recommends:     bridge-utils
@@ -6430,6 +6485,7 @@ Group:          Metapackages
 Provides:       pattern() = xfce
 Provides:       pattern-icon() = pattern-xfce
 Provides:       pattern-order() = 1760
+Provides:       pattern-visible()
 Requires:       pattern() = x11
 Requires:       pattern() = xfce_basis
 Recommends:     pattern() = xfce_office
@@ -6544,6 +6600,7 @@ Group:          Metapackages
 Provides:       pattern() = xfce_basis
 Provides:       pattern-icon() = pattern-xfce
 Provides:       pattern-order() = 1759
+Provides:       pattern-visible()
 Provides:       pattern-extends() = xfce
 Requires:       pattern() = x11
 Requires:       pattern() = basesystem
@@ -6683,6 +6740,7 @@ Group:          Metapackages
 Provides:       pattern() = yast2_basis
 Provides:       pattern-icon() = yast
 Provides:       pattern-order() = 1220
+Provides:       pattern-visible()
 # from data/YAST_BASIS
 Requires:       yast2
 Requires:       yast2-country
@@ -6806,6 +6864,7 @@ Group:          Metapackages
 Provides:       pattern() = yast2_install_wf
 Provides:       pattern-icon() = yast
 Provides:       pattern-order() = 1240
+Provides:       pattern-visible()
 # from data/YAST_INSTALL_WF
 Requires:       yast2-installation
 Requires:       libyui-ncurses-pkg
