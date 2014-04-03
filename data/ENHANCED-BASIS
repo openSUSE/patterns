@@ -106,7 +106,7 @@ dmidecode
 acpica
 #endif
 #if defined(__i386__) || defined(__x86_64__)
-microcode_ctl
+ucode-intel
 #endif
 pm-utils
 postfix
