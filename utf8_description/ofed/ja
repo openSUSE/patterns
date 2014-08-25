@@ -1,3 +1,0 @@
-+Des.ja:
-このパターンは、 OpenFabrics Enterprise Distribution (OFED) ソフトウエア基本パッケージを定義しています。この基本パターンには、お使いの Infiniband アダプタを動作させるために必要な IB カーネルモジュールと、基本的なユーザライブラリのパッケージが含まれています。
--Des.ja:

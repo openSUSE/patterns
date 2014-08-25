@@ -1,3 +1,0 @@
-+Des.de:
-AppArmor ist ein Open Source-Sicherheitsframework für Linux-Anwendungen, das eine obligatorische Zugriffssteuerung für Programme bereitstellt, und so Schutz gegen die Ausnutzung von Softwarefehlern und beschädigten Systemen bietet. AppArmor enthält alles, was Sie brauchen, um einen effektiven "Sicherheitskäfig" für Programme bereitzustellen (einschließlich derer, die als 'root' ausgeführt werden), um versuchte Exploits und sogar Zero-Day-Angriffe zu vereiteln. AppArmor bietet einen fortschrittlichen Werkzeugsatz, mit dem die Entwicklung und Anpassung der Konfiguration bis hinunter auf Programmebene weitgehend automatisiert werden kann.
--Des.de:

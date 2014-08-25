@@ -1,3 +1,0 @@
-+Des.fr:
-Ce modèle définit les paquets basés sur les logiciels de l'OpenFabrics Enterprise Distribution (OFED). Le modèle de base inclut les paquets dont vous avez besoin pour rendre opérationnel votre adaptateur Infiniband, qui est constitué des modules IB du noyau et les bibliothèques niveau utilisateur basiques.
--Des.fr:

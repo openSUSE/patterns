@@ -1,3 +1,0 @@
-+Des:
-This pattern defines the OpenFabrics Enterprise Distribution (OFED) software base packages. The base pattern includes the packages you need to get your Infiniband adapter operational, that is IB kernel modules and basic user level libraries.
--Des:
