@@ -1,0 +1,6 @@
+#!/bin/bash -xe
+# create solv file for patterns. need to check out patterns-openSUSE
+cd patterns-openSUSE
+rm -rf build
+rpmbuild --quiet --define "_rpmdir $PWD/build" --define "_sourcedir $PWD" -bb patterns-openSUSE.spec
+find build -type f -print0 | rpms2solv -m - -0 > patterns.solv
