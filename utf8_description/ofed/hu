@@ -1,3 +1,0 @@
-+Des.hu:
-Ez a mianta tartalmazza az OpenFabrics Enterprise Distribution (OFED) alapcsomagjait. Az alapminta tartalmazza azokat a csomagokat, amelyek szükségesek az Infiniband adapter működéséhez. Ez nem más, mint az IB kernelmodulok és az felhasználószintű programkönyvtárak.
--Des.hu:

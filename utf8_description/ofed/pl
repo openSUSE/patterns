@@ -1,3 +1,0 @@
-+Des.pl:
-Ten wzorzec definiuje podstawowe pakiety dla systemu OpenFabrics Enterprise Distribution (OFED). Zawarte są w nim podstawowe pakiety - moduły jądra IB i podstawowe biblioteki po stronie użytkownika, które umożliwiają uruchomienie adaptera Infiniband.
--Des.pl:

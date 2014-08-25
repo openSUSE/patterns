@@ -1,3 +1,0 @@
-+Des.nb:
-Dette mønstert spesifiserer de grunnleggende programvarepakkene i OpenFabrics Enterprise Distribution (OFED). Grunnmønsteret inneholder nødvendige pakker for en Infiniband-adapter, dvs- IB-kjernemoduler og grunnleggende biblioteker på brukernivå.
--Des.nb:

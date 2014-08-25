@@ -1,9 +1,0 @@
-+Prq:
-patterns-openSUSE-xfce_office
--Prq:
-
-+Prc:
-#if defined(__i386__) || defined (__x86_64__)
-libreoffice-gnome
-#endif
--Prc:

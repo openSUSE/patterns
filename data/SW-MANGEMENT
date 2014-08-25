@@ -1,7 +1,0 @@
-+Prq:
-patterns-openSUSE-sw_management
-zypper
--Prq:
-+Psg:
-pin
--Psg:

@@ -1,3 +1,0 @@
-+Des:
-This is the base runtime system.  It contains only a minimal multiuser booting system. For running on real hardware, you need to add additional packages and pattern to make this pattern useful on its own.
--Des:

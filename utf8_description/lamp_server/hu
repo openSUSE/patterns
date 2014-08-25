@@ -1,3 +1,0 @@
-+Des.hu:
-Webkiszolgáló beállítása, amely képes statikus, dinamikus és interaktív tartalom (például egy webáruház) kiszolgálására. A kiszolgáló az Apache HTTP Serverre, a MySQL adatbázis-kezelő rendszerre, valamint különféle parancsnyelvekre (PHP, Python, Ruby on Rails vagy Perl) épül.
--Des.hu:

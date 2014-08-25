@@ -1,3 +1,0 @@
-+Des.fi:
-Tämä ohjelmistoryhmä määrittää OpenFabrics Enterprise Distribution (OFED) -ohjelmiston peruspaketit. Perusohjelmistoryhmä sisältää paketit, joita tarvitset saadaksesi Infiniband-sovittimen toimintaan, nämä ovat IB ytimen moduuli ja peruskäyttäjätason kirjastot.
--Des.fi:

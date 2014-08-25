@@ -1,3 +1,0 @@
-+Des.nl:
-Dit patroon definieerd de basispakketten van OpenFabrics Enterprise Distribution (OFED). Het basis patroon bevat de pakketten die uw nodig hebt voor uw operationele Infiniband adapter, dat is de module IB-kernel en de basis bibliotheken op het gebruikersniveau.
--Des.nl:

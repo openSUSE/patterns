@@ -1,3 +1,0 @@
-+Des:
-This is the minimal Novell SUSE Linux Enterprise runtime system. It is really a minimal system, you can login and a shell will be started, that's all. It is intended as base for Appliances. Support for this minimal pattern is only possible as part of an OEM agreement or after upgrading the system to the Server Base pattern
--Des:

@@ -1,3 +1,0 @@
-+Des.da:
-Dette er basis runtime-systemet.  Det indeholder kun et minimalt flerbruger bootsystem. For at køre på ægte hardware er du nødt til at tilføje yderligere pakker og mønstre for at gøre dette mønster nyttigt i sig selv.
--Des.da:

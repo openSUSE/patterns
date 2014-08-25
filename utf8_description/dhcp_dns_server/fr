@@ -1,3 +1,0 @@
-+Des.fr:
-Logiciel pour mettre en place un serveur pour le protocole de configuration d'hôte dynamique (DHCP) et le système de nom de domaine (DNS). DHCP fournit  les paramètres de configuration aux ordinateurs clients pour les intégrer dans un réseau alors que DNS livre des informations associées aux noms de domaine, en particulier l'adresse IP.
--Des.fr:
