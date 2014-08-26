@@ -1,4 +1,3 @@
-repodata
-t/minimal/*.solv
-t/minimal/log
-
+*.solv
+.osc
+patterns-openSUSE
