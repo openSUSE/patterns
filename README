@@ -1,0 +1,6 @@
+The canonical source for patterns in openSUSE now is the spec file
+for the package:
+https://build.opensuse.org/package/show/system:install:head/patterns-openSUSE
+
+Here you can find some tools to work with patterns. At the moment
+only a tool to test the minimal pattern. Just run 'make' if you are on Factory
