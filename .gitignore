@@ -1,4 +1,1 @@
-repodata
-t/minimal/*.solv
-t/minimal/log
-
+*.solv
