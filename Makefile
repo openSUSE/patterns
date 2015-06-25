@@ -1,6 +1,6 @@
 #ARGS=--explain
 ARCH=x86_64
-YAST_PACKS=grub2,yast2-installation,kernel-default,branding-openSUSE
+YAST_PACKS=grub2,kernel-default,branding-openSUSE,perl-Bootloader-YAML
 FACTORY_REPO=repo-oss
 
 all: test_minimal
