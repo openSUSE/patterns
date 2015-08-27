@@ -173,22 +173,20 @@ my @a = $trans->newsolvables();
 
 if ($options{'explain'}) {
 	for my $s (@a) {
-		next if $s->{'name'} ne $options{'explain'};
+		next if $options{'explain'} ne '__weak__' && $s->{'name'} ne $options{'explain'};
 		my ($type, $rule) = $solver->describe_decision($s);
 		if ($type == $reason_by_name{WEAKDEP}) {
 			eval {
 				my @q = $solver->describe_weakdep_decision($s);
 				while(my ($why, $p1, $dep) = @{shift @q||[]}) {
-					#my $s1 = solv::XSolvable->new($pool, $p1);
-					#dd $s->{name}, $reason_by_id{$why}, $s1->{name}, $s1->lookup_idarray($p2);
-					dd $s->{name}, $reason_by_id{$why}, $p1->{name}, $dep->str;
+					printf "%s %s %s via '%s'\n", $p1->{name}, $reason_by_id{$why}, $s->{name}, $dep->str;
 				}
 			};
 			if ($@) {
 				print $@;
 				warn "explaining weak deps doesn't work yet https://github.com/openSUSE/libsolv/issues/91";
 			}
-		} else {
+		} elsif ($options{'explain'} ne '__weak__') {
 			dd $type, $rule->info()->problemstr();
 		}
 	}
