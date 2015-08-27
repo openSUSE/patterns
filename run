@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 # Copyright (c) 2011,2012,2013,2014 SUSE Linux Products GmbH
+# Copyright (c) 2015 SUSE LLC
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -23,6 +24,22 @@ use strict;
 use solv;
 use Data::Dump;
 
+my %reason_by_name = map { $_ => eval "\$solv::Solver::SOLVER_REASON_$_" } qw(
+	UNRELATED
+	UNIT_RULE
+	KEEP_INSTALLED
+	RESOLVE_JOB
+	UPDATE_INSTALLED
+	CLEANDEPS_ERASE
+	RESOLVE
+	WEAKDEP
+	RESOLVE_ORPHAN
+	RECOMMENDED
+	SUPPLEMENTED
+	);
+
+my %reason_by_id = map { $reason_by_name{$_} => $_ } keys %reason_by_name;
+
 use Getopt::Long;
 my $exit_status;
 my %options;
@@ -30,6 +47,8 @@ Getopt::Long::Configure("no_ignore_case");
 GetOptions (
 	\%options,
 	"lock=s@",
+	"softlock=s@",
+	"weaken=s@",
 	"explain=s",
 	"list",
 	"size",
@@ -39,6 +58,8 @@ GetOptions (
 	"repo=s@",
 ) or die "invalid arguments\n";
 
+$options{'weaken'} = [ split(/,/, join(',', @{$options{'weaken'}})) ] if $options{'weaken'};
+$options{'softlock'} = [ split(/,/, join(',', @{$options{'softlock'}})) ] if $options{'softlock'};
 $options{'lock'} = [ split(/,/, join(',', @{$options{'lock'}})) ] if $options{'lock'};
 $options{'repo'} = [ split(/,/, join(',', @{$options{'repo'}})) ] if $options{'repo'};
 $options{'packs'} = [ split(/,/, join(',', @{$options{'packs'}})) ] if $options{'packs'};
@@ -90,6 +111,23 @@ for my $p (@{$options{'lock'}}) {
 	}
 }
 
+for my $p (@{$options{'softlock'}}) {
+	my $sel = $pool->select($p, $solv::Selection::SELECTION_NAME);
+	my @jj = $sel->jobs($solv::Job::SOLVER_LOCK | $solv::Job::SOLVER_WEAK);
+	for my $j (@jj) {
+		push @jobs, $j;
+	}
+}
+
+# XXX: doesn't seem to work
+for my $p (@{$options{'weaken'}}) {
+	my $sel = $pool->select($p, $solv::Selection::SELECTION_NAME);
+	my @jj = $sel->jobs($solv::Job::SOLVER_WEAKENDEPS);
+	for my $j (@jj) {
+		push @jobs, $j;
+	}
+}
+
 # Solve the jobs
 $solver->set_flag($solv::Solver::SOLVER_FLAG_IGNORE_RECOMMENDED, 1) if $options{'no-recommends'};
 my @problems = $solver->solve(\@jobs);
@@ -135,9 +173,24 @@ my @a = $trans->newsolvables();
 
 if ($options{'explain'}) {
 	for my $s (@a) {
-		next unless $s->{'name'} eq $options{'explain'};
+		next if $s->{'name'} ne $options{'explain'};
 		my ($type, $rule) = $solver->describe_decision($s);
-		dd $type, $rule->info()->problemstr();
+		if ($type == $reason_by_name{WEAKDEP}) {
+			eval {
+				my @q = $solver->describe_weakdep_decision($s);
+				while(my ($why, $p1, $dep) = @{shift @q||[]}) {
+					#my $s1 = solv::XSolvable->new($pool, $p1);
+					#dd $s->{name}, $reason_by_id{$why}, $s1->{name}, $s1->lookup_idarray($p2);
+					dd $s->{name}, $reason_by_id{$why}, $p1->{name}, $dep->str;
+				}
+			};
+			if ($@) {
+				print $@;
+				warn "explaining weak deps doesn't work yet https://github.com/openSUSE/libsolv/issues/91";
+			}
+		} else {
+			dd $type, $rule->info()->problemstr();
+		}
 	}
 } elsif ($options{'list'}) {
 	for my $solvable (sort sortbyname @a) {
