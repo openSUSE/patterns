@@ -42,6 +42,10 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | **devel_rpm_build** | Development | 3280 |
 | **devel_web** | Development | 3440 |
 
+https://build.opensuse.org/package/show/devel:libraries:c_c++/patterns-devel-C-C++
+| Pattern | Category | Order |
+| --- | --- | --- |
+| **devel_C_C++** | Development | 3240 |
 
 ### https://build.opensuse.org/package/show/Java:packages/patterns-devel-java
 | Pattern | Category | Order |
@@ -52,6 +56,11 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **devel_mono** | Development | 3220 |
+
+### https://build.opensuse.org/package/show/openSUSE:Tools/patterns-devel-osc
+| Pattern | Category | Order |
+| --- | --- | --- |
+| **devel_osc_build** | Development | 3280 |
 
 ### https://build.opensuse.org/package/show/devel:languages:perl/patterns-devel-perl
 | Pattern | Category | Order |
@@ -64,12 +73,7 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | **devel_python** | Development | 3360 |
 | **devel_python3** | Development | 3359 |
 
-### https://build.opensuse.org/package/show/openSUSE:Tools/patterns-devel-osc
-| Pattern | Category | Order |
-| --- | --- | --- |
-| **devel_osc_build** | Development | 3280 |
-
-### https://build.opensuse.org/package/show/devel:languages:python:Factory/patterns-devel-python
+### https://build.opensuse.org/package/show/devel:languages:ruby/patterns-devel-ruby
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **devel_ruby** | Development | 3420 |
@@ -117,10 +121,31 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | **gnome_yast** | BaseTech | 1260 |
 | **sw_management_gnome** | BaseTech | 1780 |
 
-### https://build.opensuse.org/package/show/devel:languages:haskell/patterns-openSUSE-haskell
+### https://build.opensuse.org/package/show/devel:languages:haskell/patterns-haskell
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **haskell_platform** | Development | 3400 |
+
+### https://build.opensuse.org/package/show/KDE:Frameworks5/patterns-KDE
+| Pattern | Category | Order |
+| --- | --- | --- |
+| **devel_kde_frameworks** | Development | 3180 |
+| **devel_kde** | Development | 3180 |
+| **devel_qt5** | Development | 3381 |
+| **kde** | GraphicalEnv | 1110 |
+| **kde_plasma** | GraphicalEnv | 1100 |
+| **kde_edutainment** | KDE | 2360 |
+| **kde_games** | KDE | 2400 |
+| **kde_ide** | KDE | 2820 |
+| **kde_imaging** | KDE | 2540 |
+| **kde_internet** | KDE | 2560 |
+| **kde_multimedia** | KDE | 2620 |
+| **kde_office** | KDE | 2700 |
+| **kde_telepathy** | KDE | 2560 |
+| **kde_utilities** | KDE | 2860 |
+| **kde_utilities_opt** | KDE | 2840 |
+| **kde_yast** | BaseTech | 1300 |
+| **sw_management_kde** | BaseTech | 1820 |
 
 ### https://build.opensuse.org/package/show/network/patterns-leechcraft
 | Pattern | Category | Order |
@@ -140,7 +165,7 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | **lxde_laptop** | lxde | 5160 |
 | **lxde_office** | lxde | 1880 |
 
-### https://build.opensuse.org/package/show/X11:lxqt/patterns-lxqt
+### https://build.opensuse.org/package/show/X11:LXQt/patterns-lxqt
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **lxqt** | GraphicalEnv | 1460 |
