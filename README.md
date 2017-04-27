@@ -42,7 +42,7 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | **devel_rpm_build** | Development | 3280 |
 | **devel_web** | Development | 3440 |
 
-### https://build.opensuse.org/package/show/devel:libraries:c_c++/patterns-devel-C-C++
+### https://build.opensuse.org/package/show/devel:libraries:c_c++/patterns-openSUSE-devel-C-C++
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **devel_C_C++** | Development | 3240 |
@@ -126,7 +126,7 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | --- | --- | --- |
 | **haskell_platform** | Development | 3400 |
 
-### https://build.opensuse.org/package/show/KDE:Frameworks5/patterns-KDE
+### https://build.opensuse.org/package/show/KDE:Applications/patterns-kde
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **devel_kde_frameworks** | Development | 3180 |
