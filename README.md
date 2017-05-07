@@ -200,7 +200,6 @@ Here you can find some tools and documentation to work with patterns. At the mom
 | Pattern | Category | Order |
 | --- | --- | --- |
 | **office** | DesktopFunc | 1640 |
-| **office_opt** | DesktopFunc | 1620 |
 
 ### https://build.opensuse.org/package/show/system:install:head/patterns-server
 
